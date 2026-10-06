@@ -1,0 +1,202 @@
+[
+  {
+    "brand": "espoir",
+    "product_name": "Couture Lip Tint Glaze",
+    "category": "Lip tint",
+    "size": "4 g",
+    "shade": "Hushed Cherry",
+    "price_usd": 22,
+    "price_basis": "OLIVE YOUNG US regular list price for 4 g tint; displayed promotional price $18.70. Excludes tax and delivery.",
+    "key_ingredients": [
+      "Diisostearyl Malate",
+      "Hydrogenated Polyisobutene",
+      "Diglycerin",
+      "Squalane"
+    ],
+    "ideal_customers": "Customers who prefer glossy cherry lip color and an emollient tint.",
+    "intended_benefit": "Adds glossy cherry color and a fuller-looking lip finish.",
+    "product_url": "https://us.oliveyoung.com/products/UA20210772",
+    "ingredient_source_url": "https://us.oliveyoung.com/products/UA20210772",
+    "availability": "Add to Bag displayed; individual shade stock requires selection.",
+    "evidence_notes": "US listing verifies 4 g, $22 regular price and Hushed Cherry-specific full INCI. Historical Winter campaign described a 5.5 g Hushed Cherry tint; current 4 g version is treated as a brand-level association. Contains fragrance; ingredient concentrations not stated.",
+    "researched_on": "2026-10-05",
+    "kpop_connection": {
+      "artist": "Winter",
+      "group": "aespa",
+      "relationship_type": "Brand ambassador",
+      "association_scope": "Brand-level",
+      "evidence_date": "2023-12-25",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000001.000134875.html",
+      "connection_summary": "Espoir Co., Ltd. announced Winter as its global ambassador and model for the Hushed Cherry Edition. The campaign featured an earlier 5.5 g tint.",
+      "status_as_of": "Documented December 2023 campaign; current contract and endorsement of the 4 g version unconfirmed.",
+      "suggested_selling_point": "From espoir, whose 2023 Hushed Cherry campaign featured aespa's Winter."
+    }
+  },
+  {
+    "brand": "espoir",
+    "product_name": "The Brow Color Fixing Cara",
+    "category": "Brow mascara",
+    "size": "3 g",
+    "shade": "02 Taupe",
+    "price_usd": 17,
+    "price_basis": "OLIVE YOUNG US displayed price for 3 g brow mascara. Excludes tax and delivery.",
+    "key_ingredients": [
+      "Isododecane",
+      "Trimethylsiloxysilicate",
+      "Synthetic Wax",
+      "Hydrogenated Polyisobutene",
+      "Iron Oxides"
+    ],
+    "ideal_customers": "Customers seeking tinted, defined brows in a muted taupe shade.",
+    "intended_benefit": "Colors and shapes brow hairs with a narrow brush and a fixing finish.",
+    "product_url": "https://us.oliveyoung.com/products/UA97397134",
+    "ingredient_source_url": "https://us.oliveyoung.com/products/UA97397134",
+    "availability": "Add to Bag displayed; individual shade stock requires selection.",
+    "evidence_notes": "US page verifies 3 g, $17 displayed price and 02 Taupe-specific full INCI. Pigments are grouped as iron oxides. Winter evidence establishes a brand association; this exact Taupe mascara is not verified in the campaign.",
+    "researched_on": "2026-10-05",
+    "kpop_connection": {
+      "artist": "Winter",
+      "group": "aespa",
+      "relationship_type": "Brand ambassador",
+      "association_scope": "Brand-level",
+      "evidence_date": "2023-12-25",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000001.000134875.html",
+      "connection_summary": "Espoir's own press release appointed Winter global ambassador and presented Hushed Cherry campaign visuals.",
+      "status_as_of": "Historical December 2023 appointment; current contract unconfirmed.",
+      "suggested_selling_point": "A brow product from espoir, which appointed aespa's Winter global ambassador in 2023."
+    }
+  },
+  {
+    "brand": "NATURE REPUBLIC",
+    "product_name": "Mild & Moisture Aloe Vera Watery Gel",
+    "category": "Face and body gel moisturizer",
+    "size": "300 mL",
+    "price_usd": 9.9,
+    "price_basis": "Official U.S. store regular price $9.90; displayed sale $4.90. Single 300 mL jar; excludes tax and delivery.",
+    "key_ingredients": [
+      "Aloe Barbadensis Leaf Juice",
+      "Glycerin",
+      "Butylene Glycol",
+      "Betaine",
+      "Sodium Hyaluronate"
+    ],
+    "ideal_customers": "Normal or combination skin and customers wanting a lightweight face/body moisturizer.",
+    "intended_benefit": "Replenishes moisture with a refreshing, quick-absorbing gel finish.",
+    "product_url": "https://naturerepublic.us/products/soothing-moisture-aloe-vera-92-soothing-gel",
+    "ingredient_source_url": "https://www.naturerepublicusa.com/products/4x-soothing-moisture-aloe-vera-92-soothing-gel",
+    "availability": "Add to Bag displayed at official U.S. store.",
+    "evidence_notes": "Official U.S. page verifies 300 mL and regular/sale prices. Separate brand USA bundle page supplies full INCI for the same renamed gel and explicitly equates the former Aloe Vera 92% gel with Mild & Moisture Watery Gel. Contains alcohol and fragrance. The brand's 92% claim refers to an aloe ingredient blend; no pure-aloe percentage is asserted here.",
+    "researched_on": "2026-10-05",
+    "kpop_connection": {
+      "artist": "NCT 127",
+      "group": "NCT 127",
+      "relationship_type": "Brand ambassador",
+      "association_scope": "Brand-level",
+      "evidence_date": "2020-04",
+      "source_url": "https://image2018.naturerepublic.com/brand/brand",
+      "connection_summary": "Nature Republic's official corporate history records an exclusive modeling contract with NCT 127 in April 2020 and a fan festival in 2023.",
+      "status_as_of": "Historical partnership documented from 2020; current contract unconfirmed.",
+      "suggested_selling_point": "From Nature Republic, which partnered with NCT 127 as brand models in 2020."
+    }
+  },
+  {
+    "brand": "NATURE REPUBLIC",
+    "product_name": "Vitapair C Toner",
+    "category": "Toner",
+    "size": "300 mL",
+    "price_usd": 25.9,
+    "price_basis": "Official U.S. store displayed price; product is sold out. Excludes tax and delivery.",
+    "key_ingredients": [
+      "Niacinamide",
+      "Citrus Limon (Lemon) Fruit Extract",
+      "Glycerin",
+      "Centella Asiatica Extract",
+      "Panthenol"
+    ],
+    "ideal_customers": "Combination skin and customers seeking lightweight hydration for dull-looking, uneven-looking skin.",
+    "intended_benefit": "Hydrates and helps skin look smoother and brighter before subsequent skincare steps.",
+    "product_url": "https://naturerepublic.us/products/vitapair-c-toner300ml",
+    "ingredient_source_url": "https://www.naturerepublicusa.com/collections/all/products/copy-of-vitapair-c-toner-150ml",
+    "availability": "Sold out at the official U.S. price source.",
+    "evidence_notes": "Official U.S. page verifies 300 mL, $25.90 and several key ingredients. Separate brand USA page gives full INCI for 300 mL. Contains fragrance; vitamin C and acid percentages are not stated. Exact toner endorsement by NCT 127 is unverified.",
+    "researched_on": "2026-10-05",
+    "kpop_connection": {
+      "artist": "NCT 127",
+      "group": "NCT 127",
+      "relationship_type": "Brand ambassador",
+      "association_scope": "Brand-level",
+      "evidence_date": "2020-04",
+      "source_url": "https://image2018.naturerepublic.com/brand/brand",
+      "connection_summary": "Nature Republic's official history documents its NCT 127 modeling contract in April 2020.",
+      "status_as_of": "Historical April 2020 contract; current contract unconfirmed.",
+      "suggested_selling_point": "A toner from Nature Republic, the brand that partnered with NCT 127 in 2020."
+    }
+  },
+  {
+    "brand": "NACIFIC",
+    "product_name": "Fresh Herb Origin Serum",
+    "category": "Serum",
+    "size": "50 mL",
+    "price_usd": 26,
+    "price_basis": "Official global store regular USD reference price; displayed sale $20.80. Available for international shipping; not a verified domestic U.S. checkout price. Excludes tax, duties and delivery.",
+    "key_ingredients": [
+      "Glycerin",
+      "Hydrogenated Polydecene",
+      "Camellia Japonica Flower Extract",
+      "Tocopheryl Acetate"
+    ],
+    "ideal_customers": "Normal or dry skin and customers seeking a nourishing oil-and-water serum for dull-looking skin.",
+    "intended_benefit": "Adds moisture and nourishment for a smoother, more radiant-looking complexion.",
+    "product_url": "https://en.nacific.com/product/soothing-must-havefresh-herb-origin-serum/635/category/279/display/1/",
+    "price_source_url": "https://en.nacific.com/category/serummist/279/",
+    "ingredient_source_url": "https://nacific.com.au/products/fresh-herb-origin-serum",
+    "availability": "Priced for purchase in official global catalog; U.S. checkout stock unconfirmed.",
+    "evidence_notes": "Official global catalog reopened with $26 regular/$20.80 sale. Brand AU page verifies 50 mL option and full INCI; listed key ingredients are also present in iHerb's U.S. 50 mL INCI (https://www.iherb.com/pr/nacific-fresh-herb-origin-serum-1-69-fl-oz-50-ml/83908). Regional/reformulated lists differ, so aloe percentages are omitted. Contains fragrant botanical oils. Current formula is not verified identical to the 2021 campaign.",
+    "researched_on": "2026-10-05",
+    "kpop_connection": {
+      "artist": "Stray Kids",
+      "group": "Stray Kids",
+      "relationship_type": "Product campaign",
+      "association_scope": "Brand-level",
+      "evidence_date": "2021-12-15",
+      "source_url": "https://m.nacific.com/skin-skin33/article/news/2/76373/page/2/",
+      "connection_summary": "NACIFIC's news archive describes a Stray Kids photocard promotion for Fresh Herb Origin and brightening-line serums and masks, explicitly discussing Fresh Herb Origin Serum. Date is the brand's archive posting date.",
+      "status_as_of": "Historical 2021 promotion; current contract, promotion and exact current-formula endorsement unconfirmed.",
+      "suggested_selling_point": "NACIFIC included Fresh Herb Origin Serum in a Stray Kids photocard promotion documented in 2021."
+    }
+  },
+  {
+    "brand": "NACIFIC",
+    "product_name": "Fresh Herb Origin Cream",
+    "category": "Cream moisturizer",
+    "size": "50 mL",
+    "price_usd": 27,
+    "price_basis": "Official global store regular USD reference price; displayed sale $19.90. International shipping offered; not a verified domestic U.S. checkout price. Excludes tax, duties and delivery.",
+    "key_ingredients": [
+      "Anthemis Nobilis Flower Water",
+      "Glycerin",
+      "Niacinamide",
+      "Butyrospermum Parkii (Shea) Butter",
+      "Caprylic/Capric Triglyceride"
+    ],
+    "ideal_customers": "Normal or dry skin and customers seeking a nourishing cream to soften dryness.",
+    "intended_benefit": "Moisturizes, softens and comforts skin while supporting a smoother-looking complexion.",
+    "product_url": "https://en.nacific.com/product/soothing-must-havefresh-herb-origin-cream/637/category/280/display/1/",
+    "price_source_url": "https://en.nacific.com/category/cream/280/",
+    "ingredient_source_url": "https://nacific.com.au/products/fresh-herb-origin-cream",
+    "availability": "Priced for purchase in official global catalog; U.S. checkout stock unconfirmed.",
+    "evidence_notes": "Official global catalog lists $27 regular/$19.90 sale. Brand AU page verifies 50 mL and full INCI; concentrations are omitted because regional formula equivalence is unconfirmed. Formula contains bergamot oil. Brand ambassador source supports Stray Kids brand association, not exact cream use or endorsement.",
+    "researched_on": "2026-10-05",
+    "kpop_connection": {
+      "artist": "Stray Kids",
+      "group": "Stray Kids",
+      "relationship_type": "Brand ambassador",
+      "association_scope": "Brand-level",
+      "evidence_date": "2021-12-15",
+      "source_url": "https://nacific.com/article/news/2/76372/page/2/",
+      "connection_summary": "NACIFIC's official news archive announces Stray Kids as brand models. Date is the brand's archive posting date.",
+      "status_as_of": "Historical 2021 brand-model announcement; current contract unconfirmed.",
+      "suggested_selling_point": "A moisturizer from NACIFIC, which announced Stray Kids as brand models in 2021."
+    }
+  }
+]

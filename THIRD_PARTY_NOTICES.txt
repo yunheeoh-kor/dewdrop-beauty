@@ -1,0 +1,46 @@
+Dewdrop third-party assets
+
+MediaPipe Tasks Vision 0.10.35
+Copyright The MediaPipe Authors / Google LLC.
+License: Apache License, Version 2.0.
+Full license and upstream notices: web/vendor/mediapipe/LICENSE.txt
+Upstream package: https://www.npmjs.com/package/@mediapipe/tasks-vision/v/0.10.35
+Upstream source: https://github.com/google-ai-edge/mediapipe
+
+The JavaScript ES module and SIMD/non-SIMD WebAssembly loaders and binaries are
+unmodified files from the official @mediapipe/tasks-vision 0.10.35 npm tarball.
+The distribution's README and package metadata are retained beside the runtime.
+Version 0.10.35 was selected because it supports local FaceLandmarker inference
+without the network telemetry logger introduced in the 1.0.1 distribution.
+No browser CDN import or remote model download is needed at runtime.
+
+MediaPipe Face Landmarker model bundle (float16, version 1)
+Copyright Google LLC.
+License: Apache License, Version 2.0 (see the official component model cards).
+Asset: web/models/face_landmarker.task
+Source: https://storage.googleapis.com/mediapipe-models/face_landmarker/face_landmarker/float16/1/face_landmarker.task
+Documentation: https://ai.google.dev/edge/mediapipe/solutions/vision/face_landmarker
+Model cards:
+  https://storage.googleapis.com/mediapipe-assets/MediaPipe%20BlazeFace%20Model%20Card%20(Short%20Range).pdf
+  https://storage.googleapis.com/mediapipe-assets/Model%20Card%20MediaPipe%20Face%20Mesh%20V2.pdf
+  https://storage.googleapis.com/mediapipe-assets/Model%20Card%20Blendshape%20V2.pdf
+
+The face model locates facial landmarks. It is not a medical or skin-condition
+classifier. Dewdrop's visible-color analysis is separate application code.
+
+Reproducibility
+web/vendor/mediapipe/manifest.json records the exact npm package SHA-512 and each
+bundled file's SHA-256 and byte length, including the model and license.
+Run node scripts/setup-vision.mjs --check for an entirely offline integrity check.
+Run node scripts/setup-vision.mjs --download to restore missing/changed assets
+from the recorded official URLs. It verifies downloads before writing them.
+The application and Android build should package these assets unchanged.
+
+Test-only MediaPipe portrait
+For local browser testing, tests/fixtures/mediapipe-portrait.jpg can be downloaded
+from Google's public MediaPipe test asset bucket. This optional test photograph
+is kept local and excluded from the repository and Android app. The automated
+Node test suite does not require it.
+Source: https://storage.googleapis.com/mediapipe-assets/portrait.jpg
+Upstream use: https://github.com/google-ai-edge/mediapipe/blob/master/mediapipe/tasks/python/test/vision/face_landmarker_test.py
+SHA-256: a6f11efaa834706db23f275b6115058fa87fc7f14362681e6abe14e82749de3e

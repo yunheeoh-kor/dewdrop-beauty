@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "package": {
+    "name": "@mediapipe/tasks-vision",
+    "version": "0.10.35",
+    "source": "https://registry.npmjs.org/@mediapipe/tasks-vision/-/tasks-vision-0.10.35.tgz",
+    "integrity": "sha512-HOvadwVRE6JC+45nyYhmnywnr5h/J8KZvOeUNVOG9q/0875pZgItznFB9bRTvLc264YSJqiZ1NsIpCStJw/egg=="
+  },
+  "model": {
+    "name": "face_landmarker",
+    "precision": "float16",
+    "version": "1"
+  },
+  "files": [
+    {
+      "path": "web/vendor/mediapipe/wasm/vision_wasm_internal.js",
+      "packageEntry": "package/wasm/vision_wasm_internal.js",
+      "bytes": 322044,
+      "sha256": "e7fd9858e8e8f221d9b96eddc11f8e077f263e0b7bbd79d3cbe882b134274f8c"
+    },
+    {
+      "path": "web/vendor/mediapipe/wasm/vision_wasm_nosimd_internal.js",
+      "packageEntry": "package/wasm/vision_wasm_nosimd_internal.js",
+      "bytes": 321847,
+      "sha256": "438d1fe8ff7f4d946025bc211c291543c037d8a3785ed4eee60f1f521b236296"
+    },
+    {
+      "path": "web/vendor/mediapipe/package.json",
+      "packageEntry": "package/package.json",
+      "bytes": 1084,
+      "sha256": "5c96247445e57a2d087758114b116fed7d46eb401342aee19b1acc56d36fe707"
+    },
+    {
+      "path": "web/vendor/mediapipe/README.md",
+      "packageEntry": "package/README.md",
+      "bytes": 8403,
+      "sha256": "aadce68d35bfc0dc75fd191bbf9e6285816e907eb43a6301b43bd9a29768f7c5"
+    },
+    {
+      "path": "web/vendor/mediapipe/vision_bundle.mjs",
+      "packageEntry": "package/vision_bundle.mjs",
+      "bytes": 136993,
+      "sha256": "55d7ab624fbb70dcc5adc4ae6d7ea9cfcb569139d3dbfbf2b1deafcb966bc0fe"
+    },
+    {
+      "path": "web/vendor/mediapipe/wasm/vision_wasm_internal.wasm",
+      "packageEntry": "package/wasm/vision_wasm_internal.wasm",
+      "bytes": 11153617,
+      "sha256": "6a5c64584c2ab61c763b6e204afbdbc7ce1caf7f5216187322bca8df94f646bc"
+    },
+    {
+      "path": "web/vendor/mediapipe/wasm/vision_wasm_nosimd_internal.wasm",
+      "packageEntry": "package/wasm/vision_wasm_nosimd_internal.wasm",
+      "bytes": 10481398,
+      "sha256": "8a3092d34c79d3f57e6ba8592105e8a90f6b07c27891ffecd14cca428bfd3e31"
+    },
+    {
+      "path": "web/vendor/mediapipe/LICENSE.txt",
+      "source": "https://raw.githubusercontent.com/google-ai-edge/mediapipe/master/LICENSE",
+      "bytes": 12331,
+      "sha256": "8707eef0533987efc5b155d64761eeb6e20793f50b9bd1a68dad1cf4719d0ed8"
+    },
+    {
+      "path": "web/models/face_landmarker.task",
+      "source": "https://storage.googleapis.com/mediapipe-models/face_landmarker/face_landmarker/float16/1/face_landmarker.task",
+      "bytes": 3758596,
+      "sha256": "64184e229b263107bc2b804c6625db1341ff2bb731874b0bcc2fe6544e0bc9ff"
+    }
+  ]
+}

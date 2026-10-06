@@ -1,0 +1,11 @@
+Public MediaPipe face-landmarker test portrait. Used only by local test tooling;
+not an app sample, product endorsement, or recommendation calibration image.
+
+Downloaded 2026-10-05 from Google's official MediaPipe asset bucket:
+https://storage.googleapis.com/mediapipe-assets/portrait.jpg
+
+Official test referencing portrait.jpg:
+https://github.com/google-ai-edge/mediapipe/blob/master/mediapipe/tasks/python/test/vision/face_landmarker_test.py
+
+Size: 176561 bytes
+SHA-256: a6f11efaa834706db23f275b6115058fa87fc7f14362681e6abe14e82749de3e

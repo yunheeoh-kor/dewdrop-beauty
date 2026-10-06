@@ -1,0 +1,249 @@
+[
+  {
+    "brand": "SKIN1004",
+    "product_name": "Madagascar Centella Light Cleansing Oil",
+    "category": "Cleansing oil",
+    "size": "200 ml / 6.76 fl oz",
+    "price_usd": 25,
+    "price_basis": "Ulta U.S. regular one-time price; excludes subscription savings, tax and shipping.",
+    "key_ingredients": [
+      "Centella asiatica extract",
+      "Jojoba seed oil",
+      "Sunflower seed oil",
+      "Olive fruit oil"
+    ],
+    "ideal_customers": "Normal, dry or combination skin; makeup and sunscreen wearers who enjoy a light oil cleanser.",
+    "intended_benefit": "Dissolves makeup, sunscreen and excess surface oil while leaving skin feeling clean and comfortable.",
+    "product_url": "https://www.skin1004.com/products/skin1004-madagascar-centella-light-cleansing-oil",
+    "price_source_url": "https://www.ulta.com/p/madagascar-centella-light-cleansing-oil-pimprod2045884",
+    "evidence_notes": "Official ingredients and cleanser purpose verified; Ulta lists $25 for 6.76 oz. Formula contains botanical essential oils plus limonene/linalool. Customer fit inferred.",
+    "researched_on": "2026-10-05"
+  },
+  {
+    "brand": "SKIN1004",
+    "product_name": "Madagascar Centella Ampoule",
+    "category": "Serum / ampoule",
+    "size": "100 ml / 3.38 fl oz",
+    "price_usd": 25,
+    "price_basis": "Ulta U.S. regular one-time price; excludes subscription savings, tax and shipping.",
+    "key_ingredients": [
+      "Centella asiatica extract",
+      "Glycerin",
+      "Butylene glycol"
+    ],
+    "ideal_customers": "Normal, dry or combination skin seeking a lightweight, simple hydrating layer and comfort for sensitive-feeling skin.",
+    "intended_benefit": "Hydrates and helps soothe visible redness and skin discomfort, with a light, non-sticky finish.",
+    "product_url": "https://www.skin1004.com/products/skin1004-madagascar-centella-ampoule",
+    "price_source_url": "https://www.ulta.com/p/madagascar-centella-ampoule-pimprod2045880?sku=2626854",
+    "evidence_notes": "Official current INCI is water, glycerin, butylene glycol, centella extract and preservatives/thickener; older 100% extract claim omitted. Ulta confirms $25/3.38 oz. Customer fit inferred.",
+    "researched_on": "2026-10-05"
+  },
+  {
+    "brand": "SKIN1004",
+    "product_name": "Madagascar Centella Toning Toner",
+    "category": "Exfoliating toner",
+    "size": "210 ml / 7.1 fl oz",
+    "price_usd": 25,
+    "price_basis": "Ulta U.S. regular one-time price; excludes subscription savings, tax and shipping.",
+    "key_ingredients": [
+      "Centella asiatica extract",
+      "Gluconolactone (PHA)",
+      "Betaine",
+      "Niacinamide"
+    ],
+    "ideal_customers": "Normal or combination skin with rough texture; customers preferring mild exfoliation in a watery toner.",
+    "intended_benefit": "Gently exfoliates surface dead skin and helps hydrate and smooth uneven-looking texture.",
+    "product_url": "https://www.skin1004.com/products/skin1004-madagascar-centella-toning-toner",
+    "price_source_url": "https://www.ulta.com/p/madagascar-centella-toning-toner-pimprod2053563?sku=2640966",
+    "evidence_notes": "Official INCI and PHA purpose verified. Brand offers 30/210/400 ml variants; Ulta regular $25 is the 7.1 oz size. Customer fit inferred.",
+    "researched_on": "2026-10-05"
+  },
+  {
+    "brand": "Anua",
+    "product_name": "Heartleaf 77 Soothing Toner",
+    "category": "Hydrating toner",
+    "size": "250 ml",
+    "price_usd": 23,
+    "price_basis": "Anua U.S. displayed one-time price; labeled 'Sale price' but no higher reference price shown. Excludes tax and shipping.",
+    "key_ingredients": [
+      "Heartleaf flower/leaf/stem water (brand describes formula as 77% heartleaf)",
+      "Panthenol",
+      "Betaine",
+      "Hyaluronic acid forms"
+    ],
+    "ideal_customers": "Sensitive-feeling or dehydrated skin seeking fragrance-free, lightweight hydration.",
+    "intended_benefit": "Hydrates and helps reduce the look of temporary redness while leaving a fresh, dewy feel.",
+    "product_url": "https://anua.com/products/heartleaf-77-soothing-toner",
+    "price_source_url": "https://anua.com/products/heartleaf-77-soothing-toner",
+    "evidence_notes": "Official U.S. page shows $23 and 250/500 ml variants; default 250 ml used. Current INCI begins with heartleaf flower/leaf/stem water and includes several hyaluronic acid forms. Customer fit inferred.",
+    "researched_on": "2026-10-05"
+  },
+  {
+    "brand": "Anua",
+    "product_name": "Heartleaf Pore Control Cleansing Oil",
+    "category": "Cleansing oil",
+    "size": "200 ml / 6.76 fl oz",
+    "price_usd": 22,
+    "price_basis": "Anua U.S. displayed one-time price; labeled 'Sale price' but no higher reference price shown. Excludes tax and shipping.",
+    "key_ingredients": [
+      "Ethylhexyl palmitate",
+      "Heartleaf extract",
+      "Jojoba seed oil",
+      "Grape seed oil"
+    ],
+    "ideal_customers": "Normal or combination skin; makeup and sunscreen wearers seeking an emulsifying first cleanse.",
+    "intended_benefit": "Removes makeup, sunscreen, impurities and excess surface oil for a clean, smooth skin feel.",
+    "product_url": "https://anua.com/products/heartleaf-pore-control-cleansing-oil-200ml",
+    "price_source_url": "https://anua.com/products/heartleaf-pore-control-cleansing-oil-200ml",
+    "evidence_notes": "Official U.S. price and INCI verified; 200 ml indicated by official SKU URL and U.S. retailer listing. Contains fragrance; not presented as fragrance-free. Customer fit inferred.",
+    "researched_on": "2026-10-05"
+  },
+  {
+    "brand": "Anua",
+    "product_name": "Niacinamide 10 TXA 4 Serum for Brightening and Dark Spots",
+    "category": "Brightening serum",
+    "size": "30 ml / 1.01 fl oz",
+    "price_usd": 24,
+    "price_basis": "Anua U.S. displayed one-time price; labeled 'Sale price' but no higher reference price shown. Excludes tax and shipping.",
+    "key_ingredients": [
+      "Niacinamide 10%",
+      "Tranexamic acid 4%",
+      "Arbutin 2% (brand stated)",
+      "Hyaluronic acid",
+      "Ceramide NP"
+    ],
+    "ideal_customers": "Normal or combination skin with dullness, uneven-looking tone or lingering post-blemish marks; customers comfortable with a concentrated serum.",
+    "intended_benefit": "Helps brighten uneven-looking tone and reduce the appearance of dark spots while providing hydration.",
+    "product_url": "https://anua.com/products/niacinamide-10-txa-4-serum-2",
+    "price_source_url": "https://anua.com/products/niacinamide-10-txa-4-serum-2",
+    "evidence_notes": "Official U.S. product page explicitly states 10% niacinamide, 4% TXA and 2% arbutin; price $24. Brand guide confirms 30 ml. Fragrance-free stated by brand. Customer fit inferred.",
+    "researched_on": "2026-10-05"
+  },
+  {
+    "brand": "Round Lab",
+    "product_name": "1025 Dokdo Toner",
+    "category": "Hydrating toner",
+    "size": "200 ml / 6.76 fl oz",
+    "price_usd": 16.99,
+    "price_basis": "Ulta U.S. regular listed price; $11.89 promotional price excluded. Excludes tax and shipping.",
+    "key_ingredients": [
+      "Sea water",
+      "Panthenol",
+      "Allantoin",
+      "Betaine",
+      "Protease"
+    ],
+    "ideal_customers": "Normal, combination or sensitive-feeling skin preferring an unscented, water-light toner and mild surface smoothing.",
+    "intended_benefit": "Hydrates, comforts dryness and helps gently smooth surface texture without a sticky finish.",
+    "product_url": "https://roundlab.com/products/1025-dokdo-toner",
+    "price_source_url": "https://www.ulta.com/p/1025-dokdo-toner-pimprod2052236",
+    "evidence_notes": "Official current ingredients and watery texture verified. Ulta explicitly lists regular $16.99 and sale $11.89 for 6.76 oz. Customer fit inferred.",
+    "researched_on": "2026-10-05"
+  },
+  {
+    "brand": "Round Lab",
+    "product_name": "Birch Moisturizing Intensive Cream",
+    "category": "Moisturizer",
+    "size": "50 ml",
+    "price_usd": 40,
+    "price_basis": "Official Round Lab U.S. regular one-time price; excludes tax and shipping.",
+    "key_ingredients": [
+      "Birch sap",
+      "Ectoin",
+      "Sodium hyaluronate crosspolymer",
+      "Ceramide NP",
+      "Cholesterol",
+      "Squalane"
+    ],
+    "ideal_customers": "Dry, dehydrated or tight-feeling skin; customers wanting a rich cream in cold or dry climates.",
+    "intended_benefit": "Provides lasting hydration, softens rough-feeling skin and supports the skin's moisture barrier.",
+    "product_url": "https://roundlab.com/products/birch-moisturizing-intensive-cream",
+    "price_source_url": "https://roundlab.com/products/birch-moisturizing-intensive-cream",
+    "evidence_notes": "Official page verifies $40, key ingredients and rich cream purpose. Size corroborated by an opened U.S. Olive Kollection 50 ml listing (https://olivekollection.com/products/round-lab-birch-moisturizing-intensive-cream); official page omits size in accessible text. Customer fit inferred.",
+    "researched_on": "2026-10-05"
+  },
+  {
+    "brand": "Round Lab",
+    "product_name": "Birch Moisturizing Sunscreen UVLock SPF 45 Broad Spectrum (U.S. formula)",
+    "category": "Sunscreen",
+    "size": "50 ml / 1.69 fl oz",
+    "price_usd": 24.99,
+    "price_basis": "Official Round Lab U.S. regular one-time price; excludes tax and shipping.",
+    "key_ingredients": [
+      "Avobenzone",
+      "Homosalate",
+      "Octisalate",
+      "Birch sap",
+      "Niacinamide",
+      "Hyaluronic acid"
+    ],
+    "ideal_customers": "Normal, dry or combination skin seeking moisturizing daily broad-spectrum protection with a dewy finish.",
+    "intended_benefit": "Provides SPF 45 broad-spectrum sun protection while moisturizing skin and preparing a smooth base for makeup.",
+    "product_url": "https://roundlab.com/products/birch-moisturizing-uv-sunscreen",
+    "price_source_url": "https://roundlab.com/products/birch-moisturizing-uv-sunscreen",
+    "evidence_notes": "Official U.S. SPF 45 page confirms $24.99/50 ml and avobenzone, homosalate, octisalate. Distinct from Korean SPF50+ PA++++ formula. Not water-resistant: label directs a water-resistant sunscreen for swimming/sweating. Customer fit inferred.",
+    "researched_on": "2026-10-05"
+  },
+  {
+    "brand": "Torriden",
+    "product_name": "DIVE IN Serum",
+    "category": "Hydrating serum",
+    "size": "50 ml / 1.69 fl oz",
+    "price_usd": 24,
+    "price_basis": "Official Torriden U.S. regular single, one-time purchase price; subscription and duo pricing excluded. Excludes tax and shipping.",
+    "key_ingredients": [
+      "Five hyaluronic acid forms",
+      "Panthenol",
+      "Allantoin",
+      "Glycerin"
+    ],
+    "ideal_customers": "Normal, combination or dry skin with dehydration; customers wanting a light, non-sticky hydration layer.",
+    "intended_benefit": "Boosts hydration and leaves skin looking plumper and feeling comfortable without a heavy finish.",
+    "product_url": "https://torriden.us/products/dive-in-serum",
+    "price_source_url": "https://torriden.us/products/dive-in-serum",
+    "evidence_notes": "Official U.S. single purchase $24/50 ml verified; key ingredients match full INCI. No clinical percentage or time guarantee repeated. Customer fit inferred.",
+    "researched_on": "2026-10-05"
+  },
+  {
+    "brand": "Torriden",
+    "product_name": "DIVE IN Soothing Cream",
+    "category": "Gel moisturizer",
+    "size": "100 ml / 3.38 fl oz",
+    "price_usd": 27,
+    "price_basis": "Official Torriden U.S. one-time purchase price for single jar; subscription pricing excluded. Excludes tax and shipping.",
+    "key_ingredients": [
+      "Five hyaluronic acid forms",
+      "Panthenol",
+      "Allantoin",
+      "Glycerin"
+    ],
+    "ideal_customers": "Normal or combination skin, including dehydrated skin; customers preferring a fresh gel cream over a rich moisturizer.",
+    "intended_benefit": "Provides lightweight hydration and comforts heat-related redness and tight-feeling skin with a cooling, dewy finish.",
+    "product_url": "https://torriden.us/products/dive-in-soothing-cream",
+    "price_source_url": "https://torriden.us/products/dive-in-soothing-cream",
+    "evidence_notes": "Official U.S. page verifies $27/100 ml, ingredients and cooling/soothing purpose; jar variant selected. No clinical percentage guarantee repeated. Customer fit inferred.",
+    "researched_on": "2026-10-05"
+  },
+  {
+    "brand": "Dr. Althea",
+    "product_name": "345 Relief Cream",
+    "category": "Moisturizer",
+    "size": "50 ml / 1.69 fl oz (single)",
+    "price_usd": 27,
+    "price_basis": "Official Dr. Althea store, United States/USD, one-pack listed price; excludes bundles, tax and shipping.",
+    "key_ingredients": [
+      "Niacinamide",
+      "Panthenol",
+      "Ceramide NP",
+      "Beta-glucan",
+      "Madecassoside",
+      "Sodium hyaluronate"
+    ],
+    "ideal_customers": "Combination, blemish-prone or sensitive-feeling skin with post-breakout dryness, visible redness or rough texture; customers wanting a light cream.",
+    "intended_benefit": "Hydrates and comforts skin while supporting its moisture barrier and improving the look of uneven post-blemish tone.",
+    "product_url": "https://doctoraltheaglobal.com/products/345-relief-cream?country=US&currency=USD",
+    "price_source_url": "https://doctoraltheaglobal.com/products/345-relief-cream?country=US&currency=USD",
+    "evidence_notes": "Official current product page verifies $27/50 ml single and INCI, which includes tea tree leaf water and Sodium DNA. Ingredient percentages not asserted. Customer fit inferred.",
+    "researched_on": "2026-10-05"
+  }
+]

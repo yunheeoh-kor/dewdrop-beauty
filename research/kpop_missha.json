@@ -1,0 +1,58 @@
+[
+  {
+    "brand": "MISSHA",
+    "product_name": "Time Revolution The First Essence 5X",
+    "category": "Hydrating essence",
+    "size": "150 ml / 5.07 fl oz",
+    "price_usd": 39,
+    "price_basis": "Official U.S. regular reference price; displayed $33.15 promotional price excluded. Tax and shipping excluded.",
+    "key_ingredients": ["Fermented cica yeast extract", "Niacinamide", "Ceramide NP", "Glycerin"],
+    "ideal_customers": "Normal, dry or dull skin; customers seeking a light essence for hydration and a brighter-looking complexion (inferred).",
+    "intended_benefit": "Hydrates, softens uneven-looking texture and helps skin look brighter and smoother.",
+    "product_url": "https://misshaus.com/products/time-revolution-the-first-essence-5x",
+    "ingredient_source_url": "https://misshaus.com/products/time-revolution-the-first-essence-5x",
+    "price_source_url": "https://misshaus.com/products/time-revolution-the-first-essence-5x",
+    "evidence_notes": "Opened official U.S. page confirms 150 ml, $39 regular/$33.15 sale, and all four key ingredients. Manufacturer outcome timelines are omitted. K-pop evidence is a brand-level Japan campaign, without proof that Sana personally uses this essence.",
+    "researched_on": "2026-10-05",
+    "kpop_connection": {
+      "artist": "Sana",
+      "group": "TWICE",
+      "relationship_type": "Brand campaign model / muse",
+      "association_scope": "Brand-level",
+      "evidence_date": "2023-03-23",
+      "campaign_market": "Japan",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000107.000023609.html",
+      "connection_summary": "MISSHA Japan announced Sana as its muse and launched a branded promotional campaign. This source establishes a brand relationship.",
+      "status_as_of": "Dated campaign verified; current contract unconfirmed.",
+      "suggested_selling_point": "From MISSHA, the brand featured in TWICE Sana's 2023 Japan muse campaign."
+    }
+  },
+  {
+    "brand": "MISSHA",
+    "product_name": "Vita C Plus Spot Correcting & Firming Ampoule",
+    "category": "Brightening serum / ampoule",
+    "size": "30 ml / 1.01 fl oz",
+    "price_usd": 30,
+    "price_basis": "Official U.S. regular reference price for 30 ml; displayed $25.50 promotional price excluded. Tax and shipping excluded.",
+    "key_ingredients": ["3-O-Ethyl ascorbic acid", "Ascorbic acid", "Tranexamic acid", "Niacinamide", "Hydrolyzed collagen"],
+    "ideal_customers": "Dull skin or uneven-looking tone and visible dark spots; customers comfortable with a vitamin C serum and botanical oils (inferred).",
+    "intended_benefit": "Helps brighten uneven-looking tone and soften the appearance of dark spots and fine lines.",
+    "product_url": "https://misshaus.com/products/vita-c-plus-spot-correcting-firming-ampoule-30ml",
+    "ingredient_source_url": "https://misshaus.com/products/vita-c-plus-spot-correcting-firming-ampoule-30ml",
+    "price_source_url": "https://misshaus.com/products/vita-c-plus-spot-correcting-firming-ampoule-30ml",
+    "evidence_notes": "Official U.S. page confirms $30, 1.01 fl oz and full INCI; 30 ml appears in the official SKU URL. '99% pure vitamin C' describes ingredient purity, not finished-product concentration. Formula contains botanical essential oils. Campaign source names Japan's Vita C Plus serum; equivalence to this U.S. formula is unverified.",
+    "researched_on": "2026-10-05",
+    "kpop_connection": {
+      "artist": "Sana",
+      "group": "TWICE",
+      "relationship_type": "Product campaign",
+      "association_scope": "Product family; U.S. formula unverified",
+      "evidence_date": "2023-03-23",
+      "campaign_market": "Japan",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000107.000023609.html",
+      "connection_summary": "Company campaign notes describe Sana holding MISSHA's Vita C Plus serum. Regional formula equivalence and personal routine use are unverified.",
+      "status_as_of": "Dated campaign verified; current contract unconfirmed.",
+      "suggested_selling_point": "MISSHA's Vita C Plus serum family appeared in TWICE Sana's 2023 Japan campaign."
+    }
+  }
+]
