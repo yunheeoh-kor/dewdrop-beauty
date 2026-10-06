@@ -9,7 +9,6 @@ import android.content.ClipData;
 import android.content.Intent;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
-import android.graphics.Color;
 import android.graphics.Insets;
 import android.net.Uri;
 import android.os.Build;
@@ -54,6 +53,9 @@ public final class MainActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        // The system owns the launch window. Use the plain app background for content,
+        // including WebView errors, without a second splash Activity or a timed overlay.
+        setTheme(R.style.AppTheme);
         super.onCreate(savedInstanceState);
         if (!hasSupportedWebView()) {
             new AlertDialog.Builder(this)
@@ -65,7 +67,7 @@ public final class MainActivity extends Activity {
             return;
         }
         FrameLayout root = new FrameLayout(this);
-        root.setBackgroundColor(Color.rgb(248, 247, 243));
+        root.setBackgroundColor(getColor(R.color.app_background));
         if (Build.VERSION.SDK_INT >= 30) {
             getWindow().setDecorFitsSystemWindows(false);
         } else {
@@ -87,7 +89,7 @@ public final class MainActivity extends Activity {
         });
 
         webView = new WebView(this);
-        webView.setBackgroundColor(Color.rgb(248, 247, 243));
+        webView.setBackgroundColor(getColor(R.color.app_background));
         webView.setImportantForAccessibility(View.IMPORTANT_FOR_ACCESSIBILITY_YES);
         WebSettings settings = webView.getSettings();
         settings.setJavaScriptEnabled(true);

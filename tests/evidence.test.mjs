@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 
 const evidence = JSON.parse(readFileSync(new URL('../web/data/evidence.json', import.meta.url), 'utf8'));
-const catalog = JSON.parse(readFileSync(new URL('../outputs/01a10dc6-c4fa-7151-8ca8-26510505dbce/korean-cosmetics-catalog.json', import.meta.url), 'utf8'));
+const catalog = JSON.parse(readFileSync(new URL('../web/data/catalog.json', import.meta.url), 'utf8'));
 
 test('every catalog SKU has dated evidence, without ingredient-absence clearance', () => {
   assert.deepEqual(Object.keys(evidence).sort(), catalog.products.map(p => p.id).sort());

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Android 12+ owns the splash lifecycle; dismiss on the first app frame. -->
+    <style name="AppLaunchTheme" parent="AppTheme">
+        <item name="android:windowBackground">@color/app_background</item>
+        <item name="android:windowSplashScreenBackground">@color/app_background</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/ic_dewdrop</item>
+        <item name="android:windowSplashScreenIconBackgroundColor">@color/launcher_background</item>
+    </style>
+</resources>

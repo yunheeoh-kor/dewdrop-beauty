@@ -20,7 +20,7 @@ self.onmessage = async ({ data }) => {
   if (data?.type !== 'analyze') return;
   const { id, width, height, pixels } = data;
   try {
-    if (!Number.isInteger(width) || !Number.isInteger(height) || width < 1 || height < 1 || width > 1200 || height > 1200 || pixels?.length !== width * height * 4) throw new Error('Invalid photo pixels');
+    if (!Number.isInteger(width) || !Number.isInteger(height) || width < 1 || height < 1 || width > 1920 || height > 1920 || pixels?.length !== width * height * 4) throw new Error('Invalid photo pixels');
     self.postMessage({ id, type: 'status', status: 'loading_model' });
     const detector = await getLandmarker();
     const { analyzeFacePixels } = await import('./photo-measurements.js');

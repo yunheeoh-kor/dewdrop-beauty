@@ -30,7 +30,7 @@ export function createPhotoAnalyzer({ onStatus = () => {} } = {}) {
         if (token !== generation) { resolve(null); return; }
         try {
           const width = image.naturalWidth, height = image.naturalHeight;
-          if (!width || !height || width > 1200 || height > 1200) throw new Error('Use a photo captured or selected in the app.');
+          if (!width || !height || width > 1920 || height > 1920) throw new Error('Use a photo captured or selected in the app.');
           const canvas = document.createElement('canvas');
           canvas.width = width; canvas.height = height;
           const context = canvas.getContext('2d', { willReadFrequently: true });

@@ -8,6 +8,9 @@
  * or a calibrated assessment of a person's appearance.
  */
 
+import { analyzeFaceRegions } from './face-regions.js';
+import { analyzeSkinInsights } from './skin-insights.js';
+
 const METHOD_VERSION = 'face-pixels-v1';
 const FACE_OVAL = [10, 338, 297, 332, 284, 251, 389, 356, 454, 323, 361, 288, 397, 365, 379, 378, 400, 377, 152, 148, 176, 149, 150, 136, 172, 58, 132, 93, 234, 127, 162, 21, 54, 103, 67, 109];
 const OUTER_LIP = [61, 185, 40, 39, 37, 0, 267, 269, 270, 409, 291, 375, 321, 405, 314, 17, 84, 181, 91, 146];
@@ -23,7 +26,7 @@ const COLOR_REFERENCES = {
 };
 
 function retake(faceCount, code, message) {
-  return { status: 'retake', issues: [{ code, message }], faceCount, samples: {}, colorFamily: null, markers: [], methodVersion: METHOD_VERSION };
+  return { status: 'retake', issues: [{ code, message }], faceCount, samples: {}, colorFamily: null, markers: [], regions: [], methodVersion: METHOD_VERSION };
 }
 
 function bounds(points) {
@@ -151,10 +154,28 @@ export function analyzeFacePixels(image, faces) {
   const lip = measuredSample(lipPixels, 'Lip pixels in this photo');
   const lipMarker = center([pixelPoint(14), pixelPoint(17)]);
   const marker = (point, label) => ({ x: point.x / image.width, y: point.y / image.height, label });
+  const colorFamily = nearestColorFamily(lip.rgb);
+  const detail = analyzeFaceRegions(image, face, { cheekPolygons, outerLip, cheek, lip, colorFamily, faceBox: box });
+  const faceBounds = { x: box.minX / image.width, y: box.minY / image.height, width: (box.maxX - box.minX) / image.width, height: (box.maxY - box.minY) / image.height };
+  const skinInsights = analyzeSkinInsights(image, face, { photoQuality: detail.photoQuality, faceBounds });
+  // Keep useful appearance estimates available to the existing product flow,
+  // including when the original fine-detail check reports a limited photo.
+  const regions = detail.regions.map(region => {
+    const id = region.id === 'skin_texture' ? 'pores' : region.id === 'skin_tone' ? 'pigmentation' : null;
+    const estimate = skinInsights.metrics.find(metric => metric.id === id);
+    if (estimate?.status !== 'estimated') return region;
+    return { ...region, quality: { usable: true, status: 'estimated', reliability: estimate.reliability, qualityNotes: estimate.qualityNotes },
+      measurements: { ...region.measurements, ...estimate.measurements, level: estimate.level, reliability: estimate.reliability },
+      observations: [estimate.summary, ...(estimate.qualityNotes || []), estimate.limitation],
+      priority: estimate.level === 'pronounced' ? 96 : estimate.level === 'visible' ? 84 : 40 };
+  });
   return {
-    status: 'ready', issues: [], faceCount: 1, samples: { cheek, lip }, colorFamily: nearestColorFamily(lip.rgb),
+    status: 'ready', issues: [], faceCount: 1, samples: { cheek, lip }, colorFamily,
+    faceBounds,
     markers: [marker(center(cheekPolygons.slice(0, 2).flat()), 'Cheek sample'), marker(center(cheekPolygons.slice(2).flat()), 'Cheek sample'), marker(lipMarker, 'Lip sample')],
     methodVersion: METHOD_VERSION,
+    regions, photoQuality: detail.photoQuality, regionMethodVersion: 'face-regions-v1',
+    skinInsights,
     description: 'Measured colors in this photo. Lighting, camera settings, and makeup affect these pixels. The color family is a nearby exploration reference, not a shade match.',
   };
 }

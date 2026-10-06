@@ -22,6 +22,7 @@
             android:grantUriPermissions="true" />
         <activity
             android:name=".MainActivity"
+            android:theme="@style/AppLaunchTheme"
             android:exported="true"
             android:enableOnBackInvokedCallback="true"
             android:windowSoftInputMode="adjustResize">

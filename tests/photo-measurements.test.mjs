@@ -131,3 +131,63 @@ test('nearest available reference only considers reviewed families supplied by c
   assert.equal(nearestColorFamily([170, 54, 65], ['unreviewed']), null);
   assert.equal(nearestColorFamily([NaN, 1, 2]), null);
 });
+
+test('real feature mapping adds seven normalized clickable regions without changing color sampling', () => {
+  const face = landmarks();
+  const polygon = (indices, cx, cy, rx, ry) => indices.forEach((index, i) => {
+    const a = -Math.PI + i * Math.PI * 2 / indices.length;
+    face[index] = { x: cx + Math.cos(a) * rx, y: cy + Math.sin(a) * ry };
+  });
+  polygon([70, 63, 105, 66, 107, 55, 65, 52, 53, 46], 0.33, 0.28, 0.12, 0.03);
+  polygon([336, 296, 334, 293, 300, 276, 283, 282, 295, 285], 0.67, 0.28, 0.12, 0.03);
+  polygon([33, 7, 163, 144, 145, 153, 154, 155, 133, 173, 157, 158, 159, 160, 161, 246], 0.33, 0.37, 0.10, 0.03);
+  polygon([362, 382, 381, 380, 374, 373, 390, 249, 263, 466, 388, 387, 386, 385, 384, 398], 0.67, 0.37, 0.10, 0.03);
+  face[168] = { x: 0.5, y: 0.33 }; face[2] = { x: 0.5, y: 0.58 };
+  face[98] = { x: 0.45, y: 0.58 }; face[327] = { x: 0.55, y: 0.58 };
+  const result = analyzeFacePixels(photo(), [face]);
+  assert.equal(result.status, 'ready');
+  assert.equal(result.regionMethodVersion, 'face-regions-v1');
+  assert.deepEqual(result.regions.map(region => region.id), ['brows', 'eyes', 'nose', 'cheeks', 'lips', 'skin_texture', 'skin_tone']);
+  for (const region of result.regions) {
+    for (const n of Object.values(region.point)) assert.ok(n >= 0 && n <= 1);
+    const { x, y, width, height } = region.bounds;
+    assert.ok(x >= 0 && y >= 0 && width > 0 && height > 0 && x + width <= 1.00001 && y + height <= 1.00001);
+    assert.equal(typeof region.quality.usable, 'boolean');
+    assert.ok(region.observations.length > 0);
+    assert.ok(Number.isFinite(region.priority));
+  }
+  assert.equal(result.regions.find(region => region.id === 'brows').quality.usable, true);
+  assert.ok(result.regions.find(region => region.id === 'nose').measurements.bridgeToBaseRatio > 1);
+  assert.equal(result.regions.find(region => region.id === 'lips').measurements.colorFamily, result.colorFamily);
+  assert.deepEqual(result.samples.lip.rgb, [170, 54, 65]);
+});
+
+test('corrupt supplemental feature landmarks preserve valid color results without invented regions', () => {
+  const face = landmarks(); face[70] = undefined;
+  const result = analyzeFacePixels(photo(), [face]);
+  assert.equal(result.status, 'ready');
+  assert.deepEqual(result.regions, []);
+  assert.equal(result.photoQuality.detailUsable, false);
+});
+
+test('different landmark geometry changes brow and eye observations', () => {
+  const makeFace = (browRise, eyeHeight) => {
+    const face = landmarks();
+    for (const [indices, start] of [[[70, 63, 105, 66, 107], 0.2], [[336, 296, 334, 293, 300], 0.56]]) {
+      indices.forEach((index, i) => { face[index] = { x: start + i * 0.06, y: 0.3 - Math.sin(i / 4 * Math.PI) * browRise }; });
+    }
+    for (const [a, b, top, bottom, cx] of [[33, 133, 159, 145, 0.32], [362, 263, 386, 374, 0.68]]) {
+      face[a] = { x: cx - 0.1, y: 0.4 }; face[b] = { x: cx + 0.1, y: 0.4 };
+      face[top] = { x: cx, y: 0.4 - eyeHeight / 2 }; face[bottom] = { x: cx, y: 0.4 + eyeHeight / 2 };
+    }
+    return face;
+  };
+  const soft = analyzeFacePixels(photo(), [makeFace(0.01, 0.04)]);
+  const defined = analyzeFacePixels(photo(), [makeFace(0.06, 0.08)]);
+  const lookup = (result, id) => result.regions.find(region => region.id === id);
+  assert.equal(lookup(soft, 'brows').measurements.arch, 'soft');
+  assert.equal(lookup(defined, 'brows').measurements.arch, 'defined');
+  assert.notDeepEqual(lookup(soft, 'brows').observations, lookup(defined, 'brows').observations);
+  assert.equal(lookup(soft, 'eyes').measurements.placement, 'elongated');
+  assert.equal(lookup(defined, 'eyes').measurements.placement, 'open');
+});

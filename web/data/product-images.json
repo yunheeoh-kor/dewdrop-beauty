@@ -1,0 +1,829 @@
+{
+  "kbeauty-001": {
+    "src": "assets/products/kbeauty-001.jpg",
+    "sourceUrl": "https://beautyofjoseon.com/products/green-plum-refreshing-cleanser",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0558/4135/7989/files/green-plum-refreshing-cleanser-1-front.webp?v=1770618132&width=800",
+    "alt": "Beauty of Joseon Green Plum Refreshing Cleanser, 100 ml / 3.38 fl oz",
+    "bytes": 27720,
+    "sha256": "d76065ade758e3817aa51ff60e483a7106cc05a59611fe07f7de31a70c7e9270"
+  },
+  "kbeauty-002": {
+    "src": "assets/products/kbeauty-002.jpg",
+    "sourceUrl": "https://beautyofjoseon.com/products/ginseng-essence-water",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0558/4135/7989/files/ginseng-essence-water-1-front.webp?v=1770618733&width=800",
+    "alt": "Beauty of Joseon Ginseng Essence Water, 150 ml / 5.07 fl oz",
+    "bytes": 34520,
+    "sha256": "4b0179bc21fe568fe3f695eda60d6f98f82d109b537439e8eff4f6075ada86f8"
+  },
+  "kbeauty-003": {
+    "src": "assets/products/kbeauty-003.jpg",
+    "sourceUrl": "https://beautyofjoseon.com/products/glow-serum-propolis-niacinamide",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0558/4135/7989/files/glow-serum-propolis-niacinamide-1-front.webp?v=1770278801&width=800",
+    "alt": "Beauty of Joseon Glow Serum: Propolis + Niacinamide, 30 ml / 1.01 fl oz",
+    "bytes": 32813,
+    "sha256": "1a1319fa7652df07c6f6f27e3559824ce94f74f6e7d20908cbea6b138cf75c1c"
+  },
+  "kbeauty-004": {
+    "src": "assets/products/kbeauty-004.jpg",
+    "sourceUrl": "https://beautyofjoseon.com/products/dynasty-cream?variant=43222120759461",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0558/4135/7989/files/dynasty-cream-1-front_d45355a2-440a-4100-9ecc-b36c319aa678.webp?v=1774872280&width=800",
+    "alt": "Beauty of Joseon Dynasty Cream, 50 ml / 1.69 fl oz",
+    "bytes": 26428,
+    "sha256": "9c711374d0ac8b4b0a4b772bf7231a22c3c706e5de0c3f273e3dea54caec4de6"
+  },
+  "kbeauty-005": {
+    "src": "assets/products/kbeauty-005.jpg",
+    "sourceUrl": "https://beautyofjoseon.com/products/revive-eye-serum-ginseng-retinal",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0558/4135/7989/files/revive-eye-serum-ginseng-retinal-1-front.webp?v=1770287139&width=800",
+    "alt": "Beauty of Joseon Revive Eye Serum: Ginseng + Retinal, 30 ml",
+    "bytes": 25410,
+    "sha256": "cb8b7915b76a9ece4be9507aa6ebfee32c4bbef1ca620a8f4541bc707448854e"
+  },
+  "kbeauty-006": {
+    "src": "assets/products/kbeauty-006.jpg",
+    "sourceUrl": "https://beautyofjoseon.com/products/day-dew-sunscreen",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0558/4135/7989/files/05_0612.jpg?v=1782766246&width=800",
+    "alt": "Beauty of Joseon Day Dew Sunscreen SPF 50 (U.S. formula), 50 ml / 1.69 fl oz (1-pack)",
+    "bytes": 55533,
+    "sha256": "6147a8cfbe048f56d3009323234c92ec4826f35c9f0f077de2510ccc92f0e094"
+  },
+  "kbeauty-007": {
+    "src": "assets/products/kbeauty-007.jpg",
+    "sourceUrl": "https://www.cosrx.com/products/low-ph-good-morning-gel-cleanser",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0513/3775/6828/files/low-ph-good-morning-gel-cleanser-cosrx-official-1.jpg?v=1768785801&width=800",
+    "alt": "COSRX Low pH Good Morning Gel Cleanser, 150 ml / 5.07 fl oz",
+    "bytes": 25186,
+    "sha256": "2ef763e25e0f2e7cea2a5c0dd2a4c75a387203964057126f89532e0e1928d978"
+  },
+  "kbeauty-008": {
+    "src": "assets/products/kbeauty-008.jpg",
+    "sourceUrl": "https://www.cosrx.com/products/full-fit-propolis-synergy-toner",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0513/3775/6828/files/full-fit-propolis-synergy-toner-cosrx-official-1.jpg?v=1724835425&width=800",
+    "alt": "COSRX Full Fit Propolis Synergy Toner, 280 ml / 9.46 fl oz",
+    "bytes": 24074,
+    "sha256": "cb804326979cb40a9ebb7f79e8c2d481ca4270dd8d7cbdad01f9c2e1cfb90a97"
+  },
+  "kbeauty-009": {
+    "src": "assets/products/kbeauty-009.jpg",
+    "sourceUrl": "https://www.cosrx.com/products/advanced-snail-96-mucin-power-essence",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0513/3775/6828/files/james_800x1067_1_1_4e9750cc-2cd6-4817-ace5-be2305a85806.jpg?v=1763111577&width=800",
+    "alt": "COSRX Advanced Snail 96 Mucin Power Essence, 100 ml / 3.38 fl oz",
+    "bytes": 26596,
+    "sha256": "3fcbb8343ec201166b541b308c616e7d2d29fc23359c1a74a9028dacbaa089cf"
+  },
+  "kbeauty-010": {
+    "src": "assets/products/kbeauty-010.png",
+    "sourceUrl": "https://www.cosrx.com/collections/award-winning/products/the-niacinamide-15-serum-%EB%B2%88%EB%93%A4",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0513/3775/6828/files/niacin.png?v=1748420816&width=800",
+    "alt": "COSRX The Niacinamide 15 Serum, 20 ml / 0.67 fl oz (single)",
+    "bytes": 215981,
+    "sha256": "a238b839a2e16eaa7d7476e90d68105b6aff1dbdf4b27771e63a5ef66400b8ce"
+  },
+  "kbeauty-011": {
+    "src": "assets/products/kbeauty-011.png",
+    "sourceUrl": "https://www.cosrx.com/products/advanced-snail-92-all-in-one-cream",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0513/3775/6828/files/5_bc6986a1-1b85-42ce-b761-6bc4acbb07a3.png?v=1757571879&width=800",
+    "alt": "COSRX Advanced Snail 92 All in One Cream, 100 g / 3.52 oz (jar)",
+    "bytes": 75316,
+    "sha256": "c6b96951c9c54f36b3aee62fc4c7525cfa4754216926413c87735a7fb29b4d10"
+  },
+  "kbeauty-012": {
+    "src": "assets/products/kbeauty-012.png",
+    "sourceUrl": "https://www.cosrx.com/products/advanced-snail-peptide-eye-cream",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0513/3775/6828/files/advanced-snail-peptide-eye-cream-cosrx-official-1.png?v=1724835637&width=800",
+    "alt": "COSRX Advanced Snail Peptide Eye Cream, 25 ml / 0.85 fl oz",
+    "bytes": 45389,
+    "sha256": "773f023b1c7b5ae37d9ded828ec0c27e2423e24e86f06111eb7b700dfa3980b4"
+  },
+  "kbeauty-013": {
+    "src": "assets/products/kbeauty-013.png",
+    "sourceUrl": "https://www.skin1004.com/products/skin1004-madagascar-centella-light-cleansing-oil",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0590/4538/0253/products/skin1004-cleanser-centella-light-cleansing-oil-38642994282742.png?v=1677151214&width=800",
+    "alt": "SKIN1004 Madagascar Centella Light Cleansing Oil, 200 ml / 6.76 fl oz",
+    "bytes": 31101,
+    "sha256": "92765c5b06ca5d512d3ee75f71289916c717fe5a7a7075a3082b0457624a023a"
+  },
+  "kbeauty-014": {
+    "src": "assets/products/kbeauty-014.png",
+    "sourceUrl": "https://www.skin1004.com/products/skin1004-madagascar-centella-ampoule",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0590/4538/0253/files/skin1004-ampoule-serum-centella-ampoule-1246455500.png?v=1782787571&width=800",
+    "alt": "SKIN1004 Madagascar Centella Ampoule, 100 ml / 3.38 fl oz",
+    "bytes": 60589,
+    "sha256": "46175c93e3bd69a038cf3b2d429abb389a3ddab25383ec2783ead8bdfd1253ed"
+  },
+  "kbeauty-015": {
+    "src": "assets/products/kbeauty-015.png",
+    "sourceUrl": "https://www.skin1004.com/products/skin1004-madagascar-centella-toning-toner",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0590/4538/0253/products/skin1004-toner-centella-toning-toner-38642837750006.png?v=1766754925&width=800",
+    "alt": "SKIN1004 Madagascar Centella Toning Toner, 210 ml / 7.1 fl oz",
+    "bytes": 29046,
+    "sha256": "2624fbdd04f03e06f8d045e019650a9ef91377abd1c77f6bc124aa069fb27bae"
+  },
+  "kbeauty-016": {
+    "src": "assets/products/kbeauty-016.jpg",
+    "sourceUrl": "https://anua.com/products/heartleaf-77-soothing-toner",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0753/1429/9158/files/anua-us-toner-heartleaf-77-soothing-toner-1239193744.jpg?v=1779181932&width=800",
+    "alt": "Anua Heartleaf 77 Soothing Toner, 250 ml",
+    "bytes": 18358,
+    "sha256": "f125a86fe7a230899f968a5cb1c6c11bcf443ac0aa3b6115ae6388d46e8f844a"
+  },
+  "kbeauty-017": {
+    "src": "assets/products/kbeauty-017.jpg",
+    "sourceUrl": "https://anua.com/products/heartleaf-pore-control-cleansing-oil-200ml",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0753/1429/9158/files/anua-us-cleanser-heartleaf-pore-control-cleansing-oil-1239193742.jpg?v=1779181871&width=800",
+    "alt": "Anua Heartleaf Pore Control Cleansing Oil, 200 ml / 6.76 fl oz",
+    "bytes": 16915,
+    "sha256": "bba3e443fef845fa20750bda0bad55b356a1ffeab11ae7b2323ad804a281d0c5"
+  },
+  "kbeauty-018": {
+    "src": "assets/products/kbeauty-018.jpg",
+    "sourceUrl": "https://anua.com/products/niacinamide-10-txa-4-serum-2",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0753/1429/9158/files/anua-global-ampoule-serum-niacinamide-10-txa-4-serum-for-brightening-and-dark-spots-1239193722.jpg?v=1779177130&width=800",
+    "alt": "Anua Niacinamide 10 TXA 4 Serum for Brightening and Dark Spots, 30 ml / 1.01 fl oz",
+    "bytes": 29245,
+    "sha256": "ec44f3d40cde365fb936ba0ba21e76bb06ed083efc5b1145d142b48600da2b1d"
+  },
+  "kbeauty-019": {
+    "src": "assets/products/kbeauty-019.jpg",
+    "sourceUrl": "https://roundlab.com/products/1025-dokdo-toner",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0651/7656/8022/files/1025-dokdo-toner-round-lab-1.jpg?v=1774657694&width=800",
+    "alt": "Round Lab 1025 Dokdo Toner, 200 ml / 6.76 fl oz",
+    "bytes": 157085,
+    "sha256": "640e04a74ec5a01643efceb4246589973c4576a925b3b795609161d06263f43e"
+  },
+  "kbeauty-020": {
+    "src": "assets/products/kbeauty-020.jpg",
+    "sourceUrl": "https://roundlab.com/products/birch-moisturizing-intensive-cream",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0651/7656/8022/files/62.webp?v=1772852637&width=800",
+    "alt": "Round Lab Birch Moisturizing Intensive Cream, 50 ml",
+    "bytes": 34463,
+    "sha256": "6e485f081be35c5204d0803cbd3b864688f0703823fbc873523a462e2e2e4435"
+  },
+  "kbeauty-021": {
+    "src": "assets/products/kbeauty-021.jpg",
+    "sourceUrl": "https://roundlab.com/products/birch-moisturizing-uv-sunscreen",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0651/7656/8022/files/BIRCH_JUICE_MOISTURIZING_UVLOCK3_Large_10126e46-dfcc-4cd5-970c-146d4be65989.webp?v=1772852134&width=800",
+    "alt": "Round Lab Birch Moisturizing Sunscreen UVLock SPF 45 Broad Spectrum (U.S. formula), 50 ml / 1.69 fl oz",
+    "bytes": 31004,
+    "sha256": "5fff5870a55a8c9d129e9088377b62fa51b03d54ae5671d6e6d61c9ca52988ce"
+  },
+  "kbeauty-022": {
+    "src": "assets/products/kbeauty-022.jpg",
+    "sourceUrl": "https://torriden.us/products/dive-in-serum",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0920/1644/3758/files/DIVEINSerum1_631ac0e3-a77b-422a-a806-bf34477cac19.jpg?v=1753346213&width=800",
+    "alt": "Torriden DIVE IN Serum, 50 ml / 1.69 fl oz",
+    "bytes": 39407,
+    "sha256": "4bdb0c19c7f1d738ac45be28d4275b902d0280e4424945959943dbf0d49a78ca"
+  },
+  "kbeauty-023": {
+    "src": "assets/products/kbeauty-023.jpg",
+    "sourceUrl": "https://torriden.us/products/dive-in-soothing-cream",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0920/1644/3758/files/DIVEINSoothingCream-jar-1_64bb3003-ef23-44bd-bb46-0f50fae2eee7.jpg?v=1753346446&width=800",
+    "alt": "Torriden DIVE IN Soothing Cream, 100 ml / 3.38 fl oz",
+    "bytes": 33511,
+    "sha256": "1ba02392fc4e9d84ac4c2f1ee9214db3fc242916f950e1b8fd99be01fc55bf03"
+  },
+  "kbeauty-024": {
+    "src": "assets/products/kbeauty-024.jpg",
+    "sourceUrl": "https://doctoraltheaglobal.com/products/345-relief-cream?country=US&currency=USD",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0082/1346/3093/files/345_1743b751-f56b-4476-a457-a10f33f0090b.jpg?v=1788504508&width=800",
+    "alt": "Dr. Althea 345 Relief Cream, 50 ml / 1.69 fl oz (single)",
+    "bytes": 22479,
+    "sha256": "a1393f1fa8f13d25143b20f1be9dd8b41cd5b9360b189878b5eef4f20d3a45b3"
+  },
+  "kbeauty-025": {
+    "src": "assets/products/kbeauty-025.jpg",
+    "sourceUrl": "https://romandbeauty.com/products/the-juicy-lasting-tint",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0598/8578/1067/files/03_bare_grape_1_0db1ad15-19c7-49b5-970a-a48a3a9fdd76.jpg?v=1774510656&width=800",
+    "alt": "rom&nd The Juicy Lasting Tint in 03 Bare Grape, 3.5 g / 0.12 oz",
+    "bytes": 23302,
+    "sha256": "93f950bf178f1d9e33396a0f8f61864ba36455f540ff5c44a924ac7b5754d0bb"
+  },
+  "kbeauty-026": {
+    "src": "assets/products/kbeauty-026.jpg",
+    "sourceUrl": "https://romandbeauty.com/products/better-than-cheek",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0598/8578/1067/files/W01_ODI_MILK_1.jpg?v=1771982826&width=800",
+    "alt": "rom&nd Better Than Cheek in W01 Odi Milk, 4 g",
+    "bytes": 43806,
+    "sha256": "b9ece7ecc26e24222a0ea8a724ebcd5086a953dc150d2efdd73be1647c53d544"
+  },
+  "kbeauty-027": {
+    "src": "assets/products/kbeauty-027.jpg",
+    "sourceUrl": "https://romandbeauty.com/products/glasting-water-gloss",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0598/8578/1067/files/00METEORTRACK_359e7a79-4b69-4701-812a-360447aaf078.jpg?v=1755696559&width=800",
+    "alt": "rom&nd Glasting Water Gloss in 00 Meteor Track, 4.5 g",
+    "bytes": 25458,
+    "sha256": "8edfcc640e17b307776b3e6eb5ad8582d5aeaa330ee7a834f0f45ce8607c81b8"
+  },
+  "kbeauty-028": {
+    "src": "assets/products/kbeauty-028.jpg",
+    "sourceUrl": "https://clubclio.shop/products/clio-kill-lash-superproof-mascara",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0310/4925/3001/products/1longcurling.jpg?v=1675651706&width=800",
+    "alt": "CLIO Kill Lash Superproof Mascara in 01 Long Curling (black), 7 g",
+    "bytes": 37978,
+    "sha256": "45d7bf8a72100ec3fb9fe633d30acb4f63c2b823bea56ec8028cc812345cd39d"
+  },
+  "kbeauty-029": {
+    "src": "assets/products/kbeauty-029.jpg",
+    "sourceUrl": "https://clubclio.shop/products/clio-sharp-so-simple-pencil-liner",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0310/4925/3001/products/1black.jpg?v=1675042508&width=900",
+    "alt": "CLIO Sharp So Simple Waterproof Pencil Liner — 01 Black product photograph",
+    "bytes": 28120,
+    "sha256": "64453236515ea079537eb051d2d5f39a524875f6ad0f0765ff68bfc375dbb996"
+  },
+  "kbeauty-030": {
+    "src": "assets/products/kbeauty-030.jpg",
+    "sourceUrl": "https://clubclio.shop/products/peripera-ink-the-velvet",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0310/4925/3001/products/1goodbrick.jpg?v=1675134949&width=900",
+    "alt": "peripera Ink The Velvet — 01 Good Brick product photograph",
+    "bytes": 75658,
+    "sha256": "19fe3022767dcfb3774663ca27b8c9a1b8b2178a70f74845d66f29a5d92b68a2"
+  },
+  "kbeauty-031": {
+    "src": "assets/products/kbeauty-031.jpg",
+    "sourceUrl": "https://clubclio.shop/products/peripera-ink-airy-velvet",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0310/4925/3001/products/3_311d4e92-cc77-4bf3-afd9-c66345f8cacd.jpg?v=1675042102&width=900",
+    "alt": "peripera Ink Airy Velvet — 03 Cartoon Coral product photograph",
+    "bytes": 58884,
+    "sha256": "0d993a1293ce4c63199cdfabfb708af68d4452d2e3e787d4abe6663e5edff938"
+  },
+  "kbeauty-032": {
+    "src": "assets/products/kbeauty-032.jpg",
+    "sourceUrl": "https://sokoglam.com/products/etude-house-fixing-tint",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0249/1218/products/Soko-Glam-PDP-Etude-House-Fixing-Tint-05-Midnight-Mauve-Product.jpg?v=1757476346&width=900",
+    "alt": "ETUDE Fixing Tint — 05 Midnight Mauve product photograph",
+    "bytes": 10375,
+    "sha256": "a2d937ea7504c6ec30c1f64ec864d0460b0aa707cfd004a2c429d356c8b80b89"
+  },
+  "kbeauty-033": {
+    "src": "assets/products/kbeauty-033.jpg",
+    "sourceUrl": "https://us.laneige.com/products/lip-sleeping-mask",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0255/0189/2660/files/LSM_Berry_Infographic_2000x2000Product1_1.jpg?v=1785772326&width=900",
+    "alt": "LANEIGE Lip Sleeping Mask — Berry (Original) product photograph",
+    "bytes": 95854,
+    "sha256": "8a6abce5b9ad6a7fe9c84ec0c915ee0f50318d23df624835a46e78c44ae347a0"
+  },
+  "kbeauty-034": {
+    "src": "assets/products/kbeauty-034.jpg",
+    "sourceUrl": "https://us.laneige.com/products/water-bank-blue-hyaluronic-cream-moisturizer",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0255/0189/2660/files/LN_WBCM_24AD_Product_02.jpg?v=1703778486&width=900",
+    "alt": "LANEIGE Water Bank Blue Hyaluronic Cream Moisturizer product photograph",
+    "bytes": 73821,
+    "sha256": "d80293b89d1d7c55e436cbf2d602f666f1659d46ea2b4b53d732a7c781f62b60"
+  },
+  "kbeauty-035": {
+    "src": "assets/products/kbeauty-035.jpg",
+    "sourceUrl": "https://us.innisfree.com/products/green-tea-seed-hyaluronic-cream",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0089/3367/1012/files/01_IF_GT-HC_Packshot_2024_01_1080x1080_60c0b92c-41a4-417a-8995-6b86728bee2f.jpg?v=1758640121&width=900",
+    "alt": "innisfree Green Tea Seed Hyaluronic Acid Cream product photograph",
+    "bytes": 49529,
+    "sha256": "b2f6bbd6118c571c1b6bf59009666276c6965153e6a3ad670d7dcf54500816b7"
+  },
+  "kbeauty-036": {
+    "src": "assets/products/kbeauty-036.png",
+    "sourceUrl": "https://mixsoon.us/products/mixsoon-bean-essence-50ml",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0797/3299/8445/files/Bean_Essence_50ml.png?v=1791243662&width=900",
+    "alt": "mixsoon Bean Essence product photograph",
+    "bytes": 184383,
+    "sha256": "03adb3c31748d0deb009352cc6224f8ece662d99051b3aeee1a8bf62669412b0"
+  },
+  "kbeauty-037": {
+    "src": "assets/products/kbeauty-037.jpg",
+    "sourceUrl": "https://int.hera.com/products/black-cushion-foundation",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0914/4814/8287/files/pdp_mig_2024-08-29-240318_final_KR_BLACK-CUSHION-FOUNDATION_pdp_thumbnail_17N1_1.jpg?v=1749657520&width=900",
+    "alt": "HERA Black Cushion Foundation (single cushion), shade 17N1 Ivory product photograph",
+    "bytes": 57362,
+    "sha256": "b8828f164e606dc6080ba26cd4c98479c1f81ad9b1ed1079e33150865ff9996b"
+  },
+  "kbeauty-038": {
+    "src": "assets/products/kbeauty-038.png",
+    "sourceUrl": "https://int.hera.com/products/sensual-nude-gloss",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0914/4814/8287/files/260716_SNG_sunkissed.png?v=1789690105&width=900",
+    "alt": "HERA Sensual Nude Gloss, shade 325 Sunkissed (Felix's Pick) product photograph",
+    "bytes": 247916,
+    "sha256": "238b36ed49a77a034a2b499cf894acb9aa14738f304eea633fd848cd8318155d"
+  },
+  "kbeauty-039": {
+    "src": "assets/products/kbeauty-039.jpg",
+    "sourceUrl": "https://us.sulwhasoo.com/products/first-care-activating-serum?variant=41665230798893",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0249/8399/4413/files/2023FCAS6thGeneration-60ml-1_270320590_Brand.com_1080px1_1ratio.jpg?v=1732034287&width=900",
+    "alt": "Sulwhasoo First Care Activating Serum VI product photograph",
+    "bytes": 21728,
+    "sha256": "0c643ba2dd12c06b1e80b5078ded96b77cdaca0c62044a90f76489395397f7a3"
+  },
+  "kbeauty-040": {
+    "src": "assets/products/kbeauty-040.jpg",
+    "sourceUrl": "https://us.sulwhasoo.com/products/gentle-cleansing-foam",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0249/8399/4413/files/SWS_Thumbnail_GCF_1080x1080_200ml.jpg?v=1689087855&width=900",
+    "alt": "Sulwhasoo Gentle Cleansing Foam product photograph",
+    "bytes": 23269,
+    "sha256": "2de8b78dda11da498495d316b293d0014cc2b73ee56a81d2e00db833926e6b1d"
+  },
+  "kbeauty-041": {
+    "src": "assets/products/kbeauty-041.jpg",
+    "sourceUrl": "https://int.mamonde.com/products/flora-glow-rose-liquid-mask",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0734/1830/9870/files/pdp_mig_2025-01-08-250107_final_KR_flora-glow-rose-liquid-mask_pdp_thumbnail_10_1.jpg?v=1751594939&width=900",
+    "alt": "Mamonde Flora Glow Rose Daily Liquid Mask product photograph",
+    "bytes": 31087,
+    "sha256": "a75e60372de853987ffdeb60254536d3cd0b181720058222a3f68567eeddf43e"
+  },
+  "kbeauty-042": {
+    "src": "assets/products/kbeauty-042.jpg",
+    "sourceUrl": "https://int.mamonde.com/products/pore-shrinker-bakuchiol-cream",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0734/1830/9870/files/pdp_mig_2023-09-27-20230927_final_PORE-SHRINKER-BAKUCHIOL-CREAM_pdp_thumbnail_pc_1_1.jpg?v=1751594894&width=900",
+    "alt": "Mamonde Pore Shrinker Bakuchiol Cream product photograph",
+    "bytes": 24054,
+    "sha256": "0d6f6a91078ab07fe3f180bed2b49ad43969a16ac972200f5937f67c16fb3884"
+  },
+  "kbeauty-043": {
+    "src": "assets/products/kbeauty-043.png",
+    "sourceUrl": "https://www.ulta.com/p/mask-fit-red-cushion-pimprod2053403?sku=2642684",
+    "imageUrl": "https://media.ulta.com/i/ulta/2642684?w=900&h=900",
+    "alt": "TIRTIR Mask Fit Red Cushion — 21N Ivory product photograph",
+    "bytes": 641768,
+    "sha256": "176b26ea2a1bf80d2d987dde2ea9844545f703ddc1f09599841faf9bbddb3913"
+  },
+  "kbeauty-044": {
+    "src": "assets/products/kbeauty-044.png",
+    "sourceUrl": "https://tirtir.global/products/tinted-skin-glow-cushion",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0663/2757/6795/files/10C_c822fef5-e021-4687-9de1-96c7f784bd2b.png?v=1787722450&width=900",
+    "alt": "TIRTIR Tinted Skin Glow Cushion — 10C Shell product photograph",
+    "bytes": 560474,
+    "sha256": "f125ca2e5fe6decffd967cb6fcb7e71c9cde0795930af38915129fbe741b2563"
+  },
+  "kbeauty-045": {
+    "src": "assets/products/kbeauty-045.png",
+    "alt": "d'Alba White Truffle First Spray Hydrating Glow Mist Serum, 3.38 fl oz / 100 ml",
+    "sourceUrl": "https://www.ulta.com/p/white-truffle-first-spray-hydrating-glow-mist-serum-pimprod2056403?sku=2650461",
+    "imageUrl": "https://media.ulta.com/i/ulta/2650461?w=800&h=800&fmt=png",
+    "bytes": 139567,
+    "sha256": "37492c3580b61b8735ddb5ec2bfc5e6717671ca1751489036e2abaf2f05722bc"
+  },
+  "kbeauty-046": {
+    "src": "assets/products/kbeauty-046.png",
+    "alt": "d'Alba Double Serum & Cream 2-in-1 Moisturizer, 2.46 oz / 70 g",
+    "sourceUrl": "https://www.ulta.com/p/double-serum-cream-2-in-1-moisturizer-pimprod2056407?sku=2650465",
+    "imageUrl": "https://media.ulta.com/i/ulta/2650465?w=800&h=800&fmt=png",
+    "bytes": 315497,
+    "sha256": "8aa2d616f1676aa09d6ce559338bdaad4c6bd4947018004d19a6f89cddee1364"
+  },
+  "kbeauty-047": {
+    "src": "assets/products/kbeauty-047.jpg",
+    "sourceUrl": "https://amuseseoulmakeup.com/products/jel-fit-tint",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0927/0571/8586/files/01_2e2a6154-24e0-465f-a25c-9aad647d97b7.jpg?v=1745835445&width=900",
+    "alt": "AMUSE Jel-Fit Tint — 01 Boksoonga Jelly product photograph",
+    "bytes": 28227,
+    "sha256": "49ba8facc2d750184bd8b06f682f0e53fee7b68e94b8d4641834f528a0db90e2"
+  },
+  "kbeauty-048": {
+    "src": "assets/products/kbeauty-048.jpg",
+    "sourceUrl": "https://amuseseoulmakeup.com/products/cheek-tok-tok",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0927/0571/8586/files/01_0eb9e530-7bbf-491a-b19d-e878ef7ac1e5.jpg?v=1745835515&width=900",
+    "alt": "AMUSE Cheek Tok Tok — 01 Boksoonga Tok product photograph",
+    "bytes": 53150,
+    "sha256": "ae733d425dec8de84a0f0adf7c3d44072b31c1ff7930b8c6909abcd7ade7f104"
+  },
+  "kbeauty-049": {
+    "src": "assets/products/kbeauty-049.jpg",
+    "sourceUrl": "https://www.watsons.com.my/espoir-couture-lip-tint-glaze-04-hushed-cherry/p/BP_1032399",
+    "imageUrl": "https://medias.watsons.com.my/publishing/WTCMY-1032399-front-zoom.jpg?version=1774462352",
+    "alt": "espoir Couture Lip Tint Glaze in 04 Hushed Cherry, 4 g",
+    "note": "Retailer photograph explicitly labels the Hushed Cherry shade and 4 g size. Includes the retailer's original product labels.",
+    "bytes": 74574,
+    "sha256": "99bacbc0bec6214cc9d4fa2466ce17a71aadc75726e3007992eecd332ba8d76c"
+  },
+  "kbeauty-050": {
+    "src": "assets/products/kbeauty-050.jpg",
+    "sourceUrl": "https://www.yesstyle.com/en/espoir-the-brow-color-fixing-cara-2-colors-02-taupe/info.html/pid.1122969832?cpid=1122969833",
+    "imageUrl": "https://d1flfk77wl2xk4.cloudfront.net/Assets/64/207/XXL_p0223520764.jpg",
+    "alt": "espoir The Brow Color Fixing Cara in 02 Taupe, 3 g",
+    "bytes": 9394,
+    "sha256": "9571c72daf7d3e77635f9416c340242aa7108ca622ff3b648ea2cce3ce449620"
+  },
+  "kbeauty-051": {
+    "src": "assets/products/kbeauty-051.jpg",
+    "sourceUrl": "https://naturerepublic.us/products/soothing-moisture-aloe-vera-92-soothing-gel",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0529/0373/9545/files/Mild_Moisture_Aloe_Vera_Gel_Title_5b9416c4-c69a-43f0-b932-dc1b27742cdb.jpg?v=1706834114&width=900",
+    "alt": "NATURE REPUBLIC Mild & Moisture Aloe Vera Watery Gel product photograph",
+    "bytes": 156977,
+    "sha256": "8bd94812cb77acf98c6ffb102458c30cdc302410338328618fc6d2ad2ae84cc7"
+  },
+  "kbeauty-052": {
+    "src": "assets/products/kbeauty-052.png",
+    "sourceUrl": "https://naturerepublic.us/products/vitapair-c-toner300ml",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0529/0373/9545/files/Title_VitapairC_Toner_01.png?v=1698284701&width=900",
+    "alt": "NATURE REPUBLIC Vitapair C Toner product photograph",
+    "bytes": 235759,
+    "sha256": "864088a5a6884e344a742febda77cf2f87290323de187358bfd4fa7c22f814ba"
+  },
+  "kbeauty-053": {
+    "src": "assets/products/kbeauty-053.jpg",
+    "alt": "NACIFIC Fresh Herb Origin Serum, 50 mL",
+    "sourceUrl": "https://nacific.com.au/products/fresh-herb-origin-serum",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0667/5329/8666/products/365cb2b06b39793084801cf4651f66d3.jpg?v=1665639771&width=800",
+    "bytes": 17762,
+    "sha256": "79fe6f30b349d30289904398d9a892948de0eb93e4e2e2a4db038672a6c5835a"
+  },
+  "kbeauty-054": {
+    "src": "assets/products/kbeauty-054.jpg",
+    "alt": "NACIFIC Fresh Herb Origin Cream, 50 mL",
+    "sourceUrl": "https://nacific.com.au/products/fresh-herb-origin-cream",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0667/5329/8666/products/a75d3204aaed3ed3c3da80384676d2e1.jpg?v=1667889583&width=800",
+    "bytes": 15904,
+    "sha256": "0f22c04bb1026ee32dda05f22fc6357b7200ba12f13f874b848147c7b94c18e2"
+  },
+  "kbeauty-055": {
+    "src": "assets/products/kbeauty-055.jpg",
+    "sourceUrl": "https://misshaus.com/products/time-revolution-the-first-essence-5x",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0526/9559/7243/products/thefirstessence5x-hero.jpg?v=1773694078&width=900",
+    "alt": "MISSHA Time Revolution The First Essence 5X product photograph",
+    "bytes": 19055,
+    "sha256": "a70f58d7e627c5029da387f051e64de7f45cfc3098d6def2f832a23516a092a4"
+  },
+  "kbeauty-056": {
+    "src": "assets/products/kbeauty-056.jpg",
+    "sourceUrl": "https://misshaus.com/products/vita-c-plus-spot-correcting-firming-ampoule-30ml",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0526/9559/7243/products/vita-c-ampule-02.jpg?v=1773694118&width=900",
+    "alt": "MISSHA Vita C Plus Spot Correcting & Firming Ampoule product photograph",
+    "bytes": 44410,
+    "sha256": "3a197a9b716bc78ce506a37214d8e58eb453b98e9151a60bf2012587bc432931"
+  },
+  "kbeauty-057": {
+    "src": "assets/products/kbeauty-057.png",
+    "sourceUrl": "https://tirtir.global/products/flawless-pore-prep-primer?variant=48634525810907",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0663/2757/6795/files/thumbnail_flawless-pore-prep-primer1_2_2.png?v=1786067937&width=800",
+    "alt": "TIRTIR Flawless Pore Prep Primer, official product photograph",
+    "bytes": 161370,
+    "sha256": "82b2f7433621a630a81a6ea21067be3780a37d8140e23a4b7c8de5f8575533b9",
+    "note": "Official storefront product/variant image; colors are a visual reference, not a verified shade match."
+  },
+  "kbeauty-058": {
+    "src": "assets/products/kbeauty-058.png",
+    "sourceUrl": "https://tirtir.global/products/reflect-glow-prep-primer?variant=48631508795611",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0663/2757/6795/files/thumbnail_reflect-glow-prep-primer3_2.png?v=1786067937&width=800",
+    "alt": "TIRTIR Reflect Glow Prep Primer, official product photograph",
+    "bytes": 179259,
+    "sha256": "975b5e2016d949b3aeeed5426da8274643756a322efc6e7eb6604f3860888ffb",
+    "note": "Official storefront product/variant image; colors are a visual reference, not a verified shade match."
+  },
+  "kbeauty-059": {
+    "src": "assets/products/kbeauty-059.png",
+    "sourceUrl": "https://tirtir.global/products/mask-fit-red-foundation?variant=46765534609627",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0663/2757/6795/files/10c_95135b51-f3ac-4736-8709-dd17dbc4109e.png?v=1770794327&width=800",
+    "alt": "TIRTIR Mask Fit Red Foundation in 10C Shell, official product photograph",
+    "bytes": 263716,
+    "sha256": "e36fb95a45a8c9a9519d541c4268a7a9fbac443ab258da742bd3b08dcd3587ce",
+    "note": "Official storefront product/variant image; colors are a visual reference, not a verified shade match."
+  },
+  "kbeauty-060": {
+    "src": "assets/products/kbeauty-060.png",
+    "sourceUrl": "https://tirtir.global/products/glide-hide-blurring-concealer?variant=46765742719195",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0663/2757/6795/files/0.5n_2bbdc0ac-482b-459a-9c6b-ef78fb0b96fd.png?v=1770794101&width=800",
+    "alt": "TIRTIR Glide & Hide Blurring Concealer in 0.5 N, official product photograph",
+    "bytes": 293987,
+    "sha256": "8c7bcefa785720018ddd3dda616d0e33aa5fd2fae8e1e31b1f2cc320be775dd4",
+    "note": "Official storefront product/variant image; colors are a visual reference, not a verified shade match."
+  },
+  "kbeauty-061": {
+    "src": "assets/products/kbeauty-061.png",
+    "sourceUrl": "https://tirtir.global/products/mask-fit-ai-filter-cushion?variant=47265818738907",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0663/2757/6795/files/10c_83f91c40-e7ea-46f7-91b8-24397b84f87c.png?v=1770792602&width=800",
+    "alt": "TIRTIR Mask Fit AI Filter Cushion in 10C Shell, official product photograph",
+    "bytes": 565941,
+    "sha256": "1a462e29dc423e9420ecc3d95a8c6e4ffd78dc83433c8a0e4ce34354ca18bb55",
+    "note": "Official storefront product/variant image; colors are a visual reference, not a verified shade match."
+  },
+  "kbeauty-062": {
+    "src": "assets/products/kbeauty-062.png",
+    "sourceUrl": "https://tirtir.global/products/mask-fit-makeup-fixer?variant=45772184977627",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0663/2757/6795/files/Group_788.png?v=1789440244&width=800",
+    "alt": "TIRTIR Mask Fit Makeup Fixer, official product photograph",
+    "bytes": 129374,
+    "sha256": "0f76a1dbf3fdfe7e5da5f05dc5f3fea1e45dc45d7d1aeab59387c1b4ea615108",
+    "note": "Official storefront product/variant image; colors are a visual reference, not a verified shade match."
+  },
+  "kbeauty-063": {
+    "src": "assets/products/kbeauty-063.png",
+    "sourceUrl": "https://amuseseoulmakeup.com/products/ceramic-skin-sebum-powder?variant=51159585685818",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0927/0571/8586/files/01_955f7d8b-7231-4b6d-bf7a-48dd73f2d444.png?v=1756100208&width=800",
+    "alt": "AMUSE Ceramic Skin Sebum Powder in 01 Clear, official product photograph",
+    "bytes": 200621,
+    "sha256": "6a9f97eb7075e70df2ae9303892f75ef6c06db4efbddf5cbd4377f36ee70ebdc",
+    "note": "Official storefront product/variant image; colors are a visual reference, not a verified shade match."
+  },
+  "kbeauty-064": {
+    "src": "assets/products/kbeauty-064.png",
+    "sourceUrl": "https://amuseseoulmakeup.com/products/ceramic-radiant-rice-mist-fixerreal?variant=51155623149882",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0927/0571/8586/files/0cf3bee08111ba13df06ebc4e6a00de9_af7bf6ea-48d5-4f0d-bef0-b0e521db8663.png?v=1744852931&width=800",
+    "alt": "AMUSE Ceramic Radiant Rice Mist & Fixer, official product photograph",
+    "bytes": 131342,
+    "sha256": "a7650cb69152eb7c4232fbdfbae8e6aadd9febb555c79c78141cfe19a4b93ffe",
+    "note": "Official storefront product/variant image; colors are a visual reference, not a verified shade match."
+  },
+  "kbeauty-065": {
+    "src": "assets/products/kbeauty-065.jpg",
+    "sourceUrl": "https://amuseseoulmakeup.com/products/lip-smudger?variant=50932844003642",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0927/0571/8586/files/00_b773044e-8dbb-4ceb-919f-8f356237a9cd.jpg?v=1745835389&width=800",
+    "alt": "AMUSE Lip Smudger in 00 SHADING, official product photograph",
+    "bytes": 39005,
+    "sha256": "6d45e100ab8b0711812768a76e6e89ee24a1fa5420fada8ff69f025631c5dd2d",
+    "note": "Official storefront product/variant image; colors are a visual reference, not a verified shade match."
+  },
+  "kbeauty-066": {
+    "src": "assets/products/kbeauty-066.png",
+    "sourceUrl": "https://amuseseoulmakeup.com/products/face-diamond-highlighter?variant=50768569106746",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0927/0571/8586/files/2.png?v=1744097674&width=800",
+    "alt": "AMUSE Face Diamond Highlighter, official product photograph",
+    "bytes": 510779,
+    "sha256": "fe802e8798342a9cc42b282c6010efa17582632e1e4d75b0efc659ed09083cac",
+    "note": "Official storefront product/variant image; colors are a visual reference, not a verified shade match."
+  },
+  "kbeauty-067": {
+    "src": "assets/products/kbeauty-067.jpg",
+    "sourceUrl": "https://amuseseoulmakeup.com/products/under-eye-volume-pencil?variant=50775416635706",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0927/0571/8586/files/01_ac699f27-1226-45e8-bfb1-7be1cd8263bb.jpg?v=1750828431&width=800",
+    "alt": "AMUSE Under Eye Volume Pencil in 01 BEIGE VOLUME, official product photograph",
+    "bytes": 25953,
+    "sha256": "4870d7c4aa8e167b98509e98365168e8ecebdedec705ede95c3fb70a83346db4",
+    "note": "Official storefront product/variant image; colors are a visual reference, not a verified shade match."
+  },
+  "kbeauty-068": {
+    "src": "assets/products/kbeauty-068.jpg",
+    "sourceUrl": "https://amuseseoulmakeup.com/products/lip-and-cheek-healthy-balm?variant=50951667876154",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0927/0571/8586/files/01_95911330-0ccb-43f7-9caf-eb4e36ac3afa.jpg?v=1750821254&width=800",
+    "alt": "AMUSE Lip And Cheek Healthy Balm in 01 BOKSOONGA BALM, official product photograph",
+    "bytes": 60298,
+    "sha256": "381d0c5bf3ea892bcda02e5dfe59a428a658cebad705d8038713bc16b9ca85fc",
+    "note": "Official storefront product/variant image; colors are a visual reference, not a verified shade match."
+  },
+  "kbeauty-069": {
+    "src": "assets/products/kbeauty-069.png",
+    "sourceUrl": "https://amuseseoulmakeup.com/products/dew-tint?variant=50986201219386",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0927/0571/8586/files/01_927976db-e9cc-45f3-8165-1d64b17a621a.png?v=1744792021&width=800",
+    "alt": "AMUSE Dew Tint in 01 LA VIE EN CORAL, official product photograph",
+    "bytes": 129543,
+    "sha256": "cc3898eddf83e092b853aaadf8c73208ce2dde7a4eda805d40705b1d3c4b1478",
+    "note": "Official storefront product/variant image; colors are a visual reference, not a verified shade match."
+  },
+  "kbeauty-070": {
+    "src": "assets/products/kbeauty-070.jpg",
+    "sourceUrl": "https://clubclio.shop/products/clio-kill-cover-founwear-foundation?variant=44418616230119",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0310/4925/3001/products/2lingerie_05dc18b3-f135-4720-bda2-d3e7df118010.jpg?v=1678850539&width=800",
+    "alt": "CLIO Kill Cover Founwear Foundation in 2 Lingerie, official product photograph",
+    "bytes": 28047,
+    "sha256": "c6a409edd6f48b59b5df162a4fd4e54bb56ba9330ac79983385b325af54ee15f",
+    "note": "Official storefront product/variant image; colors are a visual reference, not a verified shade match."
+  },
+  "kbeauty-071": {
+    "src": "assets/products/kbeauty-071.jpg",
+    "sourceUrl": "https://clubclio.shop/products/clio-kill-cover-mesh-glow-cushion-set-refill?variant=45856715112679",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0310/4925/3001/files/667499a54cb75f64757d49c449e22b1f.jpg?v=1769480871&width=800",
+    "alt": "CLIO Kill Cover Mesh Glow Essential Cushion Foundation in 19C Light / 1, official product photograph",
+    "bytes": 34135,
+    "sha256": "b3110c68c00225ea03900b877c618f8c255e67d7d8a806352372414c0340a9a3",
+    "note": "Official storefront product/variant image; colors are a visual reference, not a verified shade match."
+  },
+  "kbeauty-072": {
+    "src": "assets/products/kbeauty-072.jpg",
+    "sourceUrl": "https://clubclio.shop/products/copy-of-clio-kill-cover-airy-fit-concealer?variant=48002262499559",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0310/4925/3001/files/23fde38d61432f1b318ac21706723c7d.jpg?v=1698204242&width=800",
+    "alt": "CLIO KILL COVER FOUNWEAR CONCEALER in 2 Lingerie, official product photograph",
+    "bytes": 35961,
+    "sha256": "968f31339e295cd0b030d8d38c2dc457e67c3d3027be4b991cfa1b25c90efc0a",
+    "note": "Official storefront product/variant image; colors are a visual reference, not a verified shade match."
+  },
+  "kbeauty-073": {
+    "src": "assets/products/kbeauty-073.jpg",
+    "sourceUrl": "https://clubclio.shop/products/copy-of-clio-chiffon-blur-tint?variant=47991504044263",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0310/4925/3001/files/p1_aeb94175-3fc6-48b9-97bf-460498f39dfe.jpg?v=1698054778&width=800",
+    "alt": "CLIO VELVET LIP PENCIL SET in 001 ROSY PINK, official product photograph",
+    "bytes": 31426,
+    "sha256": "f5f1aa4b4cde7cb5200b155bc0423e09292fba7654639df15c98f20080df3715",
+    "note": "Official storefront product/variant image; colors are a visual reference, not a verified shade match."
+  },
+  "kbeauty-074": {
+    "src": "assets/products/kbeauty-074.jpg",
+    "sourceUrl": "https://clubclio.shop/products/clio-pro-eye-palette-air?variant=51749995774183",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0310/4925/3001/files/667499a54cb75f64757d49c449e22b1f_72a0c0c1-85b9-4f2c-9166-8cbd788f326e.jpg?v=1769481862&width=800",
+    "alt": "CLIO Pro Eye Palette Air in 09 Peach Mate Apple, official product photograph",
+    "bytes": 102349,
+    "sha256": "fdc1d98e2b3fafcb5aa6c1684b5576c97c450927362a4418f90615286cab68d1",
+    "note": "Official storefront product/variant image; colors are a visual reference, not a verified shade match."
+  },
+  "kbeauty-075": {
+    "src": "assets/products/kbeauty-075.jpg",
+    "sourceUrl": "https://clubclio.shop/products/clio-chiffon-blur-tint?variant=45337121194215",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0310/4925/3001/products/1peachbebe.jpg?v=1701744214&width=800",
+    "alt": "CLIO Chiffon Blur Tint in 1 Peach Bebe, official product photograph",
+    "bytes": 37313,
+    "sha256": "3f68c2dcd84cb7bc6d40a0c51266d24f925dd1c567e983882075d09a91caeb91",
+    "note": "Official storefront product/variant image; colors are a visual reference, not a verified shade match."
+  },
+  "kbeauty-076": {
+    "src": "assets/products/kbeauty-076.jpg",
+    "sourceUrl": "https://clubclio.shop/products/clio-crystal-glam-tint?variant=47257586991335",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0310/4925/3001/products/001.jpg?v=1690357516&width=800",
+    "alt": "CLIO Crystal Glam Tint in 001 VINTAGE APPLE, official product photograph",
+    "bytes": 36506,
+    "sha256": "50fdb2f9c8143af352b9be29b7b97d40f8ee8d90ed8a40bcedd8f8306e2ba15b",
+    "note": "Official storefront product/variant image; colors are a visual reference, not a verified shade match."
+  },
+  "kbeauty-077": {
+    "src": "assets/products/kbeauty-077.jpg",
+    "sourceUrl": "https://clubclio.shop/products/clio-extreme-gelpresso-pencil-liner?variant=45337217728743",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0310/4925/3001/products/1blackbrown.jpg?v=1678255609&width=800",
+    "alt": "CLIO Extreme Gelpresso Pencil Liner in 1 Black Brown, official product photograph",
+    "bytes": 28879,
+    "sha256": "58d28c523f5f84963f5495c50e75f470ee04f1680ec8ea1b85a7b64acfda7923",
+    "note": "Official storefront product/variant image; colors are a visual reference, not a verified shade match."
+  },
+  "kbeauty-078": {
+    "src": "assets/products/kbeauty-078.jpg",
+    "sourceUrl": "https://clubclio.shop/products/clio-superproof-brush-liner?variant=45029283397863",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0310/4925/3001/products/1black_d0e45983-d616-4deb-a5d8-d52f1a0d6d17.jpg?v=1670480873&width=800",
+    "alt": "CLIO Superproof Brush Liner in 1 Black, official product photograph",
+    "bytes": 29912,
+    "sha256": "45e89ea6b2c9a3fad02ad962a8ad79656e4d21fd22611f75e0cffbd9a8da1e19",
+    "note": "Official storefront product/variant image; colors are a visual reference, not a verified shade match."
+  },
+  "kbeauty-079": {
+    "src": "assets/products/kbeauty-079.jpg",
+    "sourceUrl": "https://clubclio.shop/products/clio-prism-highlighter-duo-used-by-stray-kids?variant=45029262262503",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0310/4925/3001/products/1creamfizz.jpg?v=1670479541&width=800",
+    "alt": "CLIO Prism Highlighter Duo in 1 Cream Fizz, official product photograph",
+    "bytes": 87935,
+    "sha256": "32b8e60f3def20bd5c3a56de73cf3570c195125129149c262432b88553451484",
+    "note": "Official storefront product/variant image; colors are a visual reference, not a verified shade match."
+  },
+  "kbeauty-080": {
+    "src": "assets/products/kbeauty-080.jpg",
+    "sourceUrl": "https://clubclio.shop/products/clio-kill-brow-auto-hard-brow-pencil-edge-slim?variant=43691886608615",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0310/4925/3001/products/1naturalbrown.jpg?v=1670291162&width=800",
+    "alt": "CLIO Kill Brow Auto Hard Brow Pencil Edge Slim in 01 Natural Brown, official product photograph",
+    "bytes": 23351,
+    "sha256": "53089befde5071fc339546c4c0d0be2fa97b023e23e0c29a4193d5c7626df3be",
+    "note": "Official storefront product/variant image; colors are a visual reference, not a verified shade match."
+  },
+  "kbeauty-081": {
+    "src": "assets/products/kbeauty-081.jpg",
+    "sourceUrl": "https://clubclio.shop/products/peripera-ink-v-shading?variant=45029345525991",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0310/4925/3001/products/1_44c821db-0227-4216-9165-a6102f9ca5a7.jpg?v=1677740369&width=800",
+    "alt": "peripera Ink V Shading in 1 Natural Brown, official product photograph",
+    "bytes": 65952,
+    "sha256": "2465f40cee634e5fdd9c22ec8e533bd8fcf6a9adaea2f2d7a85cedab6f5d2610",
+    "note": "Official storefront product/variant image; colors are a visual reference, not a verified shade match."
+  },
+  "kbeauty-082": {
+    "src": "assets/products/kbeauty-082.jpg",
+    "sourceUrl": "https://clubclio.shop/products/peripera-all-take-mood-like-palette?variant=47302843564263",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0310/4925/3001/products/1_85ddd46a-ae14-4f87-8037-a3b92cd52919.jpg?v=1695715087&width=800",
+    "alt": "peripera All Take Mood Like Palette in 01 Prestige Pink, official product photograph",
+    "bytes": 39614,
+    "sha256": "f2108100600d569362a74944b9974e29414e738e3c0630ae67a0ccc1c24e76e1",
+    "note": "Official storefront product/variant image; colors are a visual reference, not a verified shade match."
+  },
+  "kbeauty-083": {
+    "src": "assets/products/kbeauty-083.jpg",
+    "sourceUrl": "https://clubclio.shop/products/peripera-sugar-twinkle-duo-eye-stick?variant=46502415991015",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0310/4925/3001/products/1_0819728f-5aa2-4a6d-896d-98d54df4c082.jpg?v=1677743244&width=800",
+    "alt": "peripera Sugar Twinkle Duo Eye Stick in 1 Dewy Nude, official product photograph",
+    "bytes": 29913,
+    "sha256": "ea859c5f9848df0f2818c59b75483a52a7ce99f40c6c83431292e3ecaec27e99",
+    "note": "Official storefront product/variant image; colors are a visual reference, not a verified shade match."
+  },
+  "kbeauty-084": {
+    "src": "assets/products/kbeauty-084.jpg",
+    "sourceUrl": "https://clubclio.shop/products/peripera-ink-glasting-lip-gloss?variant=44897005961447",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0310/4925/3001/products/1-1.jpg?v=1690959307&width=800",
+    "alt": "peripera Ink Glasting Lip Gloss in 1 Clear, official product photograph",
+    "bytes": 29783,
+    "sha256": "218a7b33575360b7d4db2bc9c5a643fb721b92b8a93a6ad7b6cdee60a83cd755",
+    "note": "Official storefront product/variant image; colors are a visual reference, not a verified shade match."
+  },
+  "kbeauty-085": {
+    "src": "assets/products/kbeauty-085.jpg",
+    "sourceUrl": "https://clubclio.shop/products/peripera-ink-black-cara?variant=43691295146215",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0310/4925/3001/products/1longlash.jpg?v=1670483100&width=800",
+    "alt": "peripera Ink Black Cara in 01 Long Lash Curling, official product photograph",
+    "bytes": 29104,
+    "sha256": "2b8b4fe4fa8d0e378765cb138c8e512daebe525a0903d541995bcf12c7ce3b52",
+    "note": "Official storefront product/variant image; colors are a visual reference, not a verified shade match."
+  },
+  "kbeauty-086": {
+    "src": "assets/products/kbeauty-086.jpg",
+    "sourceUrl": "https://clubclio.shop/products/peripera-speedy-skinny-brow?variant=45344550224103",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0310/4925/3001/products/1graybrown.jpg?v=1676526296&width=800",
+    "alt": "peripera Speedy Skinny Brow in 1 Gray Brown, official product photograph",
+    "bytes": 18076,
+    "sha256": "e959fdeff98167c17da675a43d3cac0323d8cb65e4e0c150825403fdde81e480",
+    "note": "Official storefront product/variant image; colors are a visual reference, not a verified shade match."
+  },
+  "kbeauty-087": {
+    "src": "assets/products/kbeauty-087.png",
+    "sourceUrl": "https://romandbeauty.com/products/better-than-palette?variant=43062400352331",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0598/8578/1067/files/00.png?v=1787495241&width=800",
+    "alt": "rom&nd Better Than Palette in 00 Light & Glitter Garden, official product photograph",
+    "bytes": 219207,
+    "sha256": "23cd7ee09bdafbde56bfc0270d3160fe44ac92c3d849513a4a2fa6148c275a70",
+    "note": "Official storefront product/variant image; colors are a visual reference, not a verified shade match."
+  },
+  "kbeauty-088": {
+    "src": "assets/products/kbeauty-088.jpg",
+    "sourceUrl": "https://romandbeauty.com/products/han-all-brow-cara?variant=41703842086987",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0598/8578/1067/files/01_brow_cara_grace_taupe_0.jpg?v=1770160570&width=800",
+    "alt": "rom&nd HAN ALL BROW CARA in Grace Taupe, official product photograph",
+    "bytes": 45152,
+    "sha256": "7641ed9e31dad41fee97d2213548eba0ef785b7cd3079eee79b80fcbb8a0b947",
+    "note": "Official storefront product/variant image; colors are a visual reference, not a verified shade match."
+  },
+  "kbeauty-089": {
+    "src": "assets/products/kbeauty-089.jpg",
+    "sourceUrl": "https://romandbeauty.com/products/juicy-roll-cheek?variant=41633180844107",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0598/8578/1067/files/01_RARE_APPLE_1.jpg?v=1770657185&width=800",
+    "alt": "rom&nd JUICY ROLL CHEEK in RARE APPLE, official product photograph",
+    "bytes": 65065,
+    "sha256": "17bc9cb01de3fa63ff33b7a49e99d81a7cf3b2e38b29e857a394ce9d0cb1744a",
+    "note": "Official storefront product/variant image; colors are a visual reference, not a verified shade match."
+  },
+  "kbeauty-090": {
+    "src": "assets/products/kbeauty-090.jpg",
+    "sourceUrl": "https://romandbeauty.com/products/rom-nd-lip-mate-pencil?variant=41441654636619",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0598/8578/1067/files/3_73b9162d-dd21-48d8-a757-5d935b8ebf01.jpg?v=1761889938&width=800",
+    "alt": "rom&nd LIP MATE PENCIL in KAYA BEIGE, official product photograph",
+    "bytes": 56661,
+    "sha256": "881a14f7f3df431b850a15ef506f0454c99945c115df025c4030f7beab9ae714",
+    "note": "Official storefront product/variant image; colors are a visual reference, not a verified shade match."
+  },
+  "kbeauty-091": {
+    "src": "assets/products/kbeauty-091.jpg",
+    "sourceUrl": "https://romandbeauty.com/products/blur-fudge-tint?variant=41441653620811",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0598/8578/1067/files/01_POMELOCO_1.jpg?v=1771900266&width=800",
+    "alt": "rom&nd BLUR FUDGE TINT in POMELOCO, official product photograph",
+    "bytes": 49968,
+    "sha256": "5280765d45c8410fec3c3572e2c59b40c2e6de802f8e43a9e1bf0b9da8d58d6b",
+    "note": "Official storefront product/variant image; colors are a visual reference, not a verified shade match."
+  },
+  "kbeauty-092": {
+    "src": "assets/products/kbeauty-092.png",
+    "sourceUrl": "https://romandbeauty.com/products/glasting-color-gloss?variant=41341796679755",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0598/8578/1067/files/GLASTING_COLOR_GLOSS_01_PEONY_BALLET_1.png?v=1758196200&width=800",
+    "alt": "rom&nd GLASTING COLOR GLOSS in PEONY BALLET, official product photograph",
+    "bytes": 78939,
+    "sha256": "7a677e27c6f1a421ed0f03cb432e37068c28eb719d6f0f750cca78bebe27decb",
+    "note": "Official storefront product/variant image; colors are a visual reference, not a verified shade match."
+  },
+  "kbeauty-093": {
+    "src": "assets/products/kbeauty-093.jpg",
+    "sourceUrl": "https://romandbeauty.com/products/han-all-fix-mascara?variant=41341786914891",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0598/8578/1067/files/UHMC02_VOLUME_BLACK_1.jpg?v=1770108459&width=800",
+    "alt": "rom&nd HAN ALL FIX MASCARA in VOLUME BLACK, official product photograph",
+    "bytes": 47814,
+    "sha256": "ec9eb3c79d051cdb48e1ba3016dbc69ce5eaefb40776e623ad8b087c46973cf7",
+    "note": "Official storefront product/variant image; colors are a visual reference, not a verified shade match."
+  },
+  "kbeauty-094": {
+    "src": "assets/products/kbeauty-094.jpg",
+    "sourceUrl": "https://misshaus.com/products/m-bb-boomer?variant=46249291088059",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0526/9559/7243/files/CopyofCopyofCopyof__40ml.jpg?v=1785186078&width=800",
+    "alt": "MISSHA M BB Boomer Primer, official product photograph",
+    "bytes": 25306,
+    "sha256": "c79d42a55c2ae806c7bdc0fae9dd7bf6d96d538a97dd8ba89acd777cff037e18",
+    "note": "Official storefront product/variant image; colors are a visual reference, not a verified shade match."
+  },
+  "kbeauty-095": {
+    "src": "assets/products/kbeauty-095.jpg",
+    "sourceUrl": "https://misshaus.com/products/airy-pot-pressed-powder-pact?variant=44732601008315",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0526/9559/7243/products/airypottranslucent_1482dd2f-fc56-4675-9b31-f55a44e03af4.jpg?v=1707839890&width=800",
+    "alt": "MISSHA Airy Pot Pressed Powder Pact in Translucent, official product photograph",
+    "bytes": 21272,
+    "sha256": "e26affb941487bf40d2a8c18911fb162922ea6331f38e8cd4a214a37fa47efab",
+    "note": "Official storefront product/variant image; colors are a visual reference, not a verified shade match."
+  },
+  "kbeauty-096": {
+    "src": "assets/products/kbeauty-096.jpg",
+    "sourceUrl": "https://misshaus.com/products/missha-dewy-rouge?variant=46412668240059",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0526/9559/7243/files/fairydream.jpg?v=1736978107&width=800",
+    "alt": "MISSHA Dewy Rouge in [PK01] Fairy Dream, official product photograph",
+    "bytes": 32806,
+    "sha256": "aa00d8cb6c729f82ababa2e389e42a0386d565b1de14cd755d8a9e0527ca4d58",
+    "note": "Official storefront product/variant image; colors are a visual reference, not a verified shade match."
+  },
+  "kbeauty-097": {
+    "src": "assets/products/kbeauty-097.png",
+    "sourceUrl": "https://misshaus.com/products/m-perfect-cover-bb-cream-spf-42-pa-50ml-new?variant=41098658054331",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0526/9559/7243/files/Red13.png?v=1785175963&width=800",
+    "alt": "MISSHA M Perfect Cover BB Cream SPF 42 PA+++(50ml) in #13 Bright Beige, official product photograph",
+    "bytes": 208940,
+    "sha256": "c70109ebfcb97c426af1aee88cde1f1680f6fa603f132c0c8ca6db7a2adcfbba",
+    "note": "Official storefront product/variant image; colors are a visual reference, not a verified shade match."
+  },
+  "kbeauty-098": {
+    "src": "assets/products/kbeauty-098.jpg",
+    "sourceUrl": "https://misshaus.com/products/m-magic-cushion?variant=38039377969339",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0526/9559/7243/files/magiccushion-25.jpg?v=1773694417&width=800",
+    "alt": "MISSHA M Magic Cushion in #25 Warm Beige, official product photograph",
+    "bytes": 91922,
+    "sha256": "ae52bb526e4fdd2cb4617019fdfdc13e2ce0cf1657d4fc9c0ac62181cbecf36b",
+    "note": "Official storefront product/variant image; colors are a visual reference, not a verified shade match."
+  }
+}

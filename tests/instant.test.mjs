@@ -144,7 +144,7 @@ test('invalid profile constraints return an explicit error with no replacement r
 });
 
 test('the reviewed catalog yields immediate pending starter cards without photo analysis', async () => {
-  const catalog = JSON.parse(await readFile(new URL('../outputs/01a10dc6-c4fa-7151-8ca8-26510505dbce/korean-cosmetics-catalog.json', import.meta.url)));
+  const catalog = JSON.parse(await readFile(new URL('../web/data/catalog.json', import.meta.url)));
   const evidence = JSON.parse(await readFile(new URL('../web/data/evidence.json', import.meta.url)));
   const plain = getInstantRecommendations(createInstantProfile(), catalog, evidence);
   assert.equal(plain.cards.length, 3);

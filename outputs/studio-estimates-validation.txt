@@ -1,0 +1,45 @@
+Dewdrop: best-effort skin estimates and in-place photo explorer
+Validation date: 2026-10-05 (America/Los_Angeles)
+
+Automated validation
+- node --test --test-reporter=spec tests/*.test.mjs: 223 passed, 0 failed.
+- Full output: outputs/studio-estimates-tests.txt.
+- Adaptive small/soft/noisy-image estimates, unreadable-pixel handling, synthetic
+  pores/color/lines/reflections, actual pixel sampling and image-to-product rules.
+- All-seven-region navigation, crop bounds, exact scroll restoration, accessible
+  tabs, chosen-style integration and two distinct artist references per region.
+- Offline vision: 9 assets, 26,196,313 bytes, pinned checksums verified.
+- Product images: 98 photographs, 8.5 MiB, provenance and checksums verified.
+
+Browser validation
+- Local app, actual bundled MediaPipe inference with the public MediaPipe portrait.
+- Four results rendered as estimates: pore appearance, pigment appearance,
+  fine lines and moisture/visible finish. No routine clearer-photo refusal.
+- Desktop coordinate click: page scrollY 134 before and after selecting Brows.
+- Mobile viewport 390 x 844: page scrollY 361.3333435058594 before and after
+  selecting Lips; workspace remained 540 pixels tall.
+- Mobile inspector scroll: internal scrollTop 0 -> 422; page scrollY unchanged.
+- K-pop tab switch retained page scroll and reset the internal pane to the top.
+- ArrowLeft from K-pop selected and focused Products.
+- Mobile close-up: 102 x 127.5 pixels at 0.8 aspect, beside a 216.67-pixel
+  inspector; source crop remains local to the selected area, not a tall face strip.
+- No horizontal page overflow (document width 375 within viewport width 390).
+- All areas menu reached Visible texture; Products showed three qualifying
+  moisturizer alternatives without changing the saved profile or planned kit.
+- K-pop showed Felix and Jennie complexion references from bundled licensed photos.
+- Explore this look opened Felix's Complexion detail; Try this direction opened
+  Barely there with a separate explicit Use these preferences action.
+- Browser error log was empty. Temporary viewport override reset after testing.
+
+APK
+- scripts/build-android.ps1 completed with the installed local Android toolchain.
+- Signature schemes v2 and v3 verified; alignment verified by the build.
+- Every bundled web asset verified against source SHA-256, including new modules.
+- outputs/Dewdrop-debug.apk
+- SHA256: e46e1d75bc975e2e4d55e0157a7f42cade5259b66d188812c1adc4e7d3406af3
+
+Limits
+- Software behavior validation is not clinical validation. Moisture means visible
+  finish, not measured water content; fine-line sampling currently covers cheeks.
+- K-pop references illustrate makeup directions; they do not predict a new face.
+- No physical Android device was available for installation/camera smoke testing.

@@ -1,5 +1,14 @@
 Dewdrop third-party assets
 
+Product photographs
+The photographs in web/assets/products are sourced from official brand stores
+and the catalog's retailers. Copyright remains with the respective rights holders;
+these images are not covered by the MediaPipe license below.
+web/data/product-images.json records each product's source page, original image
+URL, local path, and SHA-256 checksum. Images may be resized or recompressed for
+the offline catalog. Source links and any variant limitations appear in the app's
+product details. No generated product illustrations are used for catalog photos.
+
 MediaPipe Tasks Vision 0.10.35
 Copyright The MediaPipe Authors / Google LLC.
 License: Apache License, Version 2.0.
@@ -44,3 +53,14 @@ Node test suite does not require it.
 Source: https://storage.googleapis.com/mediapipe-assets/portrait.jpg
 Upstream use: https://github.com/google-ai-edge/mediapipe/blob/master/mediapipe/tasks/python/test/vision/face_landmarker_test.py
 SHA-256: a6f11efaa834706db23f275b6115058fa87fc7f14362681e6abe14e82749de3e
+
+K-pop style reference photographs
+The thirteen event/airport/performance photographs in web/assets/looks are bundled as editorial
+style references under CC BY 3.0, with original bytes preserved. Each photograph
+has its creator, source page, license URL, dimensions, and SHA-256 recorded in
+web/data/kpop-looks.json. Full per-photo attribution is bundled in
+web/assets/looks/ATTRIBUTION.txt and shown with source/license links in the app.
+Region views crop the displayed source photograph; they do not change the stored
+image. Style notes and product-category alternatives are editorial suggestions.
+Separate sourced campaign links do not identify products worn in an event photo.
+Image licenses do not establish artist endorsement or a model release.

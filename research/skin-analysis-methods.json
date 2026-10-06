@@ -1,0 +1,31 @@
+{
+  "reviewed_on": "2026-10-05",
+  "purpose": "Scope the offline cosmetic-photo prototype; these sources do not validate its algorithms or thresholds.",
+  "sources": [
+    {
+      "title": "Courage + Khazaka scientific measurement instruments",
+      "url": "https://www.courage-khazaka.com/en/scientific-products/all-products",
+      "observations": [
+        "The manufacturer distinguishes hydration measurement with a Corneometer, gloss measurement, sebum measurement, and melanin/erythema reflectance measurement.",
+        "MoistureMap uses capacitance imaging; a conventional RGB photo is not that sensor."
+      ]
+    },
+    {
+      "title": "Canfield Scientific VISIA-CR",
+      "url": "https://www.canfieldsci.com/imaging-systems/visia-cr/",
+      "observations": [
+        "Specialized facial analysis uses controlled lighting modalities and standardized capture.",
+        "The system distinguishes spot contrast, texture, dark circular pore appearance, wrinkles, and specialized UV or polarized observations."
+      ]
+    }
+  ],
+  "implementation_scope": [
+    "Heuristic image features within central cheek samples only; this is not a validated biological pore, pigment, or wrinkle detector.",
+    "Compact dark texture and line-like contrast may come from facial hair, shadows, makeup, filters, or compression.",
+    "Any feature width is in the analyzed image pixels; there is no physical scale calibration or millimeter pore size.",
+    "Visible color variation does not determine melanin concentration, a pigment disorder, or a diagnosis.",
+    "Moisture appearance is a best-effort visible-finish estimate from reflection cues, not actual water content or a hydration percentage. User-reported skin feel remains independent.",
+    "Resolution, focus, pose, lighting and noise qualify readable-image estimates instead of routinely withholding them. Invalid or unreadable pixels still cannot produce an estimate. A subtle signal does not prove absence of pores, pigment, or wrinkles.",
+    "No skin-health score, calibrated confidence, age estimate, treatment claim, automatic active-ingredient choice, or persistent photo/measurement storage."
+  ]
+}

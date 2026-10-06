@@ -1,0 +1,34 @@
+Dewdrop skin appearance extension — validated October 5, 2026 (America/Los_Angeles)
+
+Automated: node --test --test-reporter=spec tests/*.test.mjs
+205 tests passed; 0 failed. Detailed output: outputs/skin-analysis-tests.txt.
+Coverage includes four metric contracts, actual synthetic pixel changes, dark/light colors,
+dot/color-patch/straight-line/diagonal-line/highlight separation, lighting gradients,
+low resolution, pose, clipping, transparent/invalid pixels, grain and invalid UI payloads.
+An independent reviewer reran noise and structured-detail cases with another random seed.
+
+Browser: production app at http://127.0.0.1:4173 via Codex browser.
+Public fixture: tests/fixtures/mediapipe-portrait.jpg; real bundled face-model worker.
+Verified seven regions / three markers plus four skin cards. Low-resolution cheek
+detail was withheld, with a retake reason, instead of inventing observations.
+Expanded pore card shows separate image-left/image-right original-photo cheek crops.
+Moisture always says it cannot measure hydration from the photo.
+Add your skin feel opens the existing visible skin-feel preference input.
+Viewport 390 x 844: clientWidth=375, scrollWidth=375 (no horizontal overflow).
+No browser warning/error logs. Temporary viewport override reset after QA.
+Observed-detail UI cases and numeric diameter labels are covered by rendering tests;
+the public portrait smoke test exercises the unavailable-detail path.
+
+Android: scripts/build-android.ps1 completed.
+Verified 9 pinned offline vision assets and all 98 product photographs.
+APK v2/v3 signatures and alignment passed; every packaged web asset hash matches source.
+APK: outputs/Dewdrop-debug.apk
+SHA256: a7aaeb734aa9d0914fdcb323d0c96e45d7d5e96b2ecaafb50acd90334fd26ae0
+The first sandboxed build failed resolving android.jar; the same local build succeeded
+with approved expanded sandbox access. No remote service or dependency install used.
+
+Limits: unvalidated cosmetic appearance heuristics in central-cheek samples only.
+Image-pixel texture size is not physical pore size. No pigment disorder, wrinkle depth,
+forehead/eye-area assessment, moisture percentage or skin-health score is produced.
+Photos and derived measurements remain session-only; no cloud image transfer.
+No physical Android phone/emulator was available for installation or camera testing.

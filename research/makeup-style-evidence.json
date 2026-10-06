@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "reviewedOn": "2026-10-05",
+  "scope": "Supplemental cosmetic appearance mappings for curated guides. These do not change identity, ingredients, removal, exclusion or personal suitability gates.",
+  "patches": [
+    {
+      "productId": "kbeauty-074",
+      "exactShade": "09 Peach Mate Apple",
+      "trait": "chosen_effect",
+      "values": ["soft_color"],
+      "basis": "editorial inference",
+      "url": "https://clubclio.shop/products/clio-pro-eye-palette-air?variant=51749995774183",
+      "note": "Official page describes twelve wearable eye shades, smooth blending and a base-then-depth application. Mapped to softly blended eye color as a cosmetic technique, not a guaranteed result or personal shade match. The palette contains mixed finishes; no single finish is assigned."
+    },
+    {
+      "productId": "kbeauty-082",
+      "exactShade": "01 Prestige Pink",
+      "trait": "chosen_effect",
+      "values": ["soft_color"],
+      "basis": "editorial inference",
+      "url": "https://clubclio.shop/products/peripera-all-take-mood-like-palette?variant=47302843564263",
+      "note": "Official page identifies a shadow, blush and highlighter palette and instructs even eye-color application with a brush or finger. Mapped to a softly applied wash of eye color; this is an editorial technique choice, not a personal shade match or a finish claim."
+    },
+    {
+      "productId": "kbeauty-093",
+      "exactShade": "VOLUME BLACK",
+      "trait": "chosen_effect",
+      "values": ["volume"],
+      "basis": "brand fact",
+      "url": "https://romandbeauty.com/products/han-all-fix-mascara?variant=41341786914891",
+      "note": "Official page distinguishes the Volume type for a fuller lash appearance from the Long type. This mapping applies only to the selected VOLUME BLACK variant and records its stated cosmetic purpose, not a promised outcome."
+    }
+  ],
+  "reviewNotes": [
+    {
+      "productId": "kbeauty-032",
+      "url": "https://www.etudehouse.com/jp/ja/campaign/Fixing_Tint/",
+      "finding": "The official ETUDE shade description calls Midnight Mauve a mauve pink. Its existing pink mapping is retained; soft_smoky now requests pink rather than inventing a rose mapping. Regional ingredient and identity checks are not transferred."
+    },
+    {
+      "productId": "kbeauty-049",
+      "urls": [
+        "https://www.espoir.com/ko/shop/shop_prd_view.do?i_sProductcd=125107173",
+        "https://us.oliveyoung.com/products/UA20210772"
+      ],
+      "finding": "The brand describes the named Hushed Cherry shade as cherry red on a 5.5g listing, whereas the catalog uses a current US 4g listing. Equivalent exact US shade evidence was not established in this review. Color-family evidence remains unknown; statement_lip is browsing inspiration and does not clear the red preference or regional identity."
+    }
+  ]
+}

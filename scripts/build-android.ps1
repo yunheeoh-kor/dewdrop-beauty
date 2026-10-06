@@ -12,12 +12,13 @@ if (-not (Test-Path -LiteralPath (Join-Path $javaRoot 'bin\javac.exe')) -or -not
 }
 $webRoot = Join-Path $projectRoot 'web'
 foreach ($requiredAsset in @(
-    'index.html', 'app.js', 'engine.js', 'camera.js', 'instant.js', 'selfie-ui.js', 'styles.css', 'selfie.css',
+    'index.html', 'startup.js', 'launch.css', 'icon.svg', 'app.js', 'lookbook.js', 'lookbook.css', 'beauty-library.js', 'style-guides.js', 'style-guide-ui.js', 'style-guides.css', 'engine.js', 'camera.js', 'instant.js', 'selfie-ui.js', 'styles.css', 'selfie.css',
     'photo-analysis.js', 'analysis-worker.js', 'photo-measurements.js', 'photo-shortlist.js', 'photo-analysis.css',
+    'capture-worker.js', 'capture-quality.js', 'face-regions.js', 'face-recommendations.js', 'face-studio.js', 'face-studio.css', 'face-style-comparison.js', 'skin-insights.js', 'skin-insights-ui.js',
     'vendor\mediapipe\manifest.json', 'vendor\mediapipe\vision_bundle.mjs', 'vendor\mediapipe\LICENSE.txt',
     'vendor\mediapipe\wasm\vision_wasm_internal.js', 'vendor\mediapipe\wasm\vision_wasm_internal.wasm',
     'vendor\mediapipe\wasm\vision_wasm_nosimd_internal.js', 'vendor\mediapipe\wasm\vision_wasm_nosimd_internal.wasm',
-    'models\face_landmarker.task', 'data\catalog.json', 'data\evidence.json', 'data\recommendation-rules.json'
+    'models\face_landmarker.task', 'data\catalog.json', 'data\evidence.json', 'data\recommendation-rules.json', 'data\kpop-looks.json', 'data\beauty-styles.json', 'assets\looks\ATTRIBUTION.txt'
 )) {
     if (-not (Test-Path -LiteralPath (Join-Path $webRoot $requiredAsset))) { throw "Missing app asset: web/$requiredAsset" }
 }
@@ -33,6 +34,8 @@ $nodeCommand = Get-Command node -CommandType Application -ErrorAction SilentlyCo
 if ($null -eq $nodeCommand) { throw 'Node.js 20 or newer is required to verify the bundled image-analysis assets.' }
 Write-Host 'Verifying pinned offline image-analysis assets...'
 Invoke-Checked $nodeCommand.Source @((Join-Path $PSScriptRoot 'setup-vision.mjs'), '--check')
+Write-Host 'Verifying bundled product photographs...'
+Invoke-Checked $nodeCommand.Source @((Join-Path $PSScriptRoot 'check-product-images.mjs'))
 
 $previousJavaHome = $env:JAVA_HOME
 try {

@@ -51,7 +51,7 @@ function fixture(t) {
         const pixels = new Uint8ClampedArray([11, 22, 33, 255, 44, 55, 66, 255, 77, 88, 99, 255, 111, 122, 133, 255]);
         const context = {
           drawImage(...args) { this.drawn = args; },
-          getImageData(x, y, width, height) { return { width, height, data: pixels }; },
+          getImageData(x, y, width, height) { return { width, height, data: width * height * 4 === pixels.length ? pixels : new Uint8ClampedArray(width * height * 4) }; },
         };
         const canvas = { getContext: () => context, context, pixels };
         canvases.push(canvas);
@@ -127,6 +127,24 @@ test('removing a photo during decode clears image callbacks, URL, and timeout wi
   await Promise.resolve();
   assert.equal(f.workers.length, 0);
   assert.equal(f.canvases.length, 0);
+});
+
+test('1920-pixel portrait and landscape photos retain their full detail in the analysis transfer', async t => {
+  const f = fixture(t);
+  for (const [width, height] of [[1920, 1080], [1080, 1920]]) {
+    const completion = f.analyzer.analyze({ ...PHOTO, width, height });
+    Object.assign(f.images.at(-1), { naturalWidth: width, naturalHeight: height });
+    f.images.at(-1).load();
+    await Promise.resolve();
+    const worker = f.workers.at(-1);
+    const { received, transfer } = worker.posts[0];
+    assert.deepEqual([received.width, received.height, received.pixels.length], [width, height, width * height * 4]);
+    assert.equal(transfer[0].byteLength, 0);
+    worker.emit('result', { analysis: { status: 'ready' } });
+    assert.equal((await completion).status, 'ready');
+    assert.equal(worker.terminations, 1);
+  }
+  assert.equal(f.timers.size, 0);
 });
 
 test('replacing a photo while decoding settles the old request and analyzes only the replacement', async t => {
@@ -242,11 +260,13 @@ test('unsupported browsers and oversized decoded images fail before pixel alloca
   await assert.rejects(f.analyzer.analyze(PHOTO), /updated browser/);
   assert.equal(f.images.length, 0);
   globalThis.Worker = originalWorker;
-  const oversized = f.analyzer.analyze(PHOTO);
-  const rejection = assert.rejects(oversized, /captured or selected in the app/);
-  f.images[0].naturalWidth = 1201;
-  f.images[0].load();
-  await rejection;
+  for (const [width, height] of [[1921, 1080], [1080, 1921]]) {
+    const oversized = f.analyzer.analyze(PHOTO);
+    const rejection = assert.rejects(oversized, /captured or selected in the app/);
+    Object.assign(f.images.at(-1), { naturalWidth: width, naturalHeight: height });
+    f.images.at(-1).load();
+    await rejection;
+  }
   assert.equal(f.canvases.length, 0);
   assert.equal(f.workers.length, 0);
   assert.equal(f.timers.size, 0);

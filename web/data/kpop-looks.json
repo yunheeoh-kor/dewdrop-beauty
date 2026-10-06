@@ -1,0 +1,2031 @@
+{
+  "schemaVersion": 1,
+  "researchedOn": "2026-10-05",
+  "title": "K-pop makeup reference library",
+  "description": "Save the whole look or individual face, eye, brow, cheek, and lip details. Style notes are editorial observations, and product suggestions are inspired alternatives.",
+  "rightsNote": "Photos retain source credits and Creative Commons license links. The library is an editorial reference collection; image licenses do not establish artist endorsement, a model release, or permission to advertise products using an artist’s likeness.",
+  "regionMethod": "Normalized 0–1 crop rectangles were set after visually inspecting each named source photograph. They select display areas and are not facial recognition or a diagnosis.",
+  "productLinkMethod": "Region productIds and productCategories are style-inspired alternatives. productLinks with documented_campaign record separate official promotions and preserve product-family, shade, date, and personal-use limits.",
+  "referenceGroupMethod": "Artist reference groups follow public biographies and official group descriptions, not appearance. They organize references only; every style and product can be explored by anyone.",
+  "styleMethod": "Style IDs describe visible editorial qualities of a particular photograph, not an artist’s identity, exact products, or a verified skincare routine.",
+  "regions": [
+    {
+      "id": "face",
+      "label": "Face / base"
+    },
+    {
+      "id": "eyes",
+      "label": "Eyes"
+    },
+    {
+      "id": "brows",
+      "label": "Brows"
+    },
+    {
+      "id": "cheeks",
+      "label": "Cheeks"
+    },
+    {
+      "id": "lips",
+      "label": "Lips"
+    }
+  ],
+  "artists": [
+    {
+      "id": "felix",
+      "name": "Felix · 필릭스",
+      "group": "Stray Kids",
+      "referenceGroup": "men",
+      "referenceGroupSources": [
+        {
+          "url": "https://straykids.jype.com/profile",
+          "title": "JYP Entertainment — Stray Kids profile",
+          "evidence": "Official profile lists Hyunjin and Felix."
+        },
+        {
+          "url": "https://www.versace.com/om/en/stories/",
+          "title": "Versace — Hyunjin for Holiday 2023 story listing",
+          "evidence": "Official campaign summary describes Hyunjin as a member of the boy group Stray Kids."
+        }
+      ]
+    },
+    {
+      "id": "jennie",
+      "name": "Jennie · 제니",
+      "group": "BLACKPINK",
+      "referenceGroup": "women",
+      "referenceGroupSources": [
+        {
+          "url": "https://ygfamily.com/en/artists/blackpink/profile",
+          "title": "YG Entertainment — BLACKPINK profile",
+          "evidence": "Official member list includes Jisoo and Jennie; awards identify BLACKPINK as a girl group."
+        }
+      ]
+    },
+    {
+      "id": "v",
+      "name": "V · 뷔",
+      "group": "BTS",
+      "referenceGroup": "men",
+      "referenceGroupSources": [
+        {
+          "url": "https://bts.ibighit.com/eng/profile/",
+          "title": "BIGHIT MUSIC — BTS profile",
+          "evidence": "Official profile names V, Jimin, and Jung Kook among the BTS members."
+        },
+        {
+          "url": "https://bts.ibighit.com/eng/discography/detail/hwayangyeonhwa-pt2.html",
+          "title": "BIGHIT MUSIC — The most beautiful moment in life pt.2",
+          "evidence": "Official album introduction describes the BTS members as seven young men."
+        }
+      ]
+    },
+    {
+      "id": "jisoo",
+      "name": "Jisoo · 지수",
+      "group": "BLACKPINK",
+      "referenceGroup": "women",
+      "referenceGroupSources": [
+        {
+          "url": "https://ygfamily.com/en/artists/blackpink/profile",
+          "title": "YG Entertainment — BLACKPINK profile",
+          "evidence": "Official member list includes Jisoo and Jennie; awards identify BLACKPINK as a girl group."
+        }
+      ]
+    },
+    {
+      "id": "jimin",
+      "name": "Jimin · 지민",
+      "group": "BTS",
+      "referenceGroup": "men",
+      "referenceGroupSources": [
+        {
+          "url": "https://bts.ibighit.com/eng/profile/",
+          "title": "BIGHIT MUSIC — BTS profile",
+          "evidence": "Official profile names V, Jimin, and Jung Kook among the BTS members."
+        },
+        {
+          "url": "https://bts.ibighit.com/eng/discography/detail/hwayangyeonhwa-pt2.html",
+          "title": "BIGHIT MUSIC — The most beautiful moment in life pt.2",
+          "evidence": "Official album introduction describes the BTS members as seven young men."
+        }
+      ]
+    },
+    {
+      "id": "wonyoung",
+      "name": "Jang Wonyoung · 장원영",
+      "group": "IVE",
+      "referenceGroup": "women",
+      "referenceGroupSources": [
+        {
+          "url": "https://www.sonymusic.co.jp/artist/IVE/profile/",
+          "title": "Sony Music — IVE profile",
+          "evidence": "Official profile lists Wonyoung and describes IVE within female-artist chart records."
+        }
+      ]
+    },
+    {
+      "id": "hyunjin",
+      "name": "Hyunjin · 현진",
+      "group": "Stray Kids",
+      "referenceGroup": "men",
+      "referenceGroupSources": [
+        {
+          "url": "https://straykids.jype.com/profile",
+          "title": "JYP Entertainment — Stray Kids profile",
+          "evidence": "Official profile lists Hyunjin and Felix."
+        },
+        {
+          "url": "https://www.versace.com/om/en/stories/",
+          "title": "Versace — Hyunjin for Holiday 2023 story listing",
+          "evidence": "Official campaign summary describes Hyunjin as a member of the boy group Stray Kids."
+        }
+      ]
+    },
+    {
+      "id": "karina",
+      "name": "Karina · 카리나",
+      "group": "aespa",
+      "referenceGroup": "women",
+      "referenceGroupSources": [
+        {
+          "url": "https://prtimes.jp/main/html/rd/p/000000496.000005358.html",
+          "title": "SM Entertainment Japan — aespa official website announcement",
+          "evidence": "The company-issued profile lists Karina as a member of the K-pop girl group aespa."
+        }
+      ]
+    },
+    {
+      "id": "jungkook",
+      "name": "Jungkook · 정국",
+      "group": "BTS",
+      "referenceGroup": "men",
+      "referenceGroupSources": [
+        {
+          "url": "https://bts.ibighit.com/eng/profile/",
+          "title": "BIGHIT MUSIC — BTS profile",
+          "evidence": "Official profile names V, Jimin, and Jung Kook among the BTS members."
+        },
+        {
+          "url": "https://bts.ibighit.com/eng/discography/detail/hwayangyeonhwa-pt2.html",
+          "title": "BIGHIT MUSIC — The most beautiful moment in life pt.2",
+          "evidence": "Official album introduction describes the BTS members as seven young men."
+        }
+      ]
+    },
+    {
+      "id": "nayeon",
+      "name": "Nayeon · 나연",
+      "group": "TWICE",
+      "referenceGroup": "women",
+      "referenceGroupSources": [
+        {
+          "url": "https://twice.jype.com/discography/9g1kq9h8",
+          "title": "JYP Entertainment — Nayeon NA",
+          "evidence": "Official release describes Nayeon as a female solo artist and member of TWICE."
+        }
+      ]
+    }
+  ],
+  "looks": [
+    {
+      "id": "felix-airport-2024",
+      "artistId": "felix",
+      "title": "Soft definition & natural texture",
+      "summary": "Visible skin texture, softly shaded eyes, and a muted lip give this airport portrait an understated feel. Light hair and a dark jacket create contrast without a high-shine makeup finish.",
+      "tags": [
+        "natural texture",
+        "soft definition",
+        "muted lips",
+        "airport",
+        "필릭스"
+      ],
+      "occasion": "Incheon Airport departure · 8 July 2024",
+      "regions": [
+        {
+          "id": "face",
+          "title": "Keep visible skin texture",
+          "description": "Small freckles and natural-looking texture remain visible. For an inspired base, use sheer coverage or spot concealer rather than covering every variation; the photo does not establish which base products were used.",
+          "crop": {
+            "x": 0.315,
+            "y": 0.076,
+            "width": 0.338,
+            "height": 0.29
+          },
+          "productCategories": [
+            "foundation",
+            "cushion",
+            "concealer"
+          ],
+          "productIds": [
+            "kbeauty-044"
+          ]
+        },
+        {
+          "id": "eyes",
+          "title": "Soft neutral shading",
+          "description": "A muted brown impression around the lash line gives definition without a large graphic wing. Blend a small amount of neutral shadow and soften pencil along the outer lash line.",
+          "crop": {
+            "x": 0.35,
+            "y": 0.175,
+            "width": 0.245,
+            "height": 0.045
+          },
+          "productCategories": [
+            "eyeshadow",
+            "eyeliner"
+          ],
+          "productIds": [
+            "kbeauty-029"
+          ]
+        },
+        {
+          "id": "brows",
+          "title": "Brushed brow structure",
+          "description": "The dark brows contrast with the light hair and retain a soft edge. Brush them into place, then add minimal color in the direction of the hairs.",
+          "crop": {
+            "x": 0.35,
+            "y": 0.151,
+            "width": 0.24,
+            "height": 0.031
+          },
+          "productCategories": [
+            "brow"
+          ],
+          "productIds": [
+            "kbeauty-050"
+          ]
+        },
+        {
+          "id": "cheeks",
+          "title": "Restrained cheek definition",
+          "description": "The cheek area has a subdued warm impression and visible texture. If recreating the balance, use a light hand with blush or contour; the photograph does not verify either product was applied.",
+          "crop": {
+            "x": 0.344,
+            "y": 0.207,
+            "width": 0.255,
+            "height": 0.07
+          },
+          "productCategories": [
+            "blush",
+            "contour"
+          ],
+          "productIds": [
+            "kbeauty-026"
+          ]
+        },
+        {
+          "id": "lips",
+          "title": "Muted natural-looking lip",
+          "description": "The lip appears softly rose-toned with limited shine. Tap on a small amount of tint and diffuse the edge; a later official gloss promotion is recorded separately below.",
+          "crop": {
+            "x": 0.398,
+            "y": 0.278,
+            "width": 0.125,
+            "height": 0.042
+          },
+          "productCategories": [
+            "lip_tint",
+            "lipstick"
+          ],
+          "productIds": [
+            "kbeauty-031"
+          ]
+        }
+      ],
+      "styleIds": [
+        "barely_there"
+      ],
+      "source": {
+        "url": "https://commons.wikimedia.org/wiki/File:Felix_Lee_of_Stray_Kids,_July_8,_2024_(2).png",
+        "title": "Felix departing Incheon Airport",
+        "date": "2024-07-08",
+        "kind": "licensed_event_photo",
+        "originalUrl": "https://www.youtube.com/watch?v=W19bgLYqiag"
+      },
+      "image": {
+        "src": "assets/looks/felix-airport-2024.png",
+        "width": 1063,
+        "height": 1558,
+        "alt": "Felix departing Incheon Airport; 2024-07-08.",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Felix_Lee_of_Stray_Kids,_July_8,_2024_(2).png",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Felix_Lee_of_Stray_Kids%2C_July_8%2C_2024_%282%29.png",
+        "credit": "티비텐",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "sha256": "6305ee2c536f1a17c7b6ccfc7463c0248903b22d476ef3f396beb60f3ae988cc",
+        "bytes": 1141236,
+        "displayAllowed": true,
+        "displayScope": "Attributed editorial style reference; no artist endorsement or advertising permission is represented.",
+        "modificationNote": "Source image bytes are unchanged. Detail views crop the displayed image using saved coordinates.",
+        "modelRelease": "Not provided by source"
+      },
+      "productLinks": [
+        {
+          "productId": "kbeauty-038",
+          "relationship": "documented_campaign",
+          "scope": "Exact product",
+          "sourceUrl": "https://global.amoremall.com/products/felixs-pick-engraving-hera-sensual-nude-gloss",
+          "evidenceDate": "2026-10-05",
+          "note": "The official shop explicitly labels selected shade 325 Sunkissed as Felix's Pick. Amorepacific's English announcement dated 2025-08-14 names Felix of Stray Kids as HERA's global ambassador. This is an official promotional pick, not independently documented personal use. This separate promotion does not identify products worn in the displayed event photograph."
+        }
+      ],
+      "editorialNote": "Editorial style inspiration based on this photograph. Suggested products are alternatives, not confirmed products worn. Lighting and image resolution affect apparent color and finish."
+    },
+    {
+      "id": "jennie-coco-crush-2024",
+      "artistId": "jennie",
+      "title": "Soft rose gloss & delicate liner",
+      "summary": "A glossy rose lip and softly pink cheeks balance a fine upper lash line. Face-framing braids and a dark outfit keep the overall look playful and polished.",
+      "tags": [
+        "rose",
+        "glossy lips",
+        "soft liner",
+        "photocall",
+        "제니"
+      ],
+      "occasion": "Chanel Coco Crush photocall · 3 July 2024",
+      "regions": [
+        {
+          "id": "face",
+          "title": "Soft, even complexion",
+          "description": "The photographed complexion reads smooth with restrained shine. For a similar effect, apply a thin cushion layer and spot-conceal only where desired; choose a shade that matches your own skin.",
+          "crop": {
+            "x": 0.34,
+            "y": 0.095,
+            "width": 0.355,
+            "height": 0.32
+          },
+          "productCategories": [
+            "cushion",
+            "concealer",
+            "powder"
+          ],
+          "productIds": [
+            "kbeauty-037"
+          ]
+        },
+        {
+          "id": "eyes",
+          "title": "Fine extended upper line",
+          "description": "A narrow dark lash line and short outward extension frame the eyes. Try a fine pencil line with light mascara; keep the lid color softly neutral.",
+          "crop": {
+            "x": 0.355,
+            "y": 0.205,
+            "width": 0.225,
+            "height": 0.055
+          },
+          "productCategories": [
+            "eyeliner",
+            "mascara",
+            "eyeshadow"
+          ],
+          "productIds": [
+            "kbeauty-029",
+            "kbeauty-028"
+          ]
+        },
+        {
+          "id": "brows",
+          "title": "Softly defined brows",
+          "description": "The visible brow sections look softly filled rather than sharply outlined. Brush in the direction of growth and add small strokes only in gaps.",
+          "crop": {
+            "x": 0.365,
+            "y": 0.18,
+            "width": 0.19,
+            "height": 0.04
+          },
+          "productCategories": [
+            "brow"
+          ],
+          "productIds": [
+            "kbeauty-050"
+          ]
+        },
+        {
+          "id": "cheeks",
+          "title": "Diffused pink flush",
+          "description": "A pink flush sits across the upper cheeks. Blend a small amount of blush outward with a soft edge so it merges into the base.",
+          "crop": {
+            "x": 0.36,
+            "y": 0.247,
+            "width": 0.26,
+            "height": 0.07
+          },
+          "productCategories": [
+            "blush",
+            "highlighter"
+          ],
+          "productIds": [
+            "kbeauty-026"
+          ]
+        },
+        {
+          "id": "lips",
+          "title": "Glossy rose center",
+          "description": "The lips have a rose tone and visible reflected shine. Tap on a rose tint, soften the edge, and add clear gloss at the center for a related finish.",
+          "crop": {
+            "x": 0.41,
+            "y": 0.305,
+            "width": 0.14,
+            "height": 0.06
+          },
+          "productCategories": [
+            "lip_tint",
+            "lip_gloss",
+            "lip_liner"
+          ],
+          "productIds": [
+            "kbeauty-025",
+            "kbeauty-027"
+          ]
+        }
+      ],
+      "styleIds": [
+        "soft_rose",
+        "dewy_glow"
+      ],
+      "source": {
+        "url": "https://commons.wikimedia.org/wiki/File:Blackpink%27s_Jennie_in_Chanel_Coco_Crush,_July_3,_2024_(2).png",
+        "title": "Jennie at the Chanel Coco Crush photocall",
+        "date": "2024-07-03",
+        "kind": "licensed_event_photo",
+        "originalUrl": "https://www.youtube.com/watch?v=nVB43s8n7mU"
+      },
+      "image": {
+        "src": "assets/looks/jennie-coco-crush-2024.png",
+        "width": 1560,
+        "height": 2159,
+        "alt": "Jennie at the Chanel Coco Crush photocall; 2024-07-03.",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blackpink%27s_Jennie_in_Chanel_Coco_Crush,_July_3,_2024_(2).png",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Blackpink%27s_Jennie_in_Chanel_Coco_Crush%2C_July_3%2C_2024_%282%29.png",
+        "credit": "티비텐",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "sha256": "b227e932b4ed28c597626ac9eaff9aa2550d618d3439064cf4f28a61529f2eaf",
+        "bytes": 1961349,
+        "displayAllowed": true,
+        "displayScope": "Attributed editorial style reference; no artist endorsement or advertising permission is represented.",
+        "modificationNote": "Source image bytes are unchanged. Detail views crop the displayed image using saved coordinates.",
+        "modelRelease": "Not provided by source"
+      },
+      "productLinks": [
+        {
+          "productId": "kbeauty-037",
+          "relationship": "documented_campaign",
+          "scope": "Product family; selected shade/formula unverified",
+          "sourceUrl": "https://stories.amorepacific.com/%EC%95%84%EB%AA%A8%EB%A0%88%ED%8D%BC%EC%8B%9C%ED%94%BD-%ED%97%A4%EB%9D%BC-%EC%A0%9C%EB%8B%88%EC%99%80-%ED%95%A8%EA%BB%98-%EA%B8%80%EB%A1%9C%EB%B2%8C-%EC%BA%A0%ED%8E%98%EC%9D%B8-%EC%A0%84%EA%B0%9C/",
+          "evidenceDate": "2024-08-26",
+          "note": "Amorepacific's dated press release identifies Jennie as HERA's global ambassador and names Black Cushion Foundation in her three-look campaign. Exact product line is verified; selected 17N1 shade and personal use are not established. This separate promotion does not identify products worn in the displayed event photograph."
+        }
+      ],
+      "editorialNote": "Editorial style inspiration based on this photograph. Suggested products are alternatives, not confirmed products worn. Lighting and image resolution affect apparent color and finish."
+    },
+    {
+      "id": "v-airport-2022",
+      "artistId": "v",
+      "title": "Muted rose & soft neutral depth",
+      "summary": "A muted rose lip and softly shaded eyes complement loose waves and a patterned shirt. The restrained finish offers a warm, low-shine everyday reference.",
+      "tags": [
+        "natural finish",
+        "neutral eyes",
+        "muted rose",
+        "airport",
+        "뷔",
+        "태형"
+      ],
+      "occasion": "Incheon Airport departure · 24 June 2022",
+      "regions": [
+        {
+          "id": "face",
+          "title": "Thin satin coverage",
+          "description": "The face has a softly even, low-shine appearance in shaded light. Try a thin base layer and spot concealer, retaining skin texture and matching your own tone.",
+          "crop": {
+            "x": 0.285,
+            "y": 0.12,
+            "width": 0.265,
+            "height": 0.255
+          },
+          "productCategories": [
+            "foundation",
+            "concealer",
+            "powder"
+          ],
+          "productIds": [
+            "kbeauty-059",
+            "kbeauty-060"
+          ]
+        },
+        {
+          "id": "eyes",
+          "title": "Diffused neutral lash line",
+          "description": "Soft darkness sits close to the upper and lower lash lines. Blend a small amount of brown pencil at the outer edge instead of drawing a large wing.",
+          "crop": {
+            "x": 0.342,
+            "y": 0.15,
+            "width": 0.168,
+            "height": 0.061
+          },
+          "productCategories": [
+            "eyeshadow",
+            "eyeliner"
+          ],
+          "productIds": [
+            "kbeauty-077"
+          ]
+        },
+        {
+          "id": "brows",
+          "title": "Partial brow view beneath waves",
+          "description": "Wavy hair hides much of the brow shape. Only the visible sections can be used as a reference; softly brush and fill gaps without treating the covered areas as evidence.",
+          "crop": {
+            "x": 0.336,
+            "y": 0.123,
+            "width": 0.173,
+            "height": 0.05
+          },
+          "productCategories": [
+            "brow"
+          ],
+          "productIds": [
+            "kbeauty-080"
+          ]
+        },
+        {
+          "id": "cheeks",
+          "title": "Restrained warm balance",
+          "description": "The cheeks read warm and low-contrast in the shaded setting. A light touch of muted blush or neutral contour can echo the balance, although the photograph does not establish either product was used.",
+          "crop": {
+            "x": 0.321,
+            "y": 0.201,
+            "width": 0.21,
+            "height": 0.097
+          },
+          "productCategories": [
+            "blush",
+            "contour"
+          ],
+          "productIds": [
+            "kbeauty-081"
+          ]
+        },
+        {
+          "id": "lips",
+          "title": "Blurred muted rose",
+          "description": "The lip has a muted pink-rose impression with little visible gloss. Tap on a small amount of tint and soften the perimeter for an understated finish.",
+          "crop": {
+            "x": 0.402,
+            "y": 0.255,
+            "width": 0.095,
+            "height": 0.052
+          },
+          "productCategories": [
+            "lip_tint",
+            "lipstick"
+          ],
+          "productIds": [
+            "kbeauty-030"
+          ]
+        }
+      ],
+      "styleIds": [
+        "barely_there",
+        "soft_smoky"
+      ],
+      "source": {
+        "url": "https://commons.wikimedia.org/wiki/File:220624_%EB%B0%A9%ED%83%84%EC%86%8C%EB%85%84%EB%8B%A8_%EB%B7%94(2).jpg",
+        "title": "V departing Incheon Airport",
+        "date": "2022-06-24",
+        "kind": "licensed_event_photo",
+        "originalUrl": "https://www.youtube.com/watch?v=hhuETz61eUQ"
+      },
+      "image": {
+        "src": "assets/looks/v-airport-2022.jpg",
+        "width": 1004,
+        "height": 1018,
+        "alt": "V departing Incheon Airport; 2022-06-24.",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:220624_%EB%B0%A9%ED%83%84%EC%86%8C%EB%85%84%EB%8B%A8_%EB%B7%94(2).jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/02/220624_%EB%B0%A9%ED%83%84%EC%86%8C%EB%85%84%EB%8B%A8_%EB%B7%94%282%29.jpg",
+        "credit": "K-POPIT 케이팝잇",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "sha256": "c719881554a102bde160459e21fcaf87c0d8fb9fe2fadb98ea2db4736b1e97c3",
+        "bytes": 217595,
+        "displayAllowed": true,
+        "displayScope": "Attributed editorial style reference; no artist endorsement or advertising permission is represented.",
+        "modificationNote": "Source image bytes are unchanged. Detail views crop the displayed image using saved coordinates.",
+        "modelRelease": "Not provided by source"
+      },
+      "productLinks": [],
+      "editorialNote": "Editorial style inspiration based on this photograph. Suggested products are alternatives, not confirmed products worn. Lighting and image resolution affect apparent color and finish."
+    },
+    {
+      "id": "jisoo-airport-2024",
+      "artistId": "jisoo",
+      "title": "Muted rose everyday makeup",
+      "summary": "A muted rose lip, soft brows, and close-to-lash definition create a relaxed everyday reference. The loose hair and denim styling reinforce the understated feel.",
+      "tags": [
+        "muted rose",
+        "natural finish",
+        "everyday",
+        "airport",
+        "지수"
+      ],
+      "occasion": "Incheon Airport departure · 26 February 2024",
+      "regions": [
+        {
+          "id": "face",
+          "title": "Natural-looking coverage",
+          "description": "The base appears even with a soft, skin-like finish in bright ambient light. Use sheer, buildable coverage and blend around the nose and jaw without trying to duplicate the photo’s lighting.",
+          "crop": {
+            "x": 0.285,
+            "y": 0.12,
+            "width": 0.37,
+            "height": 0.4
+          },
+          "productCategories": [
+            "cushion",
+            "foundation",
+            "concealer"
+          ],
+          "productIds": [
+            "kbeauty-044"
+          ]
+        },
+        {
+          "id": "eyes",
+          "title": "Close-to-lash definition",
+          "description": "The upper lash line is subtly defined, with a small outer extension. A brown or softly blended dark liner can reproduce the low-contrast effect.",
+          "crop": {
+            "x": 0.31,
+            "y": 0.243,
+            "width": 0.29,
+            "height": 0.07
+          },
+          "productCategories": [
+            "eyeliner",
+            "eyeshadow",
+            "mascara"
+          ],
+          "productIds": [
+            "kbeauty-029"
+          ]
+        },
+        {
+          "id": "brows",
+          "title": "Gentle natural arch",
+          "description": "The brows retain visible softness at the front and a gentle arch. Brush through a small amount of brow color and avoid a hard inner edge.",
+          "crop": {
+            "x": 0.31,
+            "y": 0.207,
+            "width": 0.28,
+            "height": 0.06
+          },
+          "productCategories": [
+            "brow"
+          ],
+          "productIds": [
+            "kbeauty-050"
+          ]
+        },
+        {
+          "id": "cheeks",
+          "title": "Low-contrast rosy warmth",
+          "description": "The cheeks show a restrained rosy tone. Blend a muted blush lightly across the cheek area; the photograph alone does not establish how much is makeup or lighting.",
+          "crop": {
+            "x": 0.31,
+            "y": 0.3,
+            "width": 0.3,
+            "height": 0.09
+          },
+          "productCategories": [
+            "blush"
+          ],
+          "productIds": [
+            "kbeauty-026"
+          ]
+        },
+        {
+          "id": "lips",
+          "title": "Soft rose satin lip",
+          "description": "The lip looks softly defined and less reflective than a high-shine gloss. Blur a muted rose tint at the edge and build a little more color at the center.",
+          "crop": {
+            "x": 0.398,
+            "y": 0.375,
+            "width": 0.165,
+            "height": 0.065
+          },
+          "productCategories": [
+            "lip_tint",
+            "lipstick"
+          ],
+          "productIds": [
+            "kbeauty-031"
+          ]
+        }
+      ],
+      "styleIds": [
+        "barely_there",
+        "soft_rose"
+      ],
+      "source": {
+        "url": "https://commons.wikimedia.org/wiki/File:20240226_Kim_Jisoo_%EA%B9%80%EC%A7%80%EC%88%98_02.jpg",
+        "title": "Jisoo departing Incheon Airport",
+        "date": "2024-02-26",
+        "kind": "licensed_event_photo",
+        "originalUrl": "https://www.youtube.com/watch?v=JdyZFdcOmSU?si=VoHwQl-AgxTVMzHn"
+      },
+      "image": {
+        "src": "assets/looks/jisoo-airport-2024.jpg",
+        "width": 1138,
+        "height": 1530,
+        "alt": "Jisoo departing Incheon Airport; 2024-02-26.",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:20240226_Kim_Jisoo_%EA%B9%80%EC%A7%80%EC%88%98_02.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2d/20240226_Kim_Jisoo_%EA%B9%80%EC%A7%80%EC%88%98_02.jpg",
+        "credit": "K-POPIT 케이팝잇",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "sha256": "57c7d60630070faf5cd6b97f2e50c6669ef0607aff358f3790032cebadfdb713",
+        "bytes": 316836,
+        "displayAllowed": true,
+        "displayScope": "Attributed editorial style reference; no artist endorsement or advertising permission is represented.",
+        "modificationNote": "Source image bytes are unchanged. Detail views crop the displayed image using saved coordinates.",
+        "modelRelease": "Not provided by source"
+      },
+      "productLinks": [],
+      "editorialNote": "Editorial style inspiration based on this photograph. Suggested products are alternatives, not confirmed products worn. Lighting and image resolution affect apparent color and finish."
+    },
+    {
+      "id": "jimin-radio-2023",
+      "artistId": "jimin",
+      "title": "Barely-there satin & soft pink",
+      "summary": "A soft pink lip, understated eye definition, and a natural-looking satin complexion pair with a simple black knit. This relaxed radio-arrival portrait is a gentle everyday reference.",
+      "tags": [
+        "barely there",
+        "satin",
+        "soft pink",
+        "everyday",
+        "지민"
+      ],
+      "occasion": "SBS Radio arrival · 31 March 2023",
+      "regions": [
+        {
+          "id": "face",
+          "title": "Soft satin skin finish",
+          "description": "The complexion looks even with restrained highlights. Use light coverage only where desired and blend well around the nose; an image cannot reveal the skincare routine underneath.",
+          "crop": {
+            "x": 0.303,
+            "y": 0.23,
+            "width": 0.45,
+            "height": 0.3
+          },
+          "productCategories": [
+            "cushion",
+            "concealer",
+            "powder"
+          ],
+          "productIds": [
+            "kbeauty-071",
+            "kbeauty-072"
+          ]
+        },
+        {
+          "id": "eyes",
+          "title": "Quiet close-to-lash shading",
+          "description": "The visible lash line is softly defined without a long wing. Smudge a little neutral pencil into the outer lash line and keep any shadow sheer.",
+          "crop": {
+            "x": 0.345,
+            "y": 0.274,
+            "width": 0.29,
+            "height": 0.049
+          },
+          "productCategories": [
+            "eyeliner",
+            "eyeshadow"
+          ],
+          "productIds": [
+            "kbeauty-077"
+          ]
+        },
+        {
+          "id": "brows",
+          "title": "Fringe-covered brow reference",
+          "description": "The fringe hides most of the brow area, so the full brow styling cannot be assessed. This view records the limitation instead of inventing a shape beneath the hair.",
+          "crop": {
+            "x": 0.345,
+            "y": 0.244,
+            "width": 0.29,
+            "height": 0.048
+          },
+          "productCategories": [
+            "brow"
+          ],
+          "productIds": [
+            "kbeauty-086"
+          ]
+        },
+        {
+          "id": "cheeks",
+          "title": "Subtle rosy warmth",
+          "description": "The cheeks show a low-contrast rosy impression with no sharp visible contour. Blend a sheer blush lightly if desired; the ambient light contributes to the observed color.",
+          "crop": {
+            "x": 0.337,
+            "y": 0.32,
+            "width": 0.34,
+            "height": 0.073
+          },
+          "productCategories": [
+            "blush"
+          ],
+          "productIds": [
+            "kbeauty-068"
+          ]
+        },
+        {
+          "id": "lips",
+          "title": "Soft pink satin lip",
+          "description": "A pale pink impression and gentle reflection keep the smiling lip understated. Apply a sheer tint sparingly and blot once if you prefer less shine.",
+          "crop": {
+            "x": 0.395,
+            "y": 0.404,
+            "width": 0.17,
+            "height": 0.05
+          },
+          "productCategories": [
+            "lip_tint",
+            "lipstick"
+          ],
+          "productIds": [
+            "kbeauty-075"
+          ]
+        }
+      ],
+      "styleIds": [
+        "barely_there",
+        "soft_rose"
+      ],
+      "source": {
+        "url": "https://commons.wikimedia.org/wiki/File:Jimin_on_the_way_to_SBS_Radio,_31_March_2023_(1).jpg",
+        "title": "Jimin arriving for SBS Radio",
+        "date": "2023-03-31",
+        "kind": "licensed_event_photo",
+        "originalUrl": "https://www.youtube.com/watch?v=LIfEnW_ugCA"
+      },
+      "image": {
+        "src": "assets/looks/jimin-radio-2023.jpg",
+        "width": 531,
+        "height": 720,
+        "alt": "Jimin arriving for SBS Radio; 2023-03-31.",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jimin_on_the_way_to_SBS_Radio,_31_March_2023_(1).jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Jimin_on_the_way_to_SBS_Radio%2C_31_March_2023_%281%29.jpg",
+        "credit": "K-POPIT 케이팝잇",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "sha256": "573361f734290be4d36f6d83d60076d4d1b5aaece2dfe6630ec1c6662afe1508",
+        "bytes": 162357,
+        "displayAllowed": true,
+        "displayScope": "Attributed editorial style reference; no artist endorsement or advertising permission is represented.",
+        "modificationNote": "Source image bytes are unchanged. Detail views crop the displayed image using saved coordinates.",
+        "modelRelease": "Not provided by source"
+      },
+      "productLinks": [],
+      "editorialNote": "Editorial style inspiration based on this photograph. Suggested products are alternatives, not confirmed products worn. Lighting and image resolution affect apparent color and finish."
+    },
+    {
+      "id": "wonyoung-mma-2024",
+      "artistId": "wonyoung",
+      "title": "Rose glow for an evening look",
+      "summary": "Glossy rose lips, pink cheeks, and bright-looking eyes complement an updo, delicate jewelry, and a black evening dress. Use the reference for placement and finish rather than an exact shade match.",
+      "tags": [
+        "rose",
+        "glow",
+        "glossy lips",
+        "red carpet",
+        "장원영",
+        "원영"
+      ],
+      "occasion": "Melon Music Awards · 30 November 2024",
+      "regions": [
+        {
+          "id": "face",
+          "title": "Luminous center of the face",
+          "description": "The forehead, nose, and upper cheeks catch the light. Start with light-reflecting base coverage and reserve a small highlight for high points; the image also includes strong event lighting.",
+          "crop": {
+            "x": 0.285,
+            "y": 0.17,
+            "width": 0.41,
+            "height": 0.274
+          },
+          "productCategories": [
+            "cushion",
+            "concealer",
+            "highlighter"
+          ],
+          "productIds": [
+            "kbeauty-044"
+          ]
+        },
+        {
+          "id": "eyes",
+          "title": "Defined lashes with a bright lower eye",
+          "description": "Dark upper lashes contrast with a lighter-looking lower-eye area. Try separating mascara, a fine upper liner, and a small amount of light shadow just below the eye.",
+          "crop": {
+            "x": 0.46,
+            "y": 0.236,
+            "width": 0.218,
+            "height": 0.07
+          },
+          "productCategories": [
+            "mascara",
+            "eyeliner",
+            "eyeshadow"
+          ],
+          "productIds": [
+            "kbeauty-028",
+            "kbeauty-029"
+          ]
+        },
+        {
+          "id": "brows",
+          "title": "Soft brow framing beneath a fringe",
+          "description": "The fringe partly covers the eyebrows, so the full shape cannot be assessed here. Keep any inspired brow styling soft and lightly brushed; this crop preserves the visible area.",
+          "crop": {
+            "x": 0.455,
+            "y": 0.215,
+            "width": 0.23,
+            "height": 0.047
+          },
+          "productCategories": [
+            "brow"
+          ],
+          "productIds": [
+            "kbeauty-050"
+          ]
+        },
+        {
+          "id": "cheeks",
+          "title": "Rosy upper-cheek glow",
+          "description": "Pink color and reflected light are visible over the upper cheeks. Blend a sheer pink blush high on the cheeks and soften its edges before adding any highlight.",
+          "crop": {
+            "x": 0.375,
+            "y": 0.292,
+            "width": 0.3,
+            "height": 0.063
+          },
+          "productCategories": [
+            "blush",
+            "highlighter"
+          ],
+          "productIds": [
+            "kbeauty-048"
+          ]
+        },
+        {
+          "id": "lips",
+          "title": "Defined glossy rose",
+          "description": "A rose-toned lip with a glossy surface anchors the look. Build tint evenly and add shine; use a liner close to your own lip color if you want a more defined edge.",
+          "crop": {
+            "x": 0.463,
+            "y": 0.35,
+            "width": 0.15,
+            "height": 0.054
+          },
+          "productCategories": [
+            "lip_tint",
+            "lip_gloss",
+            "lip_liner"
+          ],
+          "productIds": [
+            "kbeauty-047",
+            "kbeauty-027"
+          ]
+        }
+      ],
+      "styleIds": [
+        "dewy_glow",
+        "soft_rose"
+      ],
+      "source": {
+        "url": "https://commons.wikimedia.org/wiki/File:Jang_Won-young_at_the_2024_Melon_Music_Awards.png",
+        "title": "Jang Wonyoung at the 2024 Melon Music Awards",
+        "date": "2024-11-30",
+        "kind": "licensed_event_photo",
+        "originalUrl": "https://www.youtube.com/watch?v=1tEf46FO-pA"
+      },
+      "image": {
+        "src": "assets/looks/wonyoung-mma-2024.png",
+        "width": 744,
+        "height": 1108,
+        "alt": "Jang Wonyoung at the 2024 Melon Music Awards; 2024-11-30.",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jang_Won-young_at_the_2024_Melon_Music_Awards.png",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Jang_Won-young_at_the_2024_Melon_Music_Awards.png",
+        "credit": "TenAsia",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "sha256": "349393cd6d01d2949be7753e78fdc6fb1d0fdc56cc22c23233f0cc37450feb08",
+        "bytes": 818546,
+        "displayAllowed": true,
+        "displayScope": "Attributed editorial style reference; no artist endorsement or advertising permission is represented.",
+        "modificationNote": "Source image bytes are unchanged. Detail views crop the displayed image using saved coordinates.",
+        "modelRelease": "Not provided by source"
+      },
+      "productLinks": [
+        {
+          "productId": "kbeauty-047",
+          "relationship": "documented_campaign",
+          "scope": "Exact product family; selected shade not verified",
+          "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000006.000140231.html",
+          "evidenceDate": "2024-10-13",
+          "note": "AMUSE's company release for its October 11, 2024 Japan event names Wonyoung as brand model and captions a photo of her holding Jel-Fit Tint. It verifies the family, not shade 01 or personal use. This separate promotion does not identify products worn in the displayed event photograph."
+        }
+      ],
+      "editorialNote": "Editorial style inspiration based on this photograph. Suggested products are alternatives, not confirmed products worn. Lighting and image resolution affect apparent color and finish."
+    },
+    {
+      "id": "hyunjin-airport-2024",
+      "artistId": "hyunjin",
+      "title": "Rose-washed eyes & fresh glow",
+      "summary": "A rose wash around the eyes and a fuller rose lip accompany a gently reflective complexion. Long hair and pale denim soften the overall airport styling.",
+      "tags": [
+        "rose eyes",
+        "glow",
+        "soft smoky",
+        "airport",
+        "현진"
+      ],
+      "occasion": "Incheon Airport departure · 3 May 2024",
+      "regions": [
+        {
+          "id": "face",
+          "title": "Gentle reflected glow",
+          "description": "Light catches the nose and upper cheek while the rest of the base stays soft. Use a thin luminous base and control shine selectively; the bright setting contributes to the photographed glow.",
+          "crop": {
+            "x": 0.245,
+            "y": 0.09,
+            "width": 0.385,
+            "height": 0.34
+          },
+          "productCategories": [
+            "primer",
+            "cushion",
+            "concealer"
+          ],
+          "productIds": [
+            "kbeauty-058",
+            "kbeauty-071"
+          ]
+        },
+        {
+          "id": "eyes",
+          "title": "Soft rose wash",
+          "description": "A muted rose impression surrounds the visible lids and lower lash line. Blend a sheer rose shadow with soft edges, adding only a little pencil close to the lashes.",
+          "crop": {
+            "x": 0.25,
+            "y": 0.195,
+            "width": 0.225,
+            "height": 0.056
+          },
+          "productCategories": [
+            "eyeshadow",
+            "eyeliner"
+          ],
+          "productIds": [
+            "kbeauty-082",
+            "kbeauty-077"
+          ]
+        },
+        {
+          "id": "brows",
+          "title": "Dark brow with a gentle front",
+          "description": "Visible brow sections create a dark frame while hair overlaps the outer area. Brush and lightly fill the visible shape, keeping the front diffused.",
+          "crop": {
+            "x": 0.25,
+            "y": 0.167,
+            "width": 0.236,
+            "height": 0.047
+          },
+          "productCategories": [
+            "brow"
+          ],
+          "productIds": [
+            "kbeauty-086"
+          ]
+        },
+        {
+          "id": "cheeks",
+          "title": "Quiet rose and reflected light",
+          "description": "The visible cheek reads softly rosy with restrained reflection. Use a sheer cheek color and add a small highlighter touch only where you want more shine.",
+          "crop": {
+            "x": 0.26,
+            "y": 0.233,
+            "width": 0.275,
+            "height": 0.09
+          },
+          "productCategories": [
+            "blush",
+            "highlighter"
+          ],
+          "productIds": [
+            "kbeauty-048",
+            "kbeauty-079"
+          ]
+        },
+        {
+          "id": "lips",
+          "title": "Soft full rose lip",
+          "description": "A rose-toned lip is more pronounced than the cheek color, with a soft edge and gentle shine. Build tint at the center and blend outward, adding a little clear gloss if desired.",
+          "crop": {
+            "x": 0.3,
+            "y": 0.315,
+            "width": 0.145,
+            "height": 0.06
+          },
+          "productCategories": [
+            "lip_tint",
+            "lip_gloss",
+            "lip_liner"
+          ],
+          "productIds": [
+            "kbeauty-047",
+            "kbeauty-084"
+          ]
+        }
+      ],
+      "styleIds": [
+        "soft_rose",
+        "dewy_glow",
+        "soft_smoky"
+      ],
+      "source": {
+        "url": "https://commons.wikimedia.org/wiki/File:20240503_Hyunjin_of_Stray_Kids.png",
+        "title": "Hyunjin departing Incheon Airport",
+        "date": "2024-05-03",
+        "kind": "licensed_event_photo",
+        "originalUrl": "https://www.youtube.com/watch?v=gQm-0ABG1bY&t=78"
+      },
+      "image": {
+        "src": "assets/looks/hyunjin-airport-2024.png",
+        "width": 847,
+        "height": 1213,
+        "alt": "Hyunjin departing Incheon Airport; 2024-05-03.",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:20240503_Hyunjin_of_Stray_Kids.png",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/20240503_Hyunjin_of_Stray_Kids.png",
+        "credit": "티비텐",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "sha256": "102063a743b007e8319bc809283bea4c2ecf6334a3bcb65c7620feba7d6cb2e3",
+        "bytes": 796785,
+        "displayAllowed": true,
+        "displayScope": "Attributed editorial style reference; no artist endorsement or advertising permission is represented.",
+        "modificationNote": "Source image bytes are unchanged. Detail views crop the displayed image using saved coordinates.",
+        "modelRelease": "Not provided by source"
+      },
+      "productLinks": [],
+      "editorialNote": "Editorial style inspiration based on this photograph. Suggested products are alternatives, not confirmed products worn. Lighting and image resolution affect apparent color and finish."
+    },
+    {
+      "id": "karina-airport-2025",
+      "artistId": "karina",
+      "title": "Soft pink with crisp eye definition",
+      "summary": "A softly pink lip and cheek palette pairs with a neat upper lash line. A short bob and dark puffer jacket frame this relaxed airport look.",
+      "tags": [
+        "soft pink",
+        "everyday",
+        "defined eyes",
+        "airport",
+        "카리나"
+      ],
+      "occasion": "Incheon Airport departure · 26 February 2025",
+      "regions": [
+        {
+          "id": "face",
+          "title": "Light, even-looking base",
+          "description": "The face appears softly luminous in bright outdoor light. Use light coverage and blend into the jaw; the photographed brightness is not a target skin tone.",
+          "crop": {
+            "x": 0.353,
+            "y": 0.08,
+            "width": 0.33,
+            "height": 0.345
+          },
+          "productCategories": [
+            "cushion",
+            "foundation",
+            "concealer"
+          ],
+          "productIds": [
+            "kbeauty-044"
+          ]
+        },
+        {
+          "id": "eyes",
+          "title": "Neat upper-lash emphasis",
+          "description": "A dark upper lash line gives definition while the rest of the eye area stays soft. Keep pencil close to the lashes, extend only slightly, and comb through mascara.",
+          "crop": {
+            "x": 0.365,
+            "y": 0.2,
+            "width": 0.235,
+            "height": 0.06
+          },
+          "productCategories": [
+            "eyeliner",
+            "mascara",
+            "eyeshadow"
+          ],
+          "productIds": [
+            "kbeauty-029",
+            "kbeauty-028"
+          ]
+        },
+        {
+          "id": "brows",
+          "title": "Lightly filled natural arch",
+          "description": "The brows form a gentle arch with a diffused front. Brush them in place and add color in small strokes rather than drawing a solid outline.",
+          "crop": {
+            "x": 0.373,
+            "y": 0.169,
+            "width": 0.23,
+            "height": 0.045
+          },
+          "productCategories": [
+            "brow"
+          ],
+          "productIds": [
+            "kbeauty-050"
+          ]
+        },
+        {
+          "id": "cheeks",
+          "title": "Sheer pink cheek wash",
+          "description": "A low-contrast pink impression is visible over the cheeks. Apply sheer blush and soften the edges; ambient light may contribute to the color in the reference.",
+          "crop": {
+            "x": 0.382,
+            "y": 0.258,
+            "width": 0.254,
+            "height": 0.073
+          },
+          "productCategories": [
+            "blush"
+          ],
+          "productIds": [
+            "kbeauty-026"
+          ]
+        },
+        {
+          "id": "lips",
+          "title": "Fresh softly glossy pink",
+          "description": "The lip looks pink with a small amount of shine and a soft perimeter. Layer a sheer tint lightly and add gloss only where you want reflection.",
+          "crop": {
+            "x": 0.451,
+            "y": 0.315,
+            "width": 0.127,
+            "height": 0.056
+          },
+          "productCategories": [
+            "lip_tint",
+            "lip_gloss"
+          ],
+          "productIds": [
+            "kbeauty-025",
+            "kbeauty-027"
+          ]
+        }
+      ],
+      "styleIds": [
+        "soft_rose",
+        "dewy_glow"
+      ],
+      "source": {
+        "url": "https://commons.wikimedia.org/wiki/File:20250226_Aespa%27s_Karina_%EC%B9%B4%EB%A6%AC%EB%82%98_03.jpg",
+        "title": "Karina departing Incheon Airport",
+        "date": "2025-02-26",
+        "kind": "licensed_event_photo",
+        "originalUrl": "https://www.youtube.com/watch?v=T6MgNFv3idw%7C"
+      },
+      "image": {
+        "src": "assets/looks/karina-airport-2025.jpg",
+        "width": 720,
+        "height": 877,
+        "alt": "Karina departing Incheon Airport; 2025-02-26.",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:20250226_Aespa%27s_Karina_%EC%B9%B4%EB%A6%AC%EB%82%98_03.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6d/20250226_Aespa%27s_Karina_%EC%B9%B4%EB%A6%AC%EB%82%98_03.jpg",
+        "credit": "K-POPIT 케이팝잇",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "sha256": "ff78787976ea0bbbd53eab64c5f9540df51d6d6d2634f015fd33e079031dc78b",
+        "bytes": 246561,
+        "displayAllowed": true,
+        "displayScope": "Attributed editorial style reference; no artist endorsement or advertising permission is represented.",
+        "modificationNote": "Source image bytes are unchanged. Detail views crop the displayed image using saved coordinates.",
+        "modelRelease": "Not provided by source"
+      },
+      "productLinks": [],
+      "editorialNote": "Editorial style inspiration based on this photograph. Suggested products are alternatives, not confirmed products worn. Lighting and image resolution affect apparent color and finish."
+    },
+    {
+      "id": "jungkook-stage-2019",
+      "artistId": "jungkook",
+      "title": "Smoky stage eyes & vivid rose lip",
+      "summary": "Dark eye definition and a saturated rose lip hold their contrast under colored stage lighting. A black embellished outfit reinforces the stronger performance styling.",
+      "tags": [
+        "smoky eyes",
+        "stage",
+        "defined eyes",
+        "statement lip",
+        "정국"
+      ],
+      "occasion": "Seoul Music Awards · Fake Love performance · 15 January 2019",
+      "resolutionNote": "This performance still includes colored lighting and a tilted head. Detail views preserve that angle; apparent shades and shine are influenced by the stage.",
+      "regions": [
+        {
+          "id": "face",
+          "title": "Stage contrast and selective shine",
+          "description": "The cheek catches a strong highlight while the dark outfit and background increase contrast. Use an even base and selective powder for your own conditions; the photo cannot separate makeup shine from stage lighting.",
+          "crop": {
+            "x": 0.242,
+            "y": 0.232,
+            "width": 0.52,
+            "height": 0.38
+          },
+          "productCategories": [
+            "foundation",
+            "concealer",
+            "powder",
+            "setting_spray"
+          ],
+          "productIds": [
+            "kbeauty-070",
+            "kbeauty-063",
+            "kbeauty-064"
+          ]
+        },
+        {
+          "id": "eyes",
+          "title": "Dark smoky upper and lower line",
+          "description": "Dark definition surrounds the eyes, especially near the outer lash line. Blend shadow and a soft pencil together, building depth gradually instead of keeping a sharp graphic edge.",
+          "crop": {
+            "x": 0.455,
+            "y": 0.33,
+            "width": 0.28,
+            "height": 0.112
+          },
+          "productCategories": [
+            "eyeshadow",
+            "eyeliner",
+            "mascara"
+          ],
+          "productIds": [
+            "kbeauty-077",
+            "kbeauty-085"
+          ]
+        },
+        {
+          "id": "brows",
+          "title": "Structured frame at an angle",
+          "description": "The exposed brow gives a stronger frame above the smoky eye. This crop follows the tilted head and includes nearby eye area; use short brow strokes and soften the front.",
+          "crop": {
+            "x": 0.445,
+            "y": 0.273,
+            "width": 0.315,
+            "height": 0.145
+          },
+          "productCategories": [
+            "brow"
+          ],
+          "productIds": [
+            "kbeauty-086"
+          ]
+        },
+        {
+          "id": "cheeks",
+          "title": "Reflective cheek against a smoky eye",
+          "description": "The visible cheek catches pale reflected stage light. For an inspired balance, keep blush restrained and concentrate any highlight on a small area instead of copying the lighting color.",
+          "crop": {
+            "x": 0.323,
+            "y": 0.37,
+            "width": 0.185,
+            "height": 0.113
+          },
+          "productCategories": [
+            "highlighter",
+            "blush",
+            "contour"
+          ],
+          "productIds": [
+            "kbeauty-079",
+            "kbeauty-081"
+          ]
+        },
+        {
+          "id": "lips",
+          "title": "Saturated rose stage accent",
+          "description": "The lip has a vivid rose-red impression that remains visible against the smoky eye. Build a stain or lipstick in thin layers and refine the edge to the level of definition you prefer.",
+          "crop": {
+            "x": 0.44,
+            "y": 0.475,
+            "width": 0.17,
+            "height": 0.083
+          },
+          "productCategories": [
+            "lip_tint",
+            "lipstick",
+            "lip_liner"
+          ],
+          "productIds": [
+            "kbeauty-030",
+            "kbeauty-073"
+          ]
+        }
+      ],
+      "styleIds": [
+        "stage_definition",
+        "soft_smoky",
+        "statement_lip"
+      ],
+      "source": {
+        "url": "https://commons.wikimedia.org/wiki/File:Jeon_Jung-kook_performing_%22Fake_Love%22_at_Seoul_Music_Awards,_15_January_2019.jpg",
+        "title": "Jungkook performing Fake Love at the Seoul Music Awards",
+        "date": "2019-01-15",
+        "kind": "licensed_event_photo",
+        "originalUrl": "https://www.youtube.com/watch?v=Qcds_HsZPLc"
+      },
+      "image": {
+        "src": "assets/looks/jungkook-stage-2019.jpg",
+        "width": 559,
+        "height": 779,
+        "alt": "Jungkook performing Fake Love at the Seoul Music Awards; 2019-01-15.",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jeon_Jung-kook_performing_%22Fake_Love%22_at_Seoul_Music_Awards,_15_January_2019.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Jeon_Jung-kook_performing_%22Fake_Love%22_at_Seoul_Music_Awards%2C_15_January_2019.jpg",
+        "credit": "I Dare U JK",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "sha256": "1968f1342c200f815c74baea8e4166b2513863bbd03b4a53c6b93227fa4b9708",
+        "bytes": 61456,
+        "displayAllowed": true,
+        "displayScope": "Attributed editorial style reference; no artist endorsement or advertising permission is represented.",
+        "modificationNote": "Source image bytes are unchanged. Detail views crop the displayed image using saved coordinates.",
+        "modelRelease": "Not provided by source"
+      },
+      "productLinks": [],
+      "editorialNote": "Editorial style inspiration based on this photograph. Suggested products are alternatives, not confirmed products worn. Lighting and image resolution affect apparent color and finish."
+    },
+    {
+      "id": "nayeon-kitsune-2024",
+      "artistId": "nayeon",
+      "title": "Fresh coral gloss & open lashes",
+      "summary": "A warm coral-red glossy lip, separated lashes, and softly colored cheeks create an upbeat everyday-to-event reference. The side part and simple knit top keep the overall styling relaxed.",
+      "tags": [
+        "coral",
+        "glossy lips",
+        "defined lashes",
+        "photocall",
+        "나연"
+      ],
+      "occasion": "Maison Kitsuné event · 24 October 2024",
+      "regions": [
+        {
+          "id": "face",
+          "title": "Fresh, even base",
+          "description": "The face reads even with a gentle glow under warm event lighting. Blend thin base layers and add targeted concealer instead of using the image as an exact skin-color target.",
+          "crop": {
+            "x": 0.292,
+            "y": 0.123,
+            "width": 0.4,
+            "height": 0.378
+          },
+          "productCategories": [
+            "cushion",
+            "foundation",
+            "concealer"
+          ],
+          "productIds": [
+            "kbeauty-044"
+          ]
+        },
+        {
+          "id": "eyes",
+          "title": "Separated upper lashes",
+          "description": "Visible upper lashes and a fine lash line create an open-eye effect. Comb mascara through carefully and keep the liner narrow so the lashes remain the focus.",
+          "crop": {
+            "x": 0.362,
+            "y": 0.252,
+            "width": 0.28,
+            "height": 0.047
+          },
+          "productCategories": [
+            "mascara",
+            "eyeliner",
+            "eyeshadow"
+          ],
+          "productIds": [
+            "kbeauty-028",
+            "kbeauty-029"
+          ]
+        },
+        {
+          "id": "brows",
+          "title": "Soft brown brow frame",
+          "description": "The brows look softly filled with a gentle arch. A light coat of tinted brow gel can add structure while preserving a diffused front.",
+          "crop": {
+            "x": 0.347,
+            "y": 0.228,
+            "width": 0.3,
+            "height": 0.04
+          },
+          "productCategories": [
+            "brow"
+          ],
+          "productIds": [
+            "kbeauty-050"
+          ]
+        },
+        {
+          "id": "cheeks",
+          "title": "Warm peach-pink wash",
+          "description": "The cheeks show a warm peach-pink impression. Blend a sheer blush over the apples and outward; the red background and warm lighting influence the visible color.",
+          "crop": {
+            "x": 0.34,
+            "y": 0.305,
+            "width": 0.32,
+            "height": 0.072
+          },
+          "productCategories": [
+            "blush",
+            "highlighter"
+          ],
+          "productIds": [
+            "kbeauty-048"
+          ]
+        },
+        {
+          "id": "lips",
+          "title": "Glossy coral-red accent",
+          "description": "The smiling lip has a warm red-coral impression and reflective shine. Use a sheer warm tint and a little gloss for an inspired finish, adjusting the color to your preference.",
+          "crop": {
+            "x": 0.427,
+            "y": 0.371,
+            "width": 0.165,
+            "height": 0.068
+          },
+          "productCategories": [
+            "lip_tint",
+            "lip_gloss",
+            "lipstick"
+          ],
+          "productIds": [
+            "kbeauty-025",
+            "kbeauty-027"
+          ]
+        }
+      ],
+      "styleIds": [
+        "statement_lip",
+        "dewy_glow"
+      ],
+      "source": {
+        "url": "https://commons.wikimedia.org/wiki/File:241024_TWICE_Nayeon.jpg",
+        "title": "Nayeon at a Maison Kitsuné event",
+        "date": "2024-10-24",
+        "kind": "licensed_event_photo",
+        "originalUrl": "https://www.youtube.com/watch?v=gZwasOERj-k"
+      },
+      "image": {
+        "src": "assets/looks/nayeon-kitsune-2024.jpg",
+        "width": 836,
+        "height": 1170,
+        "alt": "Nayeon at a Maison Kitsuné event; 2024-10-24.",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:241024_TWICE_Nayeon.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/241024_TWICE_Nayeon.jpg",
+        "credit": "K-POPIT 케이팝잇",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "sha256": "be23f75baafec72001b3dba1ab2bfb006c31831642c5d6e3f418ed6e29cbc8e8",
+        "bytes": 293508,
+        "displayAllowed": true,
+        "displayScope": "Attributed editorial style reference; no artist endorsement or advertising permission is represented.",
+        "modificationNote": "Source image bytes are unchanged. Detail views crop the displayed image using saved coordinates.",
+        "modelRelease": "Not provided by source"
+      },
+      "productLinks": [],
+      "editorialNote": "Editorial style inspiration based on this photograph. Suggested products are alternatives, not confirmed products worn. Lighting and image resolution affect apparent color and finish."
+    },
+    {
+      "id": "jimin-bbmas-2019",
+      "artistId": "jimin",
+      "title": "Warm rose lip & bronze-toned eyes",
+      "summary": "Coral-pink hair, warm brown eye definition, and a richer rose lip make this red-carpet close-up more expressive. A hand partly covers the face, so the cheek reference uses the unobscured side.",
+      "tags": [
+        "warm bronze",
+        "warm rose",
+        "soft smoky",
+        "red carpet",
+        "지민"
+      ],
+      "occasion": "Billboard Music Awards red carpet · 1 May 2019",
+      "resolutionNote": "The source is 382 pixels wide and the hand obscures part of the face. Use the visible areas for broad color placement rather than fine skin texture.",
+      "regions": [
+        {
+          "id": "face",
+          "title": "Satin base against warm color",
+          "description": "The visible complexion is softly satin, balancing the warm hair and lip color. Blend a light base layer and choose coverage to suit your own skin; the hand blocks part of the face.",
+          "crop": {
+            "x": 0.07,
+            "y": 0.246,
+            "width": 0.83,
+            "height": 0.536
+          },
+          "productCategories": [
+            "foundation",
+            "concealer",
+            "powder"
+          ],
+          "productIds": [
+            "kbeauty-070",
+            "kbeauty-095"
+          ]
+        },
+        {
+          "id": "eyes",
+          "title": "Soft warm-brown definition",
+          "description": "Warm brown shading hugs the eyes with softly dark outer lash lines. Blend a bronze-toned or brown shadow thinly and soften pencil at the outer corner for a related effect.",
+          "crop": {
+            "x": 0.335,
+            "y": 0.45,
+            "width": 0.5,
+            "height": 0.073
+          },
+          "productCategories": [
+            "eyeshadow",
+            "eyeliner"
+          ],
+          "productIds": [
+            "kbeauty-074",
+            "kbeauty-077"
+          ]
+        },
+        {
+          "id": "brows",
+          "title": "Defined brown arch",
+          "description": "The exposed brow area shows a gently structured brown shape. Use short strokes and brush through them, keeping the front less dense than the tail.",
+          "crop": {
+            "x": 0.43,
+            "y": 0.41,
+            "width": 0.395,
+            "height": 0.041
+          },
+          "productCategories": [
+            "brow"
+          ],
+          "productIds": [
+            "kbeauty-080"
+          ]
+        },
+        {
+          "id": "cheeks",
+          "title": "Warm cheek on the visible side",
+          "description": "This crop selects the cheek that is less obscured by the hand. Its warm peach impression can inspire a sheer blush placement, but event lighting affects the apparent color.",
+          "crop": {
+            "x": 0.605,
+            "y": 0.497,
+            "width": 0.23,
+            "height": 0.116
+          },
+          "productCategories": [
+            "blush",
+            "contour"
+          ],
+          "productIds": [
+            "kbeauty-068",
+            "kbeauty-081"
+          ]
+        },
+        {
+          "id": "lips",
+          "title": "Rich warm-rose accent",
+          "description": "The lip is noticeably deeper and warmer than the surrounding complexion, with a little shine. Layer a warm rose tint and keep the edge softly defined for a wearable statement.",
+          "crop": {
+            "x": 0.5,
+            "y": 0.637,
+            "width": 0.235,
+            "height": 0.076
+          },
+          "productCategories": [
+            "lip_tint",
+            "lipstick",
+            "lip_gloss"
+          ],
+          "productIds": [
+            "kbeauty-076"
+          ]
+        }
+      ],
+      "styleIds": [
+        "warm_bronze",
+        "soft_smoky",
+        "statement_lip"
+      ],
+      "source": {
+        "url": "https://commons.wikimedia.org/wiki/File:190501_BTS_Jimin_at_the_2019_BBMAs.png",
+        "title": "Jimin on the 2019 Billboard Music Awards red carpet",
+        "date": "2019-05-01",
+        "kind": "licensed_event_photo",
+        "originalUrl": "https://www.youtube.com/watch?v=ZXESQxznhoc"
+      },
+      "image": {
+        "src": "assets/looks/jimin-bbmas-2019.png",
+        "width": 382,
+        "height": 719,
+        "alt": "Jimin on the 2019 Billboard Music Awards red carpet; 2019-05-01.",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:190501_BTS_Jimin_at_the_2019_BBMAs.png",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/190501_BTS_Jimin_at_the_2019_BBMAs.png",
+        "credit": "Dispatch",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "sha256": "8feed02a4fec18042b8b467e2ed3401fa02a2ea949f7d679d2e0382c3c26a192",
+        "bytes": 567374,
+        "displayAllowed": true,
+        "displayScope": "Attributed editorial style reference; no artist endorsement or advertising permission is represented.",
+        "modificationNote": "Source image bytes are unchanged. Detail views crop the displayed image using saved coordinates.",
+        "modelRelease": "Not provided by source"
+      },
+      "productLinks": [],
+      "editorialNote": "Editorial style inspiration based on this photograph. Suggested products are alternatives, not confirmed products worn. Lighting and image resolution affect apparent color and finish."
+    },
+    {
+      "id": "karina-mma-2024",
+      "artistId": "karina",
+      "title": "Defined eyes & muted rose balance",
+      "summary": "A dark, elongated upper lash line contrasts with a restrained rose lip and soft cheek color. Burgundy-toned hair, black clothing, and silver jewelry complete the evening reference.",
+      "tags": [
+        "defined eyes",
+        "muted rose",
+        "evening",
+        "red carpet",
+        "카리나"
+      ],
+      "occasion": "Melon Music Awards · 30 November 2024",
+      "resolutionNote": "The licensed source is 416 × 582 pixels; enlarged details are soft. Use it for broad placement, not fine texture or exact shade judgments.",
+      "regions": [
+        {
+          "id": "face",
+          "title": "Smooth satin impression",
+          "description": "The complexion has an even, softly matte-to-satin appearance in this small source image. Use a light base layer and powder only the areas where you prefer less shine.",
+          "crop": {
+            "x": 0.328,
+            "y": 0.144,
+            "width": 0.33,
+            "height": 0.294
+          },
+          "productCategories": [
+            "cushion",
+            "foundation",
+            "powder"
+          ],
+          "productIds": [
+            "kbeauty-043"
+          ]
+        },
+        {
+          "id": "eyes",
+          "title": "Elongated dark upper line",
+          "description": "The strongest visible makeup feature is the dark upper lash line extending toward the outer corners. Keep the inner line thin and build the outer third gradually.",
+          "crop": {
+            "x": 0.35,
+            "y": 0.247,
+            "width": 0.27,
+            "height": 0.05
+          },
+          "productCategories": [
+            "eyeliner",
+            "mascara",
+            "eyeshadow"
+          ],
+          "productIds": [
+            "kbeauty-029",
+            "kbeauty-028"
+          ]
+        },
+        {
+          "id": "brows",
+          "title": "Subtle brow definition",
+          "description": "The visible brows frame the eyes without a strongly outlined front. Brush them into place and lightly fill gaps; the source resolution limits inspection of individual hairs.",
+          "crop": {
+            "x": 0.36,
+            "y": 0.217,
+            "width": 0.25,
+            "height": 0.047
+          },
+          "productCategories": [
+            "brow"
+          ],
+          "productIds": [
+            "kbeauty-050"
+          ]
+        },
+        {
+          "id": "cheeks",
+          "title": "Quiet rose cheek color",
+          "description": "A soft pink-rose impression balances the eye definition. Apply a light veil of blush and blend broadly; exact color cannot be isolated from the event lighting.",
+          "crop": {
+            "x": 0.353,
+            "y": 0.283,
+            "width": 0.28,
+            "height": 0.068
+          },
+          "productCategories": [
+            "blush",
+            "contour"
+          ],
+          "productIds": [
+            "kbeauty-026"
+          ]
+        },
+        {
+          "id": "lips",
+          "title": "Muted rose with a soft edge",
+          "description": "The lip has a muted rose impression that keeps attention on the eyes. Try a softly blended tint or satin lipstick rather than a heavily outlined shape.",
+          "crop": {
+            "x": 0.439,
+            "y": 0.354,
+            "width": 0.13,
+            "height": 0.051
+          },
+          "productCategories": [
+            "lip_tint",
+            "lipstick"
+          ],
+          "productIds": [
+            "kbeauty-032"
+          ]
+        }
+      ],
+      "styleIds": [
+        "soft_smoky",
+        "soft_rose"
+      ],
+      "source": {
+        "url": "https://commons.wikimedia.org/wiki/File:Aespa_Karina_2024_MMA.jpg",
+        "title": "Karina at the 2024 Melon Music Awards",
+        "date": "2024-11-30",
+        "kind": "licensed_event_photo",
+        "originalUrl": "https://www.youtube.com/watch?v=tL4Y3jVfnok"
+      },
+      "image": {
+        "src": "assets/looks/karina-mma-2024.jpg",
+        "width": 416,
+        "height": 582,
+        "alt": "Karina at the 2024 Melon Music Awards; 2024-11-30.",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aespa_Karina_2024_MMA.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Aespa_Karina_2024_MMA.jpg",
+        "credit": "10Asia",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "sha256": "a53ee732156babaa4884cd2ba682b86459081770bcdee6dcfc4f75f7aee78249",
+        "bytes": 34376,
+        "displayAllowed": true,
+        "displayScope": "Attributed editorial style reference; no artist endorsement or advertising permission is represented.",
+        "modificationNote": "Source image bytes are unchanged. Detail views crop the displayed image using saved coordinates.",
+        "modelRelease": "Not provided by source"
+      },
+      "productLinks": [],
+      "editorialNote": "Editorial style inspiration based on this photograph. Suggested products are alternatives, not confirmed products worn. Lighting and image resolution affect apparent color and finish."
+    },
+    {
+      "id": "jungkook-bbmas-2019",
+      "artistId": "jungkook",
+      "title": "Soft rose with a polished satin base",
+      "summary": "A softly rosy lip and subtle brown eye definition balance a formal dark suit. The low-contrast complexion makes this a useful polished, everyday-to-event reference.",
+      "tags": [
+        "soft rose",
+        "satin",
+        "natural finish",
+        "red carpet",
+        "정국"
+      ],
+      "occasion": "Billboard Music Awards red carpet · 1 May 2019",
+      "regions": [
+        {
+          "id": "face",
+          "title": "Even satin base",
+          "description": "The complexion is softly even and retains some visible texture. Try thin base layers and targeted concealer; match the shade to your own skin rather than the photographed brightness.",
+          "crop": {
+            "x": 0.265,
+            "y": 0.11,
+            "width": 0.44,
+            "height": 0.34
+          },
+          "productCategories": [
+            "foundation",
+            "concealer",
+            "powder"
+          ],
+          "productIds": [
+            "kbeauty-070",
+            "kbeauty-072"
+          ]
+        },
+        {
+          "id": "eyes",
+          "title": "Soft brown lash definition",
+          "description": "A muted brown impression surrounds the lash line, with a subtle outer extension. Blend pencil softly and keep the lid shading light for a similar low-contrast finish.",
+          "crop": {
+            "x": 0.345,
+            "y": 0.23,
+            "width": 0.29,
+            "height": 0.047
+          },
+          "productCategories": [
+            "eyeliner",
+            "eyeshadow"
+          ],
+          "productIds": [
+            "kbeauty-077"
+          ]
+        },
+        {
+          "id": "brows",
+          "title": "Softly structured visible brow",
+          "description": "The side part hides much of one brow while the other has a gentle, filled shape. Use the visible brow for soft stroke direction without assuming symmetry under the hair.",
+          "crop": {
+            "x": 0.338,
+            "y": 0.2,
+            "width": 0.28,
+            "height": 0.04
+          },
+          "productCategories": [
+            "brow"
+          ],
+          "productIds": [
+            "kbeauty-088"
+          ]
+        },
+        {
+          "id": "cheeks",
+          "title": "Muted rosy cheek",
+          "description": "A quiet rosy tone sits across the cheek area without a strongly reflective highlight. Blend a sheer blush broadly, keeping the outer edge soft.",
+          "crop": {
+            "x": 0.3,
+            "y": 0.265,
+            "width": 0.36,
+            "height": 0.08
+          },
+          "productCategories": [
+            "blush",
+            "contour"
+          ],
+          "productIds": [
+            "kbeauty-026"
+          ]
+        },
+        {
+          "id": "lips",
+          "title": "Softly defined rosy center",
+          "description": "The lips show a pink-rose center and a soft satin reflection. Build a tint gradually and blur the edge; a subtle liner can add definition if you prefer.",
+          "crop": {
+            "x": 0.416,
+            "y": 0.345,
+            "width": 0.15,
+            "height": 0.052
+          },
+          "productCategories": [
+            "lip_tint",
+            "lip_liner"
+          ],
+          "productIds": [
+            "kbeauty-025",
+            "kbeauty-073"
+          ]
+        }
+      ],
+      "styleIds": [
+        "barely_there",
+        "soft_rose"
+      ],
+      "source": {
+        "url": "https://commons.wikimedia.org/wiki/File:Jungkook_on_the_Billboard_Music_Awards_red_carpet,_1_May_2019.jpg",
+        "title": "Jungkook on the 2019 Billboard Music Awards red carpet",
+        "date": "2019-05-01",
+        "kind": "licensed_event_photo",
+        "originalUrl": "https://www.youtube.com/watch?v=ZXESQxznhoc"
+      },
+      "image": {
+        "src": "assets/looks/jungkook-bbmas-2019.jpg",
+        "width": 709,
+        "height": 1067,
+        "alt": "Jungkook on the 2019 Billboard Music Awards red carpet; 2019-05-01.",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jungkook_on_the_Billboard_Music_Awards_red_carpet,_1_May_2019.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Jungkook_on_the_Billboard_Music_Awards_red_carpet%2C_1_May_2019.jpg",
+        "credit": "Dispatch",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "sha256": "a64cf7e4e4d227de390ba62a2b5d7f1bc8690a7cae2ad803600efddbb88496fc",
+        "bytes": 124111,
+        "displayAllowed": true,
+        "displayScope": "Attributed editorial style reference; no artist endorsement or advertising permission is represented.",
+        "modificationNote": "Source image bytes are unchanged. Detail views crop the displayed image using saved coordinates.",
+        "modelRelease": "Not provided by source"
+      },
+      "productLinks": [],
+      "editorialNote": "Editorial style inspiration based on this photograph. Suggested products are alternatives, not confirmed products worn. Lighting and image resolution affect apparent color and finish."
+    }
+  ]
+}

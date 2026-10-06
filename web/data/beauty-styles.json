@@ -1,0 +1,900 @@
+{
+  "schemaVersion": 1,
+  "selectionNote": "Product ideas for exploring a look or routine. Shade, formula, personal tolerance and makeup removal still need checking. Choose the parts you like; these are not a confirmed personal match or a required shopping list.",
+  "audienceNote": "Every guide is open to everyone. Choose a finish and technique you enjoy, regardless of gender.",
+  "makeup": [
+    {
+      "id": "barely_there",
+      "title": "Barely there",
+      "summary": "Targeted coverage, brushed brows and a clear lip. Keep most of the complexion visible and make small, deliberate changes.",
+      "tags": [
+        "minimal",
+        "spot coverage",
+        "clear lip",
+        "everyday"
+      ],
+      "finish": "Natural skin with selective shine control",
+      "colorNotes": "A clear lip and a muted brow are the focus. The sample concealer shade is not a skin-tone match.",
+      "technique": "Work on individual areas and soften the edges; leave areas you already like alone.",
+      "profilePatch": {
+        "goals": [
+          "natural_makeup",
+          "quick_easy"
+        ],
+        "finish": "natural",
+        "coverage": "spot_only",
+        "eyeEffect": "definition",
+        "colorFamily": "unknown",
+        "texture": "lightweight",
+        "scope": "makeup",
+        "slots": [
+          "base",
+          "eyes",
+          "lip"
+        ]
+      },
+      "selections": [
+        {
+          "productId": "kbeauty-060",
+          "reason": "Dual-ended concealer for small areas of coverage; 0.5 N needs a personal shade check and net content remains unverified.",
+          "sourceUrl": "https://tirtir.global/products/glide-hide-blurring-concealer?variant=46765742719195"
+        },
+        {
+          "productId": "kbeauty-088",
+          "reason": "Grace Taupe brow mascara adds color while combing hairs; check the shade against your preferred brow color.",
+          "sourceUrl": "https://romandbeauty.com/products/han-all-brow-cara?variant=41703842086987"
+        },
+        {
+          "productId": "kbeauty-095",
+          "reason": "A translucent pressed powder for selective shine control; test how the finish looks on your complexion.",
+          "sourceUrl": "https://misshaus.com/products/airy-pot-pressed-powder-pact?variant=44732601008315"
+        },
+        {
+          "productId": "kbeauty-084",
+          "reason": "The Clear gloss gives shine without choosing a tinted lip shade; personal comfort and removal remain unverified.",
+          "sourceUrl": "https://clubclio.shop/products/peripera-ink-glasting-lip-gloss?variant=44897005961447"
+        }
+      ],
+      "steps": [
+        "Choose a matching concealer and tap it only where you want extra coverage.",
+        "Comb brows in your preferred direction, adding a little tinted brow product where wanted.",
+        "Use powder only on areas you want less shiny; keep the remaining skin finish visible.",
+        "Finish with a small amount of clear gloss, or keep your own lip product."
+      ],
+      "regionDirections": {
+        "brows": {
+          "title": "Brushed, lightly colored brows",
+          "steps": [
+            "Comb hairs in their natural direction and add only enough brow color to create the definition you want."
+          ]
+        },
+        "eyes": {
+          "title": "Keep the eye area quiet",
+          "steps": [
+            "Leave eye color optional; the brushed brow carries this minimal look."
+          ]
+        },
+        "nose": {
+          "title": "Small areas of coverage",
+          "steps": [
+            "If you want coverage around the nose, blend a matching concealer along its edges and skip contour."
+          ]
+        },
+        "cheeks": {
+          "title": "Visible skin",
+          "steps": [
+            "Keep cheeks mostly bare and use powder only where you prefer less shine."
+          ]
+        },
+        "lips": {
+          "title": "Clear shine",
+          "steps": [
+            "Use a light layer of clear gloss without changing the lip outline."
+          ]
+        }
+      }
+    },
+    {
+      "id": "dewy_glow",
+      "title": "Dewy glow",
+      "summary": "A luminous complexion, cream cheek color and a glossy lip. Let reflected light be the main feature.",
+      "tags": [
+        "glow",
+        "cream blush",
+        "sheer color",
+        "gloss"
+      ],
+      "finish": "Dewy base with controlled highlights",
+      "colorNotes": "Rare Apple cheek color and Peony Ballet gloss are independent shade examples; compare their swatches before pairing.",
+      "technique": "Build a thin luminous base, then concentrate extra shine on selected high points.",
+      "profilePatch": {
+        "goals": [
+          "natural_makeup"
+        ],
+        "finish": "dewy",
+        "coverage": "light_all_over",
+        "eyeEffect": "unknown",
+        "colorFamily": "unknown",
+        "texture": "lightweight",
+        "scope": "makeup",
+        "slots": [
+          "base",
+          "cheek",
+          "lip"
+        ]
+      },
+      "selections": [
+        {
+          "productId": "kbeauty-058",
+          "reason": "A luminous primer to explore before complexion makeup; how it layers with your own skincare is not verified.",
+          "sourceUrl": "https://tirtir.global/products/reflect-glow-prep-primer?variant=48631508795611"
+        },
+        {
+          "productId": "kbeauty-044",
+          "reason": "A light-coverage glow cushion for an even-looking base; 10C Shell is an example shade, not a match.",
+          "sourceUrl": "https://tirtir.global/products/tinted-skin-glow-cushion"
+        },
+        {
+          "productId": "kbeauty-089",
+          "reason": "A cream cheek format with a dewy finish; test Rare Apple color intensity and blending on your complexion.",
+          "sourceUrl": "https://romandbeauty.com/products/juicy-roll-cheek?variant=41633180844107"
+        },
+        {
+          "productId": "kbeauty-079",
+          "reason": "A highlighting duo for selected facial high points; Cream Fizz needs a swatch check and net content is unverified.",
+          "sourceUrl": "https://clubclio.shop/products/clio-prism-highlighter-duo-used-by-stray-kids?variant=45029262262503"
+        },
+        {
+          "productId": "kbeauty-092",
+          "reason": "A sheer color gloss to echo the luminous base; Peony Ballet color and personal comfort need checking.",
+          "sourceUrl": "https://romandbeauty.com/products/glasting-color-gloss?variant=41341796679755"
+        },
+        {
+          "productId": "kbeauty-064",
+          "reason": "An optional radiant finishing mist; it contains denatured alcohol, and tolerance or wear time is not guaranteed.",
+          "sourceUrl": "https://amuseseoulmakeup.com/products/ceramic-radiant-rice-mist-fixerreal?variant=51155623149882"
+        }
+      ],
+      "steps": [
+        "Choose either the glow primer or your familiar preparation step, then apply a thin layer of a matching cushion.",
+        "Blend a little cream cheek color and check it in your usual light before adding more.",
+        "Place highlighter where you want extra reflection rather than covering the whole face.",
+        "Add a sheer gloss. If using the finishing mist, follow its label directions."
+      ],
+      "regionDirections": {
+        "brows": {
+          "title": "Soft brow frame",
+          "steps": [
+            "Keep brow edges softly brushed so the luminous complexion remains the focus."
+          ]
+        },
+        "eyes": {
+          "title": "Quiet eye color",
+          "steps": [
+            "Keep eye color optional and restrained; use products labeled for the eye area if adding shine there."
+          ]
+        },
+        "nose": {
+          "title": "Choose your reflection",
+          "steps": [
+            "Keep the nose at the base finish, or add a small highlight only where you want more reflection."
+          ]
+        },
+        "cheeks": {
+          "title": "Cream color and light",
+          "steps": [
+            "Blend the cream cheek color first, then add a small highlight above the colored area."
+          ]
+        },
+        "lips": {
+          "title": "Sheer gloss",
+          "steps": [
+            "Apply a sheer gloss layer and build the amount of shine to your preference."
+          ]
+        }
+      }
+    },
+    {
+      "id": "soft_rose",
+      "title": "Soft rose",
+      "summary": "Pink eye color, a cool powder flush and softly outlined glossy lipstick. Keep transitions blended and the color story close.",
+      "tags": [
+        "pink",
+        "soft edges",
+        "powder blush",
+        "glossy lipstick"
+      ],
+      "finish": "Soft satin complexion with a glossy lip",
+      "colorNotes": "Prestige Pink, Odi Milk and Fairy Dream offer different pink references. They are not a tested matching set.",
+      "technique": "Use light layers of color and soften the borders between the eye, cheek and lip accents.",
+      "profilePatch": {
+        "goals": [
+          "natural_makeup"
+        ],
+        "finish": "natural",
+        "coverage": "light_all_over",
+        "eyeEffect": "soft_color",
+        "colorFamily": "pink",
+        "texture": "lightweight",
+        "scope": "makeup",
+        "slots": [
+          "base",
+          "eyes",
+          "cheek",
+          "lip"
+        ]
+      },
+      "selections": [
+        {
+          "productId": "kbeauty-037",
+          "reason": "A soft-satin cushion format for the base; shade 17N1 and the exact regional formula still need checking.",
+          "sourceUrl": "https://int.hera.com/products/black-cushion-foundation"
+        },
+        {
+          "productId": "kbeauty-082",
+          "reason": "Prestige Pink combines eye, cheek and highlight colors; inspect the individual pans and follow their labeled uses.",
+          "sourceUrl": "https://clubclio.shop/products/peripera-all-take-mood-like-palette?variant=47302843564263"
+        },
+        {
+          "productId": "kbeauty-026",
+          "reason": "Odi Milk adds a cool pastel powder flush; its light shade may read differently on your complexion.",
+          "sourceUrl": "https://romandbeauty.com/products/better-than-cheek"
+        },
+        {
+          "productId": "kbeauty-073",
+          "reason": "Rosy Pink lip pencil gives the lip color a soft boundary; exact shade fit and net content remain unverified.",
+          "sourceUrl": "https://clubclio.shop/products/copy-of-clio-chiffon-blur-tint?variant=47991504044263"
+        },
+        {
+          "productId": "kbeauty-096",
+          "reason": "Fairy Dream is a glossy lipstick option for the pink story; it contains fragrance and personal comfort needs checking.",
+          "sourceUrl": "https://misshaus.com/products/missha-dewy-rouge?variant=46412668240059"
+        }
+      ],
+      "steps": [
+        "Apply a matching base only to the coverage level you want.",
+        "Choose a light pink eye color and blend its edge; add a deeper palette shade only if you want more definition.",
+        "Build the powder blush gradually, or use the palette's cheek color as an alternative.",
+        "Soften the rosy pencil outline and add lipstick within it."
+      ],
+      "regionDirections": {
+        "brows": {
+          "title": "A soft frame for pink",
+          "steps": [
+            "Keep brow edges blended and retain visible individual hairs."
+          ]
+        },
+        "eyes": {
+          "title": "Diffused pink color",
+          "steps": [
+            "Blend a light pink eye shade across the lid and soften the outer edge."
+          ]
+        },
+        "nose": {
+          "title": "Quiet satin base",
+          "steps": [
+            "Keep the nose close to the base finish so the pink accents carry the look."
+          ]
+        },
+        "cheeks": {
+          "title": "Cool powder flush",
+          "steps": [
+            "Build the pastel blush lightly and soften its border into the base."
+          ]
+        },
+        "lips": {
+          "title": "Soft outline, glossy color",
+          "steps": [
+            "Blend the rosy liner edge before adding the glossy lipstick."
+          ]
+        }
+      }
+    },
+    {
+      "id": "soft_smoky",
+      "title": "Soft smoky",
+      "summary": "Black-brown lash-line depth, gray-brown brows and a muted mauve lip. A matte complexion keeps attention around the eyes.",
+      "tags": [
+        "smoky liner",
+        "matte",
+        "muted mauve",
+        "soft contrast"
+      ],
+      "finish": "Matte complexion with blurred lip color",
+      "colorNotes": "Black Brown liner, Gray Brown brows and Midnight Mauve lips create the contrast; brow and lip shades remain personal choices.",
+      "technique": "Concentrate darkness close to the lash line and soften the visible edge instead of drawing a sharp wing.",
+      "profilePatch": {
+        "goals": [
+          "less_shine"
+        ],
+        "finish": "matte",
+        "coverage": "more_coverage",
+        "eyeEffect": "definition",
+          "colorFamily": "pink",
+        "texture": "lightweight",
+        "scope": "makeup",
+        "slots": [
+          "eyes",
+          "base",
+          "lip"
+        ]
+      },
+      "selections": [
+        {
+          "productId": "kbeauty-061",
+          "reason": "A matte cushion for a quieter complexion finish; 10C Shell requires a shade match and net content is unverified.",
+          "sourceUrl": "https://tirtir.global/products/mask-fit-ai-filter-cushion?variant=47265818738907"
+        },
+        {
+          "productId": "kbeauty-077",
+          "reason": "Black Brown pencil places depth near the lashes; blending and wear vary, and its removal method remains unverified.",
+          "sourceUrl": "https://clubclio.shop/products/clio-extreme-gelpresso-pencil-liner?variant=45337217728743"
+        },
+        {
+          "productId": "kbeauty-086",
+          "reason": "Gray Brown pencil adds restrained brow definition; choose a color you like rather than assuming it matches your hair.",
+          "sourceUrl": "https://clubclio.shop/products/peripera-speedy-skinny-brow?variant=45344550224103"
+        },
+        {
+          "productId": "kbeauty-028",
+          "reason": "Black Long Curling mascara adds lash definition; compatible removal and personal eye-area tolerance need checking.",
+          "sourceUrl": "https://clubclio.shop/products/clio-kill-lash-superproof-mascara"
+        },
+        {
+          "productId": "kbeauty-032",
+          "reason": "Midnight Mauve gives a muted matte lip accent; the final color depends on your lips and application.",
+          "sourceUrl": "https://us.oliveyoung.com/products/UA46857080"
+        },
+        {
+          "productId": "kbeauty-063",
+          "reason": "An optional setting powder for extra shine control; test the Clear shade's appearance before using it broadly.",
+          "sourceUrl": "https://amuseseoulmakeup.com/products/ceramic-skin-sebum-powder?variant=51159585685818"
+        }
+      ],
+      "steps": [
+        "Choose a matching matte base and use the optional powder only where needed.",
+        "Draw a short black-brown line close to the lashes, then soften its outer edge while the texture allows.",
+        "Add fine brow strokes and lash definition without making every edge equally strong.",
+        "Blend a small amount of mauve tint across the lips for a soft finish."
+      ],
+      "regionDirections": {
+        "brows": {
+          "title": "Muted brow definition",
+          "steps": [
+            "Add gray-brown strokes to selected gaps, then blend the front edge."
+          ]
+        },
+        "eyes": {
+          "title": "Close, diffused depth",
+          "steps": [
+            "Keep the black-brown liner close to the lashes and soften its visible edge rather than extending a sharp wing."
+          ]
+        },
+        "nose": {
+          "title": "Quiet matte finish",
+          "steps": [
+            "Keep coverage thin around the nose and add powder only if you want less shine."
+          ]
+        },
+        "cheeks": {
+          "title": "Low-contrast cheeks",
+          "steps": [
+            "Keep extra cheek color optional so the diffused eyes remain the focus."
+          ]
+        },
+        "lips": {
+          "title": "Muted mauve",
+          "steps": [
+            "Blend the mauve tint lightly at the border for a soft matte accent."
+          ]
+        }
+      }
+    },
+    {
+      "id": "stage_definition",
+      "title": "Stage definition",
+      "summary": "A defined black wing, fuller-looking lashes and concentrated eye sparkle. Add deliberate face shading and a glossy color accent.",
+      "tags": [
+        "sharp liner",
+        "glitter",
+        "volume",
+        "sculpted contrast"
+      ],
+      "finish": "Even satin base with concentrated sparkle",
+      "colorNotes": "Black liner and lashes supply the contrast. Choose a glitter pan and lip shade deliberately; the name of a style does not guarantee performance under stage lighting.",
+      "technique": "Make selected edges crisp, then keep surrounding areas simpler so the definition is readable.",
+      "profilePatch": {
+        "goals": [
+          "longer_wear"
+        ],
+        "finish": "natural",
+        "coverage": "more_coverage",
+        "eyeEffect": "volume",
+        "colorFamily": "unknown",
+        "texture": "unknown",
+        "scope": "makeup",
+        "slots": [
+          "eyes",
+          "base",
+          "cheek",
+          "lip"
+        ]
+      },
+      "selections": [
+        {
+          "productId": "kbeauty-043",
+          "reason": "A fuller-coverage satin cushion base; 21N Ivory is an example shade and lighting can change its appearance.",
+          "sourceUrl": "https://tirtir.global/products/mask-fit-red-cushion"
+        },
+        {
+          "productId": "kbeauty-078",
+          "reason": "A fine black brush liner for a crisp edge; the exact removal method remains unverified.",
+          "sourceUrl": "https://clubclio.shop/products/clio-superproof-brush-liner?variant=45029283397863"
+        },
+        {
+          "productId": "kbeauty-093",
+          "reason": "Volume Black mascara adds a stronger lash emphasis; net content, tolerance and compatible removal need checking.",
+          "sourceUrl": "https://romandbeauty.com/products/han-all-fix-mascara?variant=41341786914891"
+        },
+        {
+          "productId": "kbeauty-087",
+          "reason": "Light & Glitter Garden provides ten glitter shades; check each shade and follow the product's eye-area directions.",
+          "sourceUrl": "https://romandbeauty.com/products/better-than-palette?variant=43062400352331"
+        },
+        {
+          "productId": "kbeauty-081",
+          "reason": "Natural Brown shading creates optional face definition; swatch it first because depth and undertone are not personalized.",
+          "sourceUrl": "https://clubclio.shop/products/peripera-ink-v-shading?variant=45029345525991"
+        },
+        {
+          "productId": "kbeauty-076",
+          "reason": "Vintage Apple glossy tint adds a distinct lip accent; it contains fragrance and the shade needs a personal check.",
+          "sourceUrl": "https://clubclio.shop/products/clio-crystal-glam-tint?variant=47257586991335"
+        }
+      ],
+      "steps": [
+        "Build a matching base in controlled layers and check the finished look in the lighting where you will wear it.",
+        "Draw a deliberate black wing and add mascara to the level of lash emphasis you want.",
+        "Choose one glitter accent and place it according to the product directions.",
+        "Add a small amount of face shading if desired, then finish with the glossy lip color."
+      ],
+      "regionDirections": {
+        "brows": {
+          "title": "Deliberate brow frame",
+          "steps": [
+            "Define the brow shape you want, then keep the inner edge softer than the tail."
+          ]
+        },
+        "eyes": {
+          "title": "Crisp wing and sparkle",
+          "steps": [
+            "Combine a clear black liner edge with one concentrated glitter accent and fuller-looking lashes."
+          ]
+        },
+        "nose": {
+          "title": "Optional controlled shading",
+          "steps": [
+            "If you want nose definition, use very little face shading and blend until no isolated stripe remains."
+          ]
+        },
+        "cheeks": {
+          "title": "Directional face shading",
+          "steps": [
+            "Place shading only where you want more depth and check the contrast in your intended lighting."
+          ]
+        },
+        "lips": {
+          "title": "Glossy color accent",
+          "steps": [
+            "Apply an even lip-color layer with a deliberate outline to balance the defined eyes."
+          ]
+        }
+      }
+    },
+    {
+      "id": "warm_bronze",
+      "title": "Warm bronze mood",
+      "summary": "Peach color, natural-brown definition and a warm brick lip over a radiant base. This direction explores warmth without requiring an all-over bronzer.",
+      "tags": [
+        "peach",
+        "warm brick",
+        "brown definition",
+        "radiant"
+      ],
+      "finish": "Radiant base with a choice of matte or glossy lips",
+      "colorNotes": "Peach Mate Apple and Good Brick supply the warm color cues. Sunkissed gloss is an optional finish, not a verified color match to the tint.",
+      "technique": "Repeat a warm color cue across eyes, cheeks and lips while keeping brown definition selective.",
+      "profilePatch": {
+        "goals": [
+          "natural_makeup"
+        ],
+        "finish": "dewy",
+        "coverage": "more_coverage",
+        "eyeEffect": "soft_color",
+        "colorFamily": "coral",
+        "texture": "lightweight",
+        "scope": "makeup",
+        "slots": [
+          "base",
+          "eyes",
+          "cheek",
+          "lip"
+        ]
+      },
+      "selections": [
+        {
+          "productId": "kbeauty-059",
+          "reason": "Radiant liquid foundation gives an even-looking base; 10C Shell must be shade-matched and does not determine your undertone.",
+          "sourceUrl": "https://tirtir.global/products/mask-fit-red-foundation?variant=46765534609627"
+        },
+        {
+          "productId": "kbeauty-074",
+          "reason": "Peach Mate Apple offers matte, satin and shimmer eye textures; inspect the individual colors before choosing your warm accent.",
+          "sourceUrl": "https://clubclio.shop/products/clio-pro-eye-palette-air?variant=51749995774183"
+        },
+        {
+          "productId": "kbeauty-048",
+          "reason": "Boksoonga Tok brings peach-toned liquid cheek color; how it blends with this foundation has not been verified.",
+          "sourceUrl": "https://amuseseoulmakeup.com/products/cheek-tok-tok"
+        },
+        {
+          "productId": "kbeauty-080",
+          "reason": "Natural Brown pencil adds fine brow definition; the shade is an example and net content remains unverified.",
+          "sourceUrl": "https://clubclio.shop/products/clio-kill-brow-auto-hard-brow-pencil-edge-slim?variant=43691886608615"
+        },
+        {
+          "productId": "kbeauty-030",
+          "reason": "Good Brick provides a warm, pigmented matte lip option; build gradually because its color is not personalized.",
+          "sourceUrl": "https://clubclio.shop/products/peripera-ink-the-velvet"
+        },
+        {
+          "productId": "kbeauty-038",
+          "reason": "Sunkissed gloss is an alternative sheer, shiny lip finish; it can feel tingly, and layering over the tint is untested.",
+          "sourceUrl": "https://int.hera.com/products/sensual-nude-gloss"
+        }
+      ],
+      "steps": [
+        "Choose a foundation shade independently of this warm color theme and apply the coverage you want.",
+        "Use a peach eye accent and fine brown brow strokes; add shimmer only where desired.",
+        "Blend the peach liquid blush and check the overall color balance.",
+        "Choose the brick matte tint or the sheer gloss as your lip finish; using both is optional."
+      ],
+      "regionDirections": {
+        "brows": {
+          "title": "Fine brown strokes",
+          "steps": [
+            "Use short natural-brown strokes where you want more brow definition, then blend the edges."
+          ]
+        },
+        "eyes": {
+          "title": "Peach and soft shimmer",
+          "steps": [
+            "Select a peach-toned eye shade from the palette and add a small shimmer accent if desired."
+          ]
+        },
+        "nose": {
+          "title": "Keep the base shade true",
+          "steps": [
+            "Keep the nose in your matched foundation shade; the warm theme comes from color accents, not a darker base."
+          ]
+        },
+        "cheeks": {
+          "title": "Peach liquid flush",
+          "steps": [
+            "Blend a small amount of peach liquid blush and repeat only if you want stronger color."
+          ]
+        },
+        "lips": {
+          "title": "Brick or sheer shine",
+          "steps": [
+            "Choose softly blended brick tint for matte contrast, or use Sunkissed gloss for a sheer finish."
+          ]
+        }
+      }
+    },
+    {
+      "id": "statement_lip",
+      "title": "Cherry lip focus",
+      "summary": "Make a glossy cherry lip the strongest color. Keep the base even and the eye line fine so the lip reads clearly.",
+      "tags": [
+        "cherry",
+        "glossy lip",
+        "precise outline",
+        "quiet eyes"
+      ],
+      "finish": "Even complexion with a high-shine lip focus",
+      "colorNotes": "Hushed Cherry is the main color. Kaya Beige is an optional outline reference; verify that it blends with your lips and chosen tint.",
+      "technique": "Spend the definition on the lip border and keep eye and cheek accents restrained.",
+      "profilePatch": {
+        "goals": [],
+        "finish": "dewy",
+        "coverage": "spot_only",
+        "eyeEffect": "definition",
+        "colorFamily": "red",
+        "texture": "unknown",
+        "scope": "makeup",
+        "slots": [
+          "lip",
+          "base",
+          "eyes"
+        ]
+      },
+      "selections": [
+        {
+          "productId": "kbeauty-070",
+          "reason": "A liquid base option for evening visible tone; 2 Lingerie needs a shade check and net content is unverified.",
+          "sourceUrl": "https://clubclio.shop/products/clio-kill-cover-founwear-foundation?variant=44418616230119"
+        },
+        {
+          "productId": "kbeauty-072",
+          "reason": "A narrow-tip concealer can provide targeted coverage instead of an all-over base; matching shade names do not prove a match.",
+          "sourceUrl": "https://clubclio.shop/products/copy-of-clio-kill-cover-airy-fit-concealer?variant=48002262499559"
+        },
+        {
+          "productId": "kbeauty-029",
+          "reason": "A slim black pencil keeps the eye line controlled; waterproof labeling does not establish a compatible remover.",
+          "sourceUrl": "https://clubclio.shop/products/clio-sharp-so-simple-pencil-liner"
+        },
+        {
+          "productId": "kbeauty-085",
+          "reason": "Long Lash Curling mascara adds definition with a modest eye-color footprint; personal tolerance and removal need checking.",
+          "sourceUrl": "https://clubclio.shop/products/peripera-ink-black-cara?variant=43691295146215"
+        },
+        {
+          "productId": "kbeauty-090",
+          "reason": "Kaya Beige lip pencil can help define and blend the border; swatch it with your lip color before pairing.",
+          "sourceUrl": "https://romandbeauty.com/products/rom-nd-lip-mate-pencil?variant=41441654636619"
+        },
+        {
+          "productId": "kbeauty-049",
+          "reason": "Hushed Cherry gives the glossy cherry accent; the catalog uses an import reference and exact regional details remain limited.",
+          "sourceUrl": "https://us.oliveyoung.com/products/UA20210772"
+        }
+      ],
+      "steps": [
+        "Choose targeted concealer or an all-over foundation, according to the coverage you want.",
+        "Keep the eye line narrow and add lash definition without a competing strong eye color.",
+        "If the lip pencil suits your chosen tint, blend it along the lip border; otherwise skip it.",
+        "Apply the cherry tint evenly and refine the outline. Keep additional cheek color optional."
+      ],
+      "regionDirections": {
+        "brows": {
+          "title": "Understated brow frame",
+          "steps": [
+            "Brush brows into your preferred shape and keep added color restrained."
+          ]
+        },
+        "eyes": {
+          "title": "A fine line",
+          "steps": [
+            "Use a narrow black lash line and modest mascara definition so the lip remains the strongest accent."
+          ]
+        },
+        "nose": {
+          "title": "Even, quiet base",
+          "steps": [
+            "Blend targeted coverage around the nose if desired and leave extra contour optional."
+          ]
+        },
+        "cheeks": {
+          "title": "Keep the color focus on lips",
+          "steps": [
+            "Keep cheeks at your chosen base finish or add only a small amount of your familiar cheek color."
+          ]
+        },
+        "lips": {
+          "title": "Glossy cherry focal point",
+          "steps": [
+            "Refine the lip border, then build an even cherry-gloss finish to the intensity you want."
+          ]
+        }
+      }
+    }
+  ],
+  "skincare": [
+    {
+      "id": "minimal_routine",
+      "title": "Keep it minimal",
+      "summary": "Explore one cleanser, one moisturizer and a daytime sunscreen. Keep familiar products that already suit your routine.",
+      "tags": [
+        "three roles",
+        "simple",
+        "daily basics"
+      ],
+      "technique": "Start with the roles you need and add extra layers only when you want them.",
+      "profilePatch": {
+        "goals": [
+          "quick_easy"
+        ],
+        "texture": "unknown",
+        "scope": "skincare",
+        "slots": [
+          "cleanser",
+          "moisturizer",
+          "daytime_sunscreen"
+        ]
+      },
+      "selections": [
+        {
+          "productId": "kbeauty-001",
+          "reason": "A water-based cleanser for everyday washing; the brand does not position it as a standalone makeup remover.",
+          "sourceUrl": "https://beautyofjoseon.com/products/green-plum-refreshing-cleanser"
+        },
+        {
+          "productId": "kbeauty-035",
+          "reason": "A daily moisturizing cream for a simple middle step; the catalog's partial ingredient list cannot clear your exclusions.",
+          "sourceUrl": "https://us.innisfree.com/products/green-tea-seed-hyaluronic-cream"
+        },
+        {
+          "productId": "kbeauty-006",
+          "reason": "A verified U.S. broad-spectrum SPF 50 option for the daytime step; personal tolerance still needs checking and label directions apply.",
+          "sourceUrl": "https://beautyofjoseon.com/products/day-dew-sunscreen"
+        }
+      ],
+      "steps": [
+        "Keep your own suitable products for any roles you already cover.",
+        "Use the cleanser according to its directions, then apply your chosen moisturizer.",
+        "For the daytime sunscreen step, follow the sunscreen label's application and reapplication directions.",
+        "If wearing makeup, check its removal instructions separately; this simple guide does not verify a remover pairing."
+      ]
+    },
+    {
+      "id": "hydration_comfort",
+      "title": "Cushioned hydration",
+      "summary": "A hydrating liquid and a richer cream create a more cushioned-feeling routine. The toner and essence are alternatives to explore.",
+      "tags": [
+        "hydration",
+        "richer cream",
+        "toner or essence",
+        "comfort"
+      ],
+      "technique": "Choose one liquid hydration step first, then finish with a cream texture you enjoy.",
+      "profilePatch": {
+        "goals": [
+          "hydration_comfort"
+        ],
+        "texture": "rich",
+        "scope": "skincare",
+        "slots": [
+          "toner",
+          "moisturizer",
+          "daytime_sunscreen"
+        ]
+      },
+      "selections": [
+        {
+          "productId": "kbeauty-008",
+          "reason": "A hydrating toner option with propolis; bee-derived ingredients are present and personal tolerance is not established.",
+          "sourceUrl": "https://www.cosrx.com/products/full-fit-propolis-synergy-toner"
+        },
+        {
+          "productId": "kbeauty-009",
+          "reason": "A hydrating essence alternative to the toner; it contains snail-derived material and is not a verified tolerance match.",
+          "sourceUrl": "https://www.cosrx.com/products/advanced-snail-96-mucin-power-essence"
+        },
+        {
+          "productId": "kbeauty-020",
+          "reason": "A richer cream texture for the cushioned finish; the evidence does not promise relief or establish ingredient compatibility.",
+          "sourceUrl": "https://roundlab.com/products/birch-moisturizing-intensive-cream"
+        },
+        {
+          "productId": "kbeauty-021",
+          "reason": "A moisturizing U.S. broad-spectrum SPF 45 option for daytime; tolerance and how it layers with your products still need checking.",
+          "sourceUrl": "https://roundlab.com/products/birch-moisturizing-uv-sunscreen"
+        }
+      ],
+      "steps": [
+        "Begin with your usual cleansing step if needed.",
+        "Choose the toner or the essence as your liquid hydration step; both are optional rather than a required pair.",
+        "Apply your chosen cream according to its directions and adjust the number of layers to your preference.",
+        "For daytime, follow the sunscreen label. Keep any ingredient exclusions active when comparing these examples."
+      ]
+    },
+    {
+      "id": "lightweight_layers",
+      "title": "Lightweight layers",
+      "summary": "A light ampoule and gel cream offer hydration with less emphasis on rich textures. Select this for the feel you prefer, not an assumed skin type.",
+      "tags": [
+        "light ampoule",
+        "gel cream",
+        "lightweight",
+        "optional serum"
+      ],
+      "technique": "Keep each layer simple and skip the ampoule if the gel cream alone gives the feel you want.",
+      "profilePatch": {
+        "goals": [
+          "hydration_comfort"
+        ],
+        "texture": "lightweight",
+        "scope": "skincare",
+        "slots": [
+          "cleanser",
+          "serum",
+          "moisturizer",
+          "daytime_sunscreen"
+        ]
+      },
+      "selections": [
+        {
+          "productId": "kbeauty-040",
+          "reason": "A gel-to-foam cleanser option for this routine; it is fragranced and personal tolerance remains unverified.",
+          "sourceUrl": "https://us.sulwhasoo.com/products/gentle-cleansing-foam"
+        },
+        {
+          "productId": "kbeauty-014",
+          "reason": "A light, non-sticky ampoule for an optional hydration layer; the product is not confirmed suitable from a photo or skin label.",
+          "sourceUrl": "https://www.skin1004.com/products/skin1004-madagascar-centella-ampoule"
+        },
+        {
+          "productId": "kbeauty-023",
+          "reason": "A gel-cream alternative to a rich moisturizer; its cooling or comfortable feel is not guaranteed for every user.",
+          "sourceUrl": "https://torriden.us/products/dive-in-soothing-cream"
+        },
+        {
+          "productId": "kbeauty-006",
+          "reason": "A lightweight-feeling U.S. SPF 50 option for daytime; finish and compatibility with these layers must be checked personally.",
+          "sourceUrl": "https://beautyofjoseon.com/products/day-dew-sunscreen"
+        }
+      ],
+      "steps": [
+        "Use the cleanser as directed or keep your current cleansing product.",
+        "Add the light ampoule only if you want a separate hydration step.",
+        "Apply the gel cream and assess the texture before adding another layer.",
+        "For daytime, use sunscreen according to its label rather than reducing the labeled application to make the routine feel lighter."
+      ]
+    },
+    {
+      "id": "makeup_prep",
+      "title": "Comfort before makeup",
+      "summary": "Explore a light hydration step, moisturizer and daytime sunscreen before color cosmetics. The serum and mist are optional alternatives.",
+      "tags": [
+        "before makeup",
+        "hydration",
+        "serum or mist",
+        "layering"
+      ],
+      "technique": "Keep preparation focused, then check how your own base makeup sits over it.",
+      "profilePatch": {
+        "goals": [
+          "hydration_comfort",
+          "quick_easy"
+        ],
+        "texture": "lightweight",
+        "scope": "skincare",
+        "slots": [
+          "serum",
+          "moisturizer",
+          "daytime_sunscreen"
+        ]
+      },
+      "selections": [
+        {
+          "productId": "kbeauty-022",
+          "reason": "A light hydration serum option before moisturizer; better makeup wear or compatibility with a foundation is not established.",
+          "sourceUrl": "https://torriden.us/products/dive-in-serum"
+        },
+        {
+          "productId": "kbeauty-024",
+          "reason": "A lightweight cream option before complexion makeup; this guide does not infer a skin concern or promise a reaction-free result.",
+          "sourceUrl": "https://doctoraltheaglobal.com/products/345-relief-cream?country=US&currency=USD"
+        },
+        {
+          "productId": "kbeauty-021",
+          "reason": "A moisturizing broad-spectrum SPF 45 option for daytime preparation; foundation SPF does not replace this labeled sunscreen step.",
+          "sourceUrl": "https://roundlab.com/products/birch-moisturizing-uv-sunscreen"
+        },
+        {
+          "productId": "kbeauty-045",
+          "reason": "An optional hydrating mist-serum format instead of another serum layer; it is not verified here as a makeup setting spray.",
+          "sourceUrl": "https://www.ulta.com/p/white-truffle-first-spray-hydrating-glow-mist-serum-pimprod2056403?sku=2650461"
+        }
+      ],
+      "steps": [
+        "Begin with your familiar cleansing step and choose either a serum or mist if you want extra hydration.",
+        "Apply your chosen moisturizer and follow the products' directions before layering makeup.",
+        "For daytime, apply sunscreen as its label directs and observe any labeled waiting time.",
+        "Try a small amount of your chosen base makeup to check the finish; add a makeup primer only if you want that separate step."
+      ]
+    }
+  ]
+}

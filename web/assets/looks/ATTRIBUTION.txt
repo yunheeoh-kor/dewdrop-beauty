@@ -1,0 +1,94 @@
+K-pop style photograph attributions
+
+Photos retain source credits and Creative Commons license links. The library is an editorial reference collection; image licenses do not establish artist endorsement, a model release, or permission to advertise products using an artist’s likeness.
+
+assets/looks/felix-airport-2024.png: Felix departing Incheon Airport (2024-07-08)
+Credit: 티비텐
+Source: https://commons.wikimedia.org/wiki/File:Felix_Lee_of_Stray_Kids,_July_8,_2024_(2).png
+Original image: https://upload.wikimedia.org/wikipedia/commons/3/3a/Felix_Lee_of_Stray_Kids%2C_July_8%2C_2024_%282%29.png
+License: CC BY 3.0 — https://creativecommons.org/licenses/by/3.0
+Source image bytes are unchanged. Detail views crop the displayed image using saved coordinates.
+
+assets/looks/jennie-coco-crush-2024.png: Jennie at the Chanel Coco Crush photocall (2024-07-03)
+Credit: 티비텐
+Source: https://commons.wikimedia.org/wiki/File:Blackpink%27s_Jennie_in_Chanel_Coco_Crush,_July_3,_2024_(2).png
+Original image: https://upload.wikimedia.org/wikipedia/commons/9/9c/Blackpink%27s_Jennie_in_Chanel_Coco_Crush%2C_July_3%2C_2024_%282%29.png
+License: CC BY 3.0 — https://creativecommons.org/licenses/by/3.0
+Source image bytes are unchanged. Detail views crop the displayed image using saved coordinates.
+
+assets/looks/v-airport-2022.jpg: V departing Incheon Airport (2022-06-24)
+Credit: K-POPIT 케이팝잇
+Source: https://commons.wikimedia.org/wiki/File:220624_%EB%B0%A9%ED%83%84%EC%86%8C%EB%85%84%EB%8B%A8_%EB%B7%94(2).jpg
+Original image: https://upload.wikimedia.org/wikipedia/commons/0/02/220624_%EB%B0%A9%ED%83%84%EC%86%8C%EB%85%84%EB%8B%A8_%EB%B7%94%282%29.jpg
+License: CC BY 3.0 — https://creativecommons.org/licenses/by/3.0
+Source image bytes are unchanged. Detail views crop the displayed image using saved coordinates.
+
+assets/looks/jisoo-airport-2024.jpg: Jisoo departing Incheon Airport (2024-02-26)
+Credit: K-POPIT 케이팝잇
+Source: https://commons.wikimedia.org/wiki/File:20240226_Kim_Jisoo_%EA%B9%80%EC%A7%80%EC%88%98_02.jpg
+Original image: https://upload.wikimedia.org/wikipedia/commons/2/2d/20240226_Kim_Jisoo_%EA%B9%80%EC%A7%80%EC%88%98_02.jpg
+License: CC BY 3.0 — https://creativecommons.org/licenses/by/3.0
+Source image bytes are unchanged. Detail views crop the displayed image using saved coordinates.
+
+assets/looks/jimin-radio-2023.jpg: Jimin arriving for SBS Radio (2023-03-31)
+Credit: K-POPIT 케이팝잇
+Source: https://commons.wikimedia.org/wiki/File:Jimin_on_the_way_to_SBS_Radio,_31_March_2023_(1).jpg
+Original image: https://upload.wikimedia.org/wikipedia/commons/4/4b/Jimin_on_the_way_to_SBS_Radio%2C_31_March_2023_%281%29.jpg
+License: CC BY 3.0 — https://creativecommons.org/licenses/by/3.0
+Source image bytes are unchanged. Detail views crop the displayed image using saved coordinates.
+
+assets/looks/wonyoung-mma-2024.png: Jang Wonyoung at the 2024 Melon Music Awards (2024-11-30)
+Credit: TenAsia
+Source: https://commons.wikimedia.org/wiki/File:Jang_Won-young_at_the_2024_Melon_Music_Awards.png
+Original image: https://upload.wikimedia.org/wikipedia/commons/9/9e/Jang_Won-young_at_the_2024_Melon_Music_Awards.png
+License: CC BY 3.0 — https://creativecommons.org/licenses/by/3.0
+Source image bytes are unchanged. Detail views crop the displayed image using saved coordinates.
+
+assets/looks/hyunjin-airport-2024.png: Hyunjin departing Incheon Airport (2024-05-03)
+Credit: 티비텐
+Source: https://commons.wikimedia.org/wiki/File:20240503_Hyunjin_of_Stray_Kids.png
+Original image: https://upload.wikimedia.org/wikipedia/commons/e/ee/20240503_Hyunjin_of_Stray_Kids.png
+License: CC BY 3.0 — https://creativecommons.org/licenses/by/3.0
+Source image bytes are unchanged. Detail views crop the displayed image using saved coordinates.
+
+assets/looks/karina-airport-2025.jpg: Karina departing Incheon Airport (2025-02-26)
+Credit: K-POPIT 케이팝잇
+Source: https://commons.wikimedia.org/wiki/File:20250226_Aespa%27s_Karina_%EC%B9%B4%EB%A6%AC%EB%82%98_03.jpg
+Original image: https://upload.wikimedia.org/wikipedia/commons/6/6d/20250226_Aespa%27s_Karina_%EC%B9%B4%EB%A6%AC%EB%82%98_03.jpg
+License: CC BY 3.0 — https://creativecommons.org/licenses/by/3.0
+Source image bytes are unchanged. Detail views crop the displayed image using saved coordinates.
+
+assets/looks/jungkook-stage-2019.jpg: Jungkook performing Fake Love at the Seoul Music Awards (2019-01-15)
+Credit: I Dare U JK
+Source: https://commons.wikimedia.org/wiki/File:Jeon_Jung-kook_performing_%22Fake_Love%22_at_Seoul_Music_Awards,_15_January_2019.jpg
+Original image: https://upload.wikimedia.org/wikipedia/commons/b/b9/Jeon_Jung-kook_performing_%22Fake_Love%22_at_Seoul_Music_Awards%2C_15_January_2019.jpg
+License: CC BY 3.0 — https://creativecommons.org/licenses/by/3.0
+Source image bytes are unchanged. Detail views crop the displayed image using saved coordinates.
+
+assets/looks/nayeon-kitsune-2024.jpg: Nayeon at a Maison Kitsuné event (2024-10-24)
+Credit: K-POPIT 케이팝잇
+Source: https://commons.wikimedia.org/wiki/File:241024_TWICE_Nayeon.jpg
+Original image: https://upload.wikimedia.org/wikipedia/commons/d/de/241024_TWICE_Nayeon.jpg
+License: CC BY 3.0 — https://creativecommons.org/licenses/by/3.0
+Source image bytes are unchanged. Detail views crop the displayed image using saved coordinates.
+
+assets/looks/jimin-bbmas-2019.png: Jimin on the 2019 Billboard Music Awards red carpet (2019-05-01)
+Credit: Dispatch
+Source: https://commons.wikimedia.org/wiki/File:190501_BTS_Jimin_at_the_2019_BBMAs.png
+Original image: https://upload.wikimedia.org/wikipedia/commons/c/c3/190501_BTS_Jimin_at_the_2019_BBMAs.png
+License: CC BY 3.0 — https://creativecommons.org/licenses/by/3.0
+Source image bytes are unchanged. Detail views crop the displayed image using saved coordinates.
+
+assets/looks/karina-mma-2024.jpg: Karina at the 2024 Melon Music Awards (2024-11-30)
+Credit: 10Asia
+Source: https://commons.wikimedia.org/wiki/File:Aespa_Karina_2024_MMA.jpg
+Original image: https://upload.wikimedia.org/wikipedia/commons/a/ac/Aespa_Karina_2024_MMA.jpg
+License: CC BY 3.0 — https://creativecommons.org/licenses/by/3.0
+Source image bytes are unchanged. Detail views crop the displayed image using saved coordinates.
+
+assets/looks/jungkook-bbmas-2019.jpg: Jungkook on the 2019 Billboard Music Awards red carpet (2019-05-01)
+Credit: Dispatch
+Source: https://commons.wikimedia.org/wiki/File:Jungkook_on_the_Billboard_Music_Awards_red_carpet,_1_May_2019.jpg
+Original image: https://upload.wikimedia.org/wikipedia/commons/b/b1/Jungkook_on_the_Billboard_Music_Awards_red_carpet%2C_1_May_2019.jpg
+License: CC BY 3.0 — https://creativecommons.org/licenses/by/3.0
+Source image bytes are unchanged. Detail views crop the displayed image using saved coordinates.

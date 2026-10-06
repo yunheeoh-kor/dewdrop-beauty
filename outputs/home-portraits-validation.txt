@@ -1,0 +1,16 @@
+Dewdrop start-page portrait update
+
+Replaced the two inline cartoon portraits with original AI-created editorial images generated using built-in image_gen. Full prompts are in outputs/home-portrait-prompts.json.
+Assets: web/assets/editorial/subtle-definition.jpg (640 x 800, 75,282 bytes) and web/assets/editorial/touch-of-rose.jpg (640 x 800, 72,744 bytes).
+Aligned both cards, replaced arched tops with 18px rounded corners, updated accessible destination names and image provenance wording, and retained the existing style-guide routes.
+
+Verification:
+- Browser visual checks at 1280 x 900 and 390 x 844: both images decoded successfully with readable faces and captions. No mobile horizontal overflow (document width 375 within viewport width 390).
+- Subtle definition opens #guides/barely_there with heading Barely there.
+- A touch of rose opens #guides/soft_rose with heading Soft rose.
+- node --check web/style-guide-ui.js passed.
+- Existing style-guide tests: 10 passed, 0 failed.
+- Rebuilt outputs/Dewdrop-debug.apk; APK v2/v3 signatures and alignment verified. Build checked bundled asset hashes against source; both new portraits confirmed present.
+- APK SHA-256: f1afe3faa0f69b3b164d0385f8c76cbacc0d9b0297714b473a017a8ef8a57da2
+- Saved browser previews: outputs/home-portraits-desktop.jpg and outputs/home-portraits-mobile.jpg.
+- Physical Android device appearance was not checked.

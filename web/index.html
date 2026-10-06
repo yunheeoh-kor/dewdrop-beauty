@@ -3,20 +3,42 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#f8f6f2">
+  <meta name="theme-color" content="#f8f7f3">
   <meta name="description" content="Find your everyday Korean beauty kit, with your preferences and budget in mind.">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'wasm-unsafe-eval'; worker-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; media-src 'self' blob:; connect-src 'self'; object-src 'none'; base-uri 'none'; frame-src 'none'">
   <title>Dewdrop · Your everyday beauty kit</title>
   <link rel="icon" href="icon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="lookbook.css">
+  <link rel="stylesheet" href="style-guides.css">
   <link rel="stylesheet" href="selfie.css">
   <link rel="stylesheet" href="photo-analysis.css">
-  <script type="module" src="app.js"></script>
+  <link rel="stylesheet" href="face-studio.css">
+  <link rel="stylesheet" href="launch.css">
+  <script src="startup.js" defer></script>
 </head>
 <body>
-  <div id="app"><div class="loading"><span class="loading-drop">◒</span><p>Getting your beauty shelf ready…</p></div></div>
+  <section id="launch-screen" class="launch-screen" aria-labelledby="launch-title">
+    <div class="launch-decoration" aria-hidden="true">
+      <div class="launch-orbit launch-orbit-one"></div>
+      <div class="launch-orbit launch-orbit-two"></div>
+    </div>
+    <div class="launch-content">
+      <div class="launch-emblem"><img src="icon.svg" width="108" height="108" alt="" fetchpriority="high"></div>
+      <p class="launch-eyebrow">A LITTLE EVERYDAY CARE</p>
+      <h1 id="launch-title" class="launch-title">dewdrop</h1>
+      <p class="launch-tagline">Your beauty. At your pace.</p>
+      <div class="launch-feedback">
+        <div class="launch-dots" aria-hidden="true"><span></span><span></span><span></span></div>
+        <p id="launch-status" role="status" aria-live="polite">Getting your beauty shelf ready…</p>
+        <button id="launch-retry" class="btn" type="button" hidden>Try again</button>
+      </div>
+    </div>
+    <p class="launch-footer">A thoughtful start to Korean beauty.</p>
+  </section>
+  <div id="app" aria-busy="true" inert></div>
   <dialog id="detail-dialog" aria-label="Product details"></dialog>
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
-  <noscript>This app needs JavaScript enabled to build your kit.</noscript>
+  <noscript><style>.launch-dots,#launch-status{display:none}</style><p class="launch-noscript">Enable JavaScript, then reopen Dewdrop to build your kit.</p></noscript>
 </body>
 </html>

@@ -1,0 +1,33 @@
+/* The same cream canvas and droplet carry through from the Android launch theme. */
+:root{--paper:#f8f7f3}
+.brand-logo{display:block;width:32px;height:32px;flex-shrink:0;border-radius:9px}
+.footer .brand-logo{width:23px;height:23px;border-radius:6px}
+.launch-screen{position:fixed;inset:0;z-index:30;display:flex;flex-direction:column;align-items:center;overflow-x:hidden;overflow-y:auto;background:#f8f7f3;color:#344c3e;padding:32px 24px;min-height:100svh}
+.launch-content{position:relative;text-align:center;width:min(100%,380px);padding:28px 0 60px;margin:auto 0;flex-shrink:0;z-index:1}
+.launch-emblem{width:108px;height:108px;margin:0 auto 37px;position:relative}
+.launch-emblem::before{content:'';position:absolute;inset:-12px;border:1px solid #c7d4c29c;border-radius:40px;animation:launch-breathe 2.8s ease-in-out infinite}
+.launch-emblem img{display:block;border-radius:30px;box-shadow:0 18px 40px -24px #54756670}
+.launch-eyebrow{font-size:9px;letter-spacing:2.5px;font-weight:600;color:#64795f;margin-bottom:12px}
+.launch-title{font-family:Georgia,'Times New Roman',serif;font-size:64px;font-weight:400;letter-spacing:-3px;line-height:1.08}
+.launch-tagline{font-size:13px;color:#697667;margin-top:14px;letter-spacing:.3px}
+.launch-feedback{margin:40px auto 0;min-height:64px;max-width:300px}
+.launch-feedback p{font-size:11px;line-height:1.7;color:#6b7869}
+.launch-dots{display:flex;justify-content:center;gap:7px;margin-bottom:14px;height:6px}
+.launch-dots span{width:5px;height:5px;border-radius:50%;background:#547566;animation:launch-dot 1.5s ease-in-out infinite}
+.launch-dots span:nth-child(2){animation-delay:.16s}
+.launch-dots span:nth-child(3){animation-delay:.32s}
+.launch-footer{position:relative;flex-shrink:0;text-align:center;font-size:10px;letter-spacing:.35px;color:#7b8676;padding-bottom:env(safe-area-inset-bottom)}
+.launch-decoration{position:absolute;inset:0;overflow:hidden;pointer-events:none}
+.launch-orbit{position:absolute;width:560px;height:560px;border:1px solid #dbe2d560;border-radius:50%;pointer-events:none}
+.launch-orbit-one{top:-350px;right:-320px;background:radial-gradient(circle,#e4eadd50,transparent 70%)}
+.launch-orbit-two{bottom:-380px;left:-340px;width:660px;height:660px;border-color:#e1dce260;background:radial-gradient(circle,#ebe5e530,transparent 70%)}
+.launch-feedback [hidden]{display:none!important}
+.launch-feedback .btn{margin-top:20px;min-width:130px}
+.launch-screen.has-error .launch-dots{display:none}
+.launch-screen.has-error .launch-emblem::before{animation:none}
+.launch-screen.has-error .launch-feedback{margin-top:30px}
+.launch-noscript{position:fixed;z-index:31;left:24px;right:24px;bottom:100px;text-align:center;font-size:13px;color:#344c3e}
+@keyframes launch-breathe{0%,100%{opacity:.45;transform:scale(.97)}50%{opacity:1;transform:scale(1.04)}}
+@keyframes launch-dot{0%,75%,100%{opacity:.3;transform:translateY(0)}35%{opacity:1;transform:translateY(-3px)}}
+@media(max-height:560px){.launch-screen{padding:16px 24px}.launch-content{padding:8px 0 38px}.launch-emblem{width:72px;height:72px;margin-bottom:23px}.launch-emblem img{width:72px;height:72px;border-radius:20px}.launch-emblem::before{inset:-8px;border-radius:27px}.launch-title{font-size:48px}.launch-feedback{margin-top:22px}}
+@media(prefers-reduced-motion:reduce){.launch-screen *,.launch-screen *::before{animation:none!important;transition:none!important}}

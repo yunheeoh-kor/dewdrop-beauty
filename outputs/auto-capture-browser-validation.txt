@@ -1,0 +1,45 @@
+guidance: searching; progress=0.00; face=none; hardwareFocusRequested=false
+guidance: searching; progress=0.00; face=none; hardwareFocusRequested=false
+guidance: searching; progress=0.00; face=none; hardwareFocusRequested=false
+guidance: searching; progress=0.00; face=none; hardwareFocusRequested=false
+guidance: searching; progress=0.00; face=none; hardwareFocusRequested=false
+guidance: searching; progress=0.00; face=none; hardwareFocusRequested=false
+guidance: searching; progress=0.00; face=none; hardwareFocusRequested=false
+guidance: searching; progress=0.00; face=none; hardwareFocusRequested=false
+guidance: searching; progress=0.00; face=none; hardwareFocusRequested=false
+guidance: searching; progress=0.00; face=none; hardwareFocusRequested=false
+guidance: searching; progress=0.00; face=none; hardwareFocusRequested=false
+guidance: searching; progress=0.00; face=none; hardwareFocusRequested=false
+guidance: searching; progress=0.00; face=none; hardwareFocusRequested=false
+guidance: searching; progress=0.00; face=none; hardwareFocusRequested=false
+guidance: searching; progress=0.00; face=none; hardwareFocusRequested=false
+guidance: searching; progress=0.00; face=none; hardwareFocusRequested=false
+guidance: searching; progress=0.00; face=none; hardwareFocusRequested=false
+guidance: searching; progress=0.00; face=none; hardwareFocusRequested=false
+guidance: searching; progress=0.00; face=none; hardwareFocusRequested=false
+guidance: searching; progress=0.00; face=none; hardwareFocusRequested=false
+guidance: searching; progress=0.00; face=none; hardwareFocusRequested=false
+guidance: searching; progress=0.00; face=none; hardwareFocusRequested=false
+guidance: searching; progress=0.00; face=none; hardwareFocusRequested=false
+guidance: searching; progress=0.00; face=none; hardwareFocusRequested=false
+guidance: searching; progress=0.00; face=none; hardwareFocusRequested=false
+guidance: searching; progress=0.00; face=none; hardwareFocusRequested=false
+guidance: searching; progress=0.00; face=none; hardwareFocusRequested=false
+guidance: searching; progress=0.00; face=none; hardwareFocusRequested=false
+guidance: searching; progress=0.00; face=none; hardwareFocusRequested=false
+guidance: searching; progress=0.00; face=none; hardwareFocusRequested=false
+guidance: searching; progress=0.00; face=none; hardwareFocusRequested=false
+guidance: searching; progress=0.00; face=none; hardwareFocusRequested=false
+guidance: searching; progress=0.00; face=none; hardwareFocusRequested=false
+guidance: searching; progress=0.00; face=none; hardwareFocusRequested=false
+guidance: searching; progress=0.00; face=none; hardwareFocusRequested=false
+guidance: searching; progress=0.00; face=none; hardwareFocusRequested=false
+guidance: searching; progress=0.00; face=none; hardwareFocusRequested=false
+guidance: searching; progress=0.00; face=none; hardwareFocusRequested=false
+guidance: searching; progress=0.00; face=none; hardwareFocusRequested=false
+guidance: searching; progress=0.00; face=none; hardwareFocusRequested=false
+guidance: searching; progress=0.00; face=none; hardwareFocusRequested=false
+guidance: searching; progress=0.00; face=none; hardwareFocusRequested=false
+Manual shutter requested.
+status: idle
+PHOTO 2: source=camera, 640×640

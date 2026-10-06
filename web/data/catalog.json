@@ -4,10 +4,10 @@
   "researched_on": "2026-10-05",
   "market": "United States",
   "currency": "USD",
-  "product_count": 56,
+  "product_count": 98,
   "brand_count": 24,
-  "kpop_linked_product_count": 23,
-  "price_method": "Observed USD prices for the specified sizes and shades. U.S. prices are used where available; international import/reference prices are explicitly identified in price_basis. Regular prices are used when identifiable. Excludes tax, duties, shipping, subscriptions, and coupons. Known temporary discounts are omitted when a regular reference is shown. Prices and availability can change.",
+  "kpop_linked_product_count": 41,
+  "price_method": "Observed USD storefront prices for selected variants. Higher regular comparison prices are used only when explicitly shown; otherwise the observed selling price is recorded without claiming it is a regular price. New records explicitly flag unverified net content. Global store prices do not establish U.S. checkout availability, delivery or final charges. Excludes tax, duties, shipping, subscriptions and coupons; prices and stock can change.",
   "budget_tiers": {
     "Budget": "USD 15 or less",
     "Mid-range": "More than USD 15 through USD 30",
@@ -752,7 +752,11 @@
       "market": "United States",
       "budget_tier": "Budget",
       "ingredient_scope": "Key ingredients, not the complete INCI list",
-      "customer_fit_basis": "Inferred from formula, product format, and stated benefits"
+      "customer_fit_basis": "Inferred from formula, product format, and stated benefits",
+      "makeup_category": "lip_tint",
+      "face_regions": [
+        "lips"
+      ]
     },
     {
       "id": "kbeauty-026",
@@ -783,7 +787,11 @@
       "market": "United States",
       "budget_tier": "Budget",
       "ingredient_scope": "Key ingredients, not the complete INCI list",
-      "customer_fit_basis": "Inferred from formula, product format, and stated benefits"
+      "customer_fit_basis": "Inferred from formula, product format, and stated benefits",
+      "makeup_category": "blush",
+      "face_regions": [
+        "cheeks"
+      ]
     },
     {
       "id": "kbeauty-027",
@@ -815,7 +823,11 @@
       "market": "United States",
       "budget_tier": "Budget",
       "ingredient_scope": "Key ingredients, not the complete INCI list",
-      "customer_fit_basis": "Inferred from formula, product format, and stated benefits"
+      "customer_fit_basis": "Inferred from formula, product format, and stated benefits",
+      "makeup_category": "lip_gloss",
+      "face_regions": [
+        "lips"
+      ]
     },
     {
       "id": "kbeauty-028",
@@ -847,7 +859,11 @@
       "market": "United States",
       "budget_tier": "Budget",
       "ingredient_scope": "Key ingredients, not the complete INCI list",
-      "customer_fit_basis": "Inferred from formula, product format, and stated benefits"
+      "customer_fit_basis": "Inferred from formula, product format, and stated benefits",
+      "makeup_category": "mascara",
+      "face_regions": [
+        "eyes"
+      ]
     },
     {
       "id": "kbeauty-029",
@@ -879,7 +895,11 @@
       "market": "United States",
       "budget_tier": "Budget",
       "ingredient_scope": "Key ingredients, not the complete INCI list",
-      "customer_fit_basis": "Inferred from formula, product format, and stated benefits"
+      "customer_fit_basis": "Inferred from formula, product format, and stated benefits",
+      "makeup_category": "eyeliner",
+      "face_regions": [
+        "eyes"
+      ]
     },
     {
       "id": "kbeauty-030",
@@ -910,7 +930,11 @@
       "market": "United States",
       "budget_tier": "Budget",
       "ingredient_scope": "Key ingredients, not the complete INCI list",
-      "customer_fit_basis": "Inferred from formula, product format, and stated benefits"
+      "customer_fit_basis": "Inferred from formula, product format, and stated benefits",
+      "makeup_category": "lip_tint",
+      "face_regions": [
+        "lips"
+      ]
     },
     {
       "id": "kbeauty-031",
@@ -941,7 +965,11 @@
       "market": "United States",
       "budget_tier": "Budget",
       "ingredient_scope": "Key ingredients, not the complete INCI list",
-      "customer_fit_basis": "Inferred from formula, product format, and stated benefits"
+      "customer_fit_basis": "Inferred from formula, product format, and stated benefits",
+      "makeup_category": "lip_tint",
+      "face_regions": [
+        "lips"
+      ]
     },
     {
       "id": "kbeauty-032",
@@ -972,7 +1000,11 @@
       "market": "United States",
       "budget_tier": "Budget",
       "ingredient_scope": "Key ingredients, not the complete INCI list",
-      "customer_fit_basis": "Inferred from formula, product format, and stated benefits"
+      "customer_fit_basis": "Inferred from formula, product format, and stated benefits",
+      "makeup_category": "lip_tint",
+      "face_regions": [
+        "lips"
+      ]
     },
     {
       "id": "kbeauty-033",
@@ -1173,7 +1205,11 @@
       "market": "United States",
       "budget_tier": "Premium",
       "ingredient_scope": "Key ingredients, not the complete INCI list",
-      "customer_fit_basis": "Inferred from formula, product format, and stated benefits"
+      "customer_fit_basis": "Inferred from formula, product format, and stated benefits",
+      "makeup_category": "cushion",
+      "face_regions": [
+        "face"
+      ]
     },
     {
       "id": "kbeauty-038",
@@ -1212,7 +1248,11 @@
       "market": "United States",
       "budget_tier": "Premium",
       "ingredient_scope": "Key ingredients, not the complete INCI list",
-      "customer_fit_basis": "Inferred from formula, product format, and stated benefits"
+      "customer_fit_basis": "Inferred from formula, product format, and stated benefits",
+      "makeup_category": "lip_gloss",
+      "face_regions": [
+        "lips"
+      ]
     },
     {
       "id": "kbeauty-039",
@@ -1417,7 +1457,11 @@
       "market": "United States",
       "budget_tier": "Mid-range",
       "ingredient_scope": "Key ingredients, not the complete INCI list",
-      "customer_fit_basis": "Inferred from formula, product format, and stated benefits"
+      "customer_fit_basis": "Inferred from formula, product format, and stated benefits",
+      "makeup_category": "cushion",
+      "face_regions": [
+        "face"
+      ]
     },
     {
       "id": "kbeauty-044",
@@ -1458,7 +1502,11 @@
       "market": "United States",
       "budget_tier": "Mid-range",
       "ingredient_scope": "Key ingredients, not the complete INCI list",
-      "customer_fit_basis": "Inferred from formula, product format, and stated benefits"
+      "customer_fit_basis": "Inferred from formula, product format, and stated benefits",
+      "makeup_category": "cushion",
+      "face_regions": [
+        "face"
+      ]
     },
     {
       "id": "kbeauty-045",
@@ -1580,7 +1628,11 @@
       "market": "United States",
       "budget_tier": "Mid-range",
       "ingredient_scope": "Key ingredients, not the complete INCI list",
-      "customer_fit_basis": "Inferred from formula, product format, and stated benefits"
+      "customer_fit_basis": "Inferred from formula, product format, and stated benefits",
+      "makeup_category": "lip_tint",
+      "face_regions": [
+        "lips"
+      ]
     },
     {
       "id": "kbeauty-048",
@@ -1621,7 +1673,11 @@
       "market": "United States",
       "budget_tier": "Budget",
       "ingredient_scope": "Key ingredients, not the complete INCI list",
-      "customer_fit_basis": "Inferred from formula, product format, and stated benefits"
+      "customer_fit_basis": "Inferred from formula, product format, and stated benefits",
+      "makeup_category": "blush",
+      "face_regions": [
+        "cheeks"
+      ]
     },
     {
       "id": "kbeauty-049",
@@ -1662,7 +1718,11 @@
       "market": "United States",
       "budget_tier": "Mid-range",
       "ingredient_scope": "Key ingredients, not the complete INCI list",
-      "customer_fit_basis": "Inferred from formula, product format, and stated benefits"
+      "customer_fit_basis": "Inferred from formula, product format, and stated benefits",
+      "makeup_category": "lip_tint",
+      "face_regions": [
+        "lips"
+      ]
     },
     {
       "id": "kbeauty-050",
@@ -1704,7 +1764,11 @@
       "market": "United States",
       "budget_tier": "Mid-range",
       "ingredient_scope": "Key ingredients, not the complete INCI list",
-      "customer_fit_basis": "Inferred from formula, product format, and stated benefits"
+      "customer_fit_basis": "Inferred from formula, product format, and stated benefits",
+      "makeup_category": "brow",
+      "face_regions": [
+        "brows"
+      ]
     },
     {
       "id": "kbeauty-051",
@@ -1951,6 +2015,1636 @@
       "budget_tier": "Mid-range",
       "ingredient_scope": "Key ingredients, not the complete INCI list",
       "customer_fit_basis": "Inferred from formula, product format, and stated benefits"
+    },
+    {
+      "id": "kbeauty-057",
+      "brand": "TIRTIR",
+      "product_name": "Flawless Pore Prep Primer",
+      "category": "Makeup primer",
+      "makeup_category": "primer",
+      "face_regions": [
+        "face"
+      ],
+      "size": "30 ml / 1.01 fl oz",
+      "size_verified": true,
+      "shade": null,
+      "price_usd": 22,
+      "price_basis": "Official global storefront USD displayed price; no higher regular reference verified. Selected variant Default Title. Excludes tax, duties and shipping; U.S. checkout delivery and final charges not verified.",
+      "key_ingredients": [
+        "Dimethicone",
+        "Silica",
+        "Glycerin"
+      ],
+      "ideal_customers": "Inferred: Customers preparing the complexion for color makeup.",
+      "intended_benefit": "Prepares an even-looking base and softens the appearance of pores and excess shine.",
+      "product_url": "https://tirtir.global/products/flawless-pore-prep-primer?variant=48634525810907",
+      "price_source_url": "https://tirtir.global/products/flawless-pore-prep-primer.js",
+      "ingredient_source_url": "https://tirtir.global/products/flawless-pore-prep-primer?variant=48634525810907",
+      "availability": "Selected variant marked available by official storefront on the research date; checkout not verified.",
+      "evidence_notes": "Official product page and variant API observed on 2026-10-05; storefront cart API confirms USD. Net content verified from brand page text: 30 ml / 1.01 fl oz. Selected ingredient presence only; the complete exact-shade INCI has not been reviewed. Cosmetic appearance summaries are editorial paraphrases. No U.S. broad-spectrum sunscreen clearance or product-specific removal evidence is inferred.",
+      "researched_on": "2026-10-05",
+      "kpop_connection": {
+        "artist": "V (Kim Taehyung)",
+        "group": "BTS",
+        "relationship_type": "Brand ambassador",
+        "association_scope": "Brand-level",
+        "evidence_date": "2025-11-06",
+        "source_url": "https://tirtir.global/blogs/press/tirtir-paints-new-york-red-demonstrating-its-global-influence",
+        "connection_summary": "The dated source documents V (Kim Taehyung) in a TIRTIR brand campaign. It does not establish use or endorsement of this product or its selected shade.",
+        "status_as_of": "Verified dated campaign; current contract not confirmed",
+        "suggested_selling_point": "Makeup from TIRTIR, a brand with a documented 2025 campaign association with V (Kim Taehyung).",
+        "evidence_date_basis": "Source publication or campaign date"
+      },
+      "currency": "USD",
+      "market": "United States",
+      "budget_tier": "Mid-range",
+      "ingredient_scope": "Selected ingredients only; not the complete exact-shade INCI",
+      "customer_fit_basis": "Editorial inference from manufacturer-stated product format and intended appearance"
+    },
+    {
+      "id": "kbeauty-058",
+      "brand": "TIRTIR",
+      "product_name": "Reflect Glow Prep Primer",
+      "category": "Makeup primer",
+      "makeup_category": "primer",
+      "face_regions": [
+        "face"
+      ],
+      "size": "30 ml / 1.01 fl oz",
+      "size_verified": true,
+      "shade": null,
+      "price_usd": 22,
+      "price_basis": "Official global storefront USD displayed price; no higher regular reference verified. Selected variant Default Title. Excludes tax, duties and shipping; U.S. checkout delivery and final charges not verified.",
+      "key_ingredients": [
+        "Glycerin",
+        "Niacinamide",
+        "Butylene glycol"
+      ],
+      "ideal_customers": "Inferred: Customers preparing the complexion for color makeup.",
+      "intended_benefit": "Adds moisture and a luminous-looking base before complexion makeup.",
+      "product_url": "https://tirtir.global/products/reflect-glow-prep-primer?variant=48631508795611",
+      "price_source_url": "https://tirtir.global/products/reflect-glow-prep-primer.js",
+      "ingredient_source_url": "https://tirtir.global/products/reflect-glow-prep-primer?variant=48631508795611",
+      "availability": "Selected variant marked available by official storefront on the research date; checkout not verified.",
+      "evidence_notes": "Official product page and variant API observed on 2026-10-05; storefront cart API confirms USD. Net content verified from brand page text: 30 ml / 1.01 fl oz. Selected ingredient presence only; the complete exact-shade INCI has not been reviewed. Cosmetic appearance summaries are editorial paraphrases. No U.S. broad-spectrum sunscreen clearance or product-specific removal evidence is inferred.",
+      "researched_on": "2026-10-05",
+      "kpop_connection": {
+        "artist": "V (Kim Taehyung)",
+        "group": "BTS",
+        "relationship_type": "Brand ambassador",
+        "association_scope": "Brand-level",
+        "evidence_date": "2025-11-06",
+        "source_url": "https://tirtir.global/blogs/press/tirtir-paints-new-york-red-demonstrating-its-global-influence",
+        "connection_summary": "The dated source documents V (Kim Taehyung) in a TIRTIR brand campaign. It does not establish use or endorsement of this product or its selected shade.",
+        "status_as_of": "Verified dated campaign; current contract not confirmed",
+        "suggested_selling_point": "Makeup from TIRTIR, a brand with a documented 2025 campaign association with V (Kim Taehyung).",
+        "evidence_date_basis": "Source publication or campaign date"
+      },
+      "currency": "USD",
+      "market": "United States",
+      "budget_tier": "Mid-range",
+      "ingredient_scope": "Selected ingredients only; not the complete exact-shade INCI",
+      "customer_fit_basis": "Editorial inference from manufacturer-stated product format and intended appearance"
+    },
+    {
+      "id": "kbeauty-059",
+      "brand": "TIRTIR",
+      "product_name": "Mask Fit Red Foundation — 10C Shell",
+      "category": "Liquid foundation / BB cream",
+      "makeup_category": "foundation",
+      "face_regions": [
+        "face"
+      ],
+      "size": "30 ml / 1.01 fl oz",
+      "size_verified": true,
+      "shade": "10C Shell",
+      "price_usd": 27,
+      "price_basis": "Official global storefront USD displayed price; no higher regular reference verified. Selected variant 10C Shell. Excludes tax, duties and shipping; U.S. checkout delivery and final charges not verified.",
+      "key_ingredients": [
+        "Hibiscus extract",
+        "Propolis extract",
+        "Astaxanthin"
+      ],
+      "ideal_customers": "Inferred: Customers seeking all-over complexion coverage; a shade match is still required.",
+      "intended_benefit": "Evens visible skin tone with radiant liquid coverage.",
+      "product_url": "https://tirtir.global/products/mask-fit-red-foundation?variant=46765534609627",
+      "price_source_url": "https://tirtir.global/products/mask-fit-red-foundation.js",
+      "ingredient_source_url": "https://tirtir.global/products/mask-fit-red-foundation?variant=46765534609627",
+      "availability": "Selected variant marked available by official storefront on the research date; checkout not verified.",
+      "evidence_notes": "Official product page and variant API observed on 2026-10-05; storefront cart API confirms USD. Net content verified from official bottle photograph: 30 ml / 1.01 fl oz. Selected ingredient presence only; the complete exact-shade INCI has not been reviewed. Cosmetic appearance summaries are editorial paraphrases. No U.S. broad-spectrum sunscreen clearance or product-specific removal evidence is inferred.",
+      "researched_on": "2026-10-05",
+      "kpop_connection": {
+        "artist": "V (Kim Taehyung)",
+        "group": "BTS",
+        "relationship_type": "Brand ambassador",
+        "association_scope": "Brand-level",
+        "evidence_date": "2025-11-06",
+        "source_url": "https://tirtir.global/blogs/press/tirtir-paints-new-york-red-demonstrating-its-global-influence",
+        "connection_summary": "The dated source documents V (Kim Taehyung) in a TIRTIR brand campaign. It does not establish use or endorsement of this product or its selected shade.",
+        "status_as_of": "Verified dated campaign; current contract not confirmed",
+        "suggested_selling_point": "Makeup from TIRTIR, a brand with a documented 2025 campaign association with V (Kim Taehyung).",
+        "evidence_date_basis": "Source publication or campaign date"
+      },
+      "currency": "USD",
+      "market": "United States",
+      "budget_tier": "Mid-range",
+      "ingredient_scope": "Selected ingredients only; not the complete exact-shade INCI",
+      "customer_fit_basis": "Editorial inference from manufacturer-stated product format and intended appearance"
+    },
+    {
+      "id": "kbeauty-060",
+      "brand": "TIRTIR",
+      "product_name": "Glide & Hide Blurring Concealer — 0.5 N",
+      "category": "Concealer",
+      "makeup_category": "concealer",
+      "face_regions": [
+        "face",
+        "eyes"
+      ],
+      "size": "Net content not verified",
+      "size_verified": false,
+      "shade": "0.5 N",
+      "price_usd": 16,
+      "price_basis": "Official global storefront USD displayed price; no higher regular reference verified. Selected variant 0.5 N. Excludes tax, duties and shipping; U.S. checkout delivery and final charges not verified.",
+      "key_ingredients": [
+        "Hyaluronic acid complex"
+      ],
+      "ideal_customers": "Inferred: Customers seeking targeted coverage; the correct shade depends on the intended use.",
+      "intended_benefit": "Offers targeted coverage using a liquid end and a balm end for a smoother-looking finish.",
+      "product_url": "https://tirtir.global/products/glide-hide-blurring-concealer?variant=46765742719195",
+      "price_source_url": "https://tirtir.global/products/glide-hide-blurring-concealer.js",
+      "ingredient_source_url": "https://tirtir.global/products/glide-hide-blurring-concealer?variant=46765742719195",
+      "availability": "Selected variant marked available by official storefront on the research date; checkout not verified.",
+      "evidence_notes": "Official product page and variant API observed on 2026-10-05; storefront cart API confirms USD. Net content not verified in reviewed page text; exact-size identity remains unresolved. Selected ingredient presence only; the complete exact-shade INCI has not been reviewed. Cosmetic appearance summaries are editorial paraphrases. No U.S. broad-spectrum sunscreen clearance or product-specific removal evidence is inferred.",
+      "researched_on": "2026-10-05",
+      "kpop_connection": {
+        "artist": "V (Kim Taehyung)",
+        "group": "BTS",
+        "relationship_type": "Brand ambassador",
+        "association_scope": "Brand-level",
+        "evidence_date": "2025-11-06",
+        "source_url": "https://tirtir.global/blogs/press/tirtir-paints-new-york-red-demonstrating-its-global-influence",
+        "connection_summary": "The dated source documents V (Kim Taehyung) in a TIRTIR brand campaign. It does not establish use or endorsement of this product or its selected shade.",
+        "status_as_of": "Verified dated campaign; current contract not confirmed",
+        "suggested_selling_point": "Makeup from TIRTIR, a brand with a documented 2025 campaign association with V (Kim Taehyung).",
+        "evidence_date_basis": "Source publication or campaign date"
+      },
+      "currency": "USD",
+      "market": "United States",
+      "budget_tier": "Mid-range",
+      "ingredient_scope": "Selected ingredients only; not the complete exact-shade INCI",
+      "customer_fit_basis": "Editorial inference from manufacturer-stated product format and intended appearance"
+    },
+    {
+      "id": "kbeauty-061",
+      "brand": "TIRTIR",
+      "product_name": "Mask Fit AI Filter Cushion — 10C Shell",
+      "category": "Cushion foundation",
+      "makeup_category": "cushion",
+      "face_regions": [
+        "face"
+      ],
+      "size": "Net content not verified",
+      "size_verified": false,
+      "shade": "10C Shell",
+      "price_usd": 25,
+      "price_basis": "Official global storefront USD displayed price; no higher regular reference verified. Selected variant 10C Shell. Excludes tax, duties and shipping; U.S. checkout delivery and final charges not verified.",
+      "key_ingredients": [
+        "Niacinamide",
+        "Vitamin C"
+      ],
+      "ideal_customers": "Inferred: Customers who prefer a portable complexion compact; a shade match is still required.",
+      "intended_benefit": "Creates an even-looking complexion with high coverage and a matte finish.",
+      "product_url": "https://tirtir.global/products/mask-fit-ai-filter-cushion?variant=47265818738907",
+      "price_source_url": "https://tirtir.global/products/mask-fit-ai-filter-cushion.js",
+      "ingredient_source_url": "https://tirtir.global/products/mask-fit-ai-filter-cushion?variant=47265818738907",
+      "availability": "Selected variant marked available by official storefront on the research date; checkout not verified.",
+      "evidence_notes": "Official product page and variant API observed on 2026-10-05; storefront cart API confirms USD. Net content not verified in reviewed page text; exact-size identity remains unresolved. Selected ingredient presence only; the complete exact-shade INCI has not been reviewed. Cosmetic appearance summaries are editorial paraphrases. No U.S. broad-spectrum sunscreen clearance or product-specific removal evidence is inferred.",
+      "researched_on": "2026-10-05",
+      "kpop_connection": {
+        "artist": "V (Kim Taehyung)",
+        "group": "BTS",
+        "relationship_type": "Brand ambassador",
+        "association_scope": "Brand-level",
+        "evidence_date": "2025-11-06",
+        "source_url": "https://tirtir.global/blogs/press/tirtir-paints-new-york-red-demonstrating-its-global-influence",
+        "connection_summary": "The dated source documents V (Kim Taehyung) in a TIRTIR brand campaign. It does not establish use or endorsement of this product or its selected shade.",
+        "status_as_of": "Verified dated campaign; current contract not confirmed",
+        "suggested_selling_point": "Makeup from TIRTIR, a brand with a documented 2025 campaign association with V (Kim Taehyung).",
+        "evidence_date_basis": "Source publication or campaign date"
+      },
+      "currency": "USD",
+      "market": "United States",
+      "budget_tier": "Mid-range",
+      "ingredient_scope": "Selected ingredients only; not the complete exact-shade INCI",
+      "customer_fit_basis": "Editorial inference from manufacturer-stated product format and intended appearance"
+    },
+    {
+      "id": "kbeauty-062",
+      "brand": "TIRTIR",
+      "product_name": "Mask Fit Makeup Fixer",
+      "category": "Makeup setting spray",
+      "makeup_category": "setting_spray",
+      "face_regions": [
+        "face"
+      ],
+      "size": "80 ml / 2.70 fl oz",
+      "size_verified": true,
+      "shade": null,
+      "price_usd": 15,
+      "price_basis": "Official global storefront USD displayed price; no higher regular reference verified. Selected variant Default Title. Excludes tax, duties and shipping; U.S. checkout delivery and final charges not verified.",
+      "key_ingredients": [],
+      "ideal_customers": "Inferred: Customers who want a finishing mist for their makeup.",
+      "intended_benefit": "Sets finished makeup with a fine mist and helps reduce the appearance of excess shine.",
+      "product_url": "https://tirtir.global/products/mask-fit-makeup-fixer?variant=45772184977627",
+      "price_source_url": "https://tirtir.global/products/mask-fit-makeup-fixer.js",
+      "ingredient_source_url": "https://tirtir.global/products/mask-fit-makeup-fixer?variant=45772184977627",
+      "availability": "Selected variant marked available by official storefront on the research date; checkout not verified.",
+      "evidence_notes": "Official product page and variant API observed on 2026-10-05; storefront cart API confirms USD. Net content verified from official bottle photograph: 80 ml / 2.70 fl oz. No verified ingredient extraction added; empty ingredient list means unknown. Cosmetic appearance summaries are editorial paraphrases. No U.S. broad-spectrum sunscreen clearance or product-specific removal evidence is inferred.",
+      "researched_on": "2026-10-05",
+      "kpop_connection": {
+        "artist": "V (Kim Taehyung)",
+        "group": "BTS",
+        "relationship_type": "Brand ambassador",
+        "association_scope": "Brand-level",
+        "evidence_date": "2025-11-06",
+        "source_url": "https://tirtir.global/blogs/press/tirtir-paints-new-york-red-demonstrating-its-global-influence",
+        "connection_summary": "The dated source documents V (Kim Taehyung) in a TIRTIR brand campaign. It does not establish use or endorsement of this product or its selected shade.",
+        "status_as_of": "Verified dated campaign; current contract not confirmed",
+        "suggested_selling_point": "Makeup from TIRTIR, a brand with a documented 2025 campaign association with V (Kim Taehyung).",
+        "evidence_date_basis": "Source publication or campaign date"
+      },
+      "currency": "USD",
+      "market": "United States",
+      "budget_tier": "Budget",
+      "ingredient_scope": "Ingredient information not verified",
+      "customer_fit_basis": "Editorial inference from manufacturer-stated product format and intended appearance"
+    },
+    {
+      "id": "kbeauty-063",
+      "brand": "AMUSE",
+      "product_name": "Ceramic Skin Sebum Powder — 01 Clear",
+      "category": "Setting powder",
+      "makeup_category": "powder",
+      "face_regions": [
+        "face"
+      ],
+      "size": "5 g",
+      "size_verified": true,
+      "shade": "01 Clear",
+      "price_usd": 14,
+      "price_basis": "Official global storefront USD displayed price; no higher regular reference verified. Selected variant 01 Clear. Excludes tax, duties and shipping; U.S. checkout delivery and final charges not verified.",
+      "key_ingredients": [
+        "Silica",
+        "Dimethicone",
+        "Sodium hyaluronate"
+      ],
+      "ideal_customers": "Inferred: Customers who want to set complexion makeup and soften visible shine.",
+      "intended_benefit": "Sets makeup and blurs the appearance of pores with a lightweight powder.",
+      "product_url": "https://amuseseoulmakeup.com/products/ceramic-skin-sebum-powder?variant=51159585685818",
+      "price_source_url": "https://amuseseoulmakeup.com/products/ceramic-skin-sebum-powder.js",
+      "ingredient_source_url": "https://amuseseoulmakeup.com/products/ceramic-skin-sebum-powder?variant=51159585685818",
+      "availability": "Selected variant marked available by official storefront on the research date; checkout not verified.",
+      "evidence_notes": "Official product page and variant API observed on 2026-10-05; storefront cart API confirms USD. Net content verified from brand page text: 5 g. Selected ingredient presence only; the complete exact-shade INCI has not been reviewed. Cosmetic appearance summaries are editorial paraphrases. No U.S. broad-spectrum sunscreen clearance or product-specific removal evidence is inferred.",
+      "researched_on": "2026-10-05",
+      "kpop_connection": {
+        "artist": "Jang Wonyoung",
+        "group": "IVE",
+        "relationship_type": "Brand ambassador",
+        "association_scope": "Brand-level",
+        "evidence_date": "2024-10-13",
+        "source_url": "https://prtimes.jp/main/html/rd/p/000000006.000140231.html",
+        "connection_summary": "The dated source documents Jang Wonyoung in a AMUSE brand campaign. It does not establish use or endorsement of this product or its selected shade.",
+        "status_as_of": "Verified dated campaign; current contract not confirmed",
+        "suggested_selling_point": "Makeup from AMUSE, a brand with a documented 2024 campaign association with Jang Wonyoung.",
+        "evidence_date_basis": "Source publication or campaign date"
+      },
+      "currency": "USD",
+      "market": "United States",
+      "budget_tier": "Budget",
+      "ingredient_scope": "Selected ingredients only; not the complete exact-shade INCI",
+      "customer_fit_basis": "Editorial inference from manufacturer-stated product format and intended appearance"
+    },
+    {
+      "id": "kbeauty-064",
+      "brand": "AMUSE",
+      "product_name": "Ceramic Radiant Rice Mist & Fixer",
+      "category": "Makeup setting spray",
+      "makeup_category": "setting_spray",
+      "face_regions": [
+        "face"
+      ],
+      "size": "80 ml",
+      "size_verified": true,
+      "shade": null,
+      "price_usd": 22,
+      "price_basis": "Official global storefront USD displayed price; no higher regular reference verified. Selected variant Default Title. Excludes tax, duties and shipping; U.S. checkout delivery and final charges not verified.",
+      "key_ingredients": [
+        "Alcohol Denat.",
+        "Oryza Sativa (Rice) Extract",
+        "Glycerin"
+      ],
+      "ideal_customers": "Inferred: Customers who want a finishing mist for their makeup.",
+      "intended_benefit": "Adds a radiant finish and helps set makeup.",
+      "product_url": "https://amuseseoulmakeup.com/products/ceramic-radiant-rice-mist-fixerreal?variant=51155623149882",
+      "price_source_url": "https://amuseseoulmakeup.com/products/ceramic-radiant-rice-mist-fixerreal.js",
+      "ingredient_source_url": "https://amuseseoulmakeup.com/products/ceramic-radiant-rice-mist-fixerreal?variant=51155623149882",
+      "availability": "Selected variant marked unavailable by official storefront on the research date.",
+      "evidence_notes": "Official product page and variant API observed on 2026-10-05; storefront cart API confirms USD. Net content verified from brand page text: 80 ml. Selected ingredient presence only; the complete exact-shade INCI has not been reviewed. Cosmetic appearance summaries are editorial paraphrases. No U.S. broad-spectrum sunscreen clearance or product-specific removal evidence is inferred.",
+      "researched_on": "2026-10-05",
+      "kpop_connection": {
+        "artist": "Jang Wonyoung",
+        "group": "IVE",
+        "relationship_type": "Brand ambassador",
+        "association_scope": "Brand-level",
+        "evidence_date": "2024-10-13",
+        "source_url": "https://prtimes.jp/main/html/rd/p/000000006.000140231.html",
+        "connection_summary": "The dated source documents Jang Wonyoung in a AMUSE brand campaign. It does not establish use or endorsement of this product or its selected shade.",
+        "status_as_of": "Verified dated campaign; current contract not confirmed",
+        "suggested_selling_point": "Makeup from AMUSE, a brand with a documented 2024 campaign association with Jang Wonyoung.",
+        "evidence_date_basis": "Source publication or campaign date"
+      },
+      "currency": "USD",
+      "market": "United States",
+      "budget_tier": "Mid-range",
+      "ingredient_scope": "Selected ingredients only; not the complete exact-shade INCI",
+      "customer_fit_basis": "Editorial inference from manufacturer-stated product format and intended appearance"
+    },
+    {
+      "id": "kbeauty-065",
+      "brand": "AMUSE",
+      "product_name": "Lip Smudger — 00 SHADING",
+      "category": "Lip liner",
+      "makeup_category": "lip_liner",
+      "face_regions": [
+        "lips"
+      ],
+      "size": "Net content not verified",
+      "size_verified": false,
+      "shade": "00 SHADING",
+      "price_usd": 17,
+      "price_basis": "Official global storefront USD displayed price; no higher regular reference verified. Selected variant 00 SHADING. Excludes tax, duties and shipping; U.S. checkout delivery and final charges not verified.",
+      "key_ingredients": [
+        "Diisostearyl malate",
+        "Synthetic wax",
+        "Silica"
+      ],
+      "ideal_customers": "Inferred: Customers defining or softly blending the lip outline.",
+      "intended_benefit": "Defines or softly blends the lip outline for a fuller-looking lip shape.",
+      "product_url": "https://amuseseoulmakeup.com/products/lip-smudger?variant=50932844003642",
+      "price_source_url": "https://amuseseoulmakeup.com/products/lip-smudger.js",
+      "ingredient_source_url": "https://amuseseoulmakeup.com/products/lip-smudger?variant=50932844003642",
+      "availability": "Selected variant marked available by official storefront on the research date; checkout not verified.",
+      "evidence_notes": "Official product page and variant API observed on 2026-10-05; storefront cart API confirms USD. Net content not verified in reviewed page text; exact-size identity remains unresolved. Selected ingredient presence only; the complete exact-shade INCI has not been reviewed. Cosmetic appearance summaries are editorial paraphrases. No U.S. broad-spectrum sunscreen clearance or product-specific removal evidence is inferred.",
+      "researched_on": "2026-10-05",
+      "kpop_connection": {
+        "artist": "Jang Wonyoung",
+        "group": "IVE",
+        "relationship_type": "Brand ambassador",
+        "association_scope": "Brand-level",
+        "evidence_date": "2024-10-13",
+        "source_url": "https://prtimes.jp/main/html/rd/p/000000006.000140231.html",
+        "connection_summary": "The dated source documents Jang Wonyoung in a AMUSE brand campaign. It does not establish use or endorsement of this product or its selected shade.",
+        "status_as_of": "Verified dated campaign; current contract not confirmed",
+        "suggested_selling_point": "Makeup from AMUSE, a brand with a documented 2024 campaign association with Jang Wonyoung.",
+        "evidence_date_basis": "Source publication or campaign date"
+      },
+      "currency": "USD",
+      "market": "United States",
+      "budget_tier": "Mid-range",
+      "ingredient_scope": "Selected ingredients only; not the complete exact-shade INCI",
+      "customer_fit_basis": "Editorial inference from manufacturer-stated product format and intended appearance"
+    },
+    {
+      "id": "kbeauty-066",
+      "brand": "AMUSE",
+      "product_name": "Face Diamond Highlighter",
+      "category": "Highlighter",
+      "makeup_category": "highlighter",
+      "face_regions": [
+        "cheeks",
+        "face"
+      ],
+      "size": "Net content not verified",
+      "size_verified": false,
+      "shade": null,
+      "price_usd": 21,
+      "price_basis": "Official global storefront USD displayed price; no higher regular reference verified. Selected variant Default Title. Excludes tax, duties and shipping; U.S. checkout delivery and final charges not verified.",
+      "key_ingredients": [
+        "Dimethicone",
+        "Mica",
+        "Tocopherol"
+      ],
+      "ideal_customers": "Inferred: Customers adding shimmer to facial high points.",
+      "intended_benefit": "Adds pink-toned shimmer to facial high points.",
+      "product_url": "https://amuseseoulmakeup.com/products/face-diamond-highlighter?variant=50768569106746",
+      "price_source_url": "https://amuseseoulmakeup.com/products/face-diamond-highlighter.js",
+      "ingredient_source_url": "https://amuseseoulmakeup.com/products/face-diamond-highlighter?variant=50768569106746",
+      "availability": "Selected variant marked available by official storefront on the research date; checkout not verified.",
+      "evidence_notes": "Official product page and variant API observed on 2026-10-05; storefront cart API confirms USD. Net content not verified in reviewed page text; exact-size identity remains unresolved. Selected ingredient presence only; the complete exact-shade INCI has not been reviewed. Cosmetic appearance summaries are editorial paraphrases. No U.S. broad-spectrum sunscreen clearance or product-specific removal evidence is inferred.",
+      "researched_on": "2026-10-05",
+      "kpop_connection": {
+        "artist": "Jang Wonyoung",
+        "group": "IVE",
+        "relationship_type": "Brand ambassador",
+        "association_scope": "Brand-level",
+        "evidence_date": "2024-10-13",
+        "source_url": "https://prtimes.jp/main/html/rd/p/000000006.000140231.html",
+        "connection_summary": "The dated source documents Jang Wonyoung in a AMUSE brand campaign. It does not establish use or endorsement of this product or its selected shade.",
+        "status_as_of": "Verified dated campaign; current contract not confirmed",
+        "suggested_selling_point": "Makeup from AMUSE, a brand with a documented 2024 campaign association with Jang Wonyoung.",
+        "evidence_date_basis": "Source publication or campaign date"
+      },
+      "currency": "USD",
+      "market": "United States",
+      "budget_tier": "Mid-range",
+      "ingredient_scope": "Selected ingredients only; not the complete exact-shade INCI",
+      "customer_fit_basis": "Editorial inference from manufacturer-stated product format and intended appearance"
+    },
+    {
+      "id": "kbeauty-067",
+      "brand": "AMUSE",
+      "product_name": "Under Eye Volume Pencil — 01 BEIGE VOLUME",
+      "category": "Eye shadow",
+      "makeup_category": "eyeshadow",
+      "face_regions": [
+        "eyes"
+      ],
+      "size": "Net content not verified",
+      "size_verified": false,
+      "shade": "01 BEIGE VOLUME",
+      "price_usd": 15,
+      "price_basis": "Official global storefront USD displayed price; no higher regular reference verified. Selected variant 01 BEIGE VOLUME. Excludes tax, duties and shipping; U.S. checkout delivery and final charges not verified.",
+      "key_ingredients": [
+        "Methyl trimethicone",
+        "Synthetic fluorphlogopite",
+        "Silica"
+      ],
+      "ideal_customers": "Inferred: Customers adding color or shimmer around the eyes.",
+      "intended_benefit": "Accents the under-eye area with a pale, sparkling pencil.",
+      "product_url": "https://amuseseoulmakeup.com/products/under-eye-volume-pencil?variant=50775416635706",
+      "price_source_url": "https://amuseseoulmakeup.com/products/under-eye-volume-pencil.js",
+      "ingredient_source_url": "https://amuseseoulmakeup.com/products/under-eye-volume-pencil?variant=50775416635706",
+      "availability": "Selected variant marked available by official storefront on the research date; checkout not verified.",
+      "evidence_notes": "Official product page and variant API observed on 2026-10-05; storefront cart API confirms USD. Net content not verified in reviewed page text; exact-size identity remains unresolved. Selected ingredient presence only; the complete exact-shade INCI has not been reviewed. Cosmetic appearance summaries are editorial paraphrases. No U.S. broad-spectrum sunscreen clearance or product-specific removal evidence is inferred.",
+      "researched_on": "2026-10-05",
+      "kpop_connection": {
+        "artist": "Jang Wonyoung",
+        "group": "IVE",
+        "relationship_type": "Brand ambassador",
+        "association_scope": "Brand-level",
+        "evidence_date": "2024-10-13",
+        "source_url": "https://prtimes.jp/main/html/rd/p/000000006.000140231.html",
+        "connection_summary": "The dated source documents Jang Wonyoung in a AMUSE brand campaign. It does not establish use or endorsement of this product or its selected shade.",
+        "status_as_of": "Verified dated campaign; current contract not confirmed",
+        "suggested_selling_point": "Makeup from AMUSE, a brand with a documented 2024 campaign association with Jang Wonyoung.",
+        "evidence_date_basis": "Source publication or campaign date"
+      },
+      "currency": "USD",
+      "market": "United States",
+      "budget_tier": "Budget",
+      "ingredient_scope": "Selected ingredients only; not the complete exact-shade INCI",
+      "customer_fit_basis": "Editorial inference from manufacturer-stated product format and intended appearance"
+    },
+    {
+      "id": "kbeauty-068",
+      "brand": "AMUSE",
+      "product_name": "Lip And Cheek Healthy Balm — 01 BOKSOONGA BALM",
+      "category": "Blush",
+      "makeup_category": "blush",
+      "face_regions": [
+        "cheeks",
+        "lips",
+        "eyes"
+      ],
+      "size": "3 g",
+      "size_verified": true,
+      "shade": "01 BOKSOONGA BALM",
+      "price_usd": 20,
+      "price_basis": "Official global storefront USD displayed price; no higher regular reference verified. Selected variant 01 BOKSOONGA BALM. Excludes tax, duties and shipping; U.S. checkout delivery and final charges not verified.",
+      "key_ingredients": [
+        "Octyldodecanol",
+        "Diisostearyl malate",
+        "Mica"
+      ],
+      "ideal_customers": "Inferred: Customers seeking visible cheek color.",
+      "intended_benefit": "Adds sheer-looking color and moisture radiance to lips, cheeks or eyelids.",
+      "product_url": "https://amuseseoulmakeup.com/products/lip-and-cheek-healthy-balm?variant=50951667876154",
+      "price_source_url": "https://amuseseoulmakeup.com/products/lip-and-cheek-healthy-balm.js",
+      "ingredient_source_url": "https://amuseseoulmakeup.com/products/lip-and-cheek-healthy-balm?variant=50951667876154",
+      "availability": "Selected variant marked available by official storefront on the research date; checkout not verified.",
+      "evidence_notes": "Official product page and variant API observed on 2026-10-05; storefront cart API confirms USD. Net content verified from brand page text: 3 g. Selected ingredient presence only; the complete exact-shade INCI has not been reviewed. Cosmetic appearance summaries are editorial paraphrases. No U.S. broad-spectrum sunscreen clearance or product-specific removal evidence is inferred.",
+      "researched_on": "2026-10-05",
+      "kpop_connection": {
+        "artist": "Jang Wonyoung",
+        "group": "IVE",
+        "relationship_type": "Brand ambassador",
+        "association_scope": "Brand-level",
+        "evidence_date": "2024-10-13",
+        "source_url": "https://prtimes.jp/main/html/rd/p/000000006.000140231.html",
+        "connection_summary": "The dated source documents Jang Wonyoung in a AMUSE brand campaign. It does not establish use or endorsement of this product or its selected shade.",
+        "status_as_of": "Verified dated campaign; current contract not confirmed",
+        "suggested_selling_point": "Makeup from AMUSE, a brand with a documented 2024 campaign association with Jang Wonyoung.",
+        "evidence_date_basis": "Source publication or campaign date"
+      },
+      "currency": "USD",
+      "market": "United States",
+      "budget_tier": "Mid-range",
+      "ingredient_scope": "Selected ingredients only; not the complete exact-shade INCI",
+      "customer_fit_basis": "Editorial inference from manufacturer-stated product format and intended appearance"
+    },
+    {
+      "id": "kbeauty-069",
+      "brand": "AMUSE",
+      "product_name": "Dew Tint — 01 LA VIE EN CORAL",
+      "category": "Lip tint",
+      "makeup_category": "lip_tint",
+      "face_regions": [
+        "lips"
+      ],
+      "size": "0.14 oz",
+      "size_verified": true,
+      "shade": "01 LA VIE EN CORAL",
+      "price_usd": 19,
+      "price_basis": "Official global storefront USD displayed price; no higher regular reference verified. Selected variant 01 LA VIE EN CORAL. Excludes tax, duties and shipping; U.S. checkout delivery and final charges not verified.",
+      "key_ingredients": [
+        "Diphenyl dimethicone",
+        "Diisostearyl malate",
+        "Diglycerin"
+      ],
+      "ideal_customers": "Inferred: Customers seeking buildable lip color.",
+      "intended_benefit": "Adds a watery layer of lip color with a dewy-looking shine.",
+      "product_url": "https://amuseseoulmakeup.com/products/dew-tint?variant=50986201219386",
+      "price_source_url": "https://amuseseoulmakeup.com/products/dew-tint.js",
+      "ingredient_source_url": "https://amuseseoulmakeup.com/products/dew-tint?variant=50986201219386",
+      "availability": "Selected variant marked available by official storefront on the research date; checkout not verified.",
+      "evidence_notes": "Official product page and variant API observed on 2026-10-05; storefront cart API confirms USD. Net content verified from brand page text: 0.14 oz. Selected ingredient presence only; the complete exact-shade INCI has not been reviewed. Cosmetic appearance summaries are editorial paraphrases. No U.S. broad-spectrum sunscreen clearance or product-specific removal evidence is inferred.",
+      "researched_on": "2026-10-05",
+      "kpop_connection": {
+        "artist": "Jang Wonyoung",
+        "group": "IVE",
+        "relationship_type": "Brand ambassador",
+        "association_scope": "Brand-level",
+        "evidence_date": "2024-10-13",
+        "source_url": "https://prtimes.jp/main/html/rd/p/000000006.000140231.html",
+        "connection_summary": "The dated source documents Jang Wonyoung in a AMUSE brand campaign. It does not establish use or endorsement of this product or its selected shade.",
+        "status_as_of": "Verified dated campaign; current contract not confirmed",
+        "suggested_selling_point": "Makeup from AMUSE, a brand with a documented 2024 campaign association with Jang Wonyoung.",
+        "evidence_date_basis": "Source publication or campaign date"
+      },
+      "currency": "USD",
+      "market": "United States",
+      "budget_tier": "Mid-range",
+      "ingredient_scope": "Selected ingredients only; not the complete exact-shade INCI",
+      "customer_fit_basis": "Editorial inference from manufacturer-stated product format and intended appearance"
+    },
+    {
+      "id": "kbeauty-070",
+      "brand": "CLIO",
+      "product_name": "Kill Cover Founwear Foundation — 2 Lingerie",
+      "category": "Liquid foundation / BB cream",
+      "makeup_category": "foundation",
+      "face_regions": [
+        "face"
+      ],
+      "size": "Net content not verified",
+      "size_verified": false,
+      "shade": "2 Lingerie",
+      "price_usd": 27.99,
+      "price_basis": "Official global storefront USD displayed price; no higher regular reference verified. Selected variant 2 Lingerie. Excludes tax, duties and shipping; U.S. checkout delivery and final charges not verified.",
+      "key_ingredients": [
+        "Titanium dioxide",
+        "Niacinamide",
+        "Adenosine",
+        "Tocopherol"
+      ],
+      "ideal_customers": "Inferred: Customers seeking all-over complexion coverage; a shade match is still required.",
+      "intended_benefit": "Evens visible skin tone with a lightweight liquid base.",
+      "product_url": "https://clubclio.shop/products/clio-kill-cover-founwear-foundation?variant=44418616230119",
+      "price_source_url": "https://clubclio.shop/products/clio-kill-cover-founwear-foundation.js",
+      "ingredient_source_url": "https://clubclio.shop/products/clio-kill-cover-founwear-foundation?variant=44418616230119",
+      "availability": "Selected variant marked available by official storefront on the research date; checkout not verified.",
+      "evidence_notes": "Official product page and variant API observed on 2026-10-05; storefront cart API confirms USD. Net content not verified in reviewed page text; exact-size identity remains unresolved. Selected ingredient presence only; the complete exact-shade INCI has not been reviewed. Cosmetic appearance summaries are editorial paraphrases. No U.S. broad-spectrum sunscreen clearance or product-specific removal evidence is inferred.",
+      "researched_on": "2026-10-05",
+      "kpop_connection": null,
+      "currency": "USD",
+      "market": "United States",
+      "budget_tier": "Mid-range",
+      "ingredient_scope": "Selected ingredients only; not the complete exact-shade INCI",
+      "customer_fit_basis": "Editorial inference from manufacturer-stated product format and intended appearance"
+    },
+    {
+      "id": "kbeauty-071",
+      "brand": "CLIO",
+      "product_name": "Kill Cover Mesh Glow Essential Cushion Foundation — 19C Light / 1",
+      "category": "Cushion foundation",
+      "makeup_category": "cushion",
+      "face_regions": [
+        "face"
+      ],
+      "size": "Net content not verified",
+      "size_verified": false,
+      "shade": "19C Light / 1",
+      "price_usd": 29,
+      "price_basis": "Official global storefront USD displayed price; no higher regular reference verified. Selected variant 19C Light / 1. Excludes tax, duties and shipping; U.S. checkout delivery and final charges not verified.",
+      "key_ingredients": [
+        "Chamomile flower water",
+        "Panthenol",
+        "Hyaluronic acid complex"
+      ],
+      "ideal_customers": "Inferred: Customers who prefer a portable complexion compact; a shade match is still required.",
+      "intended_benefit": "Provides a lightweight, luminous layer of complexion coverage.",
+      "product_url": "https://clubclio.shop/products/clio-kill-cover-mesh-glow-cushion-set-refill?variant=45856715112679",
+      "price_source_url": "https://clubclio.shop/products/clio-kill-cover-mesh-glow-cushion-set-refill.js",
+      "ingredient_source_url": "https://clubclio.shop/products/clio-kill-cover-mesh-glow-cushion-set-refill?variant=45856715112679",
+      "availability": "Selected variant marked available by official storefront on the research date; checkout not verified.",
+      "evidence_notes": "Official product page and variant API observed on 2026-10-05; storefront cart API confirms USD. Net content not verified in reviewed page text; exact-size identity remains unresolved. Selected ingredient presence only; the complete exact-shade INCI has not been reviewed. Cosmetic appearance summaries are editorial paraphrases. No U.S. broad-spectrum sunscreen clearance or product-specific removal evidence is inferred.",
+      "researched_on": "2026-10-05",
+      "kpop_connection": null,
+      "currency": "USD",
+      "market": "United States",
+      "budget_tier": "Mid-range",
+      "ingredient_scope": "Selected ingredients only; not the complete exact-shade INCI",
+      "customer_fit_basis": "Editorial inference from manufacturer-stated product format and intended appearance"
+    },
+    {
+      "id": "kbeauty-072",
+      "brand": "CLIO",
+      "product_name": "KILL COVER FOUNWEAR CONCEALER — 2 Lingerie",
+      "category": "Concealer",
+      "makeup_category": "concealer",
+      "face_regions": [
+        "face",
+        "eyes"
+      ],
+      "size": "Net content not verified",
+      "size_verified": false,
+      "shade": "2 Lingerie",
+      "price_usd": 13,
+      "price_basis": "Official global storefront USD displayed price; no higher regular reference verified. Selected variant 2 Lingerie. Excludes tax, duties and shipping; U.S. checkout delivery and final charges not verified.",
+      "key_ingredients": [
+        "Cyclopentasiloxane",
+        "Titanium dioxide",
+        "Glycerin"
+      ],
+      "ideal_customers": "Inferred: Customers seeking targeted coverage; the correct shade depends on the intended use.",
+      "intended_benefit": "Provides targeted coverage for uneven-looking areas with a narrow applicator.",
+      "product_url": "https://clubclio.shop/products/copy-of-clio-kill-cover-airy-fit-concealer?variant=48002262499559",
+      "price_source_url": "https://clubclio.shop/products/copy-of-clio-kill-cover-airy-fit-concealer.js",
+      "ingredient_source_url": "https://clubclio.shop/products/copy-of-clio-kill-cover-airy-fit-concealer?variant=48002262499559",
+      "availability": "Selected variant marked available by official storefront on the research date; checkout not verified.",
+      "evidence_notes": "Official product page and variant API observed on 2026-10-05; storefront cart API confirms USD. Net content not verified in reviewed page text; exact-size identity remains unresolved. Selected ingredient presence only; the complete exact-shade INCI has not been reviewed. Cosmetic appearance summaries are editorial paraphrases. No U.S. broad-spectrum sunscreen clearance or product-specific removal evidence is inferred.",
+      "researched_on": "2026-10-05",
+      "kpop_connection": null,
+      "currency": "USD",
+      "market": "United States",
+      "budget_tier": "Budget",
+      "ingredient_scope": "Selected ingredients only; not the complete exact-shade INCI",
+      "customer_fit_basis": "Editorial inference from manufacturer-stated product format and intended appearance"
+    },
+    {
+      "id": "kbeauty-073",
+      "brand": "CLIO",
+      "product_name": "VELVET LIP PENCIL SET — 001 ROSY PINK",
+      "category": "Lip liner",
+      "makeup_category": "lip_liner",
+      "face_regions": [
+        "lips"
+      ],
+      "size": "Net content not verified",
+      "size_verified": false,
+      "shade": "001 ROSY PINK",
+      "price_usd": 11.99,
+      "price_basis": "Official global storefront USD displayed price; no higher regular reference verified. Selected variant 001 ROSY PINK. Excludes tax, duties and shipping; U.S. checkout delivery and final charges not verified.",
+      "key_ingredients": [],
+      "ideal_customers": "Inferred: Customers defining or softly blending the lip outline.",
+      "intended_benefit": "Defines lips with a soft pencil and a blurred-looking edge.",
+      "product_url": "https://clubclio.shop/products/copy-of-clio-chiffon-blur-tint?variant=47991504044263",
+      "price_source_url": "https://clubclio.shop/products/copy-of-clio-chiffon-blur-tint.js",
+      "ingredient_source_url": "https://clubclio.shop/products/copy-of-clio-chiffon-blur-tint?variant=47991504044263",
+      "availability": "Selected variant marked available by official storefront on the research date; checkout not verified.",
+      "evidence_notes": "Official product page and variant API observed on 2026-10-05; storefront cart API confirms USD. Net content not verified in reviewed page text; exact-size identity remains unresolved. No verified ingredient extraction added; empty ingredient list means unknown. Cosmetic appearance summaries are editorial paraphrases. No U.S. broad-spectrum sunscreen clearance or product-specific removal evidence is inferred.",
+      "researched_on": "2026-10-05",
+      "kpop_connection": null,
+      "currency": "USD",
+      "market": "United States",
+      "budget_tier": "Budget",
+      "ingredient_scope": "Ingredient information not verified",
+      "customer_fit_basis": "Editorial inference from manufacturer-stated product format and intended appearance"
+    },
+    {
+      "id": "kbeauty-074",
+      "brand": "CLIO",
+      "product_name": "Pro Eye Palette Air — 09 Peach Mate Apple",
+      "category": "Eye shadow",
+      "makeup_category": "eyeshadow",
+      "face_regions": [
+        "eyes"
+      ],
+      "size": "Net content not verified",
+      "size_verified": false,
+      "shade": "09 Peach Mate Apple",
+      "price_usd": 27.99,
+      "price_basis": "Official global storefront USD displayed price; no higher regular reference verified. Selected variant 09 Peach Mate Apple. Excludes tax, duties and shipping; U.S. checkout delivery and final charges not verified.",
+      "key_ingredients": [],
+      "ideal_customers": "Inferred: Customers adding color or shimmer around the eyes.",
+      "intended_benefit": "Combines twelve shades for layered matte, satin and shimmer eye looks.",
+      "product_url": "https://clubclio.shop/products/clio-pro-eye-palette-air?variant=51749995774183",
+      "price_source_url": "https://clubclio.shop/products/clio-pro-eye-palette-air.js",
+      "ingredient_source_url": "https://clubclio.shop/products/clio-pro-eye-palette-air?variant=51749995774183",
+      "availability": "Selected variant marked available by official storefront on the research date; checkout not verified.",
+      "evidence_notes": "Official product page and variant API observed on 2026-10-05; storefront cart API confirms USD. Net content not verified in reviewed page text; exact-size identity remains unresolved. No verified ingredient extraction added; empty ingredient list means unknown. Cosmetic appearance summaries are editorial paraphrases. No U.S. broad-spectrum sunscreen clearance or product-specific removal evidence is inferred.",
+      "researched_on": "2026-10-05",
+      "kpop_connection": null,
+      "currency": "USD",
+      "market": "United States",
+      "budget_tier": "Mid-range",
+      "ingredient_scope": "Ingredient information not verified",
+      "customer_fit_basis": "Editorial inference from manufacturer-stated product format and intended appearance"
+    },
+    {
+      "id": "kbeauty-075",
+      "brand": "CLIO",
+      "product_name": "Chiffon Blur Tint — 1 Peach Bebe",
+      "category": "Lip tint",
+      "makeup_category": "lip_tint",
+      "face_regions": [
+        "lips"
+      ],
+      "size": "Net content not verified",
+      "size_verified": false,
+      "shade": "1 Peach Bebe",
+      "price_usd": 15.99,
+      "price_basis": "Official global storefront USD displayed price; no higher regular reference verified. Selected variant 1 Peach Bebe. Excludes tax, duties and shipping; U.S. checkout delivery and final charges not verified.",
+      "key_ingredients": [
+        "Jojoba seed oil",
+        "Peach extract"
+      ],
+      "ideal_customers": "Inferred: Customers seeking buildable lip color.",
+      "intended_benefit": "Adds softly blended lip color with a blurred finish.",
+      "product_url": "https://clubclio.shop/products/clio-chiffon-blur-tint?variant=45337121194215",
+      "price_source_url": "https://clubclio.shop/products/clio-chiffon-blur-tint.js",
+      "ingredient_source_url": "https://clubclio.shop/products/clio-chiffon-blur-tint?variant=45337121194215",
+      "availability": "Selected variant marked unavailable by official storefront on the research date.",
+      "evidence_notes": "Official product page and variant API observed on 2026-10-05; storefront cart API confirms USD. Net content not verified in reviewed page text; exact-size identity remains unresolved. Selected ingredient presence only; the complete exact-shade INCI has not been reviewed. Cosmetic appearance summaries are editorial paraphrases. No U.S. broad-spectrum sunscreen clearance or product-specific removal evidence is inferred.",
+      "researched_on": "2026-10-05",
+      "kpop_connection": null,
+      "currency": "USD",
+      "market": "United States",
+      "budget_tier": "Mid-range",
+      "ingredient_scope": "Selected ingredients only; not the complete exact-shade INCI",
+      "customer_fit_basis": "Editorial inference from manufacturer-stated product format and intended appearance"
+    },
+    {
+      "id": "kbeauty-076",
+      "brand": "CLIO",
+      "product_name": "Crystal Glam Tint — 001 VINTAGE APPLE",
+      "category": "Lip tint",
+      "makeup_category": "lip_tint",
+      "face_regions": [
+        "lips"
+      ],
+      "size": "Net content not verified",
+      "size_verified": false,
+      "shade": "001 VINTAGE APPLE",
+      "price_usd": 15.99,
+      "price_basis": "Official global storefront USD displayed price; no higher regular reference verified. Selected variant 001 VINTAGE APPLE. Excludes tax, duties and shipping; U.S. checkout delivery and final charges not verified.",
+      "key_ingredients": [
+        "Diisostearyl malate",
+        "Squalane",
+        "Fragrance"
+      ],
+      "ideal_customers": "Inferred: Customers seeking buildable lip color.",
+      "intended_benefit": "Adds glossy, buildable lip color.",
+      "product_url": "https://clubclio.shop/products/clio-crystal-glam-tint?variant=47257586991335",
+      "price_source_url": "https://clubclio.shop/products/clio-crystal-glam-tint.js",
+      "ingredient_source_url": "https://clubclio.shop/products/clio-crystal-glam-tint?variant=47257586991335",
+      "availability": "Selected variant marked available by official storefront on the research date; checkout not verified.",
+      "evidence_notes": "Official product page and variant API observed on 2026-10-05; storefront cart API confirms USD. Net content not verified in reviewed page text; exact-size identity remains unresolved. Selected ingredient presence only; the complete exact-shade INCI has not been reviewed. Cosmetic appearance summaries are editorial paraphrases. No U.S. broad-spectrum sunscreen clearance or product-specific removal evidence is inferred.",
+      "researched_on": "2026-10-05",
+      "kpop_connection": null,
+      "currency": "USD",
+      "market": "United States",
+      "budget_tier": "Mid-range",
+      "ingredient_scope": "Selected ingredients only; not the complete exact-shade INCI",
+      "customer_fit_basis": "Editorial inference from manufacturer-stated product format and intended appearance"
+    },
+    {
+      "id": "kbeauty-077",
+      "brand": "CLIO",
+      "product_name": "Extreme Gelpresso Pencil Liner — 1 Black Brown",
+      "category": "Eyeliner",
+      "makeup_category": "eyeliner",
+      "face_regions": [
+        "eyes"
+      ],
+      "size": "Net content not verified",
+      "size_verified": false,
+      "shade": "1 Black Brown",
+      "price_usd": 9.99,
+      "price_basis": "Official global storefront USD displayed price; no higher regular reference verified. Selected variant 1 Black Brown. Excludes tax, duties and shipping; U.S. checkout delivery and final charges not verified.",
+      "key_ingredients": [
+        "Cyclopentasiloxane",
+        "Synthetic wax",
+        "Silica"
+      ],
+      "ideal_customers": "Inferred: Customers defining the lash line.",
+      "intended_benefit": "Defines the lash line with a creamy pencil.",
+      "product_url": "https://clubclio.shop/products/clio-extreme-gelpresso-pencil-liner?variant=45337217728743",
+      "price_source_url": "https://clubclio.shop/products/clio-extreme-gelpresso-pencil-liner.js",
+      "ingredient_source_url": "https://clubclio.shop/products/clio-extreme-gelpresso-pencil-liner?variant=45337217728743",
+      "availability": "Selected variant marked available by official storefront on the research date; checkout not verified.",
+      "evidence_notes": "Official product page and variant API observed on 2026-10-05; storefront cart API confirms USD. Net content not verified in reviewed page text; exact-size identity remains unresolved. Selected ingredient presence only; the complete exact-shade INCI has not been reviewed. Cosmetic appearance summaries are editorial paraphrases. No U.S. broad-spectrum sunscreen clearance or product-specific removal evidence is inferred.",
+      "researched_on": "2026-10-05",
+      "kpop_connection": null,
+      "currency": "USD",
+      "market": "United States",
+      "budget_tier": "Budget",
+      "ingredient_scope": "Selected ingredients only; not the complete exact-shade INCI",
+      "customer_fit_basis": "Editorial inference from manufacturer-stated product format and intended appearance"
+    },
+    {
+      "id": "kbeauty-078",
+      "brand": "CLIO",
+      "product_name": "Superproof Brush Liner — 1 Black",
+      "category": "Eyeliner",
+      "makeup_category": "eyeliner",
+      "face_regions": [
+        "eyes"
+      ],
+      "size": "Net content not verified",
+      "size_verified": false,
+      "shade": "1 Black",
+      "price_usd": 14.99,
+      "price_basis": "Official global storefront USD displayed price; no higher regular reference verified. Selected variant 1 Black. Excludes tax, duties and shipping; U.S. checkout delivery and final charges not verified.",
+      "key_ingredients": [
+        "Butylene glycol",
+        "Alcohol",
+        "Phenoxyethanol"
+      ],
+      "ideal_customers": "Inferred: Customers defining the lash line.",
+      "intended_benefit": "Draws a precise dark lash line with a fine brush.",
+      "product_url": "https://clubclio.shop/products/clio-superproof-brush-liner?variant=45029283397863",
+      "price_source_url": "https://clubclio.shop/products/clio-superproof-brush-liner.js",
+      "ingredient_source_url": "https://clubclio.shop/products/clio-superproof-brush-liner?variant=45029283397863",
+      "availability": "Selected variant marked available by official storefront on the research date; checkout not verified.",
+      "evidence_notes": "Official product page and variant API observed on 2026-10-05; storefront cart API confirms USD. Net content not verified in reviewed page text; exact-size identity remains unresolved. Selected ingredient presence only; the complete exact-shade INCI has not been reviewed. Cosmetic appearance summaries are editorial paraphrases. No U.S. broad-spectrum sunscreen clearance or product-specific removal evidence is inferred.",
+      "researched_on": "2026-10-05",
+      "kpop_connection": null,
+      "currency": "USD",
+      "market": "United States",
+      "budget_tier": "Budget",
+      "ingredient_scope": "Selected ingredients only; not the complete exact-shade INCI",
+      "customer_fit_basis": "Editorial inference from manufacturer-stated product format and intended appearance"
+    },
+    {
+      "id": "kbeauty-079",
+      "brand": "CLIO",
+      "product_name": "Prism Highlighter Duo — 1 Cream Fizz",
+      "category": "Highlighter",
+      "makeup_category": "highlighter",
+      "face_regions": [
+        "cheeks",
+        "face"
+      ],
+      "size": "Net content not verified",
+      "size_verified": false,
+      "shade": "1 Cream Fizz",
+      "price_usd": 18.99,
+      "price_basis": "Official global storefront USD displayed price; no higher regular reference verified. Selected variant 1 Cream Fizz. Excludes tax, duties and shipping; U.S. checkout delivery and final charges not verified.",
+      "key_ingredients": [
+        "Dimethicone",
+        "Synthetic fluorphlogopite",
+        "Silica"
+      ],
+      "ideal_customers": "Inferred: Customers adding shimmer to facial high points.",
+      "intended_benefit": "Adds contrasting highlighting textures to the cheekbones and other facial high points.",
+      "product_url": "https://clubclio.shop/products/clio-prism-highlighter-duo-used-by-stray-kids?variant=45029262262503",
+      "price_source_url": "https://clubclio.shop/products/clio-prism-highlighter-duo-used-by-stray-kids.js",
+      "ingredient_source_url": "https://clubclio.shop/products/clio-prism-highlighter-duo-used-by-stray-kids?variant=45029262262503",
+      "availability": "Selected variant marked available by official storefront on the research date; checkout not verified.",
+      "evidence_notes": "Official product page and variant API observed on 2026-10-05; storefront cart API confirms USD. Net content not verified in reviewed page text; exact-size identity remains unresolved. Selected ingredient presence only; the complete exact-shade INCI has not been reviewed. Cosmetic appearance summaries are editorial paraphrases. No U.S. broad-spectrum sunscreen clearance or product-specific removal evidence is inferred.",
+      "researched_on": "2026-10-05",
+      "kpop_connection": null,
+      "currency": "USD",
+      "market": "United States",
+      "budget_tier": "Mid-range",
+      "ingredient_scope": "Selected ingredients only; not the complete exact-shade INCI",
+      "customer_fit_basis": "Editorial inference from manufacturer-stated product format and intended appearance"
+    },
+    {
+      "id": "kbeauty-080",
+      "brand": "CLIO",
+      "product_name": "Kill Brow Auto Hard Brow Pencil Edge Slim — 01 Natural Brown",
+      "category": "Brow makeup",
+      "makeup_category": "brow",
+      "face_regions": [
+        "brows"
+      ],
+      "size": "Net content not verified",
+      "size_verified": false,
+      "shade": "01 Natural Brown",
+      "price_usd": 19,
+      "price_basis": "Official global storefront USD displayed price; no higher regular reference verified. Selected variant 01 Natural Brown. Excludes tax, duties and shipping; U.S. checkout delivery and final charges not verified.",
+      "key_ingredients": [
+        "Synthetic wax",
+        "Hydrogenated soybean oil",
+        "Stearic acid"
+      ],
+      "ideal_customers": "Inferred: Customers shaping or filling brows.",
+      "intended_benefit": "Fills brow gaps and draws fine-looking brow definition.",
+      "product_url": "https://clubclio.shop/products/clio-kill-brow-auto-hard-brow-pencil-edge-slim?variant=43691886608615",
+      "price_source_url": "https://clubclio.shop/products/clio-kill-brow-auto-hard-brow-pencil-edge-slim.js",
+      "ingredient_source_url": "https://clubclio.shop/products/clio-kill-brow-auto-hard-brow-pencil-edge-slim?variant=43691886608615",
+      "availability": "Selected variant marked available by official storefront on the research date; checkout not verified.",
+      "evidence_notes": "Official product page and variant API observed on 2026-10-05; storefront cart API confirms USD. Net content not verified in reviewed page text; exact-size identity remains unresolved. Selected ingredient presence only; the complete exact-shade INCI has not been reviewed. Cosmetic appearance summaries are editorial paraphrases. No U.S. broad-spectrum sunscreen clearance or product-specific removal evidence is inferred.",
+      "researched_on": "2026-10-05",
+      "kpop_connection": null,
+      "currency": "USD",
+      "market": "United States",
+      "budget_tier": "Mid-range",
+      "ingredient_scope": "Selected ingredients only; not the complete exact-shade INCI",
+      "customer_fit_basis": "Editorial inference from manufacturer-stated product format and intended appearance"
+    },
+    {
+      "id": "kbeauty-081",
+      "brand": "peripera",
+      "product_name": "Ink V Shading — 1 Natural Brown",
+      "category": "Contour / shading",
+      "makeup_category": "contour",
+      "face_regions": [
+        "cheeks",
+        "face"
+      ],
+      "size": "Net content not verified",
+      "size_verified": false,
+      "shade": "1 Natural Brown",
+      "price_usd": 12.99,
+      "price_basis": "Official global storefront USD displayed price; no higher regular reference verified. Selected variant 1 Natural Brown. Excludes tax, duties and shipping; U.S. checkout delivery and final charges not verified.",
+      "key_ingredients": [
+        "Talc",
+        "Mica",
+        "Silica"
+      ],
+      "ideal_customers": "Inferred: Customers creating soft face, nose or jaw definition.",
+      "intended_benefit": "Builds soft facial shading along contours, including the nose and jaw.",
+      "product_url": "https://clubclio.shop/products/peripera-ink-v-shading?variant=45029345525991",
+      "price_source_url": "https://clubclio.shop/products/peripera-ink-v-shading.js",
+      "ingredient_source_url": "https://clubclio.shop/products/peripera-ink-v-shading?variant=45029345525991",
+      "availability": "Selected variant marked available by official storefront on the research date; checkout not verified.",
+      "evidence_notes": "Official product page and variant API observed on 2026-10-05; storefront cart API confirms USD. Net content not verified in reviewed page text; exact-size identity remains unresolved. Selected ingredient presence only; the complete exact-shade INCI has not been reviewed. Cosmetic appearance summaries are editorial paraphrases. No U.S. broad-spectrum sunscreen clearance or product-specific removal evidence is inferred.",
+      "researched_on": "2026-10-05",
+      "kpop_connection": null,
+      "currency": "USD",
+      "market": "United States",
+      "budget_tier": "Budget",
+      "ingredient_scope": "Selected ingredients only; not the complete exact-shade INCI",
+      "customer_fit_basis": "Editorial inference from manufacturer-stated product format and intended appearance"
+    },
+    {
+      "id": "kbeauty-082",
+      "brand": "peripera",
+      "product_name": "All Take Mood Like Palette — 01 Prestige Pink",
+      "category": "Eye shadow",
+      "makeup_category": "eyeshadow",
+      "face_regions": [
+        "eyes",
+        "cheeks"
+      ],
+      "size": "Net content not verified",
+      "size_verified": false,
+      "shade": "01 Prestige Pink",
+      "price_usd": 24.99,
+      "price_basis": "Official global storefront USD displayed price; no higher regular reference verified. Selected variant 01 Prestige Pink. Excludes tax, duties and shipping; U.S. checkout delivery and final charges not verified.",
+      "key_ingredients": [
+        "Talc",
+        "Mica",
+        "Silica"
+      ],
+      "ideal_customers": "Inferred: Customers adding color or shimmer around the eyes.",
+      "intended_benefit": "Combines eye shadow, blush and highlighting colors in one palette.",
+      "product_url": "https://clubclio.shop/products/peripera-all-take-mood-like-palette?variant=47302843564263",
+      "price_source_url": "https://clubclio.shop/products/peripera-all-take-mood-like-palette.js",
+      "ingredient_source_url": "https://clubclio.shop/products/peripera-all-take-mood-like-palette?variant=47302843564263",
+      "availability": "Selected variant marked available by official storefront on the research date; checkout not verified.",
+      "evidence_notes": "Official product page and variant API observed on 2026-10-05; storefront cart API confirms USD. Net content not verified in reviewed page text; exact-size identity remains unresolved. Selected ingredient presence only; the complete exact-shade INCI has not been reviewed. Cosmetic appearance summaries are editorial paraphrases. No U.S. broad-spectrum sunscreen clearance or product-specific removal evidence is inferred.",
+      "researched_on": "2026-10-05",
+      "kpop_connection": null,
+      "currency": "USD",
+      "market": "United States",
+      "budget_tier": "Mid-range",
+      "ingredient_scope": "Selected ingredients only; not the complete exact-shade INCI",
+      "customer_fit_basis": "Editorial inference from manufacturer-stated product format and intended appearance"
+    },
+    {
+      "id": "kbeauty-083",
+      "brand": "peripera",
+      "product_name": "Sugar Twinkle Duo Eye Stick — 1 Dewy Nude",
+      "category": "Eye shadow",
+      "makeup_category": "eyeshadow",
+      "face_regions": [
+        "eyes"
+      ],
+      "size": "Net content not verified",
+      "size_verified": false,
+      "shade": "1 Dewy Nude",
+      "price_usd": 8.99,
+      "price_basis": "Official global storefront USD displayed price; no higher regular reference verified. Selected variant 1 Dewy Nude. Excludes tax, duties and shipping; U.S. checkout delivery and final charges not verified.",
+      "key_ingredients": [
+        "Mica",
+        "Synthetic wax",
+        "Phenyl trimethicone"
+      ],
+      "ideal_customers": "Inferred: Customers adding color or shimmer around the eyes.",
+      "intended_benefit": "Adds a brightened, shimmering accent beneath the eyes.",
+      "product_url": "https://clubclio.shop/products/peripera-sugar-twinkle-duo-eye-stick?variant=46502415991015",
+      "price_source_url": "https://clubclio.shop/products/peripera-sugar-twinkle-duo-eye-stick.js",
+      "ingredient_source_url": "https://clubclio.shop/products/peripera-sugar-twinkle-duo-eye-stick?variant=46502415991015",
+      "availability": "Selected variant marked available by official storefront on the research date; checkout not verified.",
+      "evidence_notes": "Official product page and variant API observed on 2026-10-05; storefront cart API confirms USD. Net content not verified in reviewed page text; exact-size identity remains unresolved. Selected ingredient presence only; the complete exact-shade INCI has not been reviewed. Cosmetic appearance summaries are editorial paraphrases. No U.S. broad-spectrum sunscreen clearance or product-specific removal evidence is inferred.",
+      "researched_on": "2026-10-05",
+      "kpop_connection": null,
+      "currency": "USD",
+      "market": "United States",
+      "budget_tier": "Budget",
+      "ingredient_scope": "Selected ingredients only; not the complete exact-shade INCI",
+      "customer_fit_basis": "Editorial inference from manufacturer-stated product format and intended appearance"
+    },
+    {
+      "id": "kbeauty-084",
+      "brand": "peripera",
+      "product_name": "Ink Glasting Lip Gloss — 1 Clear",
+      "category": "Lip gloss",
+      "makeup_category": "lip_gloss",
+      "face_regions": [
+        "lips"
+      ],
+      "size": "Net content not verified",
+      "size_verified": false,
+      "shade": "1 Clear",
+      "price_usd": 9.99,
+      "price_basis": "Official global storefront USD displayed price; no higher regular reference verified. Selected variant 1 Clear. Excludes tax, duties and shipping; U.S. checkout delivery and final charges not verified.",
+      "key_ingredients": [
+        "Mango seed oil",
+        "Olive oil",
+        "Jojoba oil"
+      ],
+      "ideal_customers": "Inferred: Customers who want a shiny lip finish.",
+      "intended_benefit": "Adds a transparent glassy shine to lips.",
+      "product_url": "https://clubclio.shop/products/peripera-ink-glasting-lip-gloss?variant=44897005961447",
+      "price_source_url": "https://clubclio.shop/products/peripera-ink-glasting-lip-gloss.js",
+      "ingredient_source_url": "https://clubclio.shop/products/peripera-ink-glasting-lip-gloss?variant=44897005961447",
+      "availability": "Selected variant marked available by official storefront on the research date; checkout not verified.",
+      "evidence_notes": "Official product page and variant API observed on 2026-10-05; storefront cart API confirms USD. Net content not verified in reviewed page text; exact-size identity remains unresolved. Selected ingredient presence only; the complete exact-shade INCI has not been reviewed. Cosmetic appearance summaries are editorial paraphrases. No U.S. broad-spectrum sunscreen clearance or product-specific removal evidence is inferred.",
+      "researched_on": "2026-10-05",
+      "kpop_connection": null,
+      "currency": "USD",
+      "market": "United States",
+      "budget_tier": "Budget",
+      "ingredient_scope": "Selected ingredients only; not the complete exact-shade INCI",
+      "customer_fit_basis": "Editorial inference from manufacturer-stated product format and intended appearance"
+    },
+    {
+      "id": "kbeauty-085",
+      "brand": "peripera",
+      "product_name": "Ink Black Cara — 01 Long Lash Curling",
+      "category": "Mascara",
+      "makeup_category": "mascara",
+      "face_regions": [
+        "eyes"
+      ],
+      "size": "Net content not verified",
+      "size_verified": false,
+      "shade": "01 Long Lash Curling",
+      "price_usd": 12,
+      "price_basis": "Official global storefront USD displayed price; no higher regular reference verified. Selected variant 01 Long Lash Curling. Excludes tax, duties and shipping; U.S. checkout delivery and final charges not verified.",
+      "key_ingredients": [
+        "Isododecane",
+        "Trimethylsiloxysilicate",
+        "Talc"
+      ],
+      "ideal_customers": "Inferred: Customers adding definition to lashes.",
+      "intended_benefit": "Defines lashes with the selected long-lash curling brush.",
+      "product_url": "https://clubclio.shop/products/peripera-ink-black-cara?variant=43691295146215",
+      "price_source_url": "https://clubclio.shop/products/peripera-ink-black-cara.js",
+      "ingredient_source_url": "https://clubclio.shop/products/peripera-ink-black-cara?variant=43691295146215",
+      "availability": "Selected variant marked available by official storefront on the research date; checkout not verified.",
+      "evidence_notes": "Official product page and variant API observed on 2026-10-05; storefront cart API confirms USD. Net content not verified in reviewed page text; exact-size identity remains unresolved. Selected ingredient presence only; the complete exact-shade INCI has not been reviewed. Cosmetic appearance summaries are editorial paraphrases. No U.S. broad-spectrum sunscreen clearance or product-specific removal evidence is inferred.",
+      "researched_on": "2026-10-05",
+      "kpop_connection": null,
+      "currency": "USD",
+      "market": "United States",
+      "budget_tier": "Budget",
+      "ingredient_scope": "Selected ingredients only; not the complete exact-shade INCI",
+      "customer_fit_basis": "Editorial inference from manufacturer-stated product format and intended appearance"
+    },
+    {
+      "id": "kbeauty-086",
+      "brand": "peripera",
+      "product_name": "Speedy Skinny Brow — 1 Gray Brown",
+      "category": "Brow makeup",
+      "makeup_category": "brow",
+      "face_regions": [
+        "brows"
+      ],
+      "size": "Net content not verified",
+      "size_verified": false,
+      "shade": "1 Gray Brown",
+      "price_usd": 8.59,
+      "price_basis": "Official global storefront USD displayed price; no higher regular reference verified. Selected variant 1 Gray Brown. Excludes tax, duties and shipping; U.S. checkout delivery and final charges not verified.",
+      "key_ingredients": [
+        "Iron oxides",
+        "Polyethylene",
+        "Microcrystalline wax"
+      ],
+      "ideal_customers": "Inferred: Customers shaping or filling brows.",
+      "intended_benefit": "Uses a narrow pencil to fill brow gaps with fine strokes.",
+      "product_url": "https://clubclio.shop/products/peripera-speedy-skinny-brow?variant=45344550224103",
+      "price_source_url": "https://clubclio.shop/products/peripera-speedy-skinny-brow.js",
+      "ingredient_source_url": "https://clubclio.shop/products/peripera-speedy-skinny-brow?variant=45344550224103",
+      "availability": "Selected variant marked available by official storefront on the research date; checkout not verified.",
+      "evidence_notes": "Official product page and variant API observed on 2026-10-05; storefront cart API confirms USD. Net content not verified in reviewed page text; exact-size identity remains unresolved. Selected ingredient presence only; the complete exact-shade INCI has not been reviewed. Cosmetic appearance summaries are editorial paraphrases. No U.S. broad-spectrum sunscreen clearance or product-specific removal evidence is inferred.",
+      "researched_on": "2026-10-05",
+      "kpop_connection": null,
+      "currency": "USD",
+      "market": "United States",
+      "budget_tier": "Budget",
+      "ingredient_scope": "Selected ingredients only; not the complete exact-shade INCI",
+      "customer_fit_basis": "Editorial inference from manufacturer-stated product format and intended appearance"
+    },
+    {
+      "id": "kbeauty-087",
+      "brand": "rom&nd",
+      "product_name": "Better Than Palette — 00 Light & Glitter Garden",
+      "category": "Eye shadow",
+      "makeup_category": "eyeshadow",
+      "face_regions": [
+        "eyes"
+      ],
+      "size": "Net content not verified",
+      "size_verified": false,
+      "shade": "00 Light & Glitter Garden",
+      "price_usd": 34,
+      "price_basis": "Official global storefront USD regular reference price; observed sale $29.00 excluded. Selected variant 00 Light & Glitter Garden. Excludes tax, duties and shipping; U.S. checkout delivery and final charges not verified.",
+      "key_ingredients": [],
+      "ideal_customers": "Inferred: Customers adding color or shimmer around the eyes.",
+      "intended_benefit": "Layers ten glitter shades for sparkling eye accents.",
+      "product_url": "https://romandbeauty.com/products/better-than-palette?variant=43062400352331",
+      "price_source_url": "https://romandbeauty.com/products/better-than-palette.js",
+      "ingredient_source_url": "https://romandbeauty.com/products/better-than-palette?variant=43062400352331",
+      "availability": "Selected variant marked available by official storefront on the research date; checkout not verified.",
+      "evidence_notes": "Official product page and variant API observed on 2026-10-05; storefront cart API confirms USD. Net content not verified in reviewed page text; exact-size identity remains unresolved. No verified ingredient extraction added; empty ingredient list means unknown. Cosmetic appearance summaries are editorial paraphrases. No U.S. broad-spectrum sunscreen clearance or product-specific removal evidence is inferred.",
+      "researched_on": "2026-10-05",
+      "kpop_connection": null,
+      "currency": "USD",
+      "market": "United States",
+      "budget_tier": "Premium",
+      "ingredient_scope": "Ingredient information not verified",
+      "customer_fit_basis": "Editorial inference from manufacturer-stated product format and intended appearance"
+    },
+    {
+      "id": "kbeauty-088",
+      "brand": "rom&nd",
+      "product_name": "HAN ALL BROW CARA — Grace Taupe",
+      "category": "Brow makeup",
+      "makeup_category": "brow",
+      "face_regions": [
+        "brows"
+      ],
+      "size": "Net content not verified",
+      "size_verified": false,
+      "shade": "Grace Taupe",
+      "price_usd": 12.5,
+      "price_basis": "Official global storefront USD displayed price; no higher regular reference verified. Selected variant Grace Taupe. Excludes tax, duties and shipping; U.S. checkout delivery and final charges not verified.",
+      "key_ingredients": [],
+      "ideal_customers": "Inferred: Customers shaping or filling brows.",
+      "intended_benefit": "Combs and colors brow hairs for a more uniform-looking brow.",
+      "product_url": "https://romandbeauty.com/products/han-all-brow-cara?variant=41703842086987",
+      "price_source_url": "https://romandbeauty.com/products/han-all-brow-cara.js",
+      "ingredient_source_url": "https://romandbeauty.com/products/han-all-brow-cara?variant=41703842086987",
+      "availability": "Selected variant marked available by official storefront on the research date; checkout not verified.",
+      "evidence_notes": "Official product page and variant API observed on 2026-10-05; storefront cart API confirms USD. Net content not verified in reviewed page text; exact-size identity remains unresolved. No verified ingredient extraction added; empty ingredient list means unknown. Cosmetic appearance summaries are editorial paraphrases. No U.S. broad-spectrum sunscreen clearance or product-specific removal evidence is inferred.",
+      "researched_on": "2026-10-05",
+      "kpop_connection": null,
+      "currency": "USD",
+      "market": "United States",
+      "budget_tier": "Budget",
+      "ingredient_scope": "Ingredient information not verified",
+      "customer_fit_basis": "Editorial inference from manufacturer-stated product format and intended appearance"
+    },
+    {
+      "id": "kbeauty-089",
+      "brand": "rom&nd",
+      "product_name": "JUICY ROLL CHEEK — RARE APPLE",
+      "category": "Blush",
+      "makeup_category": "blush",
+      "face_regions": [
+        "cheeks"
+      ],
+      "size": "Net content not verified",
+      "size_verified": false,
+      "shade": "RARE APPLE",
+      "price_usd": 15,
+      "price_basis": "Official global storefront USD displayed price; no higher regular reference verified. Selected variant RARE APPLE. Excludes tax, duties and shipping; U.S. checkout delivery and final charges not verified.",
+      "key_ingredients": [],
+      "ideal_customers": "Inferred: Customers seeking visible cheek color.",
+      "intended_benefit": "Adds a dewy wash of cheek color with a cream stick.",
+      "product_url": "https://romandbeauty.com/products/juicy-roll-cheek?variant=41633180844107",
+      "price_source_url": "https://romandbeauty.com/products/juicy-roll-cheek.js",
+      "ingredient_source_url": "https://romandbeauty.com/products/juicy-roll-cheek?variant=41633180844107",
+      "availability": "Selected variant marked available by official storefront on the research date; checkout not verified.",
+      "evidence_notes": "Official product page and variant API observed on 2026-10-05; storefront cart API confirms USD. Net content not verified in reviewed page text; exact-size identity remains unresolved. No verified ingredient extraction added; empty ingredient list means unknown. Cosmetic appearance summaries are editorial paraphrases. No U.S. broad-spectrum sunscreen clearance or product-specific removal evidence is inferred.",
+      "researched_on": "2026-10-05",
+      "kpop_connection": null,
+      "currency": "USD",
+      "market": "United States",
+      "budget_tier": "Budget",
+      "ingredient_scope": "Ingredient information not verified",
+      "customer_fit_basis": "Editorial inference from manufacturer-stated product format and intended appearance"
+    },
+    {
+      "id": "kbeauty-090",
+      "brand": "rom&nd",
+      "product_name": "LIP MATE PENCIL — KAYA BEIGE",
+      "category": "Lip liner",
+      "makeup_category": "lip_liner",
+      "face_regions": [
+        "lips"
+      ],
+      "size": "Net content not verified",
+      "size_verified": false,
+      "shade": "KAYA BEIGE",
+      "price_usd": 14,
+      "price_basis": "Official global storefront USD displayed price; no higher regular reference verified. Selected variant KAYA BEIGE. Excludes tax, duties and shipping; U.S. checkout delivery and final charges not verified.",
+      "key_ingredients": [],
+      "ideal_customers": "Inferred: Customers defining or softly blending the lip outline.",
+      "intended_benefit": "Defines the lip edge and blends the outline using an attached brush.",
+      "product_url": "https://romandbeauty.com/products/rom-nd-lip-mate-pencil?variant=41441654636619",
+      "price_source_url": "https://romandbeauty.com/products/rom-nd-lip-mate-pencil.js",
+      "ingredient_source_url": "https://romandbeauty.com/products/rom-nd-lip-mate-pencil?variant=41441654636619",
+      "availability": "Selected variant marked available by official storefront on the research date; checkout not verified.",
+      "evidence_notes": "Official product page and variant API observed on 2026-10-05; storefront cart API confirms USD. Net content not verified in reviewed page text; exact-size identity remains unresolved. No verified ingredient extraction added; empty ingredient list means unknown. Cosmetic appearance summaries are editorial paraphrases. No U.S. broad-spectrum sunscreen clearance or product-specific removal evidence is inferred.",
+      "researched_on": "2026-10-05",
+      "kpop_connection": null,
+      "currency": "USD",
+      "market": "United States",
+      "budget_tier": "Budget",
+      "ingredient_scope": "Ingredient information not verified",
+      "customer_fit_basis": "Editorial inference from manufacturer-stated product format and intended appearance"
+    },
+    {
+      "id": "kbeauty-091",
+      "brand": "rom&nd",
+      "product_name": "BLUR FUDGE TINT — POMELOCO",
+      "category": "Lip tint",
+      "makeup_category": "lip_tint",
+      "face_regions": [
+        "lips"
+      ],
+      "size": "Net content not verified",
+      "size_verified": false,
+      "shade": "POMELOCO",
+      "price_usd": 14,
+      "price_basis": "Official global storefront USD displayed price; no higher regular reference verified. Selected variant POMELOCO. Excludes tax, duties and shipping; U.S. checkout delivery and final charges not verified.",
+      "key_ingredients": [],
+      "ideal_customers": "Inferred: Customers seeking buildable lip color.",
+      "intended_benefit": "Adds buildable lip color with a softly blurred matte finish.",
+      "product_url": "https://romandbeauty.com/products/blur-fudge-tint?variant=41441653620811",
+      "price_source_url": "https://romandbeauty.com/products/blur-fudge-tint.js",
+      "ingredient_source_url": "https://romandbeauty.com/products/blur-fudge-tint?variant=41441653620811",
+      "availability": "Selected variant marked available by official storefront on the research date; checkout not verified.",
+      "evidence_notes": "Official product page and variant API observed on 2026-10-05; storefront cart API confirms USD. Net content not verified in reviewed page text; exact-size identity remains unresolved. No verified ingredient extraction added; empty ingredient list means unknown. Cosmetic appearance summaries are editorial paraphrases. No U.S. broad-spectrum sunscreen clearance or product-specific removal evidence is inferred.",
+      "researched_on": "2026-10-05",
+      "kpop_connection": null,
+      "currency": "USD",
+      "market": "United States",
+      "budget_tier": "Budget",
+      "ingredient_scope": "Ingredient information not verified",
+      "customer_fit_basis": "Editorial inference from manufacturer-stated product format and intended appearance"
+    },
+    {
+      "id": "kbeauty-092",
+      "brand": "rom&nd",
+      "product_name": "GLASTING COLOR GLOSS — PEONY BALLET",
+      "category": "Lip gloss",
+      "makeup_category": "lip_gloss",
+      "face_regions": [
+        "lips"
+      ],
+      "size": "Net content not verified",
+      "size_verified": false,
+      "shade": "PEONY BALLET",
+      "price_usd": 14,
+      "price_basis": "Official global storefront USD displayed price; no higher regular reference verified. Selected variant PEONY BALLET. Excludes tax, duties and shipping; U.S. checkout delivery and final charges not verified.",
+      "key_ingredients": [],
+      "ideal_customers": "Inferred: Customers who want a shiny lip finish.",
+      "intended_benefit": "Adds sheer color and a high-shine gloss finish.",
+      "product_url": "https://romandbeauty.com/products/glasting-color-gloss?variant=41341796679755",
+      "price_source_url": "https://romandbeauty.com/products/glasting-color-gloss.js",
+      "ingredient_source_url": "https://romandbeauty.com/products/glasting-color-gloss?variant=41341796679755",
+      "availability": "Selected variant marked available by official storefront on the research date; checkout not verified.",
+      "evidence_notes": "Official product page and variant API observed on 2026-10-05; storefront cart API confirms USD. Net content not verified in reviewed page text; exact-size identity remains unresolved. No verified ingredient extraction added; empty ingredient list means unknown. Cosmetic appearance summaries are editorial paraphrases. No U.S. broad-spectrum sunscreen clearance or product-specific removal evidence is inferred.",
+      "researched_on": "2026-10-05",
+      "kpop_connection": null,
+      "currency": "USD",
+      "market": "United States",
+      "budget_tier": "Budget",
+      "ingredient_scope": "Ingredient information not verified",
+      "customer_fit_basis": "Editorial inference from manufacturer-stated product format and intended appearance"
+    },
+    {
+      "id": "kbeauty-093",
+      "brand": "rom&nd",
+      "product_name": "HAN ALL FIX MASCARA — VOLUME BLACK",
+      "category": "Mascara",
+      "makeup_category": "mascara",
+      "face_regions": [
+        "eyes"
+      ],
+      "size": "Net content not verified",
+      "size_verified": false,
+      "shade": "VOLUME BLACK",
+      "price_usd": 16,
+      "price_basis": "Official global storefront USD displayed price; no higher regular reference verified. Selected variant VOLUME BLACK. Excludes tax, duties and shipping; U.S. checkout delivery and final charges not verified.",
+      "key_ingredients": [],
+      "ideal_customers": "Inferred: Customers adding definition to lashes.",
+      "intended_benefit": "Uses the selected volume brush to build fuller-looking lashes.",
+      "product_url": "https://romandbeauty.com/products/han-all-fix-mascara?variant=41341786914891",
+      "price_source_url": "https://romandbeauty.com/products/han-all-fix-mascara.js",
+      "ingredient_source_url": "https://romandbeauty.com/products/han-all-fix-mascara?variant=41341786914891",
+      "availability": "Selected variant marked available by official storefront on the research date; checkout not verified.",
+      "evidence_notes": "Official product page and variant API observed on 2026-10-05; storefront cart API confirms USD. Net content not verified in reviewed page text; exact-size identity remains unresolved. No verified ingredient extraction added; empty ingredient list means unknown. Cosmetic appearance summaries are editorial paraphrases. No U.S. broad-spectrum sunscreen clearance or product-specific removal evidence is inferred. The API comparison value was below the current selling price; it was not treated as a regular price or discount.",
+      "researched_on": "2026-10-05",
+      "kpop_connection": null,
+      "currency": "USD",
+      "market": "United States",
+      "budget_tier": "Mid-range",
+      "ingredient_scope": "Ingredient information not verified",
+      "customer_fit_basis": "Editorial inference from manufacturer-stated product format and intended appearance"
+    },
+    {
+      "id": "kbeauty-094",
+      "brand": "MISSHA",
+      "product_name": "M BB Boomer Primer",
+      "category": "Makeup primer",
+      "makeup_category": "primer",
+      "face_regions": [
+        "face"
+      ],
+      "size": "40 ml / 1.35 fl oz",
+      "size_verified": true,
+      "shade": null,
+      "price_usd": 15,
+      "price_basis": "Official U.S. storefront USD displayed price; no higher regular reference verified. Selected variant 40 ml. Excludes tax, duties and shipping; U.S. checkout delivery and final charges not verified.",
+      "key_ingredients": [
+        "Moringa oleifera seed oil",
+        "Glycerin",
+        "Pearl powder"
+      ],
+      "ideal_customers": "Inferred: Customers preparing the complexion for color makeup.",
+      "intended_benefit": "Prepares skin for base makeup with a luminous-looking finish.",
+      "product_url": "https://misshaus.com/products/m-bb-boomer?variant=46249291088059",
+      "price_source_url": "https://misshaus.com/products/m-bb-boomer.js",
+      "ingredient_source_url": "https://misshaus.com/products/m-bb-boomer?variant=46249291088059",
+      "availability": "Selected variant marked available by official storefront on the research date; checkout not verified.",
+      "evidence_notes": "Official product page and variant API observed on 2026-10-05; storefront cart API confirms USD. Net content verified from brand page text: 40 ml / 1.35 fl oz. Selected ingredient presence only; the complete exact-shade INCI has not been reviewed. Cosmetic appearance summaries are editorial paraphrases. No U.S. broad-spectrum sunscreen clearance or product-specific removal evidence is inferred.",
+      "researched_on": "2026-10-05",
+      "kpop_connection": {
+        "artist": "Sana",
+        "group": "TWICE",
+        "relationship_type": "Brand campaign model / muse",
+        "association_scope": "Brand-level",
+        "evidence_date": "2023-03-23",
+        "campaign_market": "Japan",
+        "source_url": "https://prtimes.jp/main/html/rd/p/000000107.000023609.html",
+        "connection_summary": "The dated source documents Sana in a MISSHA brand campaign. It does not establish use or endorsement of this product or its selected shade.",
+        "status_as_of": "Dated campaign verified; current contract unconfirmed.",
+        "suggested_selling_point": "Makeup from MISSHA, a brand with a documented 2023 campaign association with Sana.",
+        "evidence_date_basis": "Source publication or campaign date"
+      },
+      "currency": "USD",
+      "market": "United States",
+      "budget_tier": "Budget",
+      "ingredient_scope": "Selected ingredients only; not the complete exact-shade INCI",
+      "customer_fit_basis": "Editorial inference from manufacturer-stated product format and intended appearance"
+    },
+    {
+      "id": "kbeauty-095",
+      "brand": "MISSHA",
+      "product_name": "Airy Pot Pressed Powder Pact — Translucent",
+      "category": "Setting powder",
+      "makeup_category": "powder",
+      "face_regions": [
+        "face"
+      ],
+      "size": "5 g",
+      "size_verified": true,
+      "shade": "Translucent",
+      "price_usd": 11,
+      "price_basis": "Official U.S. storefront USD displayed price; no higher regular reference verified. Selected variant Translucent. Excludes tax, duties and shipping; U.S. checkout delivery and final charges not verified.",
+      "key_ingredients": [
+        "Nylon-12",
+        "Silica",
+        "Synthetic fluorphlogopite"
+      ],
+      "ideal_customers": "Inferred: Customers who want to set complexion makeup and soften visible shine.",
+      "intended_benefit": "Sets makeup and reduces visible shine with a translucent pressed powder.",
+      "product_url": "https://misshaus.com/products/airy-pot-pressed-powder-pact?variant=44732601008315",
+      "price_source_url": "https://misshaus.com/products/airy-pot-pressed-powder-pact.js",
+      "ingredient_source_url": "https://misshaus.com/products/airy-pot-pressed-powder-pact?variant=44732601008315",
+      "availability": "Selected variant marked available by official storefront on the research date; checkout not verified.",
+      "evidence_notes": "Official product page and variant API observed on 2026-10-05; storefront cart API confirms USD. Net content verified from brand page text: 5 g. Selected ingredient presence only; the complete exact-shade INCI has not been reviewed. Cosmetic appearance summaries are editorial paraphrases. No U.S. broad-spectrum sunscreen clearance or product-specific removal evidence is inferred.",
+      "researched_on": "2026-10-05",
+      "kpop_connection": {
+        "artist": "Sana",
+        "group": "TWICE",
+        "relationship_type": "Brand campaign model / muse",
+        "association_scope": "Brand-level",
+        "evidence_date": "2023-03-23",
+        "campaign_market": "Japan",
+        "source_url": "https://prtimes.jp/main/html/rd/p/000000107.000023609.html",
+        "connection_summary": "The dated source documents Sana in a MISSHA brand campaign. It does not establish use or endorsement of this product or its selected shade.",
+        "status_as_of": "Dated campaign verified; current contract unconfirmed.",
+        "suggested_selling_point": "Makeup from MISSHA, a brand with a documented 2023 campaign association with Sana.",
+        "evidence_date_basis": "Source publication or campaign date"
+      },
+      "currency": "USD",
+      "market": "United States",
+      "budget_tier": "Budget",
+      "ingredient_scope": "Selected ingredients only; not the complete exact-shade INCI",
+      "customer_fit_basis": "Editorial inference from manufacturer-stated product format and intended appearance"
+    },
+    {
+      "id": "kbeauty-096",
+      "brand": "MISSHA",
+      "product_name": "Dewy Rouge — [PK01] Fairy Dream",
+      "category": "Lipstick",
+      "makeup_category": "lipstick",
+      "face_regions": [
+        "lips"
+      ],
+      "size": "Net content not verified",
+      "size_verified": false,
+      "shade": "[PK01] Fairy Dream",
+      "price_usd": 13,
+      "price_basis": "Official U.S. storefront USD displayed price; no higher regular reference verified. Selected variant [PK01] Fairy Dream. Excludes tax, duties and shipping; U.S. checkout delivery and final charges not verified.",
+      "key_ingredients": [
+        "Honey extract",
+        "Mango seed butter",
+        "Raspberry seed oil",
+        "Apricot oil",
+        "Fragrance"
+      ],
+      "ideal_customers": "Inferred: Customers who prefer lip color in a lipstick format.",
+      "intended_benefit": "Adds moisturizing-feeling lipstick color with a glossy finish.",
+      "product_url": "https://misshaus.com/products/missha-dewy-rouge?variant=46412668240059",
+      "price_source_url": "https://misshaus.com/products/missha-dewy-rouge.js",
+      "ingredient_source_url": "https://misshaus.com/products/missha-dewy-rouge?variant=46412668240059",
+      "availability": "Selected variant marked available by official storefront on the research date; checkout not verified.",
+      "evidence_notes": "Official product page and variant API observed on 2026-10-05; storefront cart API confirms USD. Net content not verified in reviewed page text; exact-size identity remains unresolved. Selected ingredient presence only; the complete exact-shade INCI has not been reviewed. Cosmetic appearance summaries are editorial paraphrases. No U.S. broad-spectrum sunscreen clearance or product-specific removal evidence is inferred. Live official page and variant API showed $13; an older indexed web result showed $15 and was not used.",
+      "researched_on": "2026-10-05",
+      "kpop_connection": {
+        "artist": "Sana",
+        "group": "TWICE",
+        "relationship_type": "Brand campaign model / muse",
+        "association_scope": "Brand-level",
+        "evidence_date": "2023-03-23",
+        "campaign_market": "Japan",
+        "source_url": "https://prtimes.jp/main/html/rd/p/000000107.000023609.html",
+        "connection_summary": "The dated source documents Sana in a MISSHA brand campaign. It does not establish use or endorsement of this product or its selected shade.",
+        "status_as_of": "Dated campaign verified; current contract unconfirmed.",
+        "suggested_selling_point": "Makeup from MISSHA, a brand with a documented 2023 campaign association with Sana.",
+        "evidence_date_basis": "Source publication or campaign date"
+      },
+      "currency": "USD",
+      "market": "United States",
+      "budget_tier": "Budget",
+      "ingredient_scope": "Selected ingredients only; not the complete exact-shade INCI",
+      "customer_fit_basis": "Editorial inference from manufacturer-stated product format and intended appearance"
+    },
+    {
+      "id": "kbeauty-097",
+      "brand": "MISSHA",
+      "product_name": "M Perfect Cover BB Cream SPF 42 PA+++(50ml) — #13 Bright Beige",
+      "category": "Liquid foundation / BB cream",
+      "makeup_category": "foundation",
+      "face_regions": [
+        "face"
+      ],
+      "size": "50 ml / 1.7 fl oz",
+      "size_verified": true,
+      "shade": "#13 Bright Beige",
+      "price_usd": 19,
+      "price_basis": "Official U.S. storefront USD displayed price; no higher regular reference verified. Selected variant #13 Bright Beige. Excludes tax, duties and shipping; U.S. checkout delivery and final charges not verified.",
+      "key_ingredients": [
+        "Glycerin",
+        "Hyaluronic acid",
+        "Ceramide"
+      ],
+      "ideal_customers": "Inferred: Customers seeking all-over complexion coverage; a shade match is still required.",
+      "intended_benefit": "Offers medium-to-high complexion coverage and a more even-looking skin tone.",
+      "product_url": "https://misshaus.com/products/m-perfect-cover-bb-cream-spf-42-pa-50ml-new?variant=41098658054331",
+      "price_source_url": "https://misshaus.com/products/m-perfect-cover-bb-cream-spf-42-pa-50ml-new.js",
+      "ingredient_source_url": "https://misshaus.com/products/m-perfect-cover-bb-cream-spf-42-pa-50ml-new?variant=41098658054331",
+      "availability": "Selected variant marked available by official storefront on the research date; checkout not verified.",
+      "evidence_notes": "Official product page and variant API observed on 2026-10-05; storefront cart API confirms USD. Net content verified from brand page text: 50 ml / 1.7 fl oz. Selected ingredient presence only; the complete exact-shade INCI has not been reviewed. Cosmetic appearance summaries are editorial paraphrases. No U.S. broad-spectrum sunscreen clearance or product-specific removal evidence is inferred.",
+      "researched_on": "2026-10-05",
+      "kpop_connection": {
+        "artist": "Sana",
+        "group": "TWICE",
+        "relationship_type": "Brand campaign model / muse",
+        "association_scope": "Brand-level",
+        "evidence_date": "2023-03-23",
+        "campaign_market": "Japan",
+        "source_url": "https://prtimes.jp/main/html/rd/p/000000107.000023609.html",
+        "connection_summary": "The dated source documents Sana in a MISSHA brand campaign. It does not establish use or endorsement of this product or its selected shade.",
+        "status_as_of": "Dated campaign verified; current contract unconfirmed.",
+        "suggested_selling_point": "Makeup from MISSHA, a brand with a documented 2023 campaign association with Sana.",
+        "evidence_date_basis": "Source publication or campaign date"
+      },
+      "currency": "USD",
+      "market": "United States",
+      "budget_tier": "Mid-range",
+      "ingredient_scope": "Selected ingredients only; not the complete exact-shade INCI",
+      "customer_fit_basis": "Editorial inference from manufacturer-stated product format and intended appearance"
+    },
+    {
+      "id": "kbeauty-098",
+      "brand": "MISSHA",
+      "product_name": "M Magic Cushion — #25 Warm Beige",
+      "category": "Cushion foundation",
+      "makeup_category": "cushion",
+      "face_regions": [
+        "face"
+      ],
+      "size": "Net content not verified",
+      "size_verified": false,
+      "shade": "#25 Warm Beige",
+      "price_usd": 16,
+      "price_basis": "Official U.S. storefront USD displayed price; no higher regular reference verified. Selected variant #25 Warm Beige. Excludes tax, duties and shipping; U.S. checkout delivery and final charges not verified.",
+      "key_ingredients": [
+        "Bamboo water",
+        "Baobab fruit extract",
+        "Witch hazel extract"
+      ],
+      "ideal_customers": "Inferred: Customers who prefer a portable complexion compact; a shade match is still required.",
+      "intended_benefit": "Provides portable, buildable complexion coverage in a cushion compact.",
+      "product_url": "https://misshaus.com/products/m-magic-cushion?variant=38039377969339",
+      "price_source_url": "https://misshaus.com/products/m-magic-cushion.js",
+      "ingredient_source_url": "https://misshaus.com/products/m-magic-cushion?variant=38039377969339",
+      "availability": "Selected variant marked available by official storefront on the research date; checkout not verified.",
+      "evidence_notes": "Official product page and variant API observed on 2026-10-05; storefront cart API confirms USD. Net content not verified in reviewed page text; exact-size identity remains unresolved. Selected ingredient presence only; the complete exact-shade INCI has not been reviewed. Cosmetic appearance summaries are editorial paraphrases. No U.S. broad-spectrum sunscreen clearance or product-specific removal evidence is inferred.",
+      "researched_on": "2026-10-05",
+      "kpop_connection": {
+        "artist": "Sana",
+        "group": "TWICE",
+        "relationship_type": "Brand campaign model / muse",
+        "association_scope": "Brand-level",
+        "evidence_date": "2023-03-23",
+        "campaign_market": "Japan",
+        "source_url": "https://prtimes.jp/main/html/rd/p/000000107.000023609.html",
+        "connection_summary": "The dated source documents Sana in a MISSHA brand campaign. It does not establish use or endorsement of this product or its selected shade.",
+        "status_as_of": "Dated campaign verified; current contract unconfirmed.",
+        "suggested_selling_point": "Makeup from MISSHA, a brand with a documented 2023 campaign association with Sana.",
+        "evidence_date_basis": "Source publication or campaign date"
+      },
+      "currency": "USD",
+      "market": "United States",
+      "budget_tier": "Mid-range",
+      "ingredient_scope": "Selected ingredients only; not the complete exact-shade INCI",
+      "customer_fit_basis": "Editorial inference from manufacturer-stated product format and intended appearance"
     }
-  ]
+  ],
+  "makeup_product_count": 58,
+  "makeup_category_count": 17,
+  "makeup_taxonomy": {
+    "version": "1.0",
+    "categories": {
+      "primer": "Makeup primer",
+      "cushion": "Cushion foundation",
+      "foundation": "Liquid foundation / BB cream",
+      "concealer": "Concealer",
+      "powder": "Setting powder",
+      "setting_spray": "Makeup setting spray",
+      "blush": "Blush",
+      "contour": "Contour / shading",
+      "highlighter": "Highlighter",
+      "eyeshadow": "Eye shadow",
+      "eyeliner": "Eyeliner",
+      "mascara": "Mascara",
+      "brow": "Brow makeup",
+      "lip_tint": "Lip tint",
+      "lipstick": "Lipstick",
+      "lip_gloss": "Lip gloss",
+      "lip_liner": "Lip liner"
+    },
+    "face_regions": [
+      "face",
+      "eyes",
+      "brows",
+      "cheeks",
+      "lips"
+    ],
+    "method": "Editorial product-format taxonomy. Multi-use regions are recorded only when supported by the manufacturer; this does not imply routine or shade compatibility."
+  }
 }

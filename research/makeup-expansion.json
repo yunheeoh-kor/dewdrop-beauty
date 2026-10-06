@@ -1,0 +1,813 @@
+{
+  "researched_on": "2026-10-05",
+  "added_product_count": 42,
+  "method": "Official product HTML, product JSON, selected-variant storefront API and cart currency were reviewed. Higher regular comparison prices are used when valid. Photographs retain provenance and SHA-256 checksums in the live manifest. Net contents and ingredient evidence are not invented when missing.",
+  "products": [
+    {
+      "id": "kbeauty-057",
+      "brand": "TIRTIR",
+      "product_name": "Flawless Pore Prep Primer",
+      "makeup_category": "primer",
+      "face_regions": [
+        "face"
+      ],
+      "product_url": "https://tirtir.global/products/flawless-pore-prep-primer?variant=48634525810907",
+      "variant_id": 48634525810907,
+      "observed_currency": "USD",
+      "observed_price_usd": 22,
+      "reference_price_usd": 22,
+      "price_source_url": "https://tirtir.global/products/flawless-pore-prep-primer.js",
+      "currency_source_url": "https://tirtir.global/cart.js",
+      "size_verified": true,
+      "researched_on": "2026-10-05",
+      "image_source_url": "https://cdn.shopify.com/s/files/1/0663/2757/6795/files/thumbnail_flawless-pore-prep-primer1_2_2.png?v=1786067937&width=800"
+    },
+    {
+      "id": "kbeauty-058",
+      "brand": "TIRTIR",
+      "product_name": "Reflect Glow Prep Primer",
+      "makeup_category": "primer",
+      "face_regions": [
+        "face"
+      ],
+      "product_url": "https://tirtir.global/products/reflect-glow-prep-primer?variant=48631508795611",
+      "variant_id": 48631508795611,
+      "observed_currency": "USD",
+      "observed_price_usd": 22,
+      "reference_price_usd": 22,
+      "price_source_url": "https://tirtir.global/products/reflect-glow-prep-primer.js",
+      "currency_source_url": "https://tirtir.global/cart.js",
+      "size_verified": true,
+      "researched_on": "2026-10-05",
+      "image_source_url": "https://cdn.shopify.com/s/files/1/0663/2757/6795/files/thumbnail_reflect-glow-prep-primer3_2.png?v=1786067937&width=800"
+    },
+    {
+      "id": "kbeauty-059",
+      "brand": "TIRTIR",
+      "product_name": "Mask Fit Red Foundation — 10C Shell",
+      "makeup_category": "foundation",
+      "face_regions": [
+        "face"
+      ],
+      "product_url": "https://tirtir.global/products/mask-fit-red-foundation?variant=46765534609627",
+      "variant_id": 46765534609627,
+      "observed_currency": "USD",
+      "observed_price_usd": 27,
+      "reference_price_usd": 27,
+      "price_source_url": "https://tirtir.global/products/mask-fit-red-foundation.js",
+      "currency_source_url": "https://tirtir.global/cart.js",
+      "size_verified": true,
+      "researched_on": "2026-10-05",
+      "image_source_url": "https://cdn.shopify.com/s/files/1/0663/2757/6795/files/10c_95135b51-f3ac-4736-8709-dd17dbc4109e.png?v=1770794327&width=800"
+    },
+    {
+      "id": "kbeauty-060",
+      "brand": "TIRTIR",
+      "product_name": "Glide & Hide Blurring Concealer — 0.5 N",
+      "makeup_category": "concealer",
+      "face_regions": [
+        "face",
+        "eyes"
+      ],
+      "product_url": "https://tirtir.global/products/glide-hide-blurring-concealer?variant=46765742719195",
+      "variant_id": 46765742719195,
+      "observed_currency": "USD",
+      "observed_price_usd": 16,
+      "reference_price_usd": 16,
+      "price_source_url": "https://tirtir.global/products/glide-hide-blurring-concealer.js",
+      "currency_source_url": "https://tirtir.global/cart.js",
+      "size_verified": false,
+      "researched_on": "2026-10-05",
+      "image_source_url": "https://cdn.shopify.com/s/files/1/0663/2757/6795/files/0.5n_2bbdc0ac-482b-459a-9c6b-ef78fb0b96fd.png?v=1770794101&width=800"
+    },
+    {
+      "id": "kbeauty-061",
+      "brand": "TIRTIR",
+      "product_name": "Mask Fit AI Filter Cushion — 10C Shell",
+      "makeup_category": "cushion",
+      "face_regions": [
+        "face"
+      ],
+      "product_url": "https://tirtir.global/products/mask-fit-ai-filter-cushion?variant=47265818738907",
+      "variant_id": 47265818738907,
+      "observed_currency": "USD",
+      "observed_price_usd": 25,
+      "reference_price_usd": 25,
+      "price_source_url": "https://tirtir.global/products/mask-fit-ai-filter-cushion.js",
+      "currency_source_url": "https://tirtir.global/cart.js",
+      "size_verified": false,
+      "researched_on": "2026-10-05",
+      "image_source_url": "https://cdn.shopify.com/s/files/1/0663/2757/6795/files/10c_83f91c40-e7ea-46f7-91b8-24397b84f87c.png?v=1770792602&width=800"
+    },
+    {
+      "id": "kbeauty-062",
+      "brand": "TIRTIR",
+      "product_name": "Mask Fit Makeup Fixer",
+      "makeup_category": "setting_spray",
+      "face_regions": [
+        "face"
+      ],
+      "product_url": "https://tirtir.global/products/mask-fit-makeup-fixer?variant=45772184977627",
+      "variant_id": 45772184977627,
+      "observed_currency": "USD",
+      "observed_price_usd": 15,
+      "reference_price_usd": 15,
+      "price_source_url": "https://tirtir.global/products/mask-fit-makeup-fixer.js",
+      "currency_source_url": "https://tirtir.global/cart.js",
+      "size_verified": true,
+      "researched_on": "2026-10-05",
+      "image_source_url": "https://cdn.shopify.com/s/files/1/0663/2757/6795/files/Group_788.png?v=1789440244&width=800"
+    },
+    {
+      "id": "kbeauty-063",
+      "brand": "AMUSE",
+      "product_name": "Ceramic Skin Sebum Powder — 01 Clear",
+      "makeup_category": "powder",
+      "face_regions": [
+        "face"
+      ],
+      "product_url": "https://amuseseoulmakeup.com/products/ceramic-skin-sebum-powder?variant=51159585685818",
+      "variant_id": 51159585685818,
+      "observed_currency": "USD",
+      "observed_price_usd": 14,
+      "reference_price_usd": 14,
+      "price_source_url": "https://amuseseoulmakeup.com/products/ceramic-skin-sebum-powder.js",
+      "currency_source_url": "https://amuseseoulmakeup.com/cart.js",
+      "size_verified": true,
+      "researched_on": "2026-10-05",
+      "image_source_url": "https://cdn.shopify.com/s/files/1/0927/0571/8586/files/01_955f7d8b-7231-4b6d-bf7a-48dd73f2d444.png?v=1756100208&width=800"
+    },
+    {
+      "id": "kbeauty-064",
+      "brand": "AMUSE",
+      "product_name": "Ceramic Radiant Rice Mist & Fixer",
+      "makeup_category": "setting_spray",
+      "face_regions": [
+        "face"
+      ],
+      "product_url": "https://amuseseoulmakeup.com/products/ceramic-radiant-rice-mist-fixerreal?variant=51155623149882",
+      "variant_id": 51155623149882,
+      "observed_currency": "USD",
+      "observed_price_usd": 22,
+      "reference_price_usd": 22,
+      "price_source_url": "https://amuseseoulmakeup.com/products/ceramic-radiant-rice-mist-fixerreal.js",
+      "currency_source_url": "https://amuseseoulmakeup.com/cart.js",
+      "size_verified": true,
+      "researched_on": "2026-10-05",
+      "image_source_url": "https://cdn.shopify.com/s/files/1/0927/0571/8586/files/0cf3bee08111ba13df06ebc4e6a00de9_af7bf6ea-48d5-4f0d-bef0-b0e521db8663.png?v=1744852931&width=800"
+    },
+    {
+      "id": "kbeauty-065",
+      "brand": "AMUSE",
+      "product_name": "Lip Smudger — 00 SHADING",
+      "makeup_category": "lip_liner",
+      "face_regions": [
+        "lips"
+      ],
+      "product_url": "https://amuseseoulmakeup.com/products/lip-smudger?variant=50932844003642",
+      "variant_id": 50932844003642,
+      "observed_currency": "USD",
+      "observed_price_usd": 17,
+      "reference_price_usd": 17,
+      "price_source_url": "https://amuseseoulmakeup.com/products/lip-smudger.js",
+      "currency_source_url": "https://amuseseoulmakeup.com/cart.js",
+      "size_verified": false,
+      "researched_on": "2026-10-05",
+      "image_source_url": "https://cdn.shopify.com/s/files/1/0927/0571/8586/files/00_b773044e-8dbb-4ceb-919f-8f356237a9cd.jpg?v=1745835389&width=800"
+    },
+    {
+      "id": "kbeauty-066",
+      "brand": "AMUSE",
+      "product_name": "Face Diamond Highlighter",
+      "makeup_category": "highlighter",
+      "face_regions": [
+        "cheeks",
+        "face"
+      ],
+      "product_url": "https://amuseseoulmakeup.com/products/face-diamond-highlighter?variant=50768569106746",
+      "variant_id": 50768569106746,
+      "observed_currency": "USD",
+      "observed_price_usd": 21,
+      "reference_price_usd": 21,
+      "price_source_url": "https://amuseseoulmakeup.com/products/face-diamond-highlighter.js",
+      "currency_source_url": "https://amuseseoulmakeup.com/cart.js",
+      "size_verified": false,
+      "researched_on": "2026-10-05",
+      "image_source_url": "https://cdn.shopify.com/s/files/1/0927/0571/8586/files/2.png?v=1744097674&width=800"
+    },
+    {
+      "id": "kbeauty-067",
+      "brand": "AMUSE",
+      "product_name": "Under Eye Volume Pencil — 01 BEIGE VOLUME",
+      "makeup_category": "eyeshadow",
+      "face_regions": [
+        "eyes"
+      ],
+      "product_url": "https://amuseseoulmakeup.com/products/under-eye-volume-pencil?variant=50775416635706",
+      "variant_id": 50775416635706,
+      "observed_currency": "USD",
+      "observed_price_usd": 15,
+      "reference_price_usd": 15,
+      "price_source_url": "https://amuseseoulmakeup.com/products/under-eye-volume-pencil.js",
+      "currency_source_url": "https://amuseseoulmakeup.com/cart.js",
+      "size_verified": false,
+      "researched_on": "2026-10-05",
+      "image_source_url": "https://cdn.shopify.com/s/files/1/0927/0571/8586/files/01_ac699f27-1226-45e8-bfb1-7be1cd8263bb.jpg?v=1750828431&width=800"
+    },
+    {
+      "id": "kbeauty-068",
+      "brand": "AMUSE",
+      "product_name": "Lip And Cheek Healthy Balm — 01 BOKSOONGA BALM",
+      "makeup_category": "blush",
+      "face_regions": [
+        "cheeks",
+        "lips",
+        "eyes"
+      ],
+      "product_url": "https://amuseseoulmakeup.com/products/lip-and-cheek-healthy-balm?variant=50951667876154",
+      "variant_id": 50951667876154,
+      "observed_currency": "USD",
+      "observed_price_usd": 20,
+      "reference_price_usd": 20,
+      "price_source_url": "https://amuseseoulmakeup.com/products/lip-and-cheek-healthy-balm.js",
+      "currency_source_url": "https://amuseseoulmakeup.com/cart.js",
+      "size_verified": true,
+      "researched_on": "2026-10-05",
+      "image_source_url": "https://cdn.shopify.com/s/files/1/0927/0571/8586/files/01_95911330-0ccb-43f7-9caf-eb4e36ac3afa.jpg?v=1750821254&width=800"
+    },
+    {
+      "id": "kbeauty-069",
+      "brand": "AMUSE",
+      "product_name": "Dew Tint — 01 LA VIE EN CORAL",
+      "makeup_category": "lip_tint",
+      "face_regions": [
+        "lips"
+      ],
+      "product_url": "https://amuseseoulmakeup.com/products/dew-tint?variant=50986201219386",
+      "variant_id": 50986201219386,
+      "observed_currency": "USD",
+      "observed_price_usd": 19,
+      "reference_price_usd": 19,
+      "price_source_url": "https://amuseseoulmakeup.com/products/dew-tint.js",
+      "currency_source_url": "https://amuseseoulmakeup.com/cart.js",
+      "size_verified": true,
+      "researched_on": "2026-10-05",
+      "image_source_url": "https://cdn.shopify.com/s/files/1/0927/0571/8586/files/01_927976db-e9cc-45f3-8165-1d64b17a621a.png?v=1744792021&width=800"
+    },
+    {
+      "id": "kbeauty-070",
+      "brand": "CLIO",
+      "product_name": "Kill Cover Founwear Foundation — 2 Lingerie",
+      "makeup_category": "foundation",
+      "face_regions": [
+        "face"
+      ],
+      "product_url": "https://clubclio.shop/products/clio-kill-cover-founwear-foundation?variant=44418616230119",
+      "variant_id": 44418616230119,
+      "observed_currency": "USD",
+      "observed_price_usd": 27.99,
+      "reference_price_usd": 27.99,
+      "price_source_url": "https://clubclio.shop/products/clio-kill-cover-founwear-foundation.js",
+      "currency_source_url": "https://clubclio.shop/cart.js",
+      "size_verified": false,
+      "researched_on": "2026-10-05",
+      "image_source_url": "https://cdn.shopify.com/s/files/1/0310/4925/3001/products/2lingerie_05dc18b3-f135-4720-bda2-d3e7df118010.jpg?v=1678850539&width=800"
+    },
+    {
+      "id": "kbeauty-071",
+      "brand": "CLIO",
+      "product_name": "Kill Cover Mesh Glow Essential Cushion Foundation — 19C Light / 1",
+      "makeup_category": "cushion",
+      "face_regions": [
+        "face"
+      ],
+      "product_url": "https://clubclio.shop/products/clio-kill-cover-mesh-glow-cushion-set-refill?variant=45856715112679",
+      "variant_id": 45856715112679,
+      "observed_currency": "USD",
+      "observed_price_usd": 29,
+      "reference_price_usd": 29,
+      "price_source_url": "https://clubclio.shop/products/clio-kill-cover-mesh-glow-cushion-set-refill.js",
+      "currency_source_url": "https://clubclio.shop/cart.js",
+      "size_verified": false,
+      "researched_on": "2026-10-05",
+      "image_source_url": "https://cdn.shopify.com/s/files/1/0310/4925/3001/files/667499a54cb75f64757d49c449e22b1f.jpg?v=1769480871&width=800"
+    },
+    {
+      "id": "kbeauty-072",
+      "brand": "CLIO",
+      "product_name": "KILL COVER FOUNWEAR CONCEALER — 2 Lingerie",
+      "makeup_category": "concealer",
+      "face_regions": [
+        "face",
+        "eyes"
+      ],
+      "product_url": "https://clubclio.shop/products/copy-of-clio-kill-cover-airy-fit-concealer?variant=48002262499559",
+      "variant_id": 48002262499559,
+      "observed_currency": "USD",
+      "observed_price_usd": 13,
+      "reference_price_usd": 13,
+      "price_source_url": "https://clubclio.shop/products/copy-of-clio-kill-cover-airy-fit-concealer.js",
+      "currency_source_url": "https://clubclio.shop/cart.js",
+      "size_verified": false,
+      "researched_on": "2026-10-05",
+      "image_source_url": "https://cdn.shopify.com/s/files/1/0310/4925/3001/files/23fde38d61432f1b318ac21706723c7d.jpg?v=1698204242&width=800"
+    },
+    {
+      "id": "kbeauty-073",
+      "brand": "CLIO",
+      "product_name": "VELVET LIP PENCIL SET — 001 ROSY PINK",
+      "makeup_category": "lip_liner",
+      "face_regions": [
+        "lips"
+      ],
+      "product_url": "https://clubclio.shop/products/copy-of-clio-chiffon-blur-tint?variant=47991504044263",
+      "variant_id": 47991504044263,
+      "observed_currency": "USD",
+      "observed_price_usd": 11.99,
+      "reference_price_usd": 11.99,
+      "price_source_url": "https://clubclio.shop/products/copy-of-clio-chiffon-blur-tint.js",
+      "currency_source_url": "https://clubclio.shop/cart.js",
+      "size_verified": false,
+      "researched_on": "2026-10-05",
+      "image_source_url": "https://cdn.shopify.com/s/files/1/0310/4925/3001/files/p1_aeb94175-3fc6-48b9-97bf-460498f39dfe.jpg?v=1698054778&width=800"
+    },
+    {
+      "id": "kbeauty-074",
+      "brand": "CLIO",
+      "product_name": "Pro Eye Palette Air — 09 Peach Mate Apple",
+      "makeup_category": "eyeshadow",
+      "face_regions": [
+        "eyes"
+      ],
+      "product_url": "https://clubclio.shop/products/clio-pro-eye-palette-air?variant=51749995774183",
+      "variant_id": 51749995774183,
+      "observed_currency": "USD",
+      "observed_price_usd": 27.99,
+      "reference_price_usd": 27.99,
+      "price_source_url": "https://clubclio.shop/products/clio-pro-eye-palette-air.js",
+      "currency_source_url": "https://clubclio.shop/cart.js",
+      "size_verified": false,
+      "researched_on": "2026-10-05",
+      "image_source_url": "https://cdn.shopify.com/s/files/1/0310/4925/3001/files/667499a54cb75f64757d49c449e22b1f_72a0c0c1-85b9-4f2c-9166-8cbd788f326e.jpg?v=1769481862&width=800"
+    },
+    {
+      "id": "kbeauty-075",
+      "brand": "CLIO",
+      "product_name": "Chiffon Blur Tint — 1 Peach Bebe",
+      "makeup_category": "lip_tint",
+      "face_regions": [
+        "lips"
+      ],
+      "product_url": "https://clubclio.shop/products/clio-chiffon-blur-tint?variant=45337121194215",
+      "variant_id": 45337121194215,
+      "observed_currency": "USD",
+      "observed_price_usd": 15.99,
+      "reference_price_usd": 15.99,
+      "price_source_url": "https://clubclio.shop/products/clio-chiffon-blur-tint.js",
+      "currency_source_url": "https://clubclio.shop/cart.js",
+      "size_verified": false,
+      "researched_on": "2026-10-05",
+      "image_source_url": "https://cdn.shopify.com/s/files/1/0310/4925/3001/products/1peachbebe.jpg?v=1701744214&width=800"
+    },
+    {
+      "id": "kbeauty-076",
+      "brand": "CLIO",
+      "product_name": "Crystal Glam Tint — 001 VINTAGE APPLE",
+      "makeup_category": "lip_tint",
+      "face_regions": [
+        "lips"
+      ],
+      "product_url": "https://clubclio.shop/products/clio-crystal-glam-tint?variant=47257586991335",
+      "variant_id": 47257586991335,
+      "observed_currency": "USD",
+      "observed_price_usd": 15.99,
+      "reference_price_usd": 15.99,
+      "price_source_url": "https://clubclio.shop/products/clio-crystal-glam-tint.js",
+      "currency_source_url": "https://clubclio.shop/cart.js",
+      "size_verified": false,
+      "researched_on": "2026-10-05",
+      "image_source_url": "https://cdn.shopify.com/s/files/1/0310/4925/3001/products/001.jpg?v=1690357516&width=800"
+    },
+    {
+      "id": "kbeauty-077",
+      "brand": "CLIO",
+      "product_name": "Extreme Gelpresso Pencil Liner — 1 Black Brown",
+      "makeup_category": "eyeliner",
+      "face_regions": [
+        "eyes"
+      ],
+      "product_url": "https://clubclio.shop/products/clio-extreme-gelpresso-pencil-liner?variant=45337217728743",
+      "variant_id": 45337217728743,
+      "observed_currency": "USD",
+      "observed_price_usd": 9.99,
+      "reference_price_usd": 9.99,
+      "price_source_url": "https://clubclio.shop/products/clio-extreme-gelpresso-pencil-liner.js",
+      "currency_source_url": "https://clubclio.shop/cart.js",
+      "size_verified": false,
+      "researched_on": "2026-10-05",
+      "image_source_url": "https://cdn.shopify.com/s/files/1/0310/4925/3001/products/1blackbrown.jpg?v=1678255609&width=800"
+    },
+    {
+      "id": "kbeauty-078",
+      "brand": "CLIO",
+      "product_name": "Superproof Brush Liner — 1 Black",
+      "makeup_category": "eyeliner",
+      "face_regions": [
+        "eyes"
+      ],
+      "product_url": "https://clubclio.shop/products/clio-superproof-brush-liner?variant=45029283397863",
+      "variant_id": 45029283397863,
+      "observed_currency": "USD",
+      "observed_price_usd": 14.99,
+      "reference_price_usd": 14.99,
+      "price_source_url": "https://clubclio.shop/products/clio-superproof-brush-liner.js",
+      "currency_source_url": "https://clubclio.shop/cart.js",
+      "size_verified": false,
+      "researched_on": "2026-10-05",
+      "image_source_url": "https://cdn.shopify.com/s/files/1/0310/4925/3001/products/1black_d0e45983-d616-4deb-a5d8-d52f1a0d6d17.jpg?v=1670480873&width=800"
+    },
+    {
+      "id": "kbeauty-079",
+      "brand": "CLIO",
+      "product_name": "Prism Highlighter Duo — 1 Cream Fizz",
+      "makeup_category": "highlighter",
+      "face_regions": [
+        "cheeks",
+        "face"
+      ],
+      "product_url": "https://clubclio.shop/products/clio-prism-highlighter-duo-used-by-stray-kids?variant=45029262262503",
+      "variant_id": 45029262262503,
+      "observed_currency": "USD",
+      "observed_price_usd": 18.99,
+      "reference_price_usd": 18.99,
+      "price_source_url": "https://clubclio.shop/products/clio-prism-highlighter-duo-used-by-stray-kids.js",
+      "currency_source_url": "https://clubclio.shop/cart.js",
+      "size_verified": false,
+      "researched_on": "2026-10-05",
+      "image_source_url": "https://cdn.shopify.com/s/files/1/0310/4925/3001/products/1creamfizz.jpg?v=1670479541&width=800"
+    },
+    {
+      "id": "kbeauty-080",
+      "brand": "CLIO",
+      "product_name": "Kill Brow Auto Hard Brow Pencil Edge Slim — 01 Natural Brown",
+      "makeup_category": "brow",
+      "face_regions": [
+        "brows"
+      ],
+      "product_url": "https://clubclio.shop/products/clio-kill-brow-auto-hard-brow-pencil-edge-slim?variant=43691886608615",
+      "variant_id": 43691886608615,
+      "observed_currency": "USD",
+      "observed_price_usd": 19,
+      "reference_price_usd": 19,
+      "price_source_url": "https://clubclio.shop/products/clio-kill-brow-auto-hard-brow-pencil-edge-slim.js",
+      "currency_source_url": "https://clubclio.shop/cart.js",
+      "size_verified": false,
+      "researched_on": "2026-10-05",
+      "image_source_url": "https://cdn.shopify.com/s/files/1/0310/4925/3001/products/1naturalbrown.jpg?v=1670291162&width=800"
+    },
+    {
+      "id": "kbeauty-081",
+      "brand": "peripera",
+      "product_name": "Ink V Shading — 1 Natural Brown",
+      "makeup_category": "contour",
+      "face_regions": [
+        "cheeks",
+        "face"
+      ],
+      "product_url": "https://clubclio.shop/products/peripera-ink-v-shading?variant=45029345525991",
+      "variant_id": 45029345525991,
+      "observed_currency": "USD",
+      "observed_price_usd": 12.99,
+      "reference_price_usd": 12.99,
+      "price_source_url": "https://clubclio.shop/products/peripera-ink-v-shading.js",
+      "currency_source_url": "https://clubclio.shop/cart.js",
+      "size_verified": false,
+      "researched_on": "2026-10-05",
+      "image_source_url": "https://cdn.shopify.com/s/files/1/0310/4925/3001/products/1_44c821db-0227-4216-9165-a6102f9ca5a7.jpg?v=1677740369&width=800"
+    },
+    {
+      "id": "kbeauty-082",
+      "brand": "peripera",
+      "product_name": "All Take Mood Like Palette — 01 Prestige Pink",
+      "makeup_category": "eyeshadow",
+      "face_regions": [
+        "eyes",
+        "cheeks"
+      ],
+      "product_url": "https://clubclio.shop/products/peripera-all-take-mood-like-palette?variant=47302843564263",
+      "variant_id": 47302843564263,
+      "observed_currency": "USD",
+      "observed_price_usd": 24.99,
+      "reference_price_usd": 24.99,
+      "price_source_url": "https://clubclio.shop/products/peripera-all-take-mood-like-palette.js",
+      "currency_source_url": "https://clubclio.shop/cart.js",
+      "size_verified": false,
+      "researched_on": "2026-10-05",
+      "image_source_url": "https://cdn.shopify.com/s/files/1/0310/4925/3001/products/1_85ddd46a-ae14-4f87-8037-a3b92cd52919.jpg?v=1695715087&width=800"
+    },
+    {
+      "id": "kbeauty-083",
+      "brand": "peripera",
+      "product_name": "Sugar Twinkle Duo Eye Stick — 1 Dewy Nude",
+      "makeup_category": "eyeshadow",
+      "face_regions": [
+        "eyes"
+      ],
+      "product_url": "https://clubclio.shop/products/peripera-sugar-twinkle-duo-eye-stick?variant=46502415991015",
+      "variant_id": 46502415991015,
+      "observed_currency": "USD",
+      "observed_price_usd": 8.99,
+      "reference_price_usd": 8.99,
+      "price_source_url": "https://clubclio.shop/products/peripera-sugar-twinkle-duo-eye-stick.js",
+      "currency_source_url": "https://clubclio.shop/cart.js",
+      "size_verified": false,
+      "researched_on": "2026-10-05",
+      "image_source_url": "https://cdn.shopify.com/s/files/1/0310/4925/3001/products/1_0819728f-5aa2-4a6d-896d-98d54df4c082.jpg?v=1677743244&width=800"
+    },
+    {
+      "id": "kbeauty-084",
+      "brand": "peripera",
+      "product_name": "Ink Glasting Lip Gloss — 1 Clear",
+      "makeup_category": "lip_gloss",
+      "face_regions": [
+        "lips"
+      ],
+      "product_url": "https://clubclio.shop/products/peripera-ink-glasting-lip-gloss?variant=44897005961447",
+      "variant_id": 44897005961447,
+      "observed_currency": "USD",
+      "observed_price_usd": 9.99,
+      "reference_price_usd": 9.99,
+      "price_source_url": "https://clubclio.shop/products/peripera-ink-glasting-lip-gloss.js",
+      "currency_source_url": "https://clubclio.shop/cart.js",
+      "size_verified": false,
+      "researched_on": "2026-10-05",
+      "image_source_url": "https://cdn.shopify.com/s/files/1/0310/4925/3001/products/1-1.jpg?v=1690959307&width=800"
+    },
+    {
+      "id": "kbeauty-085",
+      "brand": "peripera",
+      "product_name": "Ink Black Cara — 01 Long Lash Curling",
+      "makeup_category": "mascara",
+      "face_regions": [
+        "eyes"
+      ],
+      "product_url": "https://clubclio.shop/products/peripera-ink-black-cara?variant=43691295146215",
+      "variant_id": 43691295146215,
+      "observed_currency": "USD",
+      "observed_price_usd": 12,
+      "reference_price_usd": 12,
+      "price_source_url": "https://clubclio.shop/products/peripera-ink-black-cara.js",
+      "currency_source_url": "https://clubclio.shop/cart.js",
+      "size_verified": false,
+      "researched_on": "2026-10-05",
+      "image_source_url": "https://cdn.shopify.com/s/files/1/0310/4925/3001/products/1longlash.jpg?v=1670483100&width=800"
+    },
+    {
+      "id": "kbeauty-086",
+      "brand": "peripera",
+      "product_name": "Speedy Skinny Brow — 1 Gray Brown",
+      "makeup_category": "brow",
+      "face_regions": [
+        "brows"
+      ],
+      "product_url": "https://clubclio.shop/products/peripera-speedy-skinny-brow?variant=45344550224103",
+      "variant_id": 45344550224103,
+      "observed_currency": "USD",
+      "observed_price_usd": 8.59,
+      "reference_price_usd": 8.59,
+      "price_source_url": "https://clubclio.shop/products/peripera-speedy-skinny-brow.js",
+      "currency_source_url": "https://clubclio.shop/cart.js",
+      "size_verified": false,
+      "researched_on": "2026-10-05",
+      "image_source_url": "https://cdn.shopify.com/s/files/1/0310/4925/3001/products/1graybrown.jpg?v=1676526296&width=800"
+    },
+    {
+      "id": "kbeauty-087",
+      "brand": "rom&nd",
+      "product_name": "Better Than Palette — 00 Light & Glitter Garden",
+      "makeup_category": "eyeshadow",
+      "face_regions": [
+        "eyes"
+      ],
+      "product_url": "https://romandbeauty.com/products/better-than-palette?variant=43062400352331",
+      "variant_id": 43062400352331,
+      "observed_currency": "USD",
+      "observed_price_usd": 29,
+      "reference_price_usd": 34,
+      "price_source_url": "https://romandbeauty.com/products/better-than-palette.js",
+      "currency_source_url": "https://romandbeauty.com/cart.js",
+      "size_verified": false,
+      "researched_on": "2026-10-05",
+      "image_source_url": "https://cdn.shopify.com/s/files/1/0598/8578/1067/files/00.png?v=1787495241&width=800"
+    },
+    {
+      "id": "kbeauty-088",
+      "brand": "rom&nd",
+      "product_name": "HAN ALL BROW CARA — Grace Taupe",
+      "makeup_category": "brow",
+      "face_regions": [
+        "brows"
+      ],
+      "product_url": "https://romandbeauty.com/products/han-all-brow-cara?variant=41703842086987",
+      "variant_id": 41703842086987,
+      "observed_currency": "USD",
+      "observed_price_usd": 12.5,
+      "reference_price_usd": 12.5,
+      "price_source_url": "https://romandbeauty.com/products/han-all-brow-cara.js",
+      "currency_source_url": "https://romandbeauty.com/cart.js",
+      "size_verified": false,
+      "researched_on": "2026-10-05",
+      "image_source_url": "https://cdn.shopify.com/s/files/1/0598/8578/1067/files/01_brow_cara_grace_taupe_0.jpg?v=1770160570&width=800"
+    },
+    {
+      "id": "kbeauty-089",
+      "brand": "rom&nd",
+      "product_name": "JUICY ROLL CHEEK — RARE APPLE",
+      "makeup_category": "blush",
+      "face_regions": [
+        "cheeks"
+      ],
+      "product_url": "https://romandbeauty.com/products/juicy-roll-cheek?variant=41633180844107",
+      "variant_id": 41633180844107,
+      "observed_currency": "USD",
+      "observed_price_usd": 15,
+      "reference_price_usd": 15,
+      "price_source_url": "https://romandbeauty.com/products/juicy-roll-cheek.js",
+      "currency_source_url": "https://romandbeauty.com/cart.js",
+      "size_verified": false,
+      "researched_on": "2026-10-05",
+      "image_source_url": "https://cdn.shopify.com/s/files/1/0598/8578/1067/files/01_RARE_APPLE_1.jpg?v=1770657185&width=800"
+    },
+    {
+      "id": "kbeauty-090",
+      "brand": "rom&nd",
+      "product_name": "LIP MATE PENCIL — KAYA BEIGE",
+      "makeup_category": "lip_liner",
+      "face_regions": [
+        "lips"
+      ],
+      "product_url": "https://romandbeauty.com/products/rom-nd-lip-mate-pencil?variant=41441654636619",
+      "variant_id": 41441654636619,
+      "observed_currency": "USD",
+      "observed_price_usd": 14,
+      "reference_price_usd": 14,
+      "price_source_url": "https://romandbeauty.com/products/rom-nd-lip-mate-pencil.js",
+      "currency_source_url": "https://romandbeauty.com/cart.js",
+      "size_verified": false,
+      "researched_on": "2026-10-05",
+      "image_source_url": "https://cdn.shopify.com/s/files/1/0598/8578/1067/files/3_73b9162d-dd21-48d8-a757-5d935b8ebf01.jpg?v=1761889938&width=800"
+    },
+    {
+      "id": "kbeauty-091",
+      "brand": "rom&nd",
+      "product_name": "BLUR FUDGE TINT — POMELOCO",
+      "makeup_category": "lip_tint",
+      "face_regions": [
+        "lips"
+      ],
+      "product_url": "https://romandbeauty.com/products/blur-fudge-tint?variant=41441653620811",
+      "variant_id": 41441653620811,
+      "observed_currency": "USD",
+      "observed_price_usd": 14,
+      "reference_price_usd": 14,
+      "price_source_url": "https://romandbeauty.com/products/blur-fudge-tint.js",
+      "currency_source_url": "https://romandbeauty.com/cart.js",
+      "size_verified": false,
+      "researched_on": "2026-10-05",
+      "image_source_url": "https://cdn.shopify.com/s/files/1/0598/8578/1067/files/01_POMELOCO_1.jpg?v=1771900266&width=800"
+    },
+    {
+      "id": "kbeauty-092",
+      "brand": "rom&nd",
+      "product_name": "GLASTING COLOR GLOSS — PEONY BALLET",
+      "makeup_category": "lip_gloss",
+      "face_regions": [
+        "lips"
+      ],
+      "product_url": "https://romandbeauty.com/products/glasting-color-gloss?variant=41341796679755",
+      "variant_id": 41341796679755,
+      "observed_currency": "USD",
+      "observed_price_usd": 14,
+      "reference_price_usd": 14,
+      "price_source_url": "https://romandbeauty.com/products/glasting-color-gloss.js",
+      "currency_source_url": "https://romandbeauty.com/cart.js",
+      "size_verified": false,
+      "researched_on": "2026-10-05",
+      "image_source_url": "https://cdn.shopify.com/s/files/1/0598/8578/1067/files/GLASTING_COLOR_GLOSS_01_PEONY_BALLET_1.png?v=1758196200&width=800"
+    },
+    {
+      "id": "kbeauty-093",
+      "brand": "rom&nd",
+      "product_name": "HAN ALL FIX MASCARA — VOLUME BLACK",
+      "makeup_category": "mascara",
+      "face_regions": [
+        "eyes"
+      ],
+      "product_url": "https://romandbeauty.com/products/han-all-fix-mascara?variant=41341786914891",
+      "variant_id": 41341786914891,
+      "observed_currency": "USD",
+      "observed_price_usd": 16,
+      "reference_price_usd": 16,
+      "price_source_url": "https://romandbeauty.com/products/han-all-fix-mascara.js",
+      "currency_source_url": "https://romandbeauty.com/cart.js",
+      "size_verified": false,
+      "researched_on": "2026-10-05",
+      "image_source_url": "https://cdn.shopify.com/s/files/1/0598/8578/1067/files/UHMC02_VOLUME_BLACK_1.jpg?v=1770108459&width=800"
+    },
+    {
+      "id": "kbeauty-094",
+      "brand": "MISSHA",
+      "product_name": "M BB Boomer Primer",
+      "makeup_category": "primer",
+      "face_regions": [
+        "face"
+      ],
+      "product_url": "https://misshaus.com/products/m-bb-boomer?variant=46249291088059",
+      "variant_id": 46249291088059,
+      "observed_currency": "USD",
+      "observed_price_usd": 15,
+      "reference_price_usd": 15,
+      "price_source_url": "https://misshaus.com/products/m-bb-boomer.js",
+      "currency_source_url": "https://misshaus.com/cart.js",
+      "size_verified": true,
+      "researched_on": "2026-10-05",
+      "image_source_url": "https://cdn.shopify.com/s/files/1/0526/9559/7243/files/CopyofCopyofCopyof__40ml.jpg?v=1785186078&width=800"
+    },
+    {
+      "id": "kbeauty-095",
+      "brand": "MISSHA",
+      "product_name": "Airy Pot Pressed Powder Pact — Translucent",
+      "makeup_category": "powder",
+      "face_regions": [
+        "face"
+      ],
+      "product_url": "https://misshaus.com/products/airy-pot-pressed-powder-pact?variant=44732601008315",
+      "variant_id": 44732601008315,
+      "observed_currency": "USD",
+      "observed_price_usd": 11,
+      "reference_price_usd": 11,
+      "price_source_url": "https://misshaus.com/products/airy-pot-pressed-powder-pact.js",
+      "currency_source_url": "https://misshaus.com/cart.js",
+      "size_verified": true,
+      "researched_on": "2026-10-05",
+      "image_source_url": "https://cdn.shopify.com/s/files/1/0526/9559/7243/products/airypottranslucent_1482dd2f-fc56-4675-9b31-f55a44e03af4.jpg?v=1707839890&width=800"
+    },
+    {
+      "id": "kbeauty-096",
+      "brand": "MISSHA",
+      "product_name": "Dewy Rouge — [PK01] Fairy Dream",
+      "makeup_category": "lipstick",
+      "face_regions": [
+        "lips"
+      ],
+      "product_url": "https://misshaus.com/products/missha-dewy-rouge?variant=46412668240059",
+      "variant_id": 46412668240059,
+      "observed_currency": "USD",
+      "observed_price_usd": 13,
+      "reference_price_usd": 13,
+      "price_source_url": "https://misshaus.com/products/missha-dewy-rouge.js",
+      "currency_source_url": "https://misshaus.com/cart.js",
+      "size_verified": false,
+      "researched_on": "2026-10-05",
+      "image_source_url": "https://cdn.shopify.com/s/files/1/0526/9559/7243/files/fairydream.jpg?v=1736978107&width=800"
+    },
+    {
+      "id": "kbeauty-097",
+      "brand": "MISSHA",
+      "product_name": "M Perfect Cover BB Cream SPF 42 PA+++(50ml) — #13 Bright Beige",
+      "makeup_category": "foundation",
+      "face_regions": [
+        "face"
+      ],
+      "product_url": "https://misshaus.com/products/m-perfect-cover-bb-cream-spf-42-pa-50ml-new?variant=41098658054331",
+      "variant_id": 41098658054331,
+      "observed_currency": "USD",
+      "observed_price_usd": 19,
+      "reference_price_usd": 19,
+      "price_source_url": "https://misshaus.com/products/m-perfect-cover-bb-cream-spf-42-pa-50ml-new.js",
+      "currency_source_url": "https://misshaus.com/cart.js",
+      "size_verified": true,
+      "researched_on": "2026-10-05",
+      "image_source_url": "https://cdn.shopify.com/s/files/1/0526/9559/7243/files/Red13.png?v=1785175963&width=800"
+    },
+    {
+      "id": "kbeauty-098",
+      "brand": "MISSHA",
+      "product_name": "M Magic Cushion — #25 Warm Beige",
+      "makeup_category": "cushion",
+      "face_regions": [
+        "face"
+      ],
+      "product_url": "https://misshaus.com/products/m-magic-cushion?variant=38039377969339",
+      "variant_id": 38039377969339,
+      "observed_currency": "USD",
+      "observed_price_usd": 16,
+      "reference_price_usd": 16,
+      "price_source_url": "https://misshaus.com/products/m-magic-cushion.js",
+      "currency_source_url": "https://misshaus.com/cart.js",
+      "size_verified": false,
+      "researched_on": "2026-10-05",
+      "image_source_url": "https://cdn.shopify.com/s/files/1/0526/9559/7243/files/magiccushion-25.jpg?v=1773694417&width=800"
+    }
+  ]
+}

@@ -1,6 +1,8 @@
-// Photos stay in memory. This module does not upload, persist, or analyze images.
+// Photos and preview quality checks stay in memory on this device.
+import { createCaptureStabilityGate } from './capture-quality.js';
 const MAX_FILE_BYTES = 15 * 1024 * 1024;
-const MAX_EDGE = 1200;
+// Preserve more real detail for skin appearance; never upscale small sources.
+const MAX_EDGE = 1920;
 const IMAGE_TYPES = new Set(['image/jpeg', 'image/png', 'image/webp']);
 const noop = () => {};
 
@@ -29,18 +31,120 @@ function cameraError(error) {
  * onStatus receives requesting | ready | processing | idle.
  * onError receives (userReadyMessage, code). Canceled operations are silent.
  * onPhoto receives {dataUrl, width, height, source: 'camera' | 'upload'}.
- * start(video) and readFile(file) resolve true on success, false on cancellation/error.
+ * onGuidance receives {status, message, progress, faceBounds, autofocusRequested}.
+ * Bounds use normalized, unmirrored source coordinates; progress is 0..1.
+ * start(video, {autoCapture:true}) and readFile(file) resolve true on success.
  * capture() returns the photo or null; stop() releases resources and cancels work.
  * Optional browser supplies navigator/document/Image/URL for isolated tests.
  */
-export function createCameraController({ onPhoto = noop, onError = noop, onStatus = noop, browser = globalThis } = {}) {
+export function createCameraController({ onPhoto = noop, onError = noop, onStatus = noop, onGuidance = noop, browser = globalThis } = {}) {
   let generation = 0;
   let stream = null;
   let video = null;
   let cancelPending = null;
   let removeTrackListeners = noop;
+  let captureGeneration = 0;
+  let captureWorker = null;
+  let captureTimer = null;
+  let workerTimeout = null;
+  let previewCanvas = null;
+  let autofocusRequested = false;
+  const later = (callback, ms) => (browser.setTimeout || globalThis.setTimeout)(callback, ms);
+  const clearLater = id => (browser.clearTimeout || globalThis.clearTimeout)(id);
+  const now = () => browser.performance?.now?.() ?? Date.now();
+
+  function guide(status, message, extra = {}) {
+    onGuidance({ status, message, progress: 0, faceBounds: null, autofocusRequested, ...extra });
+  }
+
+  function haltAutoCapture() {
+    captureGeneration += 1;
+    clearLater(captureTimer); captureTimer = null;
+    clearLater(workerTimeout); workerTimeout = null;
+    captureWorker?.terminate(); captureWorker = null;
+    if (previewCanvas) { previewCanvas.width = 1; previewCanvas.height = 1; previewCanvas = null; }
+  }
+
+  function stopAutoCapture() {
+    haltAutoCapture();
+    if (stream) guide('manual', 'Tap the shutter whenever you are ready.');
+  }
+
+  function startAutoCapture() {
+    haltAutoCapture();
+    if (!stream || !video) return false;
+    const token = generation, id = captureGeneration;
+    const active = () => token === generation && id === captureGeneration && stream && video;
+    const manualFallback = () => {
+      if (!active()) return;
+      haltAutoCapture();
+      guide('manual', 'Auto capture is unavailable on this device. Tap the shutter to take your photo.');
+    };
+    if (!browser.Worker || !browser.OffscreenCanvas) { manualFallback(); return false; }
+    const gate = createCaptureStabilityGate();
+    let sequence = 0, pendingSequence = null, pendingTimestamp = null, previousVideoTime = null, lastTimestamp = -1, ready = false;
+    function sendFrame() {
+      if (!active()) return;
+      if (browser.document?.hidden) { stop(); return; }
+      if (video.readyState < 2 || !video.videoWidth || !video.videoHeight || (Number.isFinite(video.currentTime) && video.currentTime === previousVideoTime)) {
+        captureTimer = later(sendFrame, 350); return;
+      }
+      try {
+        if (!previewCanvas) previewCanvas = browser.document.createElement('canvas');
+        const scale = Math.min(1, 640 / Math.max(video.videoWidth, video.videoHeight));
+        const width = Math.round(video.videoWidth * scale), height = Math.round(video.videoHeight * scale);
+        previewCanvas.width = width; previewCanvas.height = height;
+        const context = previewCanvas.getContext('2d', { willReadFrequently: true });
+        if (!context) throw new Error('Preview unavailable');
+        context.drawImage(video, 0, 0, width, height);
+        const image = context.getImageData(0, 0, width, height);
+        previousVideoTime = video.currentTime;
+        lastTimestamp = Math.max(lastTimestamp + 1, now());
+        pendingSequence = ++sequence; pendingTimestamp = lastTimestamp;
+        workerTimeout = later(manualFallback, 10000);
+        captureWorker.postMessage({ type: 'frame', id, sequence, width, height, timestamp: lastTimestamp, pixels: image.data }, [image.data.buffer]);
+      } catch { manualFallback(); }
+    }
+    guide('loading', 'Preparing auto capture. You can also tap the shutter.');
+    try {
+      captureWorker = new browser.Worker(new URL('./capture-worker.js', import.meta.url));
+      captureWorker.onmessage = ({ data }) => {
+        if (!active() || data?.id !== id) return;
+        if (browser.document?.hidden) { stop(); return; }
+        if (data.type === 'error') { manualFallback(); return; }
+        if (data.type === 'ready' && !ready) {
+          ready = true;
+          clearLater(workerTimeout); workerTimeout = null;
+          guide('searching', 'Center your face — we will take the photo when it is clear and steady.');
+          sendFrame();
+        } else if (data.type === 'quality' && ready && pendingSequence !== null && data.sequence === pendingSequence && data.timestamp === pendingTimestamp) {
+          clearLater(workerTimeout); workerTimeout = null; pendingSequence = null;
+          const quality = gate.update(data.quality, data.timestamp);
+          guide(quality.status, quality.message, { progress: quality.progress, faceBounds: quality.faceBounds });
+          if (quality.capture) { if (!capture()) stopAutoCapture(); return; }
+          captureTimer = later(sendFrame, Math.max(0, 350 - (now() - data.timestamp)));
+        }
+      };
+      captureWorker.onerror = event => { event.preventDefault?.(); manualFallback(); };
+      workerTimeout = later(manualFallback, 30000);
+      captureWorker.postMessage({ type: 'init', id });
+      return true;
+    } catch { manualFallback(); return false; }
+  }
+
+  function requestContinuousFocus(track, token) {
+    try {
+      if (!track?.getCapabilities?.().focusMode?.includes('continuous') || !track.applyConstraints) return;
+      // This is a best-effort hardware request. The web API exposes no focus-lock
+      // event; automatic capture relies on measured clarity and stable framing.
+      Promise.resolve(track.applyConstraints({ advanced: [{ focusMode: 'continuous' }] })).then(() => {
+        if (token === generation && stream) autofocusRequested = true;
+      }, noop);
+    } catch { /* Fixed-focus selfie cameras remain fully supported. */ }
+  }
 
   function releaseCamera() {
+    haltAutoCapture();
     removeTrackListeners();
     removeTrackListeners = noop;
     const oldStream = stream;
@@ -60,6 +164,8 @@ export function createCameraController({ onPhoto = noop, onError = noop, onStatu
     cancelPending = null;
     cancel?.();
     releaseCamera();
+    autofocusRequested = false;
+    guide('idle', '');
     return generation;
   }
 
@@ -80,7 +186,7 @@ export function createCameraController({ onPhoto = noop, onError = noop, onStatu
     context.fillStyle = '#ffffff';
     context.fillRect(0, 0, canvas.width, canvas.height);
     context.drawImage(source, 0, 0, canvas.width, canvas.height);
-    const dataUrl = canvas.toDataURL('image/jpeg', 0.88);
+    const dataUrl = canvas.toDataURL('image/jpeg', 0.95);
     if (!dataUrl.startsWith('data:image/jpeg')) throw new Error('Could not encode photo');
     return { dataUrl, width: canvas.width, height: canvas.height, source: kind };
   }
@@ -112,7 +218,7 @@ export function createCameraController({ onPhoto = noop, onError = noop, onStatu
     });
   }
 
-  async function start(element) {
+  async function start(element, { autoCapture = true } = {}) {
     const token = reset();
     if (!browser.navigator?.mediaDevices?.getUserMedia || !element) {
       onStatus('idle');
@@ -123,10 +229,11 @@ export function createCameraController({ onPhoto = noop, onError = noop, onStatu
     try {
       const requestedStream = await browser.navigator.mediaDevices.getUserMedia({
         audio: false,
-        video: { facingMode: { ideal: 'user' }, width: { ideal: 1200 }, height: { ideal: 1200 } },
+        video: { facingMode: { ideal: 'user' }, width: { ideal: MAX_EDGE }, height: { ideal: MAX_EDGE } },
       });
-      if (token !== generation) {
+      if (token !== generation || browser.document?.hidden) {
         requestedStream.getTracks().forEach(track => track.stop());
+        if (token === generation) stop();
         return false;
       }
       stream = requestedStream;
@@ -141,10 +248,12 @@ export function createCameraController({ onPhoto = noop, onError = noop, onStatu
         onError(CAMERA_MESSAGES.ended, 'ended');
       };
       const tracks = stream.getVideoTracks();
+      requestContinuousFocus(tracks[0], token);
       tracks.forEach(track => track.addEventListener('ended', ended));
       removeTrackListeners = () => tracks.forEach(track => track.removeEventListener('ended', ended));
       const ready = await waitForVideo(element, token);
       if (!ready || token !== generation) return false;
+      if (browser.document?.hidden) { stop(); return false; }
     } catch (error) {
       if (token !== generation) return false;
       reset();
@@ -154,6 +263,8 @@ export function createCameraController({ onPhoto = noop, onError = noop, onStatu
       return false;
     }
     onStatus('ready');
+    if (autoCapture) startAutoCapture();
+    else guide('manual', 'Tap the shutter whenever you are ready.');
     return true;
   }
 
@@ -247,5 +358,5 @@ export function createCameraController({ onPhoto = noop, onError = noop, onStatu
     return true;
   }
 
-  return { start, capture, stop, readFile, isActive: () => Boolean(stream) };
+  return { start, capture, stop, readFile, startAutoCapture, stopAutoCapture, isActive: () => Boolean(stream) };
 }

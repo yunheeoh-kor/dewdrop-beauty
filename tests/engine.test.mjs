@@ -264,8 +264,8 @@ test('planning records are auditable and never claim purchase readiness', () => 
   assert.equal(money(1099), '$10.99');
 });
 
-test('reviewed 56-product catalog produces repeatable safe skincare planning and preserves makeup gaps', async () => {
-  const catalog = JSON.parse(await readFile(new URL('../outputs/01a10dc6-c4fa-7151-8ca8-26510505dbce/korean-cosmetics-catalog.json', import.meta.url)));
+test('live catalog produces repeatable safe skincare planning and preserves unresolved makeup evidence', async () => {
+  const catalog = JSON.parse(await readFile(new URL('../web/data/catalog.json', import.meta.url)));
   const evidence = JSON.parse(await readFile(new URL('../web/data/evidence.json', import.meta.url)));
   const input = profile({ slots: ['cleanser', 'moisturizer', 'daytime_sunscreen'], budgetCents: 6000, itemCap: 3, skinFeel: 'dry_tight', goals: ['hydration_comfort'] });
   const kit = buildKit(input, catalog.products, evidence);
